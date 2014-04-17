@@ -1,0 +1,50 @@
+List of supplying markets for a product imported by Israel Product: 1701 Cane or beet sugar and chemically pure sucrose, in solid form
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	493,489	402,586	474,004	No Quantity	No Quantity	
+Belgium	22,597	14,142	21,305	33,555	No Quantity	
+Austria	8,710	9,743	11,022	27,365	No Quantity	
+Netherlands	69,470	6,748	7,214	16,173	No Quantity	
+Uruguay	0	0	0	2,967	0	
+Brazil	96,802	108,757	3,261	2,823	No Quantity	
+Belarus	0	0	0	2,207	No Quantity	
+Switzerland	2,985	0	13	1,501	No Quantity	
+Denmark	10,790	7,880	0	1,394	No Quantity	
+Poland	0	0	858	1,296	No Quantity	
+Hungary	2,445	1,196	700	490	No Quantity	
+Czech Republic	0	0	0	400	No Quantity	
+Slovakia	0	0	0	250	No Quantity	
+Slovenia	0	866	120	230	No Quantity	
+Colombia	3,235	259	2,126	208	No Quantity	
+Paraguay	140	112	74	121	No Quantity	
+Sweden	0	0	0	81	0	
+Finland	24	77	34	71	No Quantity	
+Turkey	40	30	0	70	No Quantity	
+Russian Federation	0	3	4	12	0	
+Latvia	0	0	0	3	0	
+Australia	1,092	0	0	0	No Quantity	
+Bolivia	0	884	0	0	0	
+Bosnia and Herzegovina	0	0	558	0	0	
+China	137	73	159	0	No Quantity	
+Croatia	0	759	0	0	0	
+Cyprus	0	0	0	0	No Quantity	
+France	77,626	20,214	8,461	No Quantity	No Quantity	
+Germany	8,626	402	230	No Quantity	No Quantity	
+Guatemala	5,360	0	1,994	0	No Quantity	
+Hong Kong, China	20	0	0	0	No Quantity	
+Italy	6	102	86	No Quantity	No Quantity	
+Japan	0	15	0	0	0	
+Korea, Republic of	2,501	0	0	0	0	
+Malawi	429	982	0	0	0	
+Mauritania	21	194	312	0	No Quantity	
+Mauritius	21	956	2,256	No Quantity	No Quantity	
+Mexico	0	0	0	0	No Quantity	
+Nicaragua	0	0	0	0	No Quantity	
+Portugal	25,931	0	0	0	0	
+India	53	5	3,833	No Quantity	No Quantity	
+Singapore	584	0	475	No Quantity	No Quantity	
+South Africa	5,481	559	39	0	No Quantity	
+Spain	480	0	2,196	0	No Quantity	
+Thailand	21,556	156	2,806	No Quantity	No Quantity	
+Ukraine	0	8	9	0	0	
+United Kingdom	126,286	227,419	401,934	No Quantity	No Quantity	
+United States of America	42	45	1,924	No Quantity	No Quantity	

@@ -1,0 +1,37 @@
+List of supplying markets for a product imported by Israel Product: 0902 Tea
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, "	"2013-Imported quantity, "	
+World	1,453	1,789	1,854	No Quantity	No Quantity	
+India	377	584	625	No Quantity	No Quantity	
+United Kingdom	496	177	256	No Quantity	No Quantity	
+Sri Lanka	221	319	247	No Quantity	No Quantity	
+Germany	44	55	101	No Quantity	No Quantity	
+Russian Federation	28	55	100	No Quantity	No Quantity	
+Viet Nam	10	78	93	No Quantity	No Quantity	
+China	43	67	87	No Quantity	No Quantity	
+South Africa	49	124	87	No Quantity	No Quantity	
+Zimbabwe	0	44	67	No Quantity	No Quantity	
+Indonesia	28	141	61	No Quantity	No Quantity	
+Turkey	65	22	27	No Quantity	No Quantity	
+Belgium	0	2	25	0	0	
+Netherlands	31	64	25	No Quantity	0	
+Kenya	0	0	18	No Quantity	No Quantity	
+Japan	5	5	9	No Quantity	No Quantity	
+France	3	18	8	No Quantity	No Quantity	
+Georgia	0	0	7	0	0	
+Ukraine	0	0	4	0	No Quantity	
+Argentina	0	0	2	0	0	
+Hong Kong, China	9	16	2	No Quantity	No Quantity	
+Nepal	0	0	1	0	0	
+Poland	4	3	1	No Quantity	No Quantity	
+United States of America	41	9	1	No Quantity	No Quantity	
+Area Nes	0	0	0	0	No Quantity	
+Austria	0	0	0	No Quantity	No Quantity	
+Colombia	0	0	0	0	0	
+Czech Republic	0	0	0	0	0	
+Finland	0	0	0	No Quantity	No Quantity	
+Italy	0	0	0	0	No Quantity	
+Latvia	0	5	0	0	0	
+Malaysia	0	0	0	No Quantity	0	
+Taipei, Chinese	0	0	0	0	No Quantity	
+Spain	0	0	0	0	0	
+Thailand	1	0	0	0	No Quantity	

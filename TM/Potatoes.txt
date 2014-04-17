@@ -1,0 +1,10 @@
+List of supplying markets for a product imported by Israel Product: 0701 Potatoes
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	22,497	35,976	15,612	22,747	No Quantity	
+Netherlands	12,823	25,562	10,109	16,331	No Quantity	
+Belgium	3,186	1,104	5,091	6,416	No Quantity	
+France	3,707	1,459	16	0	0	
+Germany	328	2,432	48	0	No Quantity	
+Italy	0	0	0	0	No Quantity	
+Switzerland	2	0	0	0	0	
+United Kingdom	2,452	5,419	348	0	No Quantity	

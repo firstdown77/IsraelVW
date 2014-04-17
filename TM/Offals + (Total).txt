@@ -1,0 +1,17 @@
+List of supplying markets for a product imported by Israel Product: 0206 Edible offal of red meat
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	2,612	2,725	2,442	2,492	No Quantity	
+Argentina	1,010	787	810	755	No Quantity	
+Uruguay	222	222	327	527	No Quantity	
+Brazil	626	705	415	480	No Quantity	
+Netherlands	174	338	247	353	No Quantity	
+Panama	37	90	90	158	No Quantity	
+Poland	8	8	59	94	No Quantity	
+France	16	38	30	76	No Quantity	
+Cyprus	0	0	0	40	No Quantity	
+United Kingdom	116	258	49	5	0	
+Paraguay	390	258	269	3	No Quantity	
+Chile	0	4	0	0	No Quantity	
+China	0	0	145	0	0	
+Iceland	12	16	0	0	0	
+New Zealand	2	0	1	0	0	

@@ -1,0 +1,25 @@
+List of supplying markets for a product imported by Israel Product: 0402 Milk and cream, concentrated or sweetened
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	5,582	7,963	8,654	6,534	No Quantity	
+Germany	1,725	2,197	2,475	2,356	No Quantity	
+United States of America	1,353	3,262	4,061	1,968	No Quantity	
+Netherlands	252	171	643	390	No Quantity	
+Poland	325	365	440	386	No Quantity	
+Denmark	124	25	24	298	No Quantity	
+France	397	232	113	282	No Quantity	
+Switzerland	252	470	233	239	No Quantity	
+Ukraine	228	374	239	169	No Quantity	
+Ireland	114	88	248	140	0	
+Belgium	294	232	126	110	No Quantity	
+Lithuania	0	50	0	76	0	
+Italy	39	9	2	41	No Quantity	
+Russian Federation	0	0	0	38	No Quantity	
+United Kingdom	0	0	0	20	No Quantity	
+Belarus	0	121	42	19	No Quantity	
+Thailand	5	7	9	4	No Quantity	
+Canada	0	42	0	0	0	
+China	8	0	0	0	0	
+Portugal	0	0	0	0	No Quantity	
+India	0	0	0	0	No Quantity	
+Sweden	466	317	0	0	0	
+Turkey	0	0	0	0	No Quantity	

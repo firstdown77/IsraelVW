@@ -1,0 +1,15 @@
+List of supplying markets for a product imported by Israel Product: 0806 Grapes, fresh or dried
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	2,216	2,763	2,289	2,508	No Quantity	
+United States of America	1,754	1,934	1,615	2,027	No Quantity	
+South Africa	430	180	502	284	No Quantity	
+Turkey	6	491	75	112	No Quantity	
+Greece	10	59	40	30	No Quantity	
+Uzbekistan	15	50	14	29	No Quantity	
+China	0	47	13	15	No Quantity	
+Hong Kong, China	0	0	7	6	0	
+Italy	0	3	3	4	No Quantity	
+Area Nes	0	0	0	0	No Quantity	
+Argentina	0	0	0	0	No Quantity	
+Australia	0	0	0	0	0	
+Canada	0	0	21	0	0	

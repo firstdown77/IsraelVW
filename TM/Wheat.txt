@@ -1,0 +1,36 @@
+List of supplying markets for a product imported by Israel Product: 1001 Wheat and meslin
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	1,811,198	1,710,008	1,550,260	1,721,744	No Quantity	
+Switzerland	724,214	683,725	570,987	800,299	0	
+Netherlands	397,282	309,407	200,658	296,241	0	
+France	17,457	84,326	72,388	235,527	No Quantity	
+United States of America	330,858	243,148	452,733	210,493	No Quantity	
+United Kingdom	73,842	117,929	37,915	52,971	0	
+Singapore	9,657	0	14,351	44,183	0	
+British Virgin Islands	2,935	17,861	16,707	23,686	0	
+United Arab Emirates	0	0	0	18,542	0	
+Cyprus	0	34,975	23,153	14,338	0	
+Russian Federation	0	33,514	37,781	8,769	No Quantity	
+Germany	97,141	88,171	31,833	3,719	No Quantity	
+Belgium	7	0	0	3,062	0	
+Hungary	95,957	55,451	41	3,041	No Quantity	
+Ukraine	1,200	13,866	35,477	2,800	No Quantity	
+Canada	1,688	140	1,412	1,477	No Quantity	
+Greece	45	0	0	1,433	0	
+Turkey	11,750	1,532	927	813	No Quantity	
+Italy	840	2,603	462	301	No Quantity	
+Romania	0	25	0	50	No Quantity	
+Liberia	6,000	0	0	0	0	
+Argentina	94	110	119	0	0	
+Australia	0	0	13,500	0	0	
+Austria	12,108	0	15,759	0	0	
+Brazil	0	0	0	0	No Quantity	
+Belize	0	0	1,510	0	0	
+Bulgaria	0	23,184	0	0	No Quantity	
+Denmark	7,939	0	15,426	0	0	
+Kazakhstan	0	0	0	0	No Quantity	
+Malta	11,978	0	0	0	0	
+Republic of Moldova	3,601	0	0	0	No Quantity	
+Panama	4,604	0	6,920	0	0	
+India	0	0	200	0	No Quantity	
+Slovenia	0	40	0	0	0	

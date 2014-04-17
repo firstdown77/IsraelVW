@@ -1,0 +1,49 @@
+List of supplying markets for a product imported by Israel Product: 2203 Beer made from malt
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Cubic meters"	"2013-Imported quantity, "	
+World	27,870	30,763	31,670	33,522	No Quantity	
+Netherlands	4,489	4,683	3,977	7,183	No Quantity	
+Belgium	4,817	5,511	5,173	5,770	No Quantity	
+Germany	2,481	2,535	3,908	4,416	No Quantity	
+Greece	5,544	6,257	6,698	4,286	No Quantity	
+Russian Federation	1,841	1,903	2,002	1,723	No Quantity	
+Ukraine	1,050	1,299	1,312	1,353	No Quantity	
+United Kingdom	93	412	611	988	No Quantity	
+Italy	303	562	535	901	No Quantity	
+Ireland	1,168	1,364	1,066	848	No Quantity	
+Mexico	1,043	948	581	755	No Quantity	
+Czech Republic	658	665	1,016	724	No Quantity	
+Turkey	1,185	1,407	1,057	697	No Quantity	
+Spain	1,294	457	389	672	No Quantity	
+Romania	181	281	635	494	No Quantity	
+Cyprus	0	0	132	389	0	
+Jordan	44	167	136	312	No Quantity	
+Austria	266	293	79	274	No Quantity	
+Ethiopia	16	65	247	270	No Quantity	
+Denmark	206	132	172	265	No Quantity	
+Slovenia	676	961	759	219	No Quantity	
+Thailand	47	87	119	181	No Quantity	
+United States of America	89	226	158	137	No Quantity	
+Latvia	0	23	20	135	No Quantity	
+Lithuania	88	50	65	89	No Quantity	
+China	66	49	71	81	No Quantity	
+France	0	80	130	75	No Quantity	
+Eritrea	0	0	0	72	0	
+India	0	0	0	57	0	
+Slovakia	0	0	0	34	0	
+Philippines	81	89	64	34	No Quantity	
+Hong Kong, China	17	0	69	23	No Quantity	
+Georgia	0	0	8	12	No Quantity	
+Portugal	18	18	0	12	0	
+Taipei, Chinese	0	0	0	12	0	
+Argentina	14	25	33	12	No Quantity	
+Viet Nam	0	0	4	10	0	
+Australia	5	0	0	8	No Quantity	
+Belarus	0	0	0	0	0	
+Area Nes	13	0	0	0	0	
+Bulgaria	14	60	57	0	0	
+Canada	0	0	0	0	No Quantity	
+Morocco	0	72	41	0	0	
+Poland	49	73	345	0	No Quantity	
+Serbia	0	0	0	0	No Quantity	
+Sweden	0	9	0	0	0	
+United Arab Emirates	15	0	0	0	0	

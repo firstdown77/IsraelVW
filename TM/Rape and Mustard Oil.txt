@@ -1,0 +1,23 @@
+List of supplying markets for a product imported by Israel Product: 1514 Rape,colza or mustard oil & their fractions
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	44,614	16,371	22,658	37,594	No Quantity	
+Belgium	34,833	11,435	15,785	18,916	No Quantity	
+Germany	1,729	497	2,505	14,337	No Quantity	
+Belarus	0	0	0	1,496	No Quantity	
+Netherlands	126	2,118	1,577	590	No Quantity	
+United States of America	695	389	399	504	No Quantity	
+Spain	0	0	0	435	No Quantity	
+France	17	3	37	380	No Quantity	
+British Virgin Islands	0	0	0	273	0	
+Turkey	968	1,482	1,693	183	No Quantity	
+United Kingdom	11	5	17	179	No Quantity	
+Canada	0	0	142	140	No Quantity	
+Italy	10	108	4	106	No Quantity	
+Estonia	0	0	0	55	No Quantity	
+Australia	30	0	0	0	0	
+China	0	1	0	0	0	
+Portugal	0	0	0	0	No Quantity	
+Romania	2,142	326	0	0	No Quantity	
+Russian Federation	0	0	0	0	No Quantity	
+Switzerland	4,047	0	500	0	0	
+Ukraine	7	6	0	0	No Quantity	

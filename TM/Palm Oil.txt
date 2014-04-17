@@ -1,0 +1,25 @@
+List of supplying markets for a product imported by Israel Product: 1511 Palm oil & its fraction
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	31,804	26,810	25,232	24,047	No Quantity	
+Singapore	13,730	18,118	11,871	15,762	No Quantity	
+Indonesia	11,916	5,479	4,544	5,125	No Quantity	
+Malaysia	5,572	2,851	7,994	2,877	No Quantity	
+Australia	0	0	150	132	0	
+Netherlands	80	139	159	59	0	
+China	0	0	0	43	No Quantity	
+Colombia	0	0	12	22	No Quantity	
+Germany	11	8	10	20	No Quantity	
+Ghana	0	0	0	6	0	
+France	4	5	2	1	No Quantity	
+Belgium	20	0	0	0	0	
+Brazil	0	15	0	0	0	
+Denmark	0	20	20	0	0	
+Hong Kong, China	23	65	161	0	0	
+Panama	0	0	0	0	No Quantity	
+Spain	0	0	306	0	0	
+Switzerland	277	0	0	0	0	
+Thailand	0	0	1	0	No Quantity	
+Turkey	172	0	0	0	No Quantity	
+Egypt	0	110	0	0	0	
+United Kingdom	0	0	2	0	No Quantity	
+United States of America	0	0	0	0	0	

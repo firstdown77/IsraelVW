@@ -1,0 +1,14 @@
+List of supplying markets for a product imported by Israel Product: 0407 Birds' eggs in shell
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, "	"2013-Imported quantity, "	
+World	5,597	6,098	5,402	No Quantity	No Quantity	
+Turkey	3,874	4,764	3,877	No Quantity	No Quantity	
+Argentina	321	535	617	0	0	
+Spain	525	456	590	No Quantity	No Quantity	
+Netherlands	1	0	228	0	No Quantity	
+United States of America	863	84	77	No Quantity	No Quantity	
+Mexico	0	1	12	No Quantity	No Quantity	
+Australia	0	0	0	0	0	
+Belgium	0	143	0	0	0	
+Germany	14	116	0	No Quantity	No Quantity	
+Hungary	0	0	0	0	No Quantity	
+United Kingdom	0	0	0	0	No Quantity	

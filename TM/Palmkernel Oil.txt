@@ -1,0 +1,7 @@
+List of supplying markets for a product imported by Israel Product: 151321 Palm kernel or babassu oil, crude
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	785	41	191	566	No Quantity	
+Indonesia	0	41	148	357	0	
+Singapore	785	0	42	148	No Quantity	
+Malaysia	0	0	0	43	No Quantity	
+Thailand	0	0	0	18	0	

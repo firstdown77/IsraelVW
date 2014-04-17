@@ -1,0 +1,62 @@
+List of supplying markets for a product imported by Israel Product: 0901 Coffee
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	24,707	30,128	26,883	No Quantity	No Quantity	
+Viet Nam	9,602	10,251	7,731	4,211	No Quantity	
+Germany	1,582	2,244	1,919	1,742	No Quantity	
+India	570	1,418	751	887	No Quantity	
+Belgium	374	592	746	878	No Quantity	
+United States of America	380	330	255	637	No Quantity	
+Uganda	966	1,839	1,205	610	No Quantity	
+Hong Kong, China	0	0	319	480	0	
+United Republic of Tanzania	456	113	36	477	No Quantity	
+Brazil	1,513	2,062	1,016	405	No Quantity	
+Netherlands	94	111	113	387	No Quantity	
+Peru	494	532	266	304	No Quantity	
+Colombia	554	297	344	272	No Quantity	
+United Kingdom	77	182	313	259	No Quantity	
+Ethiopia	512	1,190	1,549	230	No Quantity	
+South Africa	100	52	55	215	No Quantity	
+Singapore	0	20	534	211	No Quantity	
+Jordan	0	0	0	154	0	
+Honduras	304	199	480	145	No Quantity	
+Lao People's Democratic Republic	0	0	0	115	No Quantity	
+France	0	1	9	111	No Quantity	
+Argentina	0	660	0	96	0	
+Cameroon	108	18	0	91	No Quantity	
+Spain	52	53	61	84	No Quantity	
+Kenya	518	115	0	51	No Quantity	
+Poland	18	22	22	47	No Quantity	
+Congo	19	39	0	38	0	
+Mexico	39	201	57	38	0	
+El Salvador	57	57	95	19	No Quantity	
+Guatemala	374	244	38	19	No Quantity	
+Panama	0	0	0	19	0	
+Romania	0	0	0	19	0	
+Bulgaria	0	0	0	14	No Quantity	
+Costa Rica	18	19	41	3	No Quantity	
+Area Nes	0	0	0	0	No Quantity	
+Austria	31	47	71	No Quantity	No Quantity	
+Burundi	0	0	0	0	No Quantity	
+China	78	1	6	0	No Quantity	
+Cyprus	0	0	0	0	No Quantity	
+Dominican Republic	0	19	0	0	No Quantity	
+Greece	0	0	21	0	0	
+Guinea	39	0	0	0	0	
+Hungary	0	159	0	0	0	
+Indonesia	44	8	0	0	No Quantity	
+Italy	2,748	3,279	3,522	No Quantity	No Quantity	
+Côte d'Ivoire	306	125	54	0	No Quantity	
+Korea, Republic of	0	0	120	0	0	
+Nicaragua	70	0	0	0	No Quantity	
+Papua New Guinea	0	0	0	0	No Quantity	
+Paraguay	0	0	0	0	No Quantity	
+Portugal	0	0	0	0	No Quantity	
+Timor-Leste	0	0	19	0	0	
+Rwanda	0	19	0	0	0	
+Slovakia	1	0	0	0	0	
+Sweden	3	0	1	0	No Quantity	
+Switzerland	2,452	3,607	5,115	No Quantity	No Quantity	
+Thailand	154	1	0	0	0	
+Ukraine	0	0	0	0	No Quantity	
+Yemen	0	0	0	0	No Quantity	
+Canada	0	0	0	No Quantity	0	

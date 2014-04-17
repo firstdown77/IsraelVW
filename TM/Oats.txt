@@ -1,0 +1,16 @@
+List of supplying markets for a product imported by Israel Product: 1004 Oats
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	65	32	111	1,138	No Quantity	
+Cyprus	0	0	0	1,032	0	
+Ukraine	20	24	3	63	No Quantity	
+Ethiopia	2	8	28	24	No Quantity	
+Panama	0	0	0	10	No Quantity	
+Djibouti	0	0	0	7	No Quantity	
+Belgium	3	0	0	3	No Quantity	
+Brazil	0	0	54	0	0	
+Canada	0	0	0	0	No Quantity	
+China	0	0	0	0	No Quantity	
+Ireland	15	0	0	0	0	
+Italy	0	0	0	0	No Quantity	
+United Kingdom	18	0	27	0	0	
+United States of America	8	0	0	0	0	

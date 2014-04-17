@@ -1,0 +1,18 @@
+List of supplying markets for a product imported by Israel Product: 040510 Butter
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	533	1,356	1,598	1,215	No Quantity	
+United States of America	283	759	968	751	No Quantity	
+Netherlands	25	153	113	188	No Quantity	
+France	94	185	207	119	No Quantity	
+Ireland	71	35	126	50	No Quantity	
+Hungary	0	0	0	38	No Quantity	
+Belgium	10	35	21	24	0	
+Denmark	15	33	32	19	No Quantity	
+Poland	0	0	0	12	No Quantity	
+Bulgaria	0	0	0	11	0	
+Lithuania	15	3	27	2	No Quantity	
+Finland	20	12	12	1	No Quantity	
+Argentina	0	0	70	0	0	
+Germany	0	98	20	0	0	
+Italy	0	39	3	0	0	
+Sweden	0	5	0	0	0	

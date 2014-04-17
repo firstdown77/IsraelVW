@@ -1,0 +1,36 @@
+List of supplying markets for a product imported by Israel Product: 1005 Maize (corn)
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	894,893	981,100	No Quantity	1,228,528	No Quantity	
+Switzerland	388,730	539,863	No Quantity	572,178	0	
+Netherlands	183,388	160,646	No Quantity	226,233	0	
+France	18,302	18	No Quantity	166,785	No Quantity	
+Singapore	0	0	0	106,776	0	
+United Kingdom	67,032	43,716	54,025	49,602	0	
+Ukraine	40,603	40,088	25,588	43,321	No Quantity	
+British Virgin Islands	8,279	8,539	2,861	16,275	0	
+Brazil	0	6,226	No Quantity	13,071	No Quantity	
+Cyprus	7,687	0	27,752	12,249	0	
+Russian Federation	7,839	0	No Quantity	10,150	No Quantity	
+United States of America	48,741	96,265	No Quantity	5,929	No Quantity	
+Germany	94,091	39,472	No Quantity	3,080	0	
+Uruguay	0	0	0	1,650	0	
+Turkey	492	347	0	946	0	
+India	6	10	No Quantity	171	No Quantity	
+Spain	1,005	46	No Quantity	70	No Quantity	
+Egypt	14	20	30	20	No Quantity	
+Australia	16	0	0	16	0	
+Italy	171	0	0	7	No Quantity	
+Argentina	0	8,075	197	0	No Quantity	
+Belgium	2	1	No Quantity	0	0	
+Bermuda	0	7,642	0	0	0	
+Bulgaria	0	0	0	0	No Quantity	
+Canada	0	0	0	0	No Quantity	
+Denmark	7,005	10,873	0	0	0	
+Ethiopia	0	0	2,864	0	0	
+Hungary	4,619	0	0	0	No Quantity	
+Republic of Moldova	0	0	0	0	No Quantity	
+Panama	0	2,195	6,230	0	0	
+Poland	6	0	0	0	0	
+Portugal	589	0	0	0	0	
+Romania	16,276	16,269	No Quantity	0	No Quantity	
+Serbia	0	790	0	0	0	

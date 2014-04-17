@@ -1,0 +1,15 @@
+List of supplying markets for a product imported by Israel Product: 1002 Rye
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	8,248	7,853	16,369	19,710	No Quantity	
+Switzerland	2,793	0	8,841	5,732	0	
+Cyprus	0	0	0	4,326	0	
+Sweden	0	0	2,951	3,300	0	
+Netherlands	0	0	0	3,283	0	
+United Kingdom	1,000	3,550	0	3,000	0	
+Germany	4,389	3,071	4,473	45	No Quantity	
+Canada	20	40	44	21	No Quantity	
+Ethiopia	2	3	0	2	No Quantity	
+Italy	0	0	60	0	0	
+Russian Federation	0	0	0	0	No Quantity	
+Singapore	0	1,189	0	0	0	
+Ukraine	44	0	0	0	No Quantity	

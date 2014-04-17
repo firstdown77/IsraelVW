@@ -1,0 +1,23 @@
+List of supplying markets for a product imported by Israel Product: 0202 Meat of bovine animals, frozen
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	62,833	71,217	73,971	64,400	No Quantity	
+Uruguay	5,953	7,092	14,021	22,000	No Quantity	
+Argentina	25,201	21,516	27,105	19,445	No Quantity	
+Brazil	16,927	18,992	11,562	10,107	No Quantity	
+Panama	1,786	2,034	3,110	4,161	0	
+Paraguay	3,831	5,277	7,465	3,181	No Quantity	
+Poland	905	2,106	4,081	3,125	No Quantity	
+China	416	1,465	1,877	1,066	0	
+United Kingdom	6,760	9,081	1,551	758	0	
+France	429	1,684	505	362	No Quantity	
+United States of America	82	105	607	108	No Quantity	
+Hungary	0	0	0	45	0	
+Chile	0	192	523	23	0	
+Uganda	0	0	0	18	0	
+Australia	0	322	946	0	0	
+Belgium	0	0	0	0	0	
+Germany	0	0	0	0	0	
+Iceland	372	807	0	0	0	
+Ireland	0	438	569	0	0	
+Italy	0	0	50	0	0	
+Netherlands	170	106	0	0	0	

@@ -1,0 +1,16 @@
+List of supplying markets for a product imported by Israel Product: 1202 Ground-nuts, not roasted
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	2,506	1,416	2,031	3,343	No Quantity	
+China	2,129	853	844	2,122	No Quantity	
+India	57	0	531	660	No Quantity	
+United States of America	255	304	460	230	No Quantity	
+Hong Kong, China	0	0	15	203	0	
+United Kingdom	0	0	19	114	0	
+Uzbekistan	0	0	0	10	0	
+Thailand	1	0	0	5	0	
+Argentina	3	68	144	0	No Quantity	
+Brazil	0	0	0	0	No Quantity	
+Cameroon	0	19	0	0	0	
+Paraguay	10	98	20	0	0	
+Singapore	51	0	0	0	0	
+Switzerland	0	75	0	0	0	

@@ -1,0 +1,36 @@
+body {
+    font: normal 100% Helvetica, Arial, sans-serif;
+}
+.Main {
+    margin: 40px auto;
+    padding: 0 1em;
+    max-width: 61.75em;      /* 988px / 16px = 61.75em */
+}
+#theTable {
+    width:100%;
+    height:100%;
+    border-collapse:collapse 
+}
+ul {
+	font-size: 0.875em;  /* 14px / 16px = 0.875em */
+}
+td {
+    text-align:center;
+}
+.commodityCaption {
+    text-align:center;
+}
+
+#theTable tr th + th + th + th,
+#theTable tr td + td + td + td {
+    font-weight: bold;
+}
+#chart_div {
+    margin-left: 4.575%;    /* 144px / 988px = 0.14575 */
+    margin-right: 4.575%;    /* 144px / 988px = 0.14575 */
+	max-width: 50em;
+}
+h1, h2 {
+    text-align:center;
+    font-family:"Tahoma";
+}

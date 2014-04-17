@@ -1,0 +1,25 @@
+List of supplying markets for a product imported by Israel Product: 151219 Sunflower-sed/safflower oil&their fractions refind but nt chem modifid
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	5,240	5,198	6,606	61,707	No Quantity	
+Ukraine	1,911	3,075	3,303	56,943	No Quantity	
+Spain	0	251	1,191	2,610	No Quantity	
+Russian Federation	123	76	74	645	No Quantity	
+Switzerland	519	0	0	390	0	
+Netherlands	352	63	89	338	No Quantity	
+Turkey	820	461	357	334	No Quantity	
+Belgium	1,072	877	512	265	No Quantity	
+China	0	0	240	66	0	
+Germany	69	27	579	44	No Quantity	
+British Virgin Islands	0	0	28	26	0	
+Italy	0	42	9	20	No Quantity	
+Morocco	0	0	0	18	0	
+France	0	1	4	7	0	
+Belarus	0	0	3	1	0	
+Area Nes	0	0	0	0	No Quantity	
+Argentina	95	84	155	0	0	
+Czech Republic	0	0	0	0	No Quantity	
+Estonia	0	0	17	0	0	
+Romania	272	236	18	0	No Quantity	
+Egypt	0	0	27	0	0	
+United Kingdom	3	5	1	0	No Quantity	
+United States of America	3	0	0	0	0	

@@ -1,0 +1,55 @@
+List of supplying markets for a product imported by Israel Product: 2204 Wine of fresh grapes
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, "	"2013-Imported quantity, "	
+World	4,821	7,431	6,759	No Quantity	No Quantity	
+Italy	945	2,006	1,750	No Quantity	No Quantity	
+Spain	1,009	1,607	1,286	No Quantity	No Quantity	
+France	726	1,263	1,045	No Quantity	No Quantity	
+Chile	402	415	680	No Quantity	No Quantity	
+Argentina	384	391	556	No Quantity	No Quantity	
+United States of America	321	486	315	No Quantity	No Quantity	
+Republic of Moldova	95	145	164	No Quantity	No Quantity	
+Germany	92	105	157	No Quantity	No Quantity	
+Ukraine	172	268	150	No Quantity	No Quantity	
+Romania	55	42	110	No Quantity	No Quantity	
+Georgia	59	103	109	No Quantity	No Quantity	
+Australia	244	194	107	No Quantity	No Quantity	
+United Kingdom	26	47	70	No Quantity	No Quantity	
+Bulgaria	29	47	62	No Quantity	No Quantity	
+South Africa	68	74	60	No Quantity	No Quantity	
+Belarus	40	47	44	No Quantity	No Quantity	
+Belgium	50	86	24	No Quantity	No Quantity	
+Switzerland	4	7	18	No Quantity	No Quantity	
+Austria	3	7	12	No Quantity	No Quantity	
+Latvia	18	15	10	No Quantity	No Quantity	
+Portugal	19	36	10	No Quantity	No Quantity	
+Netherlands	17	21	8	No Quantity	No Quantity	
+Canada	1	0	6	0	No Quantity	
+New Zealand	3	5	3	No Quantity	No Quantity	
+Poland	5	0	3	0	0	
+Brazil	0	0	1	0	0	
+Area Nes	2	0	0	0	No Quantity	
+Armenia	0	0	0	0	No Quantity	
+Sri Lanka	0	0	0	No Quantity	0	
+China	0	0	0	0	No Quantity	
+Croatia	0	0	0	0	No Quantity	
+Cyprus	1	0	0	0	0	
+Czech Republic	0	0	0	0	No Quantity	
+Denmark	0	0	0	No Quantity	No Quantity	
+Greece	10	2	0	0	No Quantity	
+Hong Kong, China	0	0	0	No Quantity	No Quantity	
+Hungary	7	0	0	No Quantity	No Quantity	
+Japan	0	1	0	0	No Quantity	
+Jordan	1	0	0	0	0	
+Korea, Republic of	0	0	0	0	No Quantity	
+Luxembourg	6	0	0	0	0	
+Mexico	0	0	0	0	No Quantity	
+Taipei, Chinese	0	1	0	0	No Quantity	
+Nigeria	0	0	0	0	No Quantity	
+Peru	0	0	0	0	No Quantity	
+Russian Federation	8	5	0	0	No Quantity	
+India	0	0	0	0	No Quantity	
+Singapore	0	0	0	0	No Quantity	
+Slovakia	0	0	0	0	No Quantity	
+Slovenia	1	0	0	0	No Quantity	
+Thailand	0	0	0	0	No Quantity	
+Uruguay	0	4	0	0	No Quantity	

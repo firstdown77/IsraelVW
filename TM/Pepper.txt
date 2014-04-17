@@ -1,0 +1,41 @@
+List of supplying markets for a product imported by Israel Product: 0904 Pepper, peppers and capsicum
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	1,642	2,274	3,853	No Quantity	No Quantity	
+Viet Nam	251	607	695	513	No Quantity	
+Peru	42	32	55	205	No Quantity	
+Mexico	46	46	34	57	No Quantity	
+Singapore	183	79	95	43	No Quantity	
+Indonesia	0	0	0	39	No Quantity	
+Hong Kong, China	33	3	72	29	No Quantity	
+Iceland	0	0	0	16	0	
+Uganda	0	5	7	16	No Quantity	
+Turkey	0	4	0	9	0	
+Switzerland	6	4	7	5	No Quantity	
+Austria	0	1	5	No Quantity	No Quantity	
+Belgium	1	0	0	0	No Quantity	
+Brazil	43	70	55	0	No Quantity	
+Sri Lanka	2	15	0	0	0	
+China	797	819	2,071	No Quantity	No Quantity	
+Cyprus	0	0	0	0	No Quantity	
+Ethiopia	2	19	8	No Quantity	No Quantity	
+France	1	11	8	No Quantity	No Quantity	
+Germany	22	28	7	No Quantity	No Quantity	
+Guatemala	7	0	0	0	0	
+Hungary	0	0	6	0	0	
+Italy	11	30	10	No Quantity	No Quantity	
+Japan	2	8	7	0	0	
+Kenya	0	0	1	0	0	
+Korea, Republic of	0	0	0	0	No Quantity	
+Latvia	0	0	0	0	0	
+Lithuania	0	0	0	0	No Quantity	
+Malawi	0	0	11	0	No Quantity	
+Taipei, Chinese	4	0	0	0	0	
+Netherlands	21	12	5	0	0	
+Poland	0	0	0	0	No Quantity	
+Russian Federation	0	2	1	0	0	
+India	109	362	444	No Quantity	No Quantity	
+South Africa	0	0	77	No Quantity	No Quantity	
+Spain	0	51	1	No Quantity	No Quantity	
+Thailand	27	10	0	0	No Quantity	
+Ukraine	3	1	2	No Quantity	No Quantity	
+United States of America	28	54	169	No Quantity	No Quantity	

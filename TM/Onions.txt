@@ -1,0 +1,10 @@
+List of supplying markets for a product imported by Israel Product: 070310 Onions and shallots, fresh or chilled
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	7,303	3,511	3,439	6,672	No Quantity	
+Netherlands	6,540	3,303	3,083	5,432	No Quantity	
+Belgium	586	180	322	930	No Quantity	
+Jordan	19	0	0	290	No Quantity	
+Greece	0	0	0	19	No Quantity	
+China	0	0	10	0	No Quantity	
+Germany	28	28	0	0	0	
+Spain	130	0	24	0	No Quantity	
