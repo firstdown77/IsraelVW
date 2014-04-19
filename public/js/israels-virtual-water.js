@@ -1,32 +1,25 @@
-var currentCountry;
-var currentVirtualWaterData;
-
 google.load('visualization', '1', {'packages': ['geochart']});
 google.setOnLoadCallback(drawRegionsMap);
 
 function drawRegionsMap() {
-	//doGetVirtualWater();
-	//onFinish:
-	var data = currentVirtualWaterData;
+	var com = $(".commodityCaption").text();
+	var year = $("#homeWithMap").text();
+	var dataArray = doGetVirtualWater(com.trim(), year.trim());
+	//alert(dataArray);
     var data = google.visualization.arrayToDataTable([
         ['Country', 'Virtual Water Footprint'],
         ['Thailand', 178951728],
         ['India', 24249870],
         ['Australia', 17971520],
         ['Vietnam', 13913172],
-        ['Uruguay', 9926160],
-        ['United States', 1847223],
-        ['Italy', 1477812],
-        ['Spain', 546132],
-        ['United Kingdom', 336237],
-        ['Egypt', 25668]
+        ['Uruguay', 9926160]
     ]);
 
-    var options = 
-    {
-        magnifyingGlass: {enable: true, zoomFactor: 5.0},
-    };
+    var options = {};
 
+    var formatter = new google.visualization.NumberFormat({pattern:'###,###'} );
+    formatter.format(data, 1);
+	
     var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
     chart.draw(data, options);
 };
@@ -35,18 +28,15 @@ window.onresize = function(event) {
 	drawRegionsMap();
 }
 
-function doGetVirtualWater() {
-	$.ajax({
+function doGetVirtualWater(currCommodity, currYear) {
+	return $.ajax({
 		url: "virtualWaterRequest",
 		type: "get",
+		async: false,
         data: {
-            country: currentCountry
-	    },
-        success: function(data) {
-		    currentVirtualWaterData = data;
-		}
-	});
-	return false;	
+            commodity: currCommodity,
+			year: currYear
+	    }}).responseText;
 }
 
 function doGetXMLParsing() {

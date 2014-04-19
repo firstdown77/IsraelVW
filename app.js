@@ -2,7 +2,8 @@ var express = require('express')
   , http = require('http')
   , path = require('path')
   , xmlParser = require('./routes/xml_parser_controller')
-  , txtParser = require('./routes/txt_parser_controller');
+  , txtParser = require('./routes/txt_parser_controller')
+  , virtualWaterData = require('./routes/get_data_controller');
   
 var app = express();
 
@@ -20,6 +21,7 @@ app.configure(function(){
 
 app.get('/parseXMLRequest', xmlParser.doParsing);
 app.get('/parseTXTRequest', txtParser.doParsing);
+app.get('/virtualWaterRequest', virtualWaterData.getData);
 
 var server = http.createServer(app);
 server.listen(5555, function(){
