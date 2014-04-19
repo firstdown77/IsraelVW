@@ -10,23 +10,11 @@ var doError = function (e) {
     throw new Error(e);
 }
 
-function find(toFind, callback) {
-// For terminal startup use:
-  	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
-		if (err) doError(err);
-		var crsr = db.collection("country").find(toFind);
-		crsr.toArray(function(err, docs) {
-		    if (err) doError(err);
-		    callback(docs);
-		});
-    });
-}
-
 //Parses the Water Footprint Network appendix and inserts all entries into 
 //a MongoDB database.  DB name: virtualwaterDB, collection: waterFootprintNetwork.
 exports.doParse = function(req, res) {
   	var callback = function(model) {
-	  	//console.log('added!');
+	  	console.log("Result: " + model + " added");
   	}; //callback
     mongoClient.connect(server+"virtualwaterDB", function(err, db) {
     	if (err) doError(err);
@@ -41,8 +29,10 @@ exports.doParse = function(req, res) {
 				var tableArray = result["TaggedPDF-doc"].Table;
 				for (var k = 0; k < tableArray.length; k++) {
 					onePageArray = tableArray[k].TR;
-					if (k % 3 == 0) 
+					if (k % 3 == 0) {
+						var arraysAdded = 0;
 						var buildArray = [];
+					}
 					for (var i = 0; i < onePageArray.length; i++) {
 						var rowArray = onePageArray[i].TH;
 						//If this is the commodity header line:
@@ -83,15 +73,16 @@ exports.doParse = function(req, res) {
 									 }); //push
 								} //if
 								if (arrayToInsert.length == 3) {
-							 	 	objectToSave.commodity = 
-									buildArray[Math.floor(z / 3) + k];
-									console.log(Math.floor(z / 3) + k);
+							 	 	objectToSave.commodity = buildArray[arraysAdded % 1];
+									//console.log(objectToSave);
 									objectToSave.waterData = arrayToInsert;
+								 	arraysAdded++;
 								    db.collection("waterFootprintNetwork").save(objectToSave, 
 										{safe:true}, function(err, crsr) {
+									    if (err) doError(err);	
 								        callback(crsr);
 								  	}); //collection.save
-									arrayToInsert = [];
+									//arrayToInsert = [];
 								} //if
 							} //for waterDataRow
 						} //else if
