@@ -27,12 +27,14 @@ exports.doParse = function(req, res) {
 		    parser.parseString(data, function (err, result) {
 				//console.log(util.inspect(result, false, null));
 				var tableArray = result["TaggedPDF-doc"].Table;
+				//var k is the current page number.
 				for (var k = 0; k < tableArray.length; k++) {
 					onePageArray = tableArray[k].TR;
 					if (k % 3 == 0) {
-						var arraysAdded = 0;
+						var elementsAdded = 0;
 						var buildArray = [];
 					}
+					//var i is the current row on the page.
 					for (var i = 0; i < onePageArray.length; i++) {
 						var rowArray = onePageArray[i].TH;
 						//If this is the commodity header line:
@@ -46,44 +48,39 @@ exports.doParse = function(req, res) {
 						//If this is a country specifying header line:
 						else if (rowArray.length == 1) {
 							var objectToSave = {}
-							var currCountry = rowArray[0];
-							objectToSave.country = currCountry.trim();
+							objectToSave.country = rowArray[0].trim();
 							var waterDataRow = onePageArray[i].TD;
-							var arrayToInsert = []
+							elementsAdded = 0;
+							//var z is the current data string in the row.
 							for (var z = 0; z < waterDataRow.length; z++) {
 								currData = waterDataRow[z];
-								var currColor;
-								if (arrayToInsert.length % 3 == 0) {
-									currColor = 'green';
-								} //if
-								else if (arrayToInsert.length % 3 == 1) {
-									currColor = 'blue';
-								} //else if
-								else if (arrayToInsert.length % 3 == 2){
-									currColor = 'grey'
-								} //else if
-								else {
-									console.log("Color adding failed.")
-								}
 								//If the data is a real string:
 								if (currData.length > 0 ) {
-									arrayToInsert.push({
-										 color: currColor,
-										 virtualWaterQuantity: currData.trim(),
-									 }); //push
-								} //if
-								if (arrayToInsert.length == 3) {
-							 	 	objectToSave.commodity = buildArray[arraysAdded % 1];
-									//console.log(objectToSave);
-									objectToSave.waterData = arrayToInsert;
-								 	arraysAdded++;
-								    db.collection("waterFootprintNetwork").save(objectToSave, 
-										{safe:true}, function(err, crsr) {
-									    if (err) doError(err);	
-								        callback(crsr);
-								  	}); //collection.save
-									//arrayToInsert = [];
-								} //if
+									if (elementsAdded % 3 == 0) {
+										objectToSave.green = currData.trim();
+									} //if
+									else if (elementsAdded % 3 == 1) {
+										objectToSave.blue = currData.trim();
+									
+									} //else if
+									else if (elementsAdded % 3 == 2){
+										objectToSave.grey = currData.trim();
+									} //else if
+									else {
+										console.log("Color adding failed.")
+									} //else
+									elementsAdded++;
+									if (elementsAdded % 3 == 0) {
+								 	 	objectToSave.commodity = buildArray[(elementsAdded / 3) - 1];
+										//console.log(objectToSave);
+										objectToSave._id = Math.floor((Math.random()*1000000000)+1); 
+									    db.collection("waterFootprintNetwork").save(objectToSave, 
+											{safe:true}, function(err, crsr) {
+										    if (err) doError(err);	
+									        callback(crsr);
+									  	}); //collection.save
+									} //if
+								} //if currData.length
 							} //for waterDataRow
 						} //else if
 					} //for onePageArray

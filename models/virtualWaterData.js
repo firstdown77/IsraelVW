@@ -71,7 +71,7 @@ function findXML(toFind) {
 		//Should print 5 sets of data.
 		//console.log(model[0].country);
 		var multipliedArray = [];
-		var data2 = model[0].waterData[0].virtualWaterQuantity;
+		var data2 = model[0].green;
 		for (var j = 0; j < toFind.data.length; j++) {
 			//console.log(toFind.data[j].country);
 			if (toFind.data[j].country === model[0].country) {

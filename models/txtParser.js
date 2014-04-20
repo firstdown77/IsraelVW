@@ -15,10 +15,10 @@ exports.doParse = function(req, res) {
 	var no2012Values = ["Tobacco", "Wine", "Rubber", "Eggs + (Total)", "Tea", "Beer"];
     mongoClient.connect(server+"virtualwaterDB", function(err, db) {
     	if (err) doError(err);
-		db.dropCollection("tradeMap", function(err, db) {
+		/*db.dropCollection("tradeMap", function(err, db) {
 			if (err) doError(err);
 			console.log("tradeMap cleared");
-		});
+		});*/
 		fs.readdir('./TM', function(err, files) {
 			if (err) throw err;
 			for (var j = 0; j < files.length; j++) {
