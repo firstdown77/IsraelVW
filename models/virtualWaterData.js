@@ -15,8 +15,8 @@ exports.getVirtualWaterData = function(req, res) {
 	var currYear = req.year;
 	findTXT({
 		//TODO
-		commodity: "Rice (Milled Equivalent)",
-		year: '2012'
+		commodity: com,
+		year: '2011'
 	});
 }
 
@@ -91,7 +91,7 @@ function findXML(toFind) {
 				country: toFind.data[i].country,
 				commodity: toFind.commodity
 			}; //var dbCall
-			if (dbCall.country !== "British Virgin Islands") {
+			if (dbCall.country !== "British Virgin Islands" && dbCall.country !== "Singapore") {
 				var crsr = db.collection("waterFootprintNetwork").find(dbCall);
 				crsr.toArray(function(err, docs) {
 				    if (err) doError(err);

@@ -2,23 +2,25 @@ google.load('visualization', '1', {'packages': ['geochart']});
 google.setOnLoadCallback(drawRegionsMap);
 
 var commodities = ["Apples", "Barley", "Beer", "Bovine Meat", "Butter, Ghee",
- "Coconuts - Incl Copra", "Coffee", "Cream", "Eggs + (Total)", "Fats, Animals", 
- "Raw", "Grapes", "Groundnuts (Shelled Eq)", "Maize", "Millet", 
- "Mutton & Goat Meat", "Nuts", "Oats", "Offals + (Total)", "Olive Oil",
-  "Olives", "Onions", "Palm Oil", "Palmkernel Oil", "Pepper", "Potatoes",
-   "Rape and Mustard Oil", "Rape and Mustardseed", "Rice (Milled Equivalent)",
-    "Rubber", "Rye,", "Sorghum", "Soyabean Oil", "Soyabeans", "Sugar",
-	 "Sunflowerseed Oil", "Sunflowerseed", "Sweeteners, Other", "Tea", "Tobacco",
-	  "Wheat", "Wine"];
-
-var	locationString = location.search.substring(1)
-if (locationString.length > 0) {
-	alert(commodities[locationString - 1]);
-	$(".commodityCaption").text(commodities[locationString - 1]);
-}
+ "Coconuts - Incl Copra", "Coffee", "Cream", "Eggs + (Total)",
+  "Fats, Animals, Raw", "Groundnuts (Shelled Eq)", "Grapes", "Maize", "Millet",
+   "Mutton & Goat Meat", "Nuts", "Oats", "Offals + (Total)", "Olive Oil",
+    "Olives", "Onions", "Palm Oil", "Palmkernel Oil", "Pepper", "Potatoes",
+     "Rape and Mustard Oil", "Rape and Mustardseed", "Rice (Milled Equivalent)",
+      "Rubber", "Rye", "Sorghum", "Soyabean Oil", "Soyabeans", "Sugar",
+	   "Sunflowerseed Oil", "Sunflowerseed", "Sweeteners, Other", "Tea", "Tobacco",
+	    "Wheat", "Wine"];
 
 function drawRegionsMap() {
-	var com = $(".commodityCaption").text();
+	var	locationString = location.search.substring(1);
+	var com;
+	if (locationString.length > 0) {
+		com = (commodities[locationString - 1]);
+		$("#commodityCaption").text(commodities[locationString - 1]);
+	}
+	else {
+		com = "Rice (Milled Equivalent)";
+	}
 	var year = $("#homeWithMap").text();
 	var dataArray = doGetVirtualWater(com.trim(), year.trim());
 	//alert(dataArray);
