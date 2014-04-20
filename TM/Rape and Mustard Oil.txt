@@ -5,7 +5,7 @@ Belgium	34,833	11,435	15,785	18,916	No Quantity
 Germany	1,729	497	2,505	14,337	No Quantity	
 Belarus	0	0	0	1,496	No Quantity	
 Netherlands	126	2,118	1,577	590	No Quantity	
-United States of America	695	389	399	504	No Quantity	
+United States	695	389	399	504	No Quantity	
 Spain	0	0	0	435	No Quantity	
 France	17	3	37	380	No Quantity	
 British Virgin Islands	0	0	0	273	0	

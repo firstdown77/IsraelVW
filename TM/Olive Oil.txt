@@ -4,7 +4,7 @@ World	3,748	7,845	5,688	3,708	No Quantity
 Spain	2,164	4,854	3,847	2,245	No Quantity	
 Jordan	862	913	915	959	No Quantity	
 Italy	221	487	294	358	No Quantity	
-United States of America	1	22	291	53	No Quantity	
+United States	1	22	291	53	No Quantity	
 Switzerland	2	29	22	28	0	
 Morocco	0	0	1	27	0	
 Germany	10	65	23	21	No Quantity	

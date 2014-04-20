@@ -11,7 +11,7 @@ British Virgin Islands	8,279	8,539	2,861	16,275	0
 Brazil	0	6,226	No Quantity	13,071	No Quantity	
 Cyprus	7,687	0	27,752	12,249	0	
 Russian Federation	7,839	0	No Quantity	10,150	No Quantity	
-United States of America	48,741	96,265	No Quantity	5,929	No Quantity	
+United States	48,741	96,265	No Quantity	5,929	No Quantity	
 Germany	94,091	39,472	No Quantity	3,080	0	
 Uruguay	0	0	0	1,650	0	
 Turkey	492	347	0	946	0	

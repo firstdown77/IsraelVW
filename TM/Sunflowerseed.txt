@@ -1,7 +1,7 @@
 List of supplying markets for a product imported by Israel Product: 1206 Sunflower seeds, whether or not broken
 "Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
 World	2,484	3,388	3,779	3,772	No Quantity	
-United States of America	2,063	2,793	2,753	2,665	No Quantity	
+United States	2,063	2,793	2,753	2,665	No Quantity	
 Argentina	0	0	119	305	No Quantity	
 Netherlands	0	1	75	186	0	
 Bulgaria	77	149	163	180	No Quantity	

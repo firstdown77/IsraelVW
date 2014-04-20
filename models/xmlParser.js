@@ -72,7 +72,6 @@ exports.doParse = function(req, res) {
 									elementsAdded++;
 									if (elementsAdded % 3 == 0) {
 								 	 	objectToSave.commodity = buildArray[(elementsAdded / 3) - 1];
-										//console.log(objectToSave);
 										objectToSave._id = Math.floor((Math.random()*1000000000)+1); 
 									    db.collection("waterFootprintNetwork").save(objectToSave, 
 											{safe:true}, function(err, crsr) {

@@ -38,4 +38,4 @@ South Africa	0	0	77	No Quantity	No Quantity
 Spain	0	51	1	No Quantity	No Quantity	
 Thailand	27	10	0	0	No Quantity	
 Ukraine	3	1	2	No Quantity	No Quantity	
-United States of America	28	54	169	No Quantity	No Quantity	
+United States	28	54	169	No Quantity	No Quantity	

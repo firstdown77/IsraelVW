@@ -12,7 +12,7 @@ Côte d'Ivoire	0	0	144	0	0
 Germany	101	85	72	No Quantity	No Quantity	
 Japan	127	4	62	No Quantity	No Quantity	
 Turkey	0	0	58	0	0	
-United States of America	3	No Quantity	9	No Quantity	No Quantity	
+United States	3	No Quantity	9	No Quantity	No Quantity	
 Taipei, Chinese	3	0	1	0	0	
 Belgium	20	1	0	0	No Quantity	
 Sri Lanka	No Quantity	1	0	0	No Quantity	

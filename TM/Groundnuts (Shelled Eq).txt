@@ -3,7 +3,7 @@ List of supplying markets for a product imported by Israel Product: 1202 Ground-
 World	2,506	1,416	2,031	3,343	No Quantity	
 China	2,129	853	844	2,122	No Quantity	
 India	57	0	531	660	No Quantity	
-United States of America	255	304	460	230	No Quantity	
+United States	255	304	460	230	No Quantity	
 Hong Kong, China	0	0	15	203	0	
 United Kingdom	0	0	19	114	0	
 Uzbekistan	0	0	0	10	0	

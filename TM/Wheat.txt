@@ -4,7 +4,7 @@ World	1,811,198	1,710,008	1,550,260	1,721,744	No Quantity
 Switzerland	724,214	683,725	570,987	800,299	0	
 Netherlands	397,282	309,407	200,658	296,241	0	
 France	17,457	84,326	72,388	235,527	No Quantity	
-United States of America	330,858	243,148	452,733	210,493	No Quantity	
+United States	330,858	243,148	452,733	210,493	No Quantity	
 United Kingdom	73,842	117,929	37,915	52,971	0	
 Singapore	9,657	0	14,351	44,183	0	
 British Virgin Islands	2,935	17,861	16,707	23,686	0	

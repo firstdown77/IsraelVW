@@ -56,4 +56,4 @@ Switzerland	520	676	1,099	No Quantity	No Quantity
 Turkey	600	579	370	No Quantity	No Quantity	
 Macedonia, The Former Yugoslav Republic of	9	10	10	No Quantity	No Quantity	
 United Kingdom	594	530	554	No Quantity	No Quantity	
-United States of America	620	538	630	No Quantity	No Quantity	
+United States	620	538	630	No Quantity	No Quantity	

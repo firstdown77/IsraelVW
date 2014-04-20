@@ -22,4 +22,4 @@ Estonia	0	0	17	0	0
 Romania	272	236	18	0	No Quantity	
 Egypt	0	0	27	0	0	
 United Kingdom	3	5	1	0	No Quantity	
-United States of America	3	0	0	0	0	
+United States	3	0	0	0	0	

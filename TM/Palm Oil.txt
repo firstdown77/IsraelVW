@@ -22,4 +22,4 @@ Thailand	0	0	1	0	No Quantity
 Turkey	172	0	0	0	No Quantity	
 Egypt	0	110	0	0	0	
 United Kingdom	0	0	2	0	No Quantity	
-United States of America	0	0	0	0	0	
+United States	0	0	0	0	0	

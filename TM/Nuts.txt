@@ -1,7 +1,7 @@
 List of supplying markets for a product imported by Israel Product: 0802 Nuts nes
 "Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
 World	14,338	14,327	14,141	12,995	No Quantity	
-United States of America	10,325	10,731	11,391	9,237	No Quantity	
+United States	10,325	10,731	11,391	9,237	No Quantity	
 Turkey	2,081	1,578	1,508	1,905	No Quantity	
 China	1,475	1,561	1,002	1,440	No Quantity	
 United Kingdom	231	191	87	112	0	

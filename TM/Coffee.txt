@@ -5,7 +5,7 @@ Viet Nam	9,602	10,251	7,731	4,211	No Quantity
 Germany	1,582	2,244	1,919	1,742	No Quantity	
 India	570	1,418	751	887	No Quantity	
 Belgium	374	592	746	878	No Quantity	
-United States of America	380	330	255	637	No Quantity	
+United States	380	330	255	637	No Quantity	
 Uganda	966	1,839	1,205	610	No Quantity	
 Hong Kong, China	0	0	319	480	0	
 United Republic of Tanzania	456	113	36	477	No Quantity	

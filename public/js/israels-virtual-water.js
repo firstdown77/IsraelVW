@@ -1,6 +1,22 @@
 google.load('visualization', '1', {'packages': ['geochart']});
 google.setOnLoadCallback(drawRegionsMap);
 
+var commodities = ["Apples", "Barley", "Beer", "Bovine Meat", "Butter, Ghee",
+ "Coconuts - Incl Copra", "Coffee", "Cream", "Eggs + (Total)", "Fats, Animals", 
+ "Raw", "Grapes", "Groundnuts (Shelled Eq)", "Maize", "Millet", 
+ "Mutton & Goat Meat", "Nuts", "Oats", "Offals + (Total)", "Olive Oil",
+  "Olives", "Onions", "Palm Oil", "Palmkernel Oil", "Pepper", "Potatoes",
+   "Rape and Mustard Oil", "Rape and Mustardseed", "Rice (Milled Equivalent)",
+    "Rubber", "Rye,", "Sorghum", "Soyabean Oil", "Soyabeans", "Sugar",
+	 "Sunflowerseed Oil", "Sunflowerseed", "Sweeteners, Other", "Tea", "Tobacco",
+	  "Wheat", "Wine"];
+
+var	locationString = location.search.substring(1)
+if (locationString.length > 0) {
+	alert(commodities[locationString - 1]);
+	$(".commodityCaption").text(commodities[locationString - 1]);
+}
+
 function drawRegionsMap() {
 	var com = $(".commodityCaption").text();
 	var year = $("#homeWithMap").text();
@@ -26,7 +42,7 @@ function drawRegionsMap() {
 
 window.onresize = function(event) {
 	drawRegionsMap();
-}
+};
 
 function doGetVirtualWater(currCommodity, currYear) {
 	return $.ajax({

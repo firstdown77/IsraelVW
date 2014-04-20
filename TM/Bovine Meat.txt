@@ -10,7 +10,7 @@ Poland	905	2,106	4,081	3,125	No Quantity
 China	416	1,465	1,877	1,066	0	
 United Kingdom	6,760	9,081	1,551	758	0	
 France	429	1,684	505	362	No Quantity	
-United States of America	82	105	607	108	No Quantity	
+United States	82	105	607	108	No Quantity	
 Hungary	0	0	0	45	0	
 Chile	0	192	523	23	0	
 Uganda	0	0	0	18	0	

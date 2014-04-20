@@ -5,7 +5,7 @@ Greece	0	0	0	1,605	0
 Ukraine	853	992	184	1,114	No Quantity	
 Netherlands	2	3	No Quantity	460	0	
 India	233	227	No Quantity	458	No Quantity	
-United States of America	240	340	No Quantity	399	No Quantity	
+United States	240	340	No Quantity	399	No Quantity	
 Bolivia	22	0	No Quantity	342	No Quantity	
 Canada	108	220	292	304	No Quantity	
 Spain	0	87	107	285	No Quantity	

@@ -11,7 +11,7 @@ New Zealand	0	0	0	4,155	0
 Cyprus	0	5,140	3,056	3,791	0	
 Greece	0	0	0	3,201	0	
 United Kingdom	77,721	38,532	0	3,017	0	
-United States of America	5,844	4,578	0	2,764	0	
+United States	5,844	4,578	0	2,764	0	
 Ethiopia	25	32	6	4	No Quantity	
 Ukraine	0	0	0	1	No Quantity	
 Argentina	0	0	0	0	No Quantity	

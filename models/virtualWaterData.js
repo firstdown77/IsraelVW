@@ -14,8 +14,9 @@ exports.getVirtualWaterData = function(req, res) {
 	var com = req.commodity;
 	var currYear = req.year;
 	findTXT({
-		commodity: com,
-		year: currYear
+		//TODO
+		commodity: "Rice (Milled Equivalent)",
+		year: '2012'
 	});
 }
 
@@ -49,6 +50,7 @@ function findTXT(toFind) {
 			commodity: model[0].commodity,
 			data: dataArray
 		};
+		console.log(findXMLObject);
 		findXML(findXMLObject); //findXML
 	}; //callback
 // For terminal startup use:
@@ -69,17 +71,14 @@ function findXML(toFind) {
   	var callback = function(model) {
 		//model has the green virtual water data.  toFind has the quantities for 5 countries.
 		//Should print 5 sets of data.
-		//console.log(model[0].country);
 		var multipliedArray = [];
 		var data2 = model[0].green;
 		for (var j = 0; j < toFind.data.length; j++) {
-			//console.log(toFind.data[j].country);
 			if (toFind.data[j].country === model[0].country) {
 				var data1 = toFind.data[j].data.replace(/\,/g,'');
 				var currCountry = toFind.data[j].country;
-				var multiplied = (data1 * data2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-				console.log("" + currCountry + ": " + parseInt(data1, 10) + " * " + parseInt(data2, 10) + " = " + multiplied);
-				//doCombining(model);
+				var multiplied = addCommaSeparator((data1 * data2).toString());
+				console.log("" + currCountry + ": " + addCommaSeparator(data1) + " * " + addCommaSeparator(data2) + " = " + multiplied);
 			}
 		}
 	}; //callback
@@ -90,17 +89,22 @@ function findXML(toFind) {
 		for (var i = 0; i < toFind.data.length; i++) {
 			var dbCall = {
 				country: toFind.data[i].country,
-				commodity: toFind.commodity + " (Milled Equivalent)"
-			};
-			var crsr = db.collection("waterFootprintNetwork").find(dbCall);
-			crsr.toArray(function(err, docs) {
-			    if (err) doError(err);
-			    callback(docs);
-			});
+				commodity: toFind.commodity
+			}; //var dbCall
+			if (dbCall.country !== "British Virgin Islands") {
+				var crsr = db.collection("waterFootprintNetwork").find(dbCall);
+				crsr.toArray(function(err, docs) {
+				    if (err) doError(err);
+				    callback(docs);
+				});
+			} //if dbCall.country
+			else {
+				console.log("XML does not contain " + dbCall.country + " - " + toFind.data[i].data + " tons.");
+			}
 		}
     });
 }
 
-function doCombining(data) {
-	//TODO
+function addCommaSeparator(strNumber) {
+	return strNumber.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }

@@ -6,7 +6,7 @@ Spain	1,009	1,607	1,286	No Quantity	No Quantity
 France	726	1,263	1,045	No Quantity	No Quantity	
 Chile	402	415	680	No Quantity	No Quantity	
 Argentina	384	391	556	No Quantity	No Quantity	
-United States of America	321	486	315	No Quantity	No Quantity	
+United States	321	486	315	No Quantity	No Quantity	
 Republic of Moldova	95	145	164	No Quantity	No Quantity	
 Germany	92	105	157	No Quantity	No Quantity	
 Ukraine	172	268	150	No Quantity	No Quantity	

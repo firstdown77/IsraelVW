@@ -5,7 +5,7 @@ Turkey	3,874	4,764	3,877	No Quantity	No Quantity
 Argentina	321	535	617	0	0	
 Spain	525	456	590	No Quantity	No Quantity	
 Netherlands	1	0	228	0	No Quantity	
-United States of America	863	84	77	No Quantity	No Quantity	
+United States	863	84	77	No Quantity	No Quantity	
 Mexico	0	1	12	No Quantity	No Quantity	
 Australia	0	0	0	0	0	
 Belgium	0	143	0	0	0	

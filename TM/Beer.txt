@@ -22,7 +22,7 @@ Ethiopia	16	65	247	270	No Quantity
 Denmark	206	132	172	265	No Quantity	
 Slovenia	676	961	759	219	No Quantity	
 Thailand	47	87	119	181	No Quantity	
-United States of America	89	226	158	137	No Quantity	
+United States	89	226	158	137	No Quantity	
 Latvia	0	23	20	135	No Quantity	
 Lithuania	88	50	65	89	No Quantity	
 China	66	49	71	81	No Quantity	

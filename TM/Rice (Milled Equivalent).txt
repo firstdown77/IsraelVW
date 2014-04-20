@@ -6,7 +6,7 @@ Australia	18,301	17,707	21,589	32,092	No Quantity
 India	2,499	4,650	5,810	11,073	No Quantity	
 Viet Nam	5,662	3,902	6,273	8,631	No Quantity	
 Uruguay	3,656	3,187	4,055	8,412	No Quantity	
-United States of America	2,031	3,571	2,561	2,421	No Quantity	
+United States	2,031	3,571	2,561	2,421	No Quantity	
 Italy	5,717	601	1,296	1,533	No Quantity	
 Spain	2,156	2,879	1,315	852	No Quantity	
 Egypt	1,057	0	0	276	0	

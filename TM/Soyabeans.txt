@@ -1,7 +1,7 @@
 List of supplying markets for a product imported by Israel Product: 1201 Soya beans, whether or not broken
 "Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
 World	351,556	484,768	423,224	363,522	No Quantity	
-United States of America	129,151	226,552	271,068	253,731	No Quantity	
+United States	129,151	226,552	271,068	253,731	No Quantity	
 Uruguay	15,471	0	0	51,789	No Quantity	
 Switzerland	134,375	129,150	126,561	49,377	0	
 Canada	35,020	1,460	1,319	4,511	No Quantity	
