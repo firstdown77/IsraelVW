@@ -28,11 +28,12 @@ function drawRegionsMap() {
 	if (year === '2012') {
 		for (var k = 0; k < no2012Values.length; k++) {
 			if (com === no2012Values[k]) {
-				year = '2011'
+				year = '2011';
 				$("#homeWithMap").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + year + "</span></span>");
 			} //if
 		} //for
 	}
+	//year = '2009';
 	var dataArray = doGetVirtualWater(com.trim(), year.trim());
 	console.log("Results - " + com.trim() + " in " + year.trim() + ":");
 	console.log(dataArray);

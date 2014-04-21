@@ -10,9 +10,11 @@ var doError = function (e) {
 }
 
 var arrayToSend = [];
+var completeArrayLength = 5;
 
 exports.getVirtualWaterData = function(req, callback) {
 	arrayToSend = [];
+	completeArrayLength = 5;
 	var com = req.commodity;
 	var currYear = req.year;
 	findTXT({
@@ -21,8 +23,15 @@ exports.getVirtualWaterData = function(req, callback) {
 		year: currYear
 	});
 	var _flagCheck = setInterval(function() {
-	    if (arrayToSend.length == 5) {
+	    if (arrayToSend.length == completeArrayLength) {
 	        clearInterval(_flagCheck);
+			arrayToSend = arrayToSend.sort(function(a,b){
+				var equalsInA = a.indexOf('=');
+				var equalsInB = b.indexOf('=');
+				var subA = a.substring(equalsInA + 1).replace(/\,/g,'');
+				var subB = b.substring(equalsInB + 1).replace(/\,/g,'');
+				return subB-subA;
+			});
 	        callback(arrayToSend); // the function to run once all flags are true
 	    }
 	}, 100); // interval set at 100 milliseconds
@@ -101,6 +110,7 @@ function findXML(toFind) {
 		//model has the green virtual water data.  toFind has the quantities for 5 countries.
 		//Should print 5 sets of data.
 		var multipliedArray = [];
+		//console.log(model);
 		var data2 = model[0].green;
 		for (var j = 0; j < toFind.data.length; j++) {
 			if (toFind.data[j].country === model[0].country) {
@@ -113,6 +123,10 @@ function findXML(toFind) {
 	}; //callback
 // For terminal startup use:
   	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
+		if (toFind.data.length < 5) {
+			console.log(toFind.data.length);
+			completeArrayLength = toFind.data.length;
+		}
 		if (err) doError(err);
 		//for each of the 5 countries:
 		for (var i = 0; i < toFind.data.length; i++) {
@@ -120,6 +134,7 @@ function findXML(toFind) {
 				country: toFind.data[i].country,
 				commodity: toFind.commodity
 			}; //var dbCall
+			//console.log(dbCall);
 			if (dbCall.country !== "British Virgin Islands" &&
 			 dbCall.country !== "Singapore" && dbCall.country !== "CC4te d\'Ivoire"
 			 && dbCall.country !== "Hong Kong, China") {
