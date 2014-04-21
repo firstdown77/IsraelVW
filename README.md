@@ -1,7 +1,7 @@
 IsraelVW
 ========
 Instructions to run:  
-1. Download the application and unzip it if necessary.
+1. Download the application and unzip it if necessary.  
 1. Open a terminal window and enter 'mongod'.  Keep this window open. If this command doesn't work, you may need to download [MongoDB](https://www.mongodb.org/downloads).  
 2. Open another terminal window and 'cd' into the app folder.  
 3. Enter 'npm install'.  
