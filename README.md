@@ -1,4 +1,5 @@
 IsraelVW
+========
 Instructions to run:
 1. Open a terminal window and enter 'mongod'.  Keep this window open.
 2. Open another terminal window and 'cd' into the app folder.
@@ -13,4 +14,3 @@ Instructions to run:
 11. Once the page has loaded, you should see virtual water trade data in the web browser console.
 12. Repeat steps 9 - 11.
 13. Back on the main webpage, you can change the browser size and the map should re-size itself appropriately.
-========
