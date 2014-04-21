@@ -1,6 +1,6 @@
 IsraelVW
 ========
-Instructions to run:
+Instructions to run:  
 1. Open a terminal window and enter 'mongod'.  Keep this window open.  
 2. Open another terminal window and 'cd' into the app folder.  
 3. Enter 'npm install'.  
