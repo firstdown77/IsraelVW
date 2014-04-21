@@ -7,7 +7,7 @@ Instructions to run:
 4. Enter 'npm install'.  
 5. Enter 'npm start'.  
 6. Open a browser window and enter 'localhost:5555'.  
-7. Press the 'Parse Water Footprint Network XML' button on the top of the webpage.  Wait a few moments to let the parser finish its work.  
+7. Press the 'Parse Water Footprint Network XML' button on the top of the webpage.  Wait a few moments (i.e. 5 seconds) to let the parser finish its work.  
 8. Press the 'Parse TradeMap TXT' button on the top of the webpage.  Wait a few moments to let the parser finish its work.  
 9. Open a web browser console window - the keyboard shortcut is usually Command+Option+i.  Make sure the console tab is open.  All data will appear here for now.  
 10. Click on the "Other" button on the right side of the menu bar on the webpage.  
