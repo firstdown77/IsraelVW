@@ -7,9 +7,11 @@ var commodities = ["Apples", "Barley", "Beer", "Bovine Meat", "Butter, Ghee",
    "Mutton & Goat Meat", "Nuts", "Oats", "Offals + (Total)", "Olive Oil",
     "Olives", "Onions", "Palm Oil", "Palmkernel Oil", "Pepper", "Potatoes",
      "Rape and Mustard Oil", "Rape and Mustardseed", "Rice (Milled Equivalent)",
-      "Rubber", "Rye", "Sorghum", "Soyabean Oil", "Soyabeans", "Sugar",
-	   "Sunflowerseed Oil", "Sunflowerseed", "Sweeteners, Other", "Tea", "Tobacco",
-	    "Wheat", "Wine"];
+      "Rubber", "Rye", "Sorghum", "Soyabean Oil", "Soyabeans", "Sugar Beet",
+	   "Sugar Cane", "Sunflowerseed Oil", "Sunflowerseed", "Sweeteners, Other",
+	    "Tea", "Tobacco", "Wheat", "Wine"];
+
+var no2012Values = ["Tobacco", "Wine", "Rubber", "Eggs + (Total)", "Tea", "Beer", "Sugar Cane"];
 
 function drawRegionsMap() {
 	var	locationString = location.search.substring(1);
@@ -21,9 +23,19 @@ function drawRegionsMap() {
 	else {
 		com = "Rice (Milled Equivalent)";
 	}
-	var year = $("#homeWithMap").text();
+	var has2012 = true;
+	var year = $("#homeWithMap").text().trim();
+	if (year === '2012') {
+		for (var k = 0; k < no2012Values.length; k++) {
+			if (com === no2012Values[k]) {
+				year = '2011'
+				$("#homeWithMap").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + year + "</span></span>");
+			} //if
+		} //for
+	}
 	var dataArray = doGetVirtualWater(com.trim(), year.trim());
-	//alert(dataArray);
+	console.log("Results - " + com.trim() + " in " + year.trim() + ":");
+	console.log(dataArray);
     var data = google.visualization.arrayToDataTable([
         ['Country', 'Virtual Water Footprint'],
         ['Thailand', 178951728],

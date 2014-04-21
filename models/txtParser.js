@@ -5,14 +5,18 @@ var mongoClient = require("mongodb").MongoClient;
 
 var server = "mongodb://localhost:27017/";
 
+var doError = function (e) {
+    util.debug("ERROR: "+e);
+    throw new Error(e);
+}
 
 //Parses all the TradeMap.org text files and inserts all entries into 
 //a MongoDB database.  DB name: virtualwaterDB, collection: tradeMap.
 exports.doParse = function(req, res) {
   	var callback = function(model) {
-	  	console.log('added!');
+	  	console.log("Result: " + model + " added");
   	}; //callback
-	var no2012Values = ["Tobacco", "Wine", "Rubber", "Eggs + (Total)", "Tea", "Beer"];
+	var no2012Values = ["Tobacco", "Wine", "Rubber", "Eggs + (Total)", "Tea", "Beer", "Sugar Cane"];
     mongoClient.connect(server+"virtualwaterDB", function(err, db) {
     	if (err) doError(err);
 		db.dropCollection("tradeMap", function(err, db) {
@@ -57,6 +61,7 @@ exports.doParse = function(req, res) {
 							objectToInsert.country = currCountry;
 						    db.collection("tradeMap").save(objectToInsert, 
 								{safe:true}, function(err, crsr) {
+							    if (err) doError(err);	
 						        callback(crsr);
 						  	}); //collection.save
 						} //for

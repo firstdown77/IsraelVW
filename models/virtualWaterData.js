@@ -1,4 +1,5 @@
 var util = require('util');
+var async = require('async');
 var mongoClient = require("mongodb").MongoClient;
 
 var server = "mongodb://localhost:27017/";
@@ -8,16 +9,44 @@ var doError = function (e) {
     throw new Error(e);
 }
 
-var classRes;
+var arrayToSend = [];
 
-exports.getVirtualWaterData = function(req, res) {
+exports.getVirtualWaterData = function(req, callback) {
+	arrayToSend = [];
 	var com = req.commodity;
 	var currYear = req.year;
 	findTXT({
 		//TODO
 		commodity: com,
-		year: '2011'
+		year: currYear
 	});
+	var _flagCheck = setInterval(function() {
+	    if (arrayToSend.length == 5) {
+	        clearInterval(_flagCheck);
+	        callback(arrayToSend); // the function to run once all flags are true
+	    }
+	}, 100); // interval set at 100 milliseconds
+	/*
+	async.detect([arrayToSend], isOfLength, function(result){
+		console.log("Apparent success");
+		console.log(arrayToSend);
+		return result;
+	    // result now equals the first file in the list that exists
+	});*/
+	/*
+	async.whilst(
+	    function () { return arrayToSend.length < 5; },
+	    function (callback) {
+	        setTimeout(callback, 150000);
+			console.log("Inside whilst: " + arrayToSend);
+			//res.send(200, arrayToSend);
+			return arrayToSend;
+	    },
+	    function (err) {
+	        // 5 seconds have passed
+	    }
+	);
+	*/
 }
 
 function findTXT(toFind) {
@@ -50,7 +79,7 @@ function findTXT(toFind) {
 			commodity: model[0].commodity,
 			data: dataArray
 		};
-		console.log(findXMLObject);
+		//console.log(findXMLObject);
 		findXML(findXMLObject); //findXML
 	}; //callback
 // For terminal startup use:
@@ -78,7 +107,7 @@ function findXML(toFind) {
 				var data1 = toFind.data[j].data.replace(/\,/g,'');
 				var currCountry = toFind.data[j].country;
 				var multiplied = addCommaSeparator((data1 * data2).toString());
-				console.log("" + currCountry + ": " + addCommaSeparator(data1) + " * " + addCommaSeparator(data2) + " = " + multiplied);
+				arrayToSend.push("" + currCountry + ": " + addCommaSeparator(data1) + " tons * " + addCommaSeparator(data2) + " m^3/tons = " + multiplied);
 			}
 		}
 	}; //callback
@@ -91,7 +120,9 @@ function findXML(toFind) {
 				country: toFind.data[i].country,
 				commodity: toFind.commodity
 			}; //var dbCall
-			if (dbCall.country !== "British Virgin Islands" && dbCall.country !== "Singapore") {
+			if (dbCall.country !== "British Virgin Islands" &&
+			 dbCall.country !== "Singapore" && dbCall.country !== "CC4te d\'Ivoire"
+			 && dbCall.country !== "Hong Kong, China") {
 				var crsr = db.collection("waterFootprintNetwork").find(dbCall);
 				crsr.toArray(function(err, docs) {
 				    if (err) doError(err);
@@ -99,7 +130,7 @@ function findXML(toFind) {
 				});
 			} //if dbCall.country
 			else {
-				console.log("XML does not contain " + dbCall.country + " - " + toFind.data[i].data + " tons.");
+				arrayToSend.push("XML does not contain " + dbCall.country + " - " + toFind.data[i].data + " tons.");
 			}
 		}
     });

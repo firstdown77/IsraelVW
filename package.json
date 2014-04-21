@@ -12,6 +12,7 @@
     "express": "3.0.0",
     "ejs": "*",
     "mongodb": "1.2.x",
-	"xml2js": "*"
+	"xml2js": "*",
+	"async": "*"
   }
 }

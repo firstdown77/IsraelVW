@@ -1,0 +1,13 @@
+List of supplying markets for a product imported by Israel Product: 170112 Raw sugar, beet
+"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	7,116	6,028	9,362	19,551	No Quantity	
+Austria	2,804	5,170	7,822	16,589	No Quantity	
+Netherlands	92	130	0	1,091	0	
+Denmark	0	0	0	625	0	
+Belgium	3,725	0	115	440	0	
+Czech Republic	0	0	0	400	0	
+Belarus	0	0	0	306	0	
+Germany	11	8	5	100	No Quantity	
+Slovenia	0	720	120	0	0	
+Thailand	0	0	0	0	No Quantity	
+United Kingdom	484	0	1,300	0	0	

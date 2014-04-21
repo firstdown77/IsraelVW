@@ -4,7 +4,7 @@ World	449	586	506	1,453	No Quantity
 Philippines	398	345	368	1,018	No Quantity	
 Viet Nam	0	0	12	229	No Quantity	
 United Kingdom	0	127	77	98	No Quantity	
-Cote d'Ivoire	0	24	0	27	No Quantity	
+Côte d'Ivoire	0	24	0	27	No Quantity	
 China	0	0	0	26	0	
 United States	0	0	1	26	No Quantity	
 India	0	0	0	18	0	
