@@ -13,10 +13,8 @@ var commodities = ["Apples", "Barley", "Beer", "Bovine Meat", "Butter, Ghee",
 
 var no2012Values = ["Tobacco", "Wine", "Rubber", "Eggs + (Total)", "Tea", "Beer", "Sugar Cane"];
 
-var data2 = "";
-
 function drawRegionsMap(drawOnly) {
-	if (drawOnly !== "no") {
+	if (drawOnly !== "yes") {
 		var	locationString = location.search.substring(1);
 		var com;
 		var year;
@@ -33,14 +31,10 @@ function drawRegionsMap(drawOnly) {
 		else { //Default
 			com = doGetCommodity();
 			year = doGetYear();
-			//com = "Rice (Milled Equivalent)";
-			//year = '2012'
 		}
-		//$("#homeWithMap").text(year);
 		$("#commodityCaption").text(com);
 		$("#homeWithMap").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + year + "</span></span>");
 		var has2012 = true;
-		//year = $("#homeWithMap").text().trim();
 		if (year === '2012') {
 			for (var k = 0; k < no2012Values.length; k++) {
 				if (com === no2012Values[k]) {
@@ -49,15 +43,12 @@ function drawRegionsMap(drawOnly) {
 				} //if
 			} //for
 		}
-	} //if drawOnly
-	else {
+	} //if not drawOnly
+	else { //else if drawOnly
 		com = doGetCommodity();
 		year = doGetYear();
 	}
 	var dataArray = $.parseJSON(doGetVirtualWater(com.trim(), year.trim()));
-	//Create an empty 2D array.  Copied from:
-	//http://stackoverflow.com/questions/6495187/best-way-to-generate-empty-2d-array
-	var finalArray = (function(a){ while(a.push([]) < dataArray.length + 1); return a})([]);
 	var finalArray = new Array();
 	finalArray[0] = ['Country', 'Virtual Water Footprint'];
 	for (var j = 0; j < dataArray.length; j++) {
@@ -65,29 +56,17 @@ function drawRegionsMap(drawOnly) {
 		finalArray[j+1] = [dataArray[j].substring(0, delimiter), parseInt(dataArray[j].substring(delimiter+1))];
 	}
 	console.log(finalArray);
-	/*
-    var data = google.visualization.arrayToDataTable([
-        ['Country', 'Virtual Water Footprint'],
-        ['Thailand', 178951728],
-        ['India', 24249870],
-        ['Australia', 17971520],
-        ['Vietnam', 13913172],
-        ['Uruguay', 9926160]
-    ]);
-*/
 	var data = google.visualization.arrayToDataTable(finalArray);
     var options = {};
-
     var formatter = new google.visualization.NumberFormat({pattern:'###,###'} );
     formatter.format(data, 1);
-	
     var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
 	//google.visualization.events.addListener(chart, 'ready', myReadyHandler);
     chart.draw(data, options);
 };
 
 window.onresize = function(event) {
-	drawRegionsMap("no");
+	drawRegionsMap("yes");
 };
 
 function doGetVirtualWater(currCommodity, currYear) {
