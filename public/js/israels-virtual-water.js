@@ -49,19 +49,22 @@ function drawRegionsMap(drawOnly) {
 				} //if
 			} //for
 		}
-		//year = '2010';
-		var dataArray = $.parseJSON(doGetVirtualWater(com.trim(), year.trim()));
-		//Create an empty 2D array.  Copied from:
-		//http://stackoverflow.com/questions/6495187/best-way-to-generate-empty-2d-array
-		var finalArray = (function(a){ while(a.push([]) < dataArray.length + 1); return a})([]);
-		var finalArray = new Array();
-		finalArray[0] = ['Country', 'Virtual Water Footprint'];
-		for (var j = 0; j < dataArray.length; j++) {
-			var delimiter = dataArray[j].indexOf("-");
-			finalArray[j+1] = [dataArray[j].substring(0, delimiter), parseInt(dataArray[j].substring(delimiter+1))];
-		}
-		console.log(finalArray);
 	} //if drawOnly
+	else {
+		com = doGetCommodity();
+		year = doGetYear();
+	}
+	var dataArray = $.parseJSON(doGetVirtualWater(com.trim(), year.trim()));
+	//Create an empty 2D array.  Copied from:
+	//http://stackoverflow.com/questions/6495187/best-way-to-generate-empty-2d-array
+	var finalArray = (function(a){ while(a.push([]) < dataArray.length + 1); return a})([]);
+	var finalArray = new Array();
+	finalArray[0] = ['Country', 'Virtual Water Footprint'];
+	for (var j = 0; j < dataArray.length; j++) {
+		var delimiter = dataArray[j].indexOf("-");
+		finalArray[j+1] = [dataArray[j].substring(0, delimiter), parseInt(dataArray[j].substring(delimiter+1))];
+	}
+	console.log(finalArray);
 	/*
     var data = google.visualization.arrayToDataTable([
         ['Country', 'Virtual Water Footprint'],
