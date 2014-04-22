@@ -20,7 +20,7 @@ exports.doParse = function(req, res) {
     mongoClient.connect(server+"virtualwaterDB", function(err, db) {
     	if (err) doError(err);
 		db.dropCollection("tradeMap", function(err, db) {
-			if (err) doError(err);
+			if (err) console.log("The tradeMap table probably did not previously exist.");
 			console.log("tradeMap cleared");
 		});
 		fs.readdir('./TM', function(err, files) {
@@ -41,22 +41,24 @@ exports.doParse = function(req, res) {
 					var data = fs.readFileSync('./TM/' + files[j], "ascii") //,function(err, data) {
 						//if (err) throw err;
 						lineArr = data.trim().split("\n");
-						var limit;
+						var limit = lineArr.length;
+						/*
 						if (lineArr.length > 8) {
 							limit = 8;
 						} //if
 						else {
-							limit = lineArr.length
+							limit = lineArr.length;
 						} //else
+						*/
 						for (var i = 3; i < limit; i++) {
 							var currLine = lineArr[i].split("\t");
 							var currCountry = currLine[0];
 							var currTotals = currLine.splice(1,4);
 							objectToInsert = {}
-							objectToInsert.data2009 = currTotals[0];
-							objectToInsert.data2010 = currTotals[1];
-							objectToInsert.data2011 = currTotals[2];
-							if (has2012) objectToInsert.data2012 = currTotals[3];
+							objectToInsert.data2009 = parseInt(currTotals[0].replace(/\,/g,''));
+							objectToInsert.data2010 = parseInt(currTotals[1].replace(/\,/g,''));
+							objectToInsert.data2011 = parseInt(currTotals[2].replace(/\,/g,''));
+							if (has2012) objectToInsert.data2012 = parseInt(currTotals[3].replace(/\,/g,''));
 							objectToInsert.commodity = currCommodity;
 							objectToInsert.country = currCountry;
 						    db.collection("tradeMap").save(objectToInsert, 

@@ -11,12 +11,30 @@ var doError = function (e) {
 
 var arrayToSend = [];
 var completeArrayLength = 5;
+var currentCommodity = "Rice (Milled Equivalent)";
+var currentYear = "2012";
+
+exports.getCurrentCommodity = function() {
+	return currentCommodity;
+}
+
+exports.setCommodity = function(comToSet) {
+	currentCommodity = comToSet;
+}
+
+exports.getCurrentYear = function() {
+	return currentYear;
+}
+
+exports.setYear = function(yearToSet) {
+	currentYear = yearToSet;
+}
 
 exports.getVirtualWaterData = function(req, callback) {
 	arrayToSend = [];
 	completeArrayLength = 5;
-	var com = req.commodity;
-	var currYear = req.year;
+	var com = currentCommodity = req.commodity;
+	var currYear = currentYear = req.year;
 	findTXT({
 		//TODO
 		commodity: com,
@@ -78,7 +96,7 @@ function findTXT(toFind) {
 				data = model[i].data2012;
 			} //else if
 			else {
-				console.log("Get data failed.")
+				doError("Get data failed.");
 			} //else
 			objectToPush.country = model[i].country;
 			objectToPush.data = data;
@@ -97,7 +115,22 @@ function findTXT(toFind) {
 	};
   	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
 		if (err) doError(err);
-		var crsr = db.collection("tradeMap").find(dbCall);
+		var currYear = toFind.year;
+		if (currYear === '2009') {
+			var crsr = db.collection("tradeMap").find(dbCall).sort({data2009: -1}).limit(5);
+		} //if
+		else if (currYear === '2010') {
+			var crsr = db.collection("tradeMap").find(dbCall).sort({data2010: -1}).limit(5);
+		} //else if
+		else if (currYear === '2011') {
+			var crsr = db.collection("tradeMap").find(dbCall).sort({data2011: -1}).limit(5);
+		} //else if
+		else if (currYear === '2012') {
+			var crsr = db.collection("tradeMap").find(dbCall).sort({data2012: -1}).limit(5);
+		} //else if
+		else {
+			doError("Query tradeMap failed.");
+		} //else
 		crsr.toArray(function(err, docs) {
 		    if (err) doError(err);
 		    callback(docs);
@@ -114,10 +147,11 @@ function findXML(toFind) {
 		var data2 = model[0].green;
 		for (var j = 0; j < toFind.data.length; j++) {
 			if (toFind.data[j].country === model[0].country) {
-				var data1 = toFind.data[j].data.replace(/\,/g,'');
+				var data1 = "" + toFind.data[j].data;
 				var currCountry = toFind.data[j].country;
 				var multiplied = addCommaSeparator((data1 * data2).toString());
-				arrayToSend.push("" + currCountry + ": " + addCommaSeparator(data1) + " tons * " + addCommaSeparator(data2) + " m^3/tons = " + multiplied);
+				console.log("" + currCountry + ": " + addCommaSeparator(data1) + " tons * " + addCommaSeparator(data2) + " m^3/tons = " + multiplied);
+				arrayToSend.push("" + currCountry + "-" + parseInt(multiplied.replace(/\,/g,'')));
 			}
 		}
 	}; //callback
@@ -145,7 +179,8 @@ function findXML(toFind) {
 				});
 			} //if dbCall.country
 			else {
-				arrayToSend.push("XML does not contain " + dbCall.country + " - " + toFind.data[i].data + " tons.");
+				completeArrayLength--;
+				console.log("XML does not contain " + dbCall.country + " - " + toFind.data[i].data + " tons.");
 			}
 		}
     });

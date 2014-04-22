@@ -1,5 +1,5 @@
 var model = require("../models/virtualWaterData.js");
-var async = require('async');
+//var async = require('async');
 
 
 exports.getData = function(req, res) {
@@ -7,6 +7,25 @@ exports.getData = function(req, res) {
     	res.send(200, model);
     }); 
 };
+
+exports.getCurrentCommodity = function(req, res) {
+	res.send(200, model.getCurrentCommodity());
+}
+
+exports.setCurrentCommodity = function(req, res) {
+	model.setCommodity(req.query.commodity);
+	res.send(200);
+}
+
+exports.getCurrentYear = function(req, res) {
+	res.send(200, model.getCurrentYear());
+}
+
+exports.setCurrentYear = function(req, res) {
+	model.setYear(req.query.year);
+	res.send(200);
+}
+
 	/*
 	var _flagCheck = setInterval(function() {
 	    if (requestedArray !== undefined) {

@@ -22,6 +22,10 @@ app.configure(function(){
 app.get('/parseXMLRequest', xmlParser.doParsing);
 app.get('/parseTXTRequest', txtParser.doParsing);
 app.get('/virtualWaterRequest', virtualWaterData.getData);
+app.get('/commodityRequest', virtualWaterData.getCurrentCommodity);
+app.post('/commoditySetRequest', virtualWaterData.setCurrentCommodity);
+app.get('/yearRequest', virtualWaterData.getCurrentYear);
+app.post('/yearSetRequest', virtualWaterData.setCurrentYear);
 
 var server = http.createServer(app);
 server.listen(5555, function(){

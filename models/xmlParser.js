@@ -19,7 +19,7 @@ exports.doParse = function(req, res) {
     mongoClient.connect(server+"virtualwaterDB", function(err, db) {
     	if (err) doError(err);
 		db.dropCollection("waterFootprintNetwork", function(err, db) {
-			if (err) doError(err);
+			if (err) console.log("The waterFootprintNetwork table probably did not previously exist.")
 			console.log("waterFootprintNetwork cleared");
 		});
 		var parser = new xml2js.Parser();
