@@ -26,8 +26,12 @@ app.get('/commodityRequest', virtualWaterData.getCurrentCommodity);
 app.post('/commoditySetRequest', virtualWaterData.setCurrentCommodity);
 app.get('/yearRequest', virtualWaterData.getCurrentYear);
 app.post('/yearSetRequest', virtualWaterData.setCurrentYear);
+app.get('/colorRequest', virtualWaterData.getCurrentColor);
+app.post('/colorSetRequest', virtualWaterData.setCurrentColor);
+
+
 
 var server = http.createServer(app);
-server.listen(5555, function(){
-  console.log("Express server listening on port 5555");
+server.listen(4000, function(){
+  console.log("Express server listening on port 4000");
 });

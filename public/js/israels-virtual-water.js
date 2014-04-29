@@ -10,29 +10,42 @@ var commodities = ["Apples", "Barley", "Beer", "Bovine Meat", "Butter, Ghee",
       "Rubber", "Rye", "Sorghum", "Soyabean Oil", "Soyabeans", "Sugar Beet",
 	   "Sugar Cane", "Sunflowerseed Oil", "Sunflowerseed", "Sweeteners, Other",
 	    "Tea", "Tobacco", "Wheat", "Wine"];
-
+var colors = ["All", "Green", "Blue", "Grey"];
 var no2012Values = ["Tobacco", "Wine", "Rubber", "Eggs + (Total)", "Tea", "Beer", "Sugar Cane"];
+
+var com;
+var year;
+var color;
+var data;
 
 function drawRegionsMap(drawOnly) {
 	if (drawOnly !== "yes") {
 		var	locationString = location.search.substring(1);
-		var com;
-		var year;
 		if (locationString.length > 0 && locationString.length < 3) {
 			com = (commodities[locationString - 1]);
 			doSetCommodity(com);
 			year = doGetYear();
+			color = doGetColor();
+		}
+		else if (locationString.length == 3) {
+			color = colors[locationString.substring(2) - 1];
+			doSetColor(color);
+			year = doGetYear();
+			com = doGetCommodity();
 		}
 		else if (locationString.length == 4) {
 			year = locationString;
 			doSetYear(year);
 			com = doGetCommodity();
+			color = doGetColor();
 		}
 		else { //Default
 			com = doGetCommodity();
 			year = doGetYear();
+			color = doGetColor();
 		}
 		$("#commodityCaption").text(com);
+		$("#colorButton").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + color + "</span></span>");
 		$("#homeWithMap").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + year + "</span></span>");
 		var has2012 = true;
 		if (year === '2012') {
@@ -43,20 +56,16 @@ function drawRegionsMap(drawOnly) {
 				} //if
 			} //for
 		}
+		var dataArray = $.parseJSON(doGetVirtualWater(com.trim(), year.trim(), color.trim()));
+		var finalArray = new Array();
+		finalArray[0] = ['Country', 'Virtual Water Footprint (m\xB3)'];
+		for (var j = 0; j < dataArray.length; j++) {
+			var delimiter = dataArray[j].indexOf("-");
+			finalArray[j+1] = [dataArray[j].substring(0, delimiter), parseInt(dataArray[j].substring(delimiter+1))];
+		}
+		console.log(finalArray);
+		data = google.visualization.arrayToDataTable(finalArray);
 	} //if not drawOnly
-	else { //else if drawOnly
-		com = doGetCommodity();
-		year = doGetYear();
-	}
-	var dataArray = $.parseJSON(doGetVirtualWater(com.trim(), year.trim()));
-	var finalArray = new Array();
-	finalArray[0] = ['Country', 'Virtual Water Footprint'];
-	for (var j = 0; j < dataArray.length; j++) {
-		var delimiter = dataArray[j].indexOf("-");
-		finalArray[j+1] = [dataArray[j].substring(0, delimiter), parseInt(dataArray[j].substring(delimiter+1))];
-	}
-	console.log(finalArray);
-	var data = google.visualization.arrayToDataTable(finalArray);
     var options = {};
     var formatter = new google.visualization.NumberFormat({pattern:'###,###'} );
     formatter.format(data, 1);
@@ -69,14 +78,15 @@ window.onresize = function(event) {
 	drawRegionsMap("yes");
 };
 
-function doGetVirtualWater(currCommodity, currYear) {
+function doGetVirtualWater(currCommodity, currYear, currColor) {
 	return $.ajax({
 		url: "virtualWaterRequest",
 		type: "get",
 		async: false,
         data: {
             commodity: currCommodity,
-			year: currYear
+			year: currYear,
+			color: currColor
 	    }}).responseText;
 }
 
@@ -118,11 +128,32 @@ function doSetYear(currYear) {
 	    }}).responseText;
 }
 
+function doGetColor() {
+	return $.ajax({
+		url: "colorRequest",
+		type: "get",
+		async: false,
+        data: {
+	    }}).responseText;
+}
+
+function doSetColor(currColor) {
+	console.log("In");
+	return $.ajax({
+		url: "colorSetRequest",
+		type: "post",
+		async: false,
+        data: {
+			color: currColor
+	    }}).responseText;
+}
+
 function doGetXMLParsing() {
 	$.ajax({
 		url: "parseXMLRequest",
 		type: "get",
         success: function(data) {
+			$("#xmlParseButton").closest('.ui-btn').hide();
 		},
 		error: function(jqXHR, textStatus, errorThrown) {
 			alert('error ' + textStatus + " " + errorThrown);
@@ -136,6 +167,7 @@ function doGetTXTParsing() {
 		url: "parseTXTRequest",
 		type: "get",
         success: function(data) {
+			$("#txtParseButton").closest('.ui-btn').hide();
 		},
 		error: function(jqXHR, textStatus, errorThrown) {
 			alert('error ' + textStatus + " " + errorThrown);

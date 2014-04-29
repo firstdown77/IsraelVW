@@ -13,6 +13,7 @@ var arrayToSend = [];
 var completeArrayLength = 5;
 var currentCommodity = "Rice (Milled Equivalent)";
 var currentYear = "2012";
+var currentColor = "Green";
 
 exports.getCurrentCommodity = function() {
 	return currentCommodity;
@@ -30,15 +31,26 @@ exports.setYear = function(yearToSet) {
 	currentYear = yearToSet;
 }
 
+exports.getCurrentColor = function() {
+	return currentColor;
+}
+
+exports.setColor = function(colorToSet) {
+	currentColor = colorToSet;
+}
+
 exports.getVirtualWaterData = function(req, callback) {
 	arrayToSend = [];
 	completeArrayLength = 5;
 	var com = currentCommodity = req.commodity;
 	var currYear = currentYear = req.year;
+	var currColor = currentColor = req.color;
 	findTXT({
 		//TODO
 		commodity: com,
-		year: currYear
+		year: currYear,
+		color: currColor
+		
 	});
 	var _flagCheck = setInterval(function() {
 	    if (arrayToSend.length == completeArrayLength) {
@@ -104,9 +116,10 @@ function findTXT(toFind) {
 		} //for
 		var findXMLObject = {
 			commodity: model[0].commodity,
-			data: dataArray
+			data: dataArray,
+			color: toFind.color
 		};
-		//console.log(findXMLObject);
+		console.log(findXMLObject);
 		findXML(findXMLObject); //findXML
 	}; //callback
 // For terminal startup use:
@@ -143,8 +156,23 @@ function findXML(toFind) {
 		//model has the green virtual water data.  toFind has the quantities for 5 countries.
 		//Should print 5 sets of data.
 		var multipliedArray = [];
+		var data2
 		//console.log(model);
-		var data2 = model[0].green;
+		if (toFind.color === "Green") {
+			data2 = model[0].green;
+		}
+		else if (toFind.color === "Blue") {
+			data2 = model[0].blue;
+		}
+		else if (toFind.color === "Grey") {
+			data2 = model[0].grey;
+		}
+		else if (toFind.color === "All") {
+			data2 = "" + parseInt(model[0].green) + parseInt(model[0].blue) + parseInt(model[0].grey);
+		}
+		else {
+			console.log("Access with color failed.")
+		}
 		for (var j = 0; j < toFind.data.length; j++) {
 			if (toFind.data[j].country === model[0].country) {
 				var data1 = "" + toFind.data[j].data;
