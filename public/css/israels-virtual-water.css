@@ -7,7 +7,7 @@ body {
     max-width: 61.75em;      /* 988px / 16px = 61.75em */
 }
 #theTable {
-    width:100%;
+    width:90%;
     height:100%;
     border-collapse:collapse;
     margin-left: 4.575%;    /* 144px / 988px = 0.14575 */
