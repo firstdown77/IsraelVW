@@ -18,6 +18,8 @@
 </head>
 <body>
   <div class="Main" data-role="page" data-control-title="Home" id="page1">
+	  <button id="txtParseButton" onclick="doGetTXTParsing()">Parse TradeMap TXT</button>
+	  <button id="xmlParseButton" onclick="doGetXMLParsing()">Parse Water Footprint Network XML</button>
       <div data-theme="f" data-role="header">
           <h1>
               Israel's Virtual Water
@@ -55,6 +57,97 @@
               </h3>
           </div>
   		<div id="chart_div"></div>
+		<br />
+		<table id="theTable">
+        <thead>
+            <tr>
+                <td>
+                    Country
+                </td>
+                <td>
+                    Quantity (tons)
+                </td>
+                <td>
+                    Average Footprint (m<sup>3</sup>/ton)
+                </td>
+                <td>
+                    Israel's Total Footprint (m<sup>3</sup>)
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Thailand
+                </td>
+                <td>
+                    62,396
+                </td>
+                <td>
+                    2,868
+                </td>
+                <td>
+                    178,951,728
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    India
+                </td>
+                <td>
+                    11,073
+                </td>
+                <td>
+                    2,190
+                </td>
+                <td>
+                    24,249,870
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Australia
+                </td>
+                <td>
+                    32,092
+                </td>
+                <td>
+                    560
+                </td>
+                <td>
+                    17,971,520
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Vietnam
+                </td>
+                <td>
+                    8,631
+                </td>
+                <td>
+                    1,612
+                </td>
+                <td>
+                    13,913,172
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Uruguay
+                </td>
+                <td>
+                    8,412
+                </td>
+                <td>
+                    1,180
+                </td>
+                <td>
+                    9,926,160
+                </td>
+            </tr>
+          </tbody>
+      </table>
       <div data-role="tabbar" data-iconpos="top" data-theme="f">
           <ul>
               <li>

@@ -1,0 +1,16 @@
+List of importing markets for a product exported by Israel Product: 0402 Milk and cream, concentrated or sweetened
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	3,301	133	84	No Quantity	No Quantity	
+United Kingdom	4	0	59	No Quantity	0	
+United States of America	691	133	24	1,225	0	
+Austria	0	0	0	0	0	
+Belgium	200	0	0	0	0	
+Canada	1	0	0	0	0	
+Cyprus	1	0	0	0	0	
+France	0	0	0	0	0	
+Italy	0	0	0	0	0	
+Netherlands	1,812	0	0	0	0	
+Singapore	25	0	0	0	0	
+South Africa	200	0	0	0	No Quantity	
+Switzerland	0	1	0	0	0	
+Turkey	367	0	0	0	0	

@@ -28,6 +28,7 @@ app.get('/yearRequest', virtualWaterData.getCurrentYear);
 app.post('/yearSetRequest', virtualWaterData.setCurrentYear);
 app.get('/colorRequest', virtualWaterData.getCurrentColor);
 app.post('/colorSetRequest', virtualWaterData.setCurrentColor);
+app.get('/parseExportsRequest', txtParser.doParsingExports);
 
 
 

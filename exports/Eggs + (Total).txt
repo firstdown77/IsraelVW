@@ -1,0 +1,11 @@
+List of importing markets for a product exported by Israel Product: 0407 Birds' eggs in shell
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	375	174	92	No Quantity	No Quantity	
+Hong Kong, China	38	0	78	No Quantity	0	
+Germany	79	155	8	No Quantity	No Quantity	
+Nigeria	29	0	3	No Quantity	0	
+Armenia	0	1	1	No Quantity	No Quantity	
+Hungary	24	0	1	No Quantity	No Quantity	
+Area Nes	0	0	0	0	No Quantity	
+Belgium	204	18	0	0	0	
+Poland	0	0	0	No Quantity	No Quantity	

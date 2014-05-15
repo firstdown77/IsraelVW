@@ -1,0 +1,28 @@
+List of importing markets for a product exported by Israel Product: 1001 Wheat and meslin
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	9,774	1,000	811	No Quantity	No Quantity	
+Jordan	9,517	0	310	0	0	
+Germany	0	0	163	No Quantity	No Quantity	
+Austria	0	0	86	0	0	
+Kazakhstan	0	0	73	No Quantity	0	
+Italy	0	33	54	22	No Quantity	
+United States of America	3	15	47	No Quantity	No Quantity	
+Australia	0	0	37	0	0	
+Greece	0	0	12	0	0	
+Singapore	0	0	12	0	0	
+United Kingdom	0	0	12	0	0	
+Spain	0	0	4	0	0	
+Brazil	0	257	0	0	0	
+China	0	0	0	No Quantity	0	
+Denmark	0	0	0	0	No Quantity	
+France	13	0	0	0	No Quantity	
+Georgia	208	0	0	2	No Quantity	
+Hong Kong, China	0	0	0	0	No Quantity	
+Poland	0	460	0	No Quantity	0	
+Portugal	0	88	0	0	0	
+India	0	104	0	0	0	
+South Africa	0	38	0	0	0	
+Switzerland	0	5	0	0	0	
+Turkey	33	0	0	0	0	
+Uganda	0	0	0	0	No Quantity	
+Zambia	0	0	0	0	No Quantity	

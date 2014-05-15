@@ -1,0 +1,21 @@
+List of importing markets for a product exported by Israel Product: 1006 Rice
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	351	234	91	No Quantity	No Quantity	
+United States of America	74	228	65	No Quantity	No Quantity	
+United Kingdom	4	3	14	No Quantity	No Quantity	
+Equatorial Guinea	0	3	4	No Quantity	0	
+Austria	0	0	2	0	0	
+France	0	0	2	No Quantity	No Quantity	
+Canada	2	0	1	No Quantity	No Quantity	
+Romania	0	0	1	No Quantity	No Quantity	
+Angola	7	0	0	No Quantity	0	
+Area Nes	0	0	0	0	No Quantity	
+Belgium	2	0	0	0	0	
+Cyprus	0	0	0	0	0	
+Hungary	0	0	0	No Quantity	0	
+Italy	0	0	0	No Quantity	0	
+Jordan	0	0	0	No Quantity	0	
+Netherlands	0	0	0	0	No Quantity	
+South Africa	0	0	0	0	No Quantity	
+Turkey	258	0	0	0	0	
+Ukraine	2	0	0	0	0	

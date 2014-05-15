@@ -57,26 +57,69 @@ function drawRegionsMap(drawOnly) {
 			} //for
 		}
 		var dataArray = $.parseJSON(doGetVirtualWater(com.trim(), year.trim(), color.trim()));
+		drawDataTable(dataArray);
 		var finalArray = new Array();
 		finalArray[0] = ['Country', 'Virtual Water Footprint (m\xB3)'];
 		for (var j = 0; j < dataArray.length; j++) {
-			var delimiter = dataArray[j].indexOf("-");
-			finalArray[j+1] = [dataArray[j].substring(0, delimiter), parseInt(dataArray[j].substring(delimiter+1))];
+			finalArray[j+1] = [dataArray[j][0], parseInt(dataArray[j][3])];
 		}
+		finalArray[j+1] = ["Israel", 0]
 		console.log(finalArray);
 		data = google.visualization.arrayToDataTable(finalArray);
 	} //if not drawOnly
-    var options = {};
+    var options = {
+        displayMode: 'markers',
+        colorAxis: {colors: ['green', 'blue']}
+    };
     var formatter = new google.visualization.NumberFormat({pattern:'###,###'} );
     formatter.format(data, 1);
     var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
-	//google.visualization.events.addListener(chart, 'ready', myReadyHandler);
     chart.draw(data, options);
 };
 
 window.onresize = function(event) {
+	var mq = window.matchMedia( "(min-width: 850px)" );
+	if (!mq.matches) {
+		//$("#theTable tr:eq(0) td:eq(1)").html("Tons");
+		$("#theTable tr:eq(0) td:eq(2)").html("Avg. (m<sup>3</sup>/ton)");
+		$("#theTable tr:eq(0) td:eq(3)").html("Total (m<sup>3</sup>)");
+	}
+	else {
+		//$("#theTable tr:eq(0) td:eq(1)").html("Quantity (tons)");
+		$("#theTable tr:eq(0) td:eq(2)").html("Average Footprint (m<sup>3</sup>/ton)");
+		$("#theTable tr:eq(0) td:eq(3)").html("Israel's Total Footprint (m<sup>3</sup>)");
+	}
 	drawRegionsMap("yes");
 };
+
+
+function drawDataTable(dataArray) {
+	var mq = window.matchMedia( "(min-width: 850px)" );
+	if (!mq.matches) {
+		//$("#theTable tr:eq(0) td:eq(1)").html("Tons");
+		$("#theTable tr:eq(0) td:eq(2)").html("Avg. (m<sup>3</sup>/ton)");
+		$("#theTable tr:eq(0) td:eq(3)").html("Total (m<sup>3</sup>)");
+	}
+	var table = document.getElementById("theTable");
+	var rowCount = table.rows.length; //should be 6 (including thead)
+	var columnCount = table.rows[0].cells.length; //should = 4
+	console.log(dataArray);
+	for (var i = 0; i < rowCount - 1; i++) {
+		for (var j = 0; j < columnCount; j++) {
+			if (j !== 0) {
+				$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(addCommaSeparator(dataArray[i][j].toString()));
+				
+			}
+			else {
+				$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(dataArray[i][j]);
+			}
+		}
+	}
+}
+
+function addCommaSeparator(strNumber) {
+	return strNumber.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
 
 function doGetVirtualWater(currCommodity, currYear, currColor) {
 	return $.ajax({
@@ -138,7 +181,6 @@ function doGetColor() {
 }
 
 function doSetColor(currColor) {
-	console.log("In");
 	return $.ajax({
 		url: "colorSetRequest",
 		type: "post",
@@ -153,7 +195,6 @@ function doGetXMLParsing() {
 		url: "parseXMLRequest",
 		type: "get",
         success: function(data) {
-			$("#xmlParseButton").closest('.ui-btn').hide();
 		},
 		error: function(jqXHR, textStatus, errorThrown) {
 			alert('error ' + textStatus + " " + errorThrown);
@@ -167,7 +208,19 @@ function doGetTXTParsing() {
 		url: "parseTXTRequest",
 		type: "get",
         success: function(data) {
-			$("#txtParseButton").closest('.ui-btn').hide();
+		},
+		error: function(jqXHR, textStatus, errorThrown) {
+			alert('error ' + textStatus + " " + errorThrown);
+		}
+	});
+	return false;	
+}
+
+function doGetExportsParsing() {
+	$.ajax({
+		url: "parseExportsRequest",
+		type: "get",
+        success: function(data) {
 		},
 		error: function(jqXHR, textStatus, errorThrown) {
 			alert('error ' + textStatus + " " + errorThrown);

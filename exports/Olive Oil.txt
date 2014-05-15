@@ -1,0 +1,51 @@
+List of importing markets for a product exported by Israel Product: 1509 Olive oil and its fractions
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	159	206	317	No Quantity	No Quantity	
+United States of America	107	74	144	No Quantity	No Quantity	
+Netherlands	0	18	36	No Quantity	No Quantity	
+Japan	13	31	34	No Quantity	No Quantity	
+Brazil	0	1	19	0	No Quantity	
+China	1	16	19	No Quantity	No Quantity	
+Belgium	9	0	15	No Quantity	No Quantity	
+Germany	2	9	14	No Quantity	No Quantity	
+United Kingdom	6	8	14	No Quantity	No Quantity	
+France	8	1	4	No Quantity	No Quantity	
+Italy	0	6	4	No Quantity	0	
+Australia	0	0	3	No Quantity	No Quantity	
+Equatorial Guinea	0	2	2	No Quantity	0	
+Austria	5	15	2	No Quantity	No Quantity	
+Cuba	1	0	2	No Quantity	0	
+Switzerland	0	1	2	No Quantity	No Quantity	
+Bulgaria	0	0	1	0	0	
+Korea, Republic of	0	0	1	No Quantity	No Quantity	
+Ukraine	0	0	1	0	0	
+Angola	0	0	0	0	0	
+Area Nes	0	0	0	0	No Quantity	
+Andorra	0	0	0	No Quantity	0	
+Canada	1	6	0	No Quantity	No Quantity	
+Colombia	0	0	0	0	No Quantity	
+Cyprus	0	0	0	No Quantity	0	
+Denmark	0	0	0	0	No Quantity	
+Ghana	0	0	0	No Quantity	0	
+Greece	0	0	0	0	0	
+Hong Kong, China	0	0	0	No Quantity	No Quantity	
+Hungary	0	0	0	No Quantity	No Quantity	
+Kazakhstan	1	0	0	0	0	
+Jordan	0	5	0	No Quantity	No Quantity	
+Kenya	1	0	0	0	0	
+Malaysia	0	0	0	No Quantity	0	
+New Zealand	0	0	0	0	0	
+Nigeria	0	2	0	No Quantity	No Quantity	
+Norway	0	0	0	0	0	
+Panama	0	0	0	No Quantity	0	
+Papua New Guinea	0	0	0	0	No Quantity	
+Poland	0	0	0	No Quantity	0	
+Romania	0	0	0	No Quantity	No Quantity	
+Russian Federation	2	0	0	No Quantity	No Quantity	
+India	0	0	0	0	0	
+Singapore	0	0	0	0	0	
+South Africa	0	0	0	No Quantity	No Quantity	
+Spain	0	10	0	0	0	
+Sweden	0	0	0	0	No Quantity	
+Thailand	0	0	0	0	No Quantity	
+Turkey	0	0	0	0	0	

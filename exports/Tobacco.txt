@@ -1,0 +1,12 @@
+List of importing markets for a product exported by Israel Product: 2402 Cigars, cheroots, cigarillos & cigarettes
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, "	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	No Quantity	0	0	No Quantity	No Quantity	
+Area Nes	No Quantity	0	0	No Quantity	0	
+Bosnia and Herzegovina	No Quantity	0	0	0	0	
+Canada	0	0	0	0	No Quantity	
+Latvia	0	0	0	No Quantity	0	
+Mexico	No Quantity	0	0	0	0	
+Spain	0	0	0	No Quantity	0	
+Switzerland	0	0	0	0	0	
+Turkey	0	0	0	0	0	
+United States of America	No Quantity	0	0	0	No Quantity	

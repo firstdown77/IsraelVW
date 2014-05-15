@@ -1,0 +1,3 @@
+List of importing markets for a product exported by Israel Product: 070992 Fresh or chilled olives
+"Importers"	"2009-Exported quantity, "	"2010-Exported quantity, "	"2011-Exported quantity, "	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	0	0	0	0	0	

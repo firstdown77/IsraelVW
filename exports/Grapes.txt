@@ -1,0 +1,35 @@
+List of importing markets for a product exported by Israel Product: 0806 Grapes, fresh or dried
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	7,946	8,925	3,752	5,597	No Quantity	
+Netherlands	777	1,542	414	1,286	No Quantity	
+Russian Federation	1,151	719	431	1,247	No Quantity	
+United Kingdom	2,443	2,258	781	1,091	No Quantity	
+Slovenia	754	1,989	608	516	No Quantity	
+Sri Lanka	190	73	149	464	No Quantity	
+France	133	515	75	353	No Quantity	
+South Africa	331	328	372	139	No Quantity	
+Poland	0	0	0	95	0	
+Ghana	0	27	0	87	No Quantity	
+Angola	0	29	53	63	0	
+Singapore	56	220	0	51	0	
+Hong Kong, China	0	0	0	49	No Quantity	
+Jordan	34	55	20	32	0	
+Madagascar	0	11	22	32	0	
+Germany	360	404	80	27	No Quantity	
+Ukraine	0	0	0	16	No Quantity	
+Belgium	542	11	395	15	No Quantity	
+Nigeria	0	0	0	15	No Quantity	
+Cyprus	132	18	19	12	No Quantity	
+Italy	104	181	196	8	0	
+Democratic Republic of the Congo	49	249	0	0	0	
+Area Nes	0	0	0	0	No Quantity	
+Austria	142	48	29	0	0	
+Belarus	0	0	0	0	No Quantity	
+Croatia	280	0	0	0	0	
+Benin	0	41	100	0	0	
+Finland	250	142	0	0	0	
+Greece	11	6	0	0	0	
+Ireland	114	0	0	0	0	
+Norway	5	4	0	0	0	
+Switzerland	87	56	9	0	0	
+United Republic of Tanzania	0	0	0	0	No Quantity	

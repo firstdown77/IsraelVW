@@ -1,0 +1,17 @@
+List of importing markets for a product exported by Israel Product: 1507 Soya-bean oil&its fractions
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	3	2	50	No Quantity	No Quantity	
+Jordan	0	0	30	0	0	
+Equatorial Guinea	0	1	8	0	0	
+Bulgaria	0	0	6	0	0	
+Cyprus	0	0	5	0	0	
+Belgium	0	0	1	0	0	
+Argentina	0	0	0	No Quantity	0	
+Austria	1	0	0	0	0	
+Cameroon	2	0	0	0	0	
+Chile	0	0	0	No Quantity	0	
+Dominican Republic	0	0	0	No Quantity	0	
+Georgia	0	0	0	0	No Quantity	
+Germany	0	0	0	No Quantity	No Quantity	
+Hungary	0	0	0	0	No Quantity	
+United States of America	0	0	0	No Quantity	0	

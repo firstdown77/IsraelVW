@@ -1,0 +1,6 @@
+List of importing markets for a product exported by Israel Product: 1003 Barley
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	8,246	17,111	6	1	No Quantity	
+Jordan	8,236	17,111	0	0	No Quantity	
+Korea, Republic of	0	0	0	0	No Quantity	
+United States of America	10	0	6	1	No Quantity	

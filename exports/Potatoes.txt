@@ -1,0 +1,36 @@
+List of importing markets for a product exported by Israel Product: 0701 Potatoes
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	336,177	260,822	256,903	210,935	No Quantity	
+United Kingdom	118,437	87,998	59,215	56,067	No Quantity	
+Netherlands	44,405	30,353	30,141	42,819	No Quantity	
+Russian Federation	17,669	8,698	48,107	26,572	No Quantity	
+Belgium	48,804	24,044	25,082	21,626	No Quantity	
+France	29,406	25,599	22,280	19,964	No Quantity	
+Germany	16,430	20,606	22,466	10,465	No Quantity	
+Italy	21,859	25,971	10,328	7,867	No Quantity	
+Slovenia	6,828	6,401	10,367	7,759	No Quantity	
+Norway	5,390	10,036	4,102	6,753	No Quantity	
+Spain	7,442	12,560	8,839	3,459	No Quantity	
+Switzerland	5,850	4,280	8,824	3,129	No Quantity	
+Ireland	986	864	163	1,539	No Quantity	
+Sweden	788	747	975	1,235	No Quantity	
+Denmark	109	132	872	486	No Quantity	
+Ukraine	153	106	741	473	No Quantity	
+Portugal	135	108	314	162	0	
+Poland	869	271	763	135	No Quantity	
+Austria	2,518	1,450	2,368	130	No Quantity	
+Finland	236	3	0	95	0	
+Georgia	0	0	142	75	0	
+Greece	1,754	110	592	54	No Quantity	
+Jordan	2,145	0	89	30	No Quantity	
+Croatia	0	0	74	27	0	
+Cyprus	65	199	17	14	No Quantity	
+Iraq	3,444	0	0	0	0	
+Czech Republic	402	196	0	0	0	
+Hong Kong, China	0	35	0	0	No Quantity	
+Hungary	0	0	0	0	No Quantity	
+Kazakhstan	53	0	0	0	0	
+Latvia	0	0	0	0	No Quantity	
+Lithuania	0	0	42	0	0	
+Serbia	0	54	0	0	0	
+South Africa	0	0	0	0	No Quantity	

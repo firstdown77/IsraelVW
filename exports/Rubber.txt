@@ -1,0 +1,30 @@
+List of importing markets for a product exported by Israel Product: 4001 Natural rubber,balata,gutta-percha etc
+"Importers"	"Exported value in 2009"	"Exported value in 2010"	"Exported value in 2011"	"Exported value in 2012"	"Exported value in 2013"	
+World	119	82	134	194	85	
+Russian Federation	0	1	0	79	0	
+Netherlands	8	1	0	25	4	
+United States of America	37	30	29	24	12	
+Bulgaria	0	12	8	19	26	
+Viet Nam	8	9	0	11	0	
+India	0	1	13	10	11	
+China	11	9	4	6	0	
+Belgium	1	0	0	5	3	
+Germany	1	8	6	3	13	
+Hong Kong, China	0	3	6	3	11	
+Turkey	3	0	0	3	0	
+Greece	0	0	4	1	0	
+Italy	0	1	0	1	0	
+Luxembourg	0	0	1	1	0	
+Slovenia	34	0	0	1	0	
+Egypt	0	0	0	1	1	
+United Kingdom	0	1	1	1	2	
+Australia	5	0	0	0	0	
+Austria	0	1	0	0	0	
+Canada	4	0	0	0	0	
+Jordan	0	2	1	0	0	
+Republic of Moldova	1	0	0	0	0	
+Nigeria	0	1	19	0	1	
+Norway	1	0	0	0	0	
+Peru	5	0	0	0	0	
+Spain	0	2	9	0	1	
+Switzerland	0	0	33	0	0	

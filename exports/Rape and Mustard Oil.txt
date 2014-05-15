@@ -1,0 +1,8 @@
+List of importing markets for a product exported by Israel Product: 1514 Rape,colza or mustard oil & their fractions
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	20	5	9	4	No Quantity	
+United States of America	0	5	8	4	0	
+Belgium	0	0	1	0	0	
+France	0	0	0	0	No Quantity	
+Hong Kong, China	0	0	0	0	No Quantity	
+Serbia	20	0	0	0	0	

@@ -1,0 +1,5 @@
+List of importing markets for a product exported by Israel Product: 040510 Butter
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, "	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	48	0	0	0	0	
+Canada	48	0	0	0	0	
+Switzerland	0	0	0	0	0	

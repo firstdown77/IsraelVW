@@ -1,0 +1,19 @@
+List of importing markets for a product exported by Israel Product: 1202 Ground-nuts, not roasted
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	8,346	7,875	4,754	4,789	No Quantity	
+Italy	4,882	5,032	2,441	2,623	No Quantity	
+Germany	2,251	1,641	832	1,231	No Quantity	
+Switzerland	595	429	42	611	No Quantity	
+Netherlands	457	203	259	173	No Quantity	
+Slovenia	29	335	156	125	No Quantity	
+Portugal	13	0	0	27	No Quantity	
+Belgium	85	171	819	0	0	
+Cyprus	0	0	0	0	No Quantity	
+Greece	16	29	53	0	0	
+Malta	0	0	0	0	No Quantity	
+Poland	0	0	0	0	No Quantity	
+Russian Federation	0	0	0	0	No Quantity	
+Spain	20	14	128	0	0	
+Ukraine	0	22	18	0	0	
+United Kingdom	0	0	6	0	0	
+United States of America	0	0	0	0	0	

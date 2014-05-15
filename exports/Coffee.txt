@@ -1,0 +1,48 @@
+List of importing markets for a product exported by Israel Product: 0901 Coffee
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	466	No Quantity	No Quantity	No Quantity	No Quantity	
+Ukraine	6	11	39	No Quantity	No Quantity	
+Romania	194	3	28	No Quantity	No Quantity	
+Jordan	1	3	16	0	0	
+Cyprus	9	4	12	No Quantity	No Quantity	
+Mexico	6	4	10	0	0	
+Kazakhstan	2	2	8	No Quantity	No Quantity	
+United Kingdom	8	4	7	No Quantity	No Quantity	
+Belgium	1	2	4	No Quantity	No Quantity	
+Slovenia	0	1	3	0	No Quantity	
+Germany	6	77	2	No Quantity	No Quantity	
+Latvia	0	0	2	0	0	
+Cameroon	0	0	1	No Quantity	No Quantity	
+Hong Kong, China	0	No Quantity	1	No Quantity	No Quantity	
+Hungary	1	2	1	0	No Quantity	
+Kenya	0	0	1	0	0	
+South Africa	0	No Quantity	1	No Quantity	No Quantity	
+Switzerland	0	0	1	No Quantity	No Quantity	
+Thailand	2	No Quantity	1	No Quantity	No Quantity	
+Angola	0	0	0	0	0	
+Equatorial Guinea	0	1	No Quantity	0	0	
+Area Nes	0	0	0	No Quantity	No Quantity	
+Andorra	0	0	0	No Quantity	0	
+Australia	1	1	No Quantity	No Quantity	0	
+Austria	0	1	0	0	0	
+Brazil	43	0	0	0	0	
+Canada	32	No Quantity	No Quantity	No Quantity	No Quantity	
+China	3	No Quantity	0	No Quantity	No Quantity	
+Czech Republic	0	5	0	0	0	
+Denmark	0	0	0	0	0	
+France	5	7	No Quantity	No Quantity	No Quantity	
+Georgia	0	0	0	0	0	
+Greece	0	0	0	0	No Quantity	
+Italy	1	0	0	0	No Quantity	
+Netherlands	0	0	0	No Quantity	No Quantity	
+New Zealand	0	0	No Quantity	0	0	
+Nigeria	0	0	0	0	0	
+Poland	0	0	0	No Quantity	No Quantity	
+Russian Federation	21	0	0	No Quantity	No Quantity	
+Serbia	2	0	0	0	0	
+India	0	0	0	0	No Quantity	
+Singapore	1	26	0	0	No Quantity	
+Viet Nam	0	0	0	0	No Quantity	
+Turkey	2	3	0	0	No Quantity	
+Uganda	0	0	0	0	0	
+United States of America	116	No Quantity	No Quantity	No Quantity	No Quantity	

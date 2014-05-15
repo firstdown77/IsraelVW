@@ -1,0 +1,3 @@
+List of importing markets for a product exported by Israel Product: 1007 Grain sorghum
+"Importers"	"2009-Exported quantity, "	"2010-Exported quantity, "	"2011-Exported quantity, "	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	0	0	0	0	0	

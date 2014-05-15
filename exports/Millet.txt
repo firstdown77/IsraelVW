@@ -1,0 +1,14 @@
+List of importing markets for a product exported by Israel Product: 1008 Buckwheat, millet and canary seed
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	18	146	13	No Quantity	No Quantity	
+United States of America	3	60	12	No Quantity	No Quantity	
+Belgium	0	0	0	0	0	
+Canada	8	0	0	0	0	
+France	5	0	0	0	0	
+Greece	0	4	0	0	0	
+Latvia	0	3	0	0	0	
+Netherlands	0	16	0	0	0	
+Peru	0	0	0	0	No Quantity	
+Russian Federation	0	0	0	0	No Quantity	
+Turkey	0	60	0	0	0	
+United Kingdom	2	3	0	No Quantity	No Quantity	

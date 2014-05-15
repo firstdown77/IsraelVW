@@ -1,0 +1,8 @@
+List of importing markets for a product exported by Israel Product: 070310 Onions and shallots, fresh or chilled
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	19	3	167	17	0	
+Russian Federation	0	0	105	0	0	
+United Kingdom	8	0	62	17	0	
+Italy	0	3	0	0	0	
+Netherlands	3	0	0	0	0	
+United States of America	8	0	0	0	0	

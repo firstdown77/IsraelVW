@@ -18,10 +18,6 @@ exports.doParse = function(req, res) {
   	}; //callback
     mongoClient.connect(server+"virtualwaterDB", function(err, db) {
     	if (err) doError(err);
-		db.dropCollection("waterFootprintNetwork", function(err, db) {
-			if (err) console.log("The waterFootprintNetwork table probably did not previously exist.")
-			console.log("waterFootprintNetwork cleared");
-		});
 		var parser = new xml2js.Parser();
 		fs.readFile('./theXML2.xml', function(err, data) {
 		    parser.parseString(data, function (err, result) {
@@ -47,8 +43,9 @@ exports.doParse = function(req, res) {
 						} //if
 						//If this is a country specifying header line:
 						else if (rowArray.length == 1) {
-							var objectToSave = {}
-							objectToSave.country = rowArray[0].trim();
+							var objectToSave = {};
+							var objectToMatch = [];
+							objectToMatch.country = rowArray[0].trim();
 							var waterDataRow = onePageArray[i].TD;
 							elementsAdded = 0;
 							//var z is the current data string in the row.
@@ -67,18 +64,18 @@ exports.doParse = function(req, res) {
 										objectToSave.grey = currData.trim();
 									} //else if
 									else {
-										console.log("Color adding failed.")
+										console.log("Color adding failed.");
 									} //else
 									elementsAdded++;
 									if (elementsAdded % 3 == 0) {
-								 	 	objectToSave.commodity = buildArray[(elementsAdded / 3) - 1];
-										objectToSave._id = Math.floor((Math.random()*1000000000)+1); 
-									    db.collection("waterFootprintNetwork").save(objectToSave, 
-											{safe:true}, function(err, crsr) {
+								 	 	objectToMatch.commodity = buildArray[(elementsAdded / 3) - 1];
+									    db.collection("tradeMap").update(objectToMatch, 
+											{$set: objectToSave },
+											{ multi: true }, function(err, crsr) {
 										    if (err) doError(err);	
 									        callback(crsr);
 									  	}); //collection.save
-									} //if
+									} //if	
 								} //if currData.length
 							} //for waterDataRow
 						} //else if

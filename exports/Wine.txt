@@ -1,0 +1,86 @@
+List of importing markets for a product exported by Israel Product: 2204 Wine of fresh grapes
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity"	"2011-Unit"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	11,017	No Quantity	16,806	Cubic meters	No Quantity	No Quantity	
+United States of America	4,415	No Quantity	8,248	Cubic meters	No Quantity	No Quantity	
+Belgium	4,136	No Quantity	501	Cubic meters	No Quantity	No Quantity	
+Singapore	855	48	47	Cubic meters	No Quantity	No Quantity	
+France	493	No Quantity	1,580	Cubic meters	No Quantity	No Quantity	
+United Kingdom	238	No Quantity	919	Cubic meters	No Quantity	No Quantity	
+Latvia	150	33	102	Tons	No Quantity	No Quantity	
+Germany	142	No Quantity	651	Cubic meters	No Quantity	No Quantity	
+Italy	86	No Quantity	378	Cubic meters	No Quantity	No Quantity	
+Poland	69	No Quantity	695	Tons	No Quantity	No Quantity	
+Canada	61	No Quantity	798	Cubic meters	No Quantity	No Quantity	
+Netherlands	59	No Quantity	252	Cubic meters	No Quantity	No Quantity	
+Japan	50	No Quantity	425	Cubic meters	No Quantity	No Quantity	
+Australia	47	No Quantity	157	Cubic meters	No Quantity	No Quantity	
+Russian Federation	33	323	544	Cubic meters	No Quantity	No Quantity	
+Denmark	22	No Quantity	256	Tons	No Quantity	No Quantity	
+Lithuania	17	0	0		0	0	
+Brazil	15	No Quantity	21	Cubic meters	No Quantity	No Quantity	
+Mexico	15	45	134	Tons	No Quantity	No Quantity	
+Finland	13	85	116	Tons	No Quantity	0	
+Switzerland	11	No Quantity	316	Cubic meters	No Quantity	No Quantity	
+South Africa	9	No Quantity	40	Cubic meters	No Quantity	No Quantity	
+Slovakia	8	31	73	Tons	No Quantity	No Quantity	
+Ukraine	8	38	82	Tons	No Quantity	No Quantity	
+Hong Kong, China	7	No Quantity	63	Cubic meters	No Quantity	No Quantity	
+Taipei, Chinese	5	6	7	Cubic meters	No Quantity	No Quantity	
+Austria	4	No Quantity	55	Tons	No Quantity	No Quantity	
+China	4	80	147	Cubic meters	No Quantity	No Quantity	
+Panama	4	95	0		No Quantity	No Quantity	
+Bulgaria	3	5	0		0	0	
+Cuba	3	0	19	Tons	No Quantity	0	
+Kazakhstan	3	0	0		0	0	
+Peru	3	12	6	Tons	No Quantity	No Quantity	
+Philippines	3	1	8	Tons	0	0	
+Romania	3	59	42	Tons	No Quantity	No Quantity	
+Thailand	3	14	21	Tons	No Quantity	No Quantity	
+Angola	2	0	0		No Quantity	0	
+Cambodia	2	0	1	Tons	No Quantity	0	
+Ecuador	2	0	0		0	0	
+Greece	2	0	2	Tons	No Quantity	No Quantity	
+Luxembourg	2	32	0		No Quantity	0	
+Spain	2	No Quantity	2	Cubic meters	No Quantity	No Quantity	
+Colombia	1	7	7	Tons	No Quantity	No Quantity	
+Costa Rica	1	4	4	Tons	No Quantity	0	
+Cyprus	1	1	2	Cubic meters	No Quantity	0	
+Czech Republic	1	45	54	Tons	No Quantity	No Quantity	
+Korea, Republic of	1	No Quantity	11	Tons	No Quantity	No Quantity	
+Niger	1	0	0		0	0	
+Turkey	1	0	0		0	0	
+British Virgin Islands	0	2	3	Tons	0	0	
+Equatorial Guinea	0	0	1	Cubic meters	No Quantity	0	
+Gibraltar	0	7	0		0	No Quantity	
+Korea, Democratic People's Republic of	0	2	0		0	0	
+Uzbekistan	0	0	0		No Quantity	0	
+Area Nes	0	3	11	Tons	No Quantity	No Quantity	
+Azerbaijan	0	0	4	Tons	0	0	
+Argentina	0	0	16	Tons	No Quantity	0	
+Belarus	0	1	0		0	0	
+Cameroon	0	0	0		0	0	
+Sri Lanka	0	0	0		0	No Quantity	
+Chile	0	0	1	Tons	No Quantity	0	
+Estonia	0	No Quantity	0		0	No Quantity	
+Gabon	0	0	0		No Quantity	0	
+Georgia	0	0	0		No Quantity	No Quantity	
+Ghana	0	3	1	Tons	No Quantity	No Quantity	
+Hungary	0	0	7	Cubic meters	No Quantity	No Quantity	
+Ireland	0	0	3	Tons	0	0	
+Jamaica	0	2	0		No Quantity	No Quantity	
+Kenya	0	0	15	Tons	0	No Quantity	
+Maldives	0	0	0		No Quantity	0	
+Mali	0	3	0		0	0	
+Malta	0	0	3	Tons	0	No Quantity	
+Nepal	0	0	2	Tons	0	0	
+New Zealand	0	No Quantity	5	Cubic meters	No Quantity	No Quantity	
+Nigeria	0	0	0		No Quantity	No Quantity	
+Norway	0	0	4	Tons	No Quantity	No Quantity	
+Papua New Guinea	0	0	0		0	No Quantity	
+Portugal	0	0	0		0	No Quantity	
+India	0	1	5	Tons	No Quantity	No Quantity	
+Viet Nam	0	0	0		No Quantity	0	
+Slovenia	0	14	2	Tons	No Quantity	0	
+Sweden	0	58	14	Tons	0	No Quantity	
+Uganda	0	0	1	Tons	0	0	
+Uruguay	0	10	1	Tons	0	No Quantity	

@@ -1,0 +1,28 @@
+List of importing markets for a product exported by Israel Product: 2203 Beer made from malt
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Cubic meters"	"2013-Exported quantity, "	
+World	159	266	466	213	No Quantity	
+Belgium	1	0	93	0	No Quantity	
+France	28	44	91	48	No Quantity	
+United States of America	73	66	64	60	No Quantity	
+Canada	4	18	42	53	No Quantity	
+United Kingdom	17	18	38	13	No Quantity	
+Russian Federation	0	0	36	0	No Quantity	
+Poland	0	0	32	0	0	
+Italy	3	8	15	3	No Quantity	
+Germany	4	14	13	8	No Quantity	
+South Africa	1	0	13	0	0	
+Japan	11	12	11	10	No Quantity	
+Hungary	0	13	8	5	No Quantity	
+Australia	8	69	7	4	No Quantity	
+Mexico	0	0	2	0	0	
+New Zealand	0	0	1	0	0	
+China	0	0	0	0	No Quantity	
+Czech Republic	0	0	0	1	0	
+Hong Kong, China	0	0	0	0	No Quantity	
+Netherlands	0	1	0	0	0	
+Romania	0	0	0	3	0	
+Singapore	0	1	0	0	0	
+Slovakia	0	1	0	0	0	
+Slovenia	7	0	0	5	0	
+Switzerland	0	0	0	0	No Quantity	
+Thailand	2	0	0	1	0	

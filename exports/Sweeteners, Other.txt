@@ -1,0 +1,55 @@
+List of importing markets for a product exported by Israel Product: 1704 Sugar confectionery (incl white choc), not containing cocoa
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	1,991	2,446	2,850	No Quantity	No Quantity	
+United States of America	1,321	1,665	2,013	No Quantity	No Quantity	
+United Kingdom	64	138	161	No Quantity	No Quantity	
+Canada	170	175	134	No Quantity	No Quantity	
+France	69	89	97	No Quantity	No Quantity	
+South Africa	51	84	93	No Quantity	No Quantity	
+Belgium	37	76	67	No Quantity	No Quantity	
+Australia	49	33	47	No Quantity	No Quantity	
+Czech Republic	15	17	31	11	No Quantity	
+Russian Federation	48	5	29	No Quantity	No Quantity	
+Brazil	2	9	25	No Quantity	No Quantity	
+Germany	7	34	24	No Quantity	No Quantity	
+Italy	11	27	21	No Quantity	No Quantity	
+Netherlands	0	8	21	No Quantity	No Quantity	
+Cyprus	0	0	18	No Quantity	No Quantity	
+Switzerland	10	12	16	No Quantity	No Quantity	
+Spain	37	1	12	No Quantity	No Quantity	
+Mexico	5	13	9	2	No Quantity	
+Singapore	1	4	8	No Quantity	No Quantity	
+Poland	14	7	6	No Quantity	0	
+Greece	1	11	4	No Quantity	No Quantity	
+New Zealand	3	5	4	4	No Quantity	
+Argentina	1	4	3	No Quantity	No Quantity	
+Austria	0	3	3	0	0	
+Latvia	0	0	2	0	No Quantity	
+Angola	0	0	1	0	0	
+Equatorial Guinea	0	0	1	No Quantity	0	
+Uruguay	0	0	1	0	0	
+Area Nes	0	0	0	0	No Quantity	
+Andorra	0	0	0	0	0	
+Azerbaijan	0	0	0	0	0	
+Chile	0	0	0	0	0	
+China	0	0	0	0	No Quantity	
+Denmark	0	0	0	2	No Quantity	
+Georgia	0	1	0	0	0	
+Hong Kong, China	0	0	0	0	No Quantity	
+Hungary	0	0	0	0	No Quantity	
+Japan	0	0	0	0	No Quantity	
+Kazakhstan	0	0	0	0	0	
+Jordan	4	4	0	0	No Quantity	
+Kenya	0	0	0	0	0	
+Lithuania	0	0	0	3	0	
+Malta	0	0	0	0	0	
+Taipei, Chinese	1	0	0	0	No Quantity	
+Nepal	0	0	0	0	No Quantity	
+Panama	0	0	0	0	No Quantity	
+Romania	1	0	0	0	No Quantity	
+India	0	0	0	No Quantity	No Quantity	
+Slovakia	19	12	0	0	0	
+Slovenia	0	6	0	0	0	
+Thailand	0	0	0	0	No Quantity	
+Turkey	50	0	0	5	No Quantity	
+Ukraine	0	2	0	2	No Quantity	

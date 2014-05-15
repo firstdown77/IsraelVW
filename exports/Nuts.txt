@@ -1,0 +1,22 @@
+List of importing markets for a product exported by Israel Product: 0802 Nuts nes
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	487	217	23	1,104	No Quantity	
+Hong Kong, China	0	34	17	580	No Quantity	
+Turkey	389	59	0	378	No Quantity	
+Spain	0	39	0	52	No Quantity	
+Italy	2	39	4	44	No Quantity	
+India	0	0	0	20	0	
+Ukraine	10	0	0	20	No Quantity	
+Cyprus	0	0	0	10	0	
+Switzerland	2	2	0	1	No Quantity	
+Austria	0	0	0	0	0	
+Belgium	0	0	1	0	0	
+France	14	0	1	0	0	
+Germany	19	0	0	0	0	
+Greece	18	0	0	0	No Quantity	
+Japan	0	0	0	0	0	
+Jordan	0	14	0	0	0	
+Netherlands	0	0	0	0	No Quantity	
+Slovenia	19	0	0	0	0	
+Egypt	13	30	0	0	0	
+United Kingdom	1	0	0	0	No Quantity	

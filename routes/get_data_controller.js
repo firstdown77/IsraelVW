@@ -1,6 +1,4 @@
 var model = require("../models/virtualWaterData.js");
-//var async = require('async');
-
 
 exports.getData = function(req, res) {
     model.getVirtualWaterData({
@@ -38,15 +36,3 @@ exports.setCurrentColor = function(req, res) {
 	model.setColor(req.query.color);
 	res.send(200);
 }
-
-	/*
-	var _flagCheck = setInterval(function() {
-	    if (requestedArray !== undefined) {
-	        clearInterval(_flagCheck);
-			console.log("Apparent Success Again");
-			console.log(arrayToSend);
-		    res.send(200, requestedArray); // the function to run once all flags are true
-	    }
-	}, 1000); // interval set at 100 milliseconds
-	*/
-	//};

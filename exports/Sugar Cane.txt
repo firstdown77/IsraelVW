@@ -1,0 +1,6 @@
+List of importing markets for a product exported by Israel Product: 170111 Raw sugar, cane
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	1	1	5	0	0	
+Equatorial Guinea	0	0	3	0	0	
+Austria	1	1	0	0	0	
+United States of America	0	0	2	0	0	

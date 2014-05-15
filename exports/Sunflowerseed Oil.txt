@@ -1,0 +1,6 @@
+List of importing markets for a product exported by Israel Product: 151219 Sunflower-sed/safflower oil&their fractions refind but nt chem modifid
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, "	"2011-Exported quantity, "	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	1	0	0	0	No Quantity	
+Hungary	0	0	0	0	No Quantity	
+Namibia	0	0	0	0	No Quantity	
+United States of America	1	0	0	0	0	

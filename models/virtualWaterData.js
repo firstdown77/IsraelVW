@@ -1,5 +1,4 @@
 var util = require('util');
-var async = require('async');
 var mongoClient = require("mongodb").MongoClient;
 
 var server = "mongodb://localhost:27017/";
@@ -45,82 +44,58 @@ exports.getVirtualWaterData = function(req, callback) {
 	var com = currentCommodity = req.commodity;
 	var currYear = currentYear = req.year;
 	var currColor = currentColor = req.color;
-	findTXT({
-		//TODO
-		commodity: com,
-		year: currYear,
-		color: currColor
-		
-	});
+	if (com === "All" || com === "Vegetables") {
+		aggregateDataAndCalculate({
+			commodity: com,
+			year: currYear,
+			color: currColor.toLowerCase()
+		})
+	}
+	else {
+		getDataAndCalculate({
+			commodity: com,
+			year: currYear,
+			color: currColor.toLowerCase()
+		});
+	}
+
 	var _flagCheck = setInterval(function() {
 	    if (arrayToSend.length == completeArrayLength) {
 	        clearInterval(_flagCheck);
 			arrayToSend = arrayToSend.sort(function(a,b){
-				var equalsInA = a.indexOf('=');
-				var equalsInB = b.indexOf('=');
-				var subA = a.substring(equalsInA + 1).replace(/\,/g,'');
-				var subB = b.substring(equalsInB + 1).replace(/\,/g,'');
-				return subB-subA;
+				return b[3]-a[3];
 			});
 	        callback(arrayToSend); // the function to run once all flags are true
 	    }
 	}, 100); // interval set at 100 milliseconds
-	/*
-	async.detect([arrayToSend], isOfLength, function(result){
-		console.log("Apparent success");
-		console.log(arrayToSend);
-		return result;
-	    // result now equals the first file in the list that exists
-	});*/
-	/*
-	async.whilst(
-	    function () { return arrayToSend.length < 5; },
-	    function (callback) {
-	        setTimeout(callback, 150000);
-			console.log("Inside whilst: " + arrayToSend);
-			//res.send(200, arrayToSend);
-			return arrayToSend;
-	    },
-	    function (err) {
-	        // 5 seconds have passed
-	    }
-	);
-	*/
 }
 
-function findTXT(toFind) {
+function getDataAndCalculate(toFind) {
   	var callback = function(model) {
-		var dataArray = [];
 		for (var i = 0; i < model.length; i++) {
-			var objectToPush = {};
-			var year = toFind.year;
+			var curr = model[i];
+			if (curr.country !== "British Virgin Islands" &&
+			 curr.country !== "Singapore" && curr.country !== "CC4te d\'Ivoire"
+			 && curr.country !== "Hong Kong, China") {
 			var data;
-			if (year === '2009') {
-				data = model[i].data2009;
-			} //if
-			else if (year === '2010') {
-				data = model[i].data2010;
-			} //else if
-			else if (year === '2011') {
-				data = model[i].data2011;
-			} //else if
-			else if (year === '2012') {
-				data = model[i].data2012;
-			} //else if
+			if (toFind.color !== "all") {
+				//data+toFind.year could be i.e. data2010
+				data = curr["data"+toFind.year] * curr[toFind.color];
+				var multiplied = addCommaSeparator(data.toString());
+				console.log("" + curr.country + ": " + addCommaSeparator(curr["data"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
+			}
 			else {
-				doError("Get data failed.");
-			} //else
-			objectToPush.country = model[i].country;
-			objectToPush.data = data;
-			dataArray.push(objectToPush);
+				data = curr["data"+toFind.year] * (parseInt(curr['green']) + parseInt(curr['blue']) + parseInt(curr['grey']));
+				console.log(curr["data"+toFind.year]);
+				console.log(curr['green']);
+			}
+			arrayToSend.push([curr.country, curr["data"+toFind.year], parseInt(curr[toFind.color]), data]);
+			}
+			else {
+				completeArrayLength--;
+				console.log("XML does not contain " + curr.country + " - " + curr["data"+toFind.year] + " tons.");
+			}
 		} //for
-		var findXMLObject = {
-			commodity: model[0].commodity,
-			data: dataArray,
-			color: toFind.color
-		};
-		console.log(findXMLObject);
-		findXML(findXMLObject); //findXML
 	}; //callback
 // For terminal startup use:
 	var dbCall = {
@@ -148,70 +123,7 @@ function findTXT(toFind) {
 		    if (err) doError(err);
 		    callback(docs);
 		});
-    });
-}
-
-function findXML(toFind) {
-  	var callback = function(model) {
-		//model has the green virtual water data.  toFind has the quantities for 5 countries.
-		//Should print 5 sets of data.
-		var multipliedArray = [];
-		var data2
-		//console.log(model);
-		if (toFind.color === "Green") {
-			data2 = model[0].green;
-		}
-		else if (toFind.color === "Blue") {
-			data2 = model[0].blue;
-		}
-		else if (toFind.color === "Grey") {
-			data2 = model[0].grey;
-		}
-		else if (toFind.color === "All") {
-			data2 = "" + parseInt(model[0].green) + parseInt(model[0].blue) + parseInt(model[0].grey);
-		}
-		else {
-			console.log("Access with color failed.")
-		}
-		for (var j = 0; j < toFind.data.length; j++) {
-			if (toFind.data[j].country === model[0].country) {
-				var data1 = "" + toFind.data[j].data;
-				var currCountry = toFind.data[j].country;
-				var multiplied = addCommaSeparator((data1 * data2).toString());
-				console.log("" + currCountry + ": " + addCommaSeparator(data1) + " tons * " + addCommaSeparator(data2) + " m^3/tons = " + multiplied);
-				arrayToSend.push("" + currCountry + "-" + parseInt(multiplied.replace(/\,/g,'')));
-			}
-		}
-	}; //callback
-// For terminal startup use:
-  	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
-		if (toFind.data.length < 5) {
-			console.log(toFind.data.length);
-			completeArrayLength = toFind.data.length;
-		}
-		if (err) doError(err);
-		//for each of the 5 countries:
-		for (var i = 0; i < toFind.data.length; i++) {
-			var dbCall = {
-				country: toFind.data[i].country,
-				commodity: toFind.commodity
-			}; //var dbCall
-			//console.log(dbCall);
-			if (dbCall.country !== "British Virgin Islands" &&
-			 dbCall.country !== "Singapore" && dbCall.country !== "CC4te d\'Ivoire"
-			 && dbCall.country !== "Hong Kong, China") {
-				var crsr = db.collection("waterFootprintNetwork").find(dbCall);
-				crsr.toArray(function(err, docs) {
-				    if (err) doError(err);
-				    callback(docs);
-				});
-			} //if dbCall.country
-			else {
-				completeArrayLength--;
-				console.log("XML does not contain " + dbCall.country + " - " + toFind.data[i].data + " tons.");
-			}
-		}
-    });
+    }); //mongoClient
 }
 
 function addCommaSeparator(strNumber) {

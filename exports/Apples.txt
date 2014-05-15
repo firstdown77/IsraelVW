@@ -1,0 +1,15 @@
+List of importing markets for a product exported by Israel Product: 080810 Apples, fresh
+"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	8,974	8,123	11,999	No Quantity	No Quantity	
+Syrian Arab Republic	8,974	8,103	11,999	0	0	
+Area Nes	0	0	0	0	No Quantity	
+Sri Lanka	0	0	0	0	No Quantity	
+Cyprus	0	0	0	No Quantity	No Quantity	
+Benin	0	20	0	0	0	
+Ethiopia	0	0	0	No Quantity	No Quantity	
+Ghana	0	0	0	0	No Quantity	
+Greece	0	0	0	0	No Quantity	
+Jordan	0	0	0	0	No Quantity	
+Malaysia	0	0	0	No Quantity	No Quantity	
+Russian Federation	0	0	0	0	No Quantity	
+Singapore	0	0	0	0	No Quantity	

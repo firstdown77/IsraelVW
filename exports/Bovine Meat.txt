@@ -1,0 +1,6 @@
+List of importing markets for a product exported by Israel Product: 0202 Meat of bovine animals, frozen
+"Importers"	"2009-Exported quantity, "	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	0	4	14	No Quantity	No Quantity	
+Cameroon	0	0	14	0	0	
+China	0	0	0	No Quantity	0	
+Hong Kong, China	0	4	0	0	No Quantity	
