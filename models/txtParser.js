@@ -47,10 +47,10 @@ exports.doParse = function(req, res) {
 							var currCountry = currLine[0];
 							var currTotals = currLine.splice(1,4);
 							objectToInsert = {}
-							objectToInsert.data2009 = parseInt(currTotals[0].replace("No Quantity", '0').replace(/\,/g,''));
-							objectToInsert.data2010 = parseInt(currTotals[1].replace("No Quantity", '0').replace(/\,/g,''));
-							objectToInsert.data2011 = parseInt(currTotals[2].replace("No Quantity", '0').replace(/\,/g,''));
-							objectToInsert.data2012 = parseInt(currTotals[3].replace("No Quantity", '0').replace(/\,/g,''));
+							objectToInsert.data2009 = parseInt(currTotals[0].replace("No Quantity", 0).replace(/\,/g,''));
+							objectToInsert.data2010 = parseInt(currTotals[1].replace("No Quantity", 0).replace(/\,/g,''));
+							objectToInsert.data2011 = parseInt(currTotals[2].replace("No Quantity", 0).replace(/\,/g,''));
+							objectToInsert.data2012 = parseInt(currTotals[3].replace("No Quantity", 0).replace(/\,/g,''));
 							objectToInsert.commodity = currCommodity;
 							objectToInsert.country = currCountry;
 						    db.collection("tradeMap").save(objectToInsert, 
@@ -92,10 +92,11 @@ exports.doParseExports = function(req, res) {
 						var currCountry = "Israel";
 						var currTotals = currLine.splice(1,4);
 						var objectToInsert = {};
-						objectToInsert.export2009 = parseInt(currTotals[0].replace("No Quantity", '0').replace(/\,/g,''));
-						objectToInsert.export2010 = parseInt(currTotals[1].replace("No Quantity", '0').replace(/\,/g,''));
-						objectToInsert.export2011 = parseInt(currTotals[2].replace("No Quantity", '0').replace(/\,/g,''));
-						objectToInsert.export2012 = parseInt(currTotals[3].replace("No Quantity", '0').replace(/\,/g,''));
+						objectToInsert.export2009 = parseInt(currTotals[0].replace("No Quantity", 0).replace(/\,/g,''));
+						objectToInsert.export2010 = parseInt(currTotals[1].replace("No Quantity", 0).replace(/\,/g,''));
+						objectToInsert.export2011 = parseInt(currTotals[2].replace("No Quantity", 0).replace(/\,/g,''));
+						objectToInsert.export2012 = parseInt(currTotals[3].replace("No Quantity", 0).replace"Cubic meters", 0).replace(/\,/g,''));
+						console.log(currTotals[3]);
 						objectToInsert.commodity = currCommodity;
 						objectToInsert.country = currCountry;
 						console.log(objectToInsert.country);

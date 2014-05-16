@@ -152,27 +152,83 @@ function aggregateDataAndCalculate(toFind) {
   	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
 		if (err) doError(err);
 		var currYear = toFind.year;
-		if (currYear === '2009') {
-			//var crsr = db.collection("tradeMap").find(dbCall).sort({export2009: -1, data2009: -1}).limit(6);
-			var crsr = db.collection("tradeMap").aggregate({$project: { country: 1, "mult": {$multiply: ["$green", "$data2010"]}}}, {$group: { _id: "$country", total: {$sum : "$mult"}}}, {$sort: {total: -1}}, {$limit: 5});	
-		} //if
-		else if (currYear === '2010') {
-			//var crsr = db.collection("tradeMap").find(dbCall).sort({export2010: -1, data2010: -1}).limit(6);
-		} //else if
-		else if (currYear === '2011') {
-			//var crsr = db.collection("tradeMap").find(dbCall).sort({export2011: -1, data2011: -1}).limit(6);
-		} //else if
-		else if (currYear === '2012') {
-			//var crsr = db.collection("tradeMap").find(dbCall).sort({export2012: -1, data2012: -1}).limit(6);
-		} //else if
-		else {
-			doError("Query tradeMap failed.");
-		} //else
-		crsr.toArray(function(err, docs) {
-		    if (err) doError(err);
-		    callback(docs);
-		});
+		var projectObject = {};
+		projectObject["country"] = 1;
+		projectObject["data"+toFind.year] = 1;
+		projectObject["" + toFind.color] = 1;
+		projectObject["mult"] = {
+				$multiply: ["$"+toFind.color, "$data"+toFind.year]
+		}
+		var crsr = db.collection("tradeMap").aggregate({
+			$project: projectObject
+		}, {
+			$group: {
+				_id: "$country", total: {
+					$sum : "$mult"
+				}, tons: {
+					$sum: "$data"+toFind.year
+				}, average: {
+					$avg: "$"+toFind.color
+				}
+			}
+		}, {
+			$sort: {
+				total: -1
+			}
+		}, {
+			$limit: 5
+		}, function(err, result){
+			if (err) doError(err);
+			for (var i = 0; i < result.length; i++) {
+				arrayToSend.push([result[i]._id, result[i].tons, result[i].average.toFixed(1), result[i].total]);
+			}
+			getIsraelToo(toFind);
+		}); //function - callback
   	}); //mongoClient.connect
+}
+
+
+function getIsraelToo(toFind){
+  	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
+		if (err) doError(err);
+		var currYear = toFind.year;
+		var projectObject2 = {};
+		projectObject2["country"] = 1;
+		projectObject2["export"+toFind.year] = 1;
+		projectObject2["" + toFind.color] = 1;
+		projectObject2["mult"] = {
+				$multiply: ["$"+toFind.color, "$export"+toFind.year]
+		}
+		db.collection("tradeMap").aggregate({
+			$project: projectObject2
+		}, {
+			$group: {
+				_id: "$country", total: {
+					$sum : "$mult"
+				}, tons: {
+					$sum: "$export"+toFind.year
+				}, average: {
+					$avg: "$"+toFind.color
+				}
+			}
+		}, { 
+			$match : { 
+				_id : "Israel" 
+			} 
+		}, {
+			$sort: {
+				total: -1
+			}
+		}, {
+			$limit: 1
+		}, function(err, result){
+			if (err) doError(err);
+			for (var i = 0; i < result.length; i++) {
+				arrayToSend.push([result[i]._id, result[i].tons, result[i].average.toFixed(1), result[i].total]);
+			}
+			console.log(arrayToSend);
+		});
+  	});
 }
 
 function addCommaSeparator(strNumber) {
