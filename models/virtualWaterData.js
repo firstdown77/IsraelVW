@@ -81,13 +81,13 @@ function getDataAndCalculate(toFind) {
 					data = curr["export"+toFind.year] * curr[toFind.color];
 					var multiplied = addCommaSeparator(data.toString());
 					console.log("" + curr.country + ": " + addCommaSeparator(curr["export"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
+					arrayToSend.push([curr.country, curr["export"+toFind.year], curr[toFind.color], data]);
 				}
 				else { //toFind.color is all
 					data = curr["export"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']);
-					console.log(curr["export"+toFind.year]);
-					console.log(curr['green']);
+					arrayToSend.push([curr.country, curr["export"+toFind.year], (curr['green'] + curr['blue'] + curr['grey']), data]);
 				}
-				arrayToSend.push([curr.country, curr["export"+toFind.year], curr[toFind.color], data]);
+				console.log(arrayToSend);
 			} //if country is Israel
 			else if (curr.country !== "British Virgin Islands" &&
 			 curr.country !== "Singapore" && curr.country !== "CC4te d\'Ivoire"
@@ -97,13 +97,13 @@ function getDataAndCalculate(toFind) {
 					data = curr["data"+toFind.year] * curr[toFind.color];
 					var multiplied = addCommaSeparator(data.toString());
 					console.log("" + curr.country + ": " + addCommaSeparator(curr["data"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
+					arrayToSend.push([curr.country, curr["data"+toFind.year], curr[toFind.color], data]);
 				}
 				else { //toFind.color is all
 					data = curr["data"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']);
-					console.log(curr["data"+toFind.year]);
-					console.log(curr['green']);
+					arrayToSend.push([curr.country, curr["data"+toFind.year], (curr['green'] + curr['blue'] + curr['grey']), data])
 				}
-				arrayToSend.push([curr.country, curr["data"+toFind.year], curr[toFind.color], data]);
+				console.log(arrayToSend);
 			} //else if curr.country !== British Virgin..
 			else { //curr.country is something not in the db.
 				completeArrayLength--;

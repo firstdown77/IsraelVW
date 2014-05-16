@@ -372,6 +372,21 @@ function drawDataTable(dataArray) {
 			}
 		}
 	}
+	if (dataArray.length < 6) {
+		$("#theTable tr:eq(6)").hide();
+	}
+	if (dataArray.length < 5) {
+		$("#theTable tr:eq(5)").hide();
+	}
+	if (dataArray.length < 4) {
+		$("#theTable tr:eq(4)").hide();
+	}
+	if (dataArray.length < 3) {
+		$("#theTable tr:eq(3)").hide();
+	}
+	if (dataArray.length < 2) {
+		$("#theTable tr:eq(2)").hide();
+	}
 	replaceWithAbbreviations();
 }
 
