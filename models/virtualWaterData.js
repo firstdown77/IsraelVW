@@ -83,11 +83,11 @@ function getDataAndCalculate(toFind) {
 					console.log("" + curr.country + ": " + addCommaSeparator(curr["export"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
 				}
 				else { //toFind.color is all
-					data = curr["export"+toFind.year] * (parseInt(curr['green']) + parseInt(curr['blue']) + parseInt(curr['grey']));
+					data = curr["export"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']);
 					console.log(curr["export"+toFind.year]);
 					console.log(curr['green']);
 				}
-				arrayToSend.push([curr.country, curr["export"+toFind.year], parseInt(curr[toFind.color]), data]);
+				arrayToSend.push([curr.country, curr["export"+toFind.year], curr[toFind.color], data]);
 			} //if country is Israel
 			else if (curr.country !== "British Virgin Islands" &&
 			 curr.country !== "Singapore" && curr.country !== "CC4te d\'Ivoire"
@@ -99,11 +99,11 @@ function getDataAndCalculate(toFind) {
 					console.log("" + curr.country + ": " + addCommaSeparator(curr["data"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
 				}
 				else { //toFind.color is all
-					data = curr["data"+toFind.year] * (parseInt(curr['green']) + parseInt(curr['blue']) + parseInt(curr['grey']));
+					data = curr["data"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']);
 					console.log(curr["data"+toFind.year]);
 					console.log(curr['green']);
 				}
-				arrayToSend.push([curr.country, curr["data"+toFind.year], parseInt(curr[toFind.color]), data]);
+				arrayToSend.push([curr.country, curr["data"+toFind.year], curr[toFind.color], data]);
 			} //else if curr.country !== British Virgin..
 			else { //curr.country is something not in the db.
 				completeArrayLength--;
@@ -138,6 +138,41 @@ function getDataAndCalculate(toFind) {
 		    callback(docs);
 		});
     }); //mongoClient
+}
+
+function aggregateDataAndCalculate(toFind) {
+  	var callback = function(model) {
+  		console.log(model);
+  	}; //callback
+		//or (var i = 0; i < model.length; i++) {
+	var dbCall = {
+		year: toFind.year,
+		color: toFind.color
+	};
+  	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
+		if (err) doError(err);
+		var currYear = toFind.year;
+		if (currYear === '2009') {
+			//var crsr = db.collection("tradeMap").find(dbCall).sort({export2009: -1, data2009: -1}).limit(6);
+			var crsr = db.collection("tradeMap").aggregate({$project: { country: 1, "mult": {$multiply: ["$green", "$data2010"]}}}, {$group: { _id: "$country", total: {$sum : "$mult"}}}, {$sort: {total: -1}}, {$limit: 5});	
+		} //if
+		else if (currYear === '2010') {
+			//var crsr = db.collection("tradeMap").find(dbCall).sort({export2010: -1, data2010: -1}).limit(6);
+		} //else if
+		else if (currYear === '2011') {
+			//var crsr = db.collection("tradeMap").find(dbCall).sort({export2011: -1, data2011: -1}).limit(6);
+		} //else if
+		else if (currYear === '2012') {
+			//var crsr = db.collection("tradeMap").find(dbCall).sort({export2012: -1, data2012: -1}).limit(6);
+		} //else if
+		else {
+			doError("Query tradeMap failed.");
+		} //else
+		crsr.toArray(function(err, docs) {
+		    if (err) doError(err);
+		    callback(docs);
+		});
+  	}); //mongoClient.connect
 }
 
 function addCommaSeparator(strNumber) {

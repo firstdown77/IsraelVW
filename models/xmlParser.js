@@ -54,14 +54,14 @@ exports.doParse = function(req, res) {
 								//If the data is a real string:
 								if (currData.length > 0 ) {
 									if (elementsAdded % 3 == 0) {
-										objectToSave.green = currData.trim();
+										objectToSave.green = parseInt(currData.trim());
 									} //if
 									else if (elementsAdded % 3 == 1) {
-										objectToSave.blue = currData.trim();
+										objectToSave.blue = parseInt(currData.trim());
 									
 									} //else if
 									else if (elementsAdded % 3 == 2){
-										objectToSave.grey = currData.trim();
+										objectToSave.grey = parseInt(currData.trim());
 									} //else if
 									else {
 										console.log("Color adding failed.");

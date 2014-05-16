@@ -42,14 +42,6 @@ exports.doParse = function(req, res) {
 						//if (err) throw err;
 						lineArr = data.trim().split("\n");
 						var limit = lineArr.length;
-						/*
-						if (lineArr.length > 8) {
-							limit = 8;
-						} //if
-						else {
-							limit = lineArr.length;
-						} //else
-						*/
 						for (var i = 3; i < limit; i++) {
 							var currLine = lineArr[i].split("\t");
 							var currCountry = currLine[0];
