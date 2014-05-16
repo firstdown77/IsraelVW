@@ -151,7 +151,7 @@ function aggregateDataAndCalculate(toFind) {
 			projectObject["mult"] = {
 					$multiply: ["$"+toFind.color, "$data"+toFind.year]
 			}
-			var crsr = db.collection("tradeMap").aggregate({
+			db.collection("tradeMap").aggregate({
 				$project: projectObject
 			}, {
 				$group: {
@@ -174,12 +174,51 @@ function aggregateDataAndCalculate(toFind) {
 				for (var i = 0; i < result.length; i++) {
 					arrayToSend.push([result[i]._id, result[i].tons, result[i].average.toFixed(1), result[i].total]);
 				}
+			}
+		);
 		} //if toFind.color !== all
 		else {
-			db.tradeMap.aggregate({$project: {"country": 1, "data2010":1, "theSum": {$add: ["$green", "$blue", "$grey"]}}}, {$project: { "country": 1, "data2010": 1, "mult": {$multiply: ["$theSum", "$data2010"]}}}, {$group: { _id: "$country", total: {$sum : "$mult"}, tons: {$sum: "$data2010"}, average: {$avg: "$mult"}}},{ $sort: { total: -1 } }, { $limit: 5 });
+			var projectObject1a = {};
+			projectObject1a["country"] = 1;
+			projectObject1a["data"+toFind.year] = 1;
+			projectObject1a["theSum"] = {
+				$add: ["$green", "$blue", "$grey"]
+			}
+			var projectObject1b = {};
+			projectObject1b["country"] = 1;
+			projectObject1b["data"+toFind.year] = 1;
+			projectObject1b["mult"] = {
+				$multiply: ["$theSum", "$data"+toFind.year]
+			}
+			db.collection("tradeMap").aggregate({
+				$project: projectObject1a
+			}, {
+				$project: projectObject1b
+			}, {
+				$group: {
+					_id: "$country", total: {
+						$sum : "$mult"
+					}, tons: {
+						$sum: "$data"+toFind.year
+					}, average: {
+						$avg: "$mult"
+					}
+				}
+			},{ 
+				$sort: { 
+					total: -1 
+				} 
+			}, { 
+				$limit: 5 
+			}, function(err, result){
+				if (err) doError(err);
+				for (var i = 0; i < result.length; i++) {
+					arrayToSend.push([result[i]._id, result[i].tons, result[i].average.toFixed(1), result[i].total]);
+				}
+			}
+			);
 		} //else
-			getIsraelToo(toFind);
-		}); //function - callback
+		getIsraelToo(toFind);
   	}); //mongoClient.connect
 }
 
