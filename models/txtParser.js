@@ -95,7 +95,7 @@ exports.doParseExports = function(req, res) {
 						objectToInsert.export2009 = parseInt(currTotals[0].replace("No Quantity", 0).replace(/\,/g,''));
 						objectToInsert.export2010 = parseInt(currTotals[1].replace("No Quantity", 0).replace(/\,/g,''));
 						objectToInsert.export2011 = parseInt(currTotals[2].replace("No Quantity", 0).replace(/\,/g,''));
-						objectToInsert.export2012 = parseInt(currTotals[3].replace("No Quantity", 0).replace"Cubic meters", 0).replace(/\,/g,''));
+						objectToInsert.export2012 = parseInt(currTotals[3].replace("No Quantity", 0).replace("Cubic meters", 0).replace(/\,/g,''));
 						console.log(currTotals[3]);
 						objectToInsert.commodity = currCommodity;
 						objectToInsert.country = currCountry;
