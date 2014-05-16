@@ -9,7 +9,7 @@ var doError = function (e) {
 }
 
 var arrayToSend = [];
-var completeArrayLength = 5;
+var completeArrayLength = 6;
 var currentCommodity = "Rice (Milled Equivalent)";
 var currentYear = "2012";
 var currentColor = "Green";
@@ -40,7 +40,7 @@ exports.setColor = function(colorToSet) {
 
 exports.getVirtualWaterData = function(req, callback) {
 	arrayToSend = [];
-	completeArrayLength = 5;
+	completeArrayLength = 6;
 	var com = currentCommodity = req.commodity;
 	var currYear = currentYear = req.year;
 	var currColor = currentColor = req.color;
@@ -74,24 +74,38 @@ function getDataAndCalculate(toFind) {
   	var callback = function(model) {
 		for (var i = 0; i < model.length; i++) {
 			var curr = model[i];
-			if (curr.country !== "British Virgin Islands" &&
+			var data;
+			if (curr.country === "Israel") {
+				if (toFind.color !== "all") {
+					//data+toFind.year could be i.e. data2010
+					data = curr["export"+toFind.year] * curr[toFind.color];
+					var multiplied = addCommaSeparator(data.toString());
+					console.log("" + curr.country + ": " + addCommaSeparator(curr["export"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
+				}
+				else { //toFind.color is all
+					data = curr["export"+toFind.year] * (parseInt(curr['green']) + parseInt(curr['blue']) + parseInt(curr['grey']));
+					console.log(curr["export"+toFind.year]);
+					console.log(curr['green']);
+				}
+				arrayToSend.push([curr.country, curr["export"+toFind.year], parseInt(curr[toFind.color]), data]);
+			} //if country is Israel
+			else if (curr.country !== "British Virgin Islands" &&
 			 curr.country !== "Singapore" && curr.country !== "CC4te d\'Ivoire"
 			 && curr.country !== "Hong Kong, China") {
-			var data;
-			if (toFind.color !== "all") {
-				//data+toFind.year could be i.e. data2010
-				data = curr["data"+toFind.year] * curr[toFind.color];
-				var multiplied = addCommaSeparator(data.toString());
-				console.log("" + curr.country + ": " + addCommaSeparator(curr["data"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
-			}
-			else {
-				data = curr["data"+toFind.year] * (parseInt(curr['green']) + parseInt(curr['blue']) + parseInt(curr['grey']));
-				console.log(curr["data"+toFind.year]);
-				console.log(curr['green']);
-			}
-			arrayToSend.push([curr.country, curr["data"+toFind.year], parseInt(curr[toFind.color]), data]);
-			}
-			else {
+				if (toFind.color !== "all") {
+					//data+toFind.year could be i.e. data2010
+					data = curr["data"+toFind.year] * curr[toFind.color];
+					var multiplied = addCommaSeparator(data.toString());
+					console.log("" + curr.country + ": " + addCommaSeparator(curr["data"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
+				}
+				else { //toFind.color is all
+					data = curr["data"+toFind.year] * (parseInt(curr['green']) + parseInt(curr['blue']) + parseInt(curr['grey']));
+					console.log(curr["data"+toFind.year]);
+					console.log(curr['green']);
+				}
+				arrayToSend.push([curr.country, curr["data"+toFind.year], parseInt(curr[toFind.color]), data]);
+			} //else if curr.country !== British Virgin..
+			else { //curr.country is something not in the db.
 				completeArrayLength--;
 				console.log("XML does not contain " + curr.country + " - " + curr["data"+toFind.year] + " tons.");
 			}
@@ -105,16 +119,16 @@ function getDataAndCalculate(toFind) {
 		if (err) doError(err);
 		var currYear = toFind.year;
 		if (currYear === '2009') {
-			var crsr = db.collection("tradeMap").find(dbCall).sort({data2009: -1}).limit(5);
+			var crsr = db.collection("tradeMap").find(dbCall).sort({export2009: -1, data2009: -1}).limit(6);
 		} //if
 		else if (currYear === '2010') {
-			var crsr = db.collection("tradeMap").find(dbCall).sort({data2010: -1}).limit(5);
+			var crsr = db.collection("tradeMap").find(dbCall).sort({export2010: -1, data2010: -1}).limit(6);
 		} //else if
 		else if (currYear === '2011') {
-			var crsr = db.collection("tradeMap").find(dbCall).sort({data2011: -1}).limit(5);
+			var crsr = db.collection("tradeMap").find(dbCall).sort({export2011: -1, data2011: -1}).limit(6);
 		} //else if
 		else if (currYear === '2012') {
-			var crsr = db.collection("tradeMap").find(dbCall).sort({data2012: -1}).limit(5);
+			var crsr = db.collection("tradeMap").find(dbCall).sort({export2012: -1, data2012: -1}).limit(6);
 		} //else if
 		else {
 			doError("Query tradeMap failed.");

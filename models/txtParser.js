@@ -35,7 +35,7 @@ exports.doParse = function(req, res) {
 					} //if
 				} //for
 				if (txtIndex !== -1) {
-					// readFile is syncronous so that currCommodity is accurate
+					// readFile is synchronous so that currCommodity is accurate
 					// during database insertion.  Otherwise, currCommodity would
 					// always be files[last_element].
 					var data = fs.readFileSync('./imports/' + files[j], "ascii") //,function(err, data) {
@@ -97,15 +97,16 @@ exports.doParseExports = function(req, res) {
 						var limit = lineArr.length;
 						var i = 2;
 						var currLine = lineArr[i].split("\t");
-						var currCountry = currLine[0];
+						var currCountry = "Israel";
 						var currTotals = currLine.splice(1,4);
 						var objectToInsert = {};
 						objectToInsert.export2009 = parseInt(currTotals[0].replace("No Quantity", '0').replace(/\,/g,''));
 						objectToInsert.export2010 = parseInt(currTotals[1].replace("No Quantity", '0').replace(/\,/g,''));
 						objectToInsert.export2011 = parseInt(currTotals[2].replace("No Quantity", '0').replace(/\,/g,''));
-						objectToInsert.data2012 = parseInt(currTotals[3].replace("No Quantity", '0').replace(/\,/g,''));
+						objectToInsert.export2012 = parseInt(currTotals[3].replace("No Quantity", '0').replace(/\,/g,''));
 						objectToInsert.commodity = currCommodity;
 						objectToInsert.country = currCountry;
+						console.log(objectToInsert.country);
 					    db.collection("tradeMap").save(objectToInsert, 
 							{safe:true}, function(err, crsr) {
 						    if (err) doError(err);	

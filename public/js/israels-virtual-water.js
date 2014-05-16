@@ -63,13 +63,12 @@ function drawRegionsMap(drawOnly) {
 		for (var j = 0; j < dataArray.length; j++) {
 			finalArray[j+1] = [dataArray[j][0], parseInt(dataArray[j][3])];
 		}
-		finalArray[j+1] = ["Israel", 0]
 		console.log(finalArray);
 		data = google.visualization.arrayToDataTable(finalArray);
 	} //if not drawOnly
     var options = {
         displayMode: 'markers',
-        colorAxis: {colors: ['green', 'blue']}
+        colorAxis: {colors: ['yellow', 'red']}
     };
     var formatter = new google.visualization.NumberFormat({pattern:'###,###'} );
     formatter.format(data, 1);
@@ -101,17 +100,21 @@ function drawDataTable(dataArray) {
 		$("#theTable tr:eq(0) td:eq(3)").html("Total (m<sup>3</sup>)");
 	}
 	var table = document.getElementById("theTable");
-	var rowCount = table.rows.length; //should be 6 (including thead)
+	var rowCount = table.rows.length; //should be 7 (including thead)
 	var columnCount = table.rows[0].cells.length; //should = 4
-	console.log(dataArray);
 	for (var i = 0; i < rowCount - 1; i++) {
 		for (var j = 0; j < columnCount; j++) {
 			if (j !== 0) {
 				$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(addCommaSeparator(dataArray[i][j].toString()));
 				
 			}
-			else {
-				$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(dataArray[i][j]);
+			else { //This is the "country" column.
+				if (dataArray[i][j] === "Israel") {
+					$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(dataArray[i][j]).css('font-style', 'italic');
+				}
+				else { //Not Israel, so don't italicize
+					$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(dataArray[i][j]);
+				}
 			}
 		}
 	}
