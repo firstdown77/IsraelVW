@@ -120,7 +120,7 @@ var abbreviations = [['AF', 'Afghanistan'],
 ['IQ', 'Iraq'],
 ['IE', 'Ireland'],
 ['IM', 'Isle of Man'],
-['IL', 'Israel'],
+['IL', 'Israel (Export)'],
 ['IT', 'Italy'],
 ['JM', 'Jamaica'],
 ['JP', 'Japan'],
@@ -364,7 +364,7 @@ function drawDataTable(dataArray) {
 			}
 			else { //This is the "country" column.
 				if (dataArray[i][j] === "Israel") {
-					$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(dataArray[i][j]).css('font-style', 'italic');
+					$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(dataArray[i][j] + " (Export)").css('font-style', 'italic');
 				}
 				else { //Not Israel, so don't italicize
 					$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(dataArray[i][j]);

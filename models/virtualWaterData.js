@@ -44,7 +44,7 @@ exports.getVirtualWaterData = function(req, callback) {
 	var com = currentCommodity = req.commodity;
 	var currYear = currentYear = req.year;
 	var currColor = currentColor = req.color;
-	if (com === "All" || com === "Vegetables") {
+	if (com === "All") {
 		aggregateDataAndCalculate({
 			commodity: com,
 			year: currYear,
