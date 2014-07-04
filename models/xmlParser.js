@@ -1,9 +1,21 @@
 var fs = require('fs');
 var xml2js = require('xml2js');
 var util = require('util');
-var mongoClient = require("mongodb").MongoClient;
+//var mongoClient = require("mongodb").MongoClient;
+//var server = "mongodb://localhost:27017/";
 
-var server = "mongodb://localhost:27017/";
+var mongodb = require('mongodb');
+var db = new mongodb.Db('nodejitsu_raphaelas_nodejitsudb123536169',
+                        new mongodb.Server('troup.mongohq.com', 47008, {})
+);
+db.open(function(err, db_p) {
+    if (err) {
+        throw err;
+    }
+    db.authenticate('nodejitsu_raphaelas', '87d68fa2a3f25410f3d7a22c2d3881e2', function (err, replies) {
+                 // You are now connected and authenticated.
+    });
+});
 
 var doError = function (e) {
     util.debug("ERROR: "+e);

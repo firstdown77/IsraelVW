@@ -1,5 +1,5 @@
 {
-  "name": "mongoExample",
+  "name": "israelVW",
   "subdomain": "israelvirtualwater",
   "scripts": {
     "start": "node app"
