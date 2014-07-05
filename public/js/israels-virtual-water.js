@@ -311,7 +311,7 @@ function drawRegionsMap(drawOnly) {
 		for (var j = 0; j < dataArray.length; j++) {
 			finalArray[j+1] = [dataArray[j][0], parseInt(dataArray[j][3])];
 		}
-		console.log(finalArray);
+//		console.log(finalArray);
 		data = google.visualization.arrayToDataTable(finalArray);
 	} //if not drawOnly
     var options = {
@@ -320,7 +320,11 @@ function drawRegionsMap(drawOnly) {
     };
     var formatter = new google.visualization.NumberFormat({pattern:'###,###'} );
     formatter.format(data, 1);
-    var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+    var chartDiv = document.getElementById('chart_div');
+    if (chartDiv == null) {
+    	return;
+    }
+    var chart = new google.visualization.GeoChart(chartDiv);
     chart.draw(data, options);
 };
 
@@ -349,6 +353,9 @@ function drawDataTable(dataArray) {
 	var mq = window.matchMedia( "(min-width: 850px)" );
 	var mq2 = window.matchMedia( "(min-width: 390px)" );
 	var table = document.getElementById("theTable");
+	if (table == null) {
+		return;
+	}
 	var rowCount = table.rows.length; //should be 7 (including thead)
 	var columnCount = table.rows[0].cells.length; //should = 4
 	if (!mq.matches) {
@@ -394,6 +401,9 @@ function replaceWithAbbreviations() {
 	var mq2 = window.matchMedia( "(min-width: 390px)" );
 	if (!mq2.matches) {
 		var table = document.getElementById("theTable");
+		if (table == null) {
+			return;
+		}
 		var rowCount = table.rows.length; //should be 7 (including thead)
 		for (var i = 1; i < rowCount; i++) {
 			var theCountry = $("#theTable tr:eq("+i+") td:eq(0)").text().trim();
@@ -409,6 +419,9 @@ function replaceWithAbbreviations() {
 
 function unReplaceAbbreviations() {
 	var table = document.getElementById("theTable");
+	if (table == null) {
+		return;
+	}
 	var rowCount = table.rows.length; //should be 7 (including thead)
 	for (var i = 1; i < rowCount; i++) {
 		var theCountry = $("#theTable tr:eq("+i+") td:eq(0)").text().trim();

@@ -13,12 +13,12 @@ db.open(function(err, db_p) {
         throw err;
     }
     db.authenticate('nodejitsu', '87d68fa2a3f25410f3d7a22c2d3881e2', function (err, replies) {
-                 // You are now connected and authenticated.
+    	// You are now connected and authenticated.
     });
 });
 
 var doError = function (e) {
-    util.debug("ERROR: "+e);
+    util.debug(e);
     throw new Error(e);
 }
 

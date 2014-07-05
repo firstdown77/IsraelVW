@@ -17,7 +17,7 @@ db.open(function(err, db_p) {
 });
 
 var doError = function (e) {
-    util.debug("ERROR: "+e);
+    util.debug(e);
     throw new Error(e);
 }
 
