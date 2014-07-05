@@ -9,7 +9,6 @@ var app = express();
 
 app.configure(function(){
   app.set('views', __dirname + '/views');
-  app.set('view engine', 'ejs');
   app.use(express.favicon());	// Return a favicon if requested
   app.use(express.logger('tiny'));
   app.use(express.bodyParser());	// Parse the request body into req.body object

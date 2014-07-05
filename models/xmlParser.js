@@ -5,14 +5,14 @@ var util = require('util');
 //var server = "mongodb://localhost:27017/";
 
 var mongodb = require('mongodb');
-var db = new mongodb.Db('nodejitsu_raphaelas_nodejitsudb123536169',
-                        new mongodb.Server('troup.mongohq.com', 47008, {})
+var db = new mongodb.Db('nodejitsudb123536169',
+                        new mongodb.Server('troup.mongohq.com', 10091, {}), {safe:true}
 );
 db.open(function(err, db_p) {
     if (err) {
         throw err;
     }
-    db.authenticate('nodejitsu_raphaelas', '87d68fa2a3f25410f3d7a22c2d3881e2', function (err, replies) {
+    db.authenticate('nodejitsu', '87d68fa2a3f25410f3d7a22c2d3881e2', function (err, replies) {
                  // You are now connected and authenticated.
     });
 });
@@ -28,8 +28,8 @@ exports.doParse = function(req, res) {
   	var callback = function(model) {
 	  	console.log("Result: " + model + " added");
   	}; //callback
-    mongoClient.connect(server+"virtualwaterDB", function(err, db) {
-    	if (err) doError(err);
+//    mongoClient.connect(server+"virtualwaterDB", function(err, db) {
+//    	if (err) doError(err);
 		var parser = new xml2js.Parser();
 		fs.readFile('./theXML2.xml', function(err, data) {
 		    parser.parseString(data, function (err, result) {
@@ -95,6 +95,6 @@ exports.doParse = function(req, res) {
 				} //for tableArray
 		    }); //parseString
 		}); //readFile
-	}); //mongoClient.connect
+//	}); //mongoClient.connect
 	return;
 }

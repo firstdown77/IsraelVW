@@ -3,15 +3,16 @@ var util = require('util');
 //var server = "mongodb://localhost:27017/";
 
 var mongodb = require('mongodb');
-var db = new mongodb.Db('nodejitsu_raphaelas_nodejitsudb123536169',
-                        new mongodb.Server('troup.mongohq.com', 47008, {})
+var db = new mongodb.Db('nodejitsudb123536169',
+                        new mongodb.Server('troup.mongohq.com', 10091, {}), {safe:true}
 );
+
 db.open(function(err, db_p) {
     if (err) {
         throw err;
     }
-    db.authenticate('nodejitsu_raphaelas', '87d68fa2a3f25410f3d7a22c2d3881e2', function (err, replies) {
-                 // You are now connected and authenticated.
+    db.authenticate('nodejitsu', '87d68fa2a3f25410f3d7a22c2d3881e2', function (err, replies) {
+    	// You are now connected and authenticated.
     });
 });
 
@@ -127,8 +128,8 @@ function getDataAndCalculate(toFind) {
 	var dbCall = {
 		commodity: toFind.commodity
 	};
-  	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
-		if (err) doError(err);
+//  	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
+//		if (err) doError(err);
 		var currYear = toFind.year;
 		if (currYear === '2009') {
 			var crsr = db.collection("tradeMap").find(dbCall).sort({export2009: -1, data2009: -1}).limit(6);
@@ -149,12 +150,12 @@ function getDataAndCalculate(toFind) {
 		    if (err) doError(err);
 		    callback(docs);
 		});
-    }); //mongoClient
+//    }); //mongoClient
 }
 
 function aggregateDataAndCalculate(toFind) {
-  	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
-		if (err) doError(err);
+//  	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
+//		if (err) doError(err);
 		if (toFind.color !== "all") {
 			var projectObject = {};
 			projectObject["country"] = 1;
@@ -231,13 +232,13 @@ function aggregateDataAndCalculate(toFind) {
 			);
 		} //else
 		getIsraelToo(toFind);
-  	}); //mongoClient.connect
+//  	}); //mongoClient.connect
 }
 
 
 function getIsraelToo(toFind){
-  	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
-		if (err) doError(err);
+//  	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
+//		if (err) doError(err);
 		if (toFind.color !== "all") {
 			var projectObject2 = {};
 			projectObject2["country"] = 1;
@@ -310,8 +311,7 @@ function getIsraelToo(toFind){
 			}
 		);
 		} //else
-  	});
-
+//  	}); //mongoClient.connect
 }
 
 function addCommaSeparator(strNumber) {
