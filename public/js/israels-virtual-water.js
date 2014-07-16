@@ -307,9 +307,9 @@ function drawRegionsMap(drawOnly) {
 		var dataArray = $.parseJSON(doGetVirtualWater(com.trim(), year.trim(), color.trim()));
 		drawDataTable(dataArray);
 		var finalArray = new Array();
-		finalArray[0] = ['Country', 'Virtual Water Footprint (m\xB3)'];
+		finalArray[0] = ['Country', 'Virtual Water Footprint (mcm)'];
 		for (var j = 0; j < dataArray.length; j++) {
-			finalArray[j+1] = [dataArray[j][0], parseInt(dataArray[j][3])];
+			finalArray[j+1] = [dataArray[j][0], dataArray[j][3]];
 		}
 //		console.log(finalArray);
 		data = google.visualization.arrayToDataTable(finalArray);
@@ -318,7 +318,7 @@ function drawRegionsMap(drawOnly) {
         displayMode: 'markers',
         colorAxis: {colors: ['yellow', 'red']}
     };
-    var formatter = new google.visualization.NumberFormat({pattern:'###,###'} );
+    var formatter = new google.visualization.NumberFormat({pattern:'###,###.####'} );
     formatter.format(data, 1);
     var chartDiv = document.getElementById('chart_div');
     if (chartDiv == null) {
@@ -334,13 +334,13 @@ window.onresize = function(event) {
 	replaceWithAbbreviations();
 	if (!mq.matches) {
 		//$("#theTable tr:eq(0) td:eq(1)").html("Tons");
-		$("#theTable tr:eq(0) td:eq(2)").html("Avg. (m<sup>3</sup>/ton)");
-		$("#theTable tr:eq(0) td:eq(3)").html("Total (m<sup>3</sup>)");
+		$("#theTable tr:eq(0) td:eq(2)").html("Avg. (mcm/ton)");
+		$("#theTable tr:eq(0) td:eq(3)").html("Total (mcm)");
 	}
 	else {
 		//$("#theTable tr:eq(0) td:eq(1)").html("Quantity (tons)");
-		$("#theTable tr:eq(0) td:eq(2)").html("Average Footprint (m<sup>3</sup>/ton)");
-		$("#theTable tr:eq(0) td:eq(3)").html("Israel's Total Footprint (m<sup>3</sup>)");
+		$("#theTable tr:eq(0) td:eq(2)").html("Average Footprint (mcm/ton)");
+		$("#theTable tr:eq(0) td:eq(3)").html("Israel's Total Footprint (mcm)");
 	}
 	if (mq2.matches) {
 		unReplaceAbbreviations();
@@ -360,8 +360,8 @@ function drawDataTable(dataArray) {
 	var columnCount = table.rows[0].cells.length; //should = 4
 	if (!mq.matches) {
 		//$("#theTable tr:eq(0) td:eq(1)").html("Tons");
-		$("#theTable tr:eq(0) td:eq(2)").html("Avg. (m<sup>3</sup>/ton)");
-		$("#theTable tr:eq(0) td:eq(3)").html("Total (m<sup>3</sup>)");
+		$("#theTable tr:eq(0) td:eq(2)").html("Avg. (mcm/ton)");
+		$("#theTable tr:eq(0) td:eq(3)").html("Total (mcm)");
 	}
 	for (var i = 0; i < dataArray.length; i++) {
 		for (var j = 0; j < columnCount; j++) {
@@ -435,8 +435,9 @@ function unReplaceAbbreviations() {
 }
 
 function addCommaSeparator(strNumber) {
-	return strNumber.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
+    var parts = strNumber.split(".");
+    parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return parts.join(".");}
 
 function doGetVirtualWater(currCommodity, currYear, currColor) {
 	return $.ajax({
@@ -507,41 +508,41 @@ function doSetColor(currColor) {
 	    }}).responseText;
 }
 
-function doGetXMLParsing() {
-	$.ajax({
-		url: "parseXMLRequest",
-		type: "get",
-        success: function(data) {
-		},
-		error: function(jqXHR, textStatus, errorThrown) {
-			alert('error ' + textStatus + " " + errorThrown);
-		}
-	});
-	return false;	
-}
-
-function doGetTXTParsing() {
-	$.ajax({
-		url: "parseTXTRequest",
-		type: "get",
-        success: function(data) {
-		},
-		error: function(jqXHR, textStatus, errorThrown) {
-			alert('error ' + textStatus + " " + errorThrown);
-		}
-	});
-	return false;	
-}
-
-function doGetExportsParsing() {
-	$.ajax({
-		url: "parseExportsRequest",
-		type: "get",
-        success: function(data) {
-		},
-		error: function(jqXHR, textStatus, errorThrown) {
-			alert('error ' + textStatus + " " + errorThrown);
-		}
-	});
-	return false;	
-}
+//function doGetXMLParsing() {
+//	$.ajax({
+//		url: "parseXMLRequest",
+//		type: "get",
+//        success: function(data) {
+//		},
+//		error: function(jqXHR, textStatus, errorThrown) {
+//			alert('error ' + textStatus + " " + errorThrown);
+//		}
+//	});
+//	return false;	
+//}
+//
+//function doGetTXTParsing() {
+//	$.ajax({
+//		url: "parseTXTRequest",
+//		type: "get",
+//        success: function(data) {
+//		},
+//		error: function(jqXHR, textStatus, errorThrown) {
+//			alert('error ' + textStatus + " " + errorThrown);
+//		}
+//	});
+//	return false;	
+//}
+//
+//function doGetExportsParsing() {
+//	$.ajax({
+//		url: "parseExportsRequest",
+//		type: "get",
+//        success: function(data) {
+//		},
+//		error: function(jqXHR, textStatus, errorThrown) {
+//			alert('error ' + textStatus + " " + errorThrown);
+//		}
+//	});
+//	return false;	
+//}
