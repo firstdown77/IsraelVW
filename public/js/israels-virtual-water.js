@@ -120,7 +120,7 @@ var abbreviations = [['AF', 'Afghanistan'],
 ['IQ', 'Iraq'],
 ['IE', 'Ireland'],
 ['IM', 'Isle of Man'],
-['IL', 'Israel (Export)'],
+['IL', 'Israel'],
 ['IT', 'Italy'],
 ['JM', 'Jamaica'],
 ['JP', 'Japan'],
@@ -253,7 +253,7 @@ var abbreviations = [['AF', 'Afghanistan'],
 ['UZ', 'Uzbekistan'],
 ['VU', 'Vanuatu'],
 ['VE', 'Venezuela'],
-['VN', 'Vietnam'],
+['VN', 'Viet Nam'],
 ['WF', 'Wallis and Futuna'],
 ['EH', 'Western Sahara'],
 ['YE', 'Yemen'],
@@ -265,6 +265,7 @@ var com;
 var year;
 var color;
 var data;
+var options;
 
 function drawRegionsMap(drawOnly) {
 	if (drawOnly !== "yes") {
@@ -307,17 +308,32 @@ function drawRegionsMap(drawOnly) {
 		var dataArray = $.parseJSON(doGetVirtualWater(com.trim(), year.trim(), color.trim()));
 		drawDataTable(dataArray);
 		var finalArray = new Array();
-		finalArray[0] = ['Country', 'Virtual Water Footprint (mcm)'];
-		for (var j = 0; j < dataArray.length; j++) {
+		var valueArray = new Array();
+		var colorArray = new Array();
+		var israelValue;
+		finalArray[0] = ['Country', 'Virtual Water Trade (mcm)'];
+		var arrLength = dataArray.length;
+		for (var j = 0; j < arrLength; j++) {
 			finalArray[j+1] = [dataArray[j][0], dataArray[j][3]];
+			valueArray[arrLength - 1 - j] = dataArray[j][3];
+			if (dataArray[j][0] === "Israel") {
+				colorArray[arrLength - 1 - j] = "#0038b8";
+			}
+			else {
+				colorArray[arrLength - 1 - j] = "green";
+			}
 		}
 //		console.log(finalArray);
 		data = google.visualization.arrayToDataTable(finalArray);
+	    options = {
+	        displayMode: 'markers',
+	        allowHtml: true,
+	        colorAxis:  {
+	        	values: valueArray,
+	        	colors: colorArray
+	        }
+	    };
 	} //if not drawOnly
-    var options = {
-        displayMode: 'markers',
-        colorAxis: {colors: ['yellow', 'red']}
-    };
     var formatter = new google.visualization.NumberFormat({pattern:'###,###.####'} );
     formatter.format(data, 1);
     var chartDiv = document.getElementById('chart_div');
@@ -333,14 +349,12 @@ window.onresize = function(event) {
 	var mq2 = window.matchMedia( "(min-width: 390px)" );
 	replaceWithAbbreviations();
 	if (!mq.matches) {
-		//$("#theTable tr:eq(0) td:eq(1)").html("Tons");
-		$("#theTable tr:eq(0) td:eq(2)").html("Avg. (mcm/ton)");
-		$("#theTable tr:eq(0) td:eq(3)").html("Total (mcm)");
+		$("#theTable tr:eq(0) th:eq(3)").html("Avg. (mcm/ton)");
+		$("#theTable tr:eq(0) th:eq(5)").html("Total (mcm)");
 	}
 	else {
-		//$("#theTable tr:eq(0) td:eq(1)").html("Quantity (tons)");
-		$("#theTable tr:eq(0) td:eq(2)").html("Average Footprint (mcm/ton)");
-		$("#theTable tr:eq(0) td:eq(3)").html("Israel's Total Footprint (mcm)");
+		$("#theTable tr:eq(0) th:eq(3)").html("Average Virtual Water Cost (mcm/ton)");
+		$("#theTable tr:eq(0) th:eq(5)").html("Total Virtual Water (mcm)");
 	}
 	if (mq2.matches) {
 		unReplaceAbbreviations();
@@ -357,21 +371,20 @@ function drawDataTable(dataArray) {
 		return;
 	}
 	var rowCount = table.rows.length; //should be 7 (including thead)
-	var columnCount = table.rows[0].cells.length; //should = 4
+	var columnCount = table.rows[0].cells.length; //should = 6
 	if (!mq.matches) {
-		//$("#theTable tr:eq(0) td:eq(1)").html("Tons");
-		$("#theTable tr:eq(0) td:eq(2)").html("Avg. (mcm/ton)");
-		$("#theTable tr:eq(0) td:eq(3)").html("Total (mcm)");
+		$("#theTable tr:eq(0) th:eq(3)").html("Avg. (mcm/ton)");
+		$("#theTable tr:eq(0) th:eq(5)").html("Total (mcm)");
 	}
 	for (var i = 0; i < dataArray.length; i++) {
 		for (var j = 0; j < columnCount; j++) {
-			if (j !== 0) {
-				$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(addCommaSeparator(dataArray[i][j].toString()));
+			if (j != 0 && j != 2 && j != 4) {
+				$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(addCommaSeparator(dataArray[i][Math.round(j/2)].toString()));
 				
 			}
-			else { //This is the "country" column.
+			else if (j == 0) { //This is the "country" column.
 				if (dataArray[i][j] === "Israel") {
-					$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(dataArray[i][j] + " (Export)").css('font-style', 'italic');
+					$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(dataArray[i][j]).css('font-style', 'italic');
 				}
 				else { //Not Israel, so don't italicize
 					$('#theTable tr:eq(' + (i + 1) + ') td:eq(' + j + ')').text(dataArray[i][j]);
@@ -407,7 +420,6 @@ function replaceWithAbbreviations() {
 		var rowCount = table.rows.length; //should be 7 (including thead)
 		for (var i = 1; i < rowCount; i++) {
 			var theCountry = $("#theTable tr:eq("+i+") td:eq(0)").text().trim();
-			console.log(theCountry);
 			for (var j = 0; j < abbreviations.length; j++) {
 				if (abbreviations[j][1] === theCountry) {
 					$("#theTable tr:eq("+i+") td:eq(0)").html(abbreviations[j][0]);
@@ -425,7 +437,6 @@ function unReplaceAbbreviations() {
 	var rowCount = table.rows.length; //should be 7 (including thead)
 	for (var i = 1; i < rowCount; i++) {
 		var theCountry = $("#theTable tr:eq("+i+") td:eq(0)").text().trim();
-		console.log(theCountry);
 		for (var j = 0; j < abbreviations.length; j++) {
 			if (abbreviations[j][0] === theCountry) {
 				$("#theTable tr:eq("+i+") td:eq(0)").html(abbreviations[j][1]);

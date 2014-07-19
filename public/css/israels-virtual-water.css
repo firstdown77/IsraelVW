@@ -2,9 +2,15 @@ body {
     font: normal 100% Helvetica, Arial, sans-serif;
 }
 .Main {
-    margin: 40px auto;
-    padding: 0 1em;
+/* 	margin: 40px auto;
+ *//* 	background: #0038b8;
+ *//*  padding: 0 1em; */
     max-width: 61.75em;      /* 988px / 16px = 61.75em */
+}
+.ui-header .ui-title {
+	/* Deals with header truncation */
+    margin-right: 10%;
+    margin-left: 10%;
 }
 #theTable {
     width:90%;
@@ -13,9 +19,6 @@ body {
     margin-left: 4.575%;    /* 144px / 988px = 0.14575 */
     margin-right: 4.575%;    /* 144px / 988px = 0.14575 */
 	max-width: 50em;
-}
-#theTable, tr, td {
-	border: 1px solid black;
 }
 ul {
 	font-size: 0.875em;  /* 14px / 16px = 0.875em */
@@ -27,9 +30,45 @@ td {
     text-align:center;
 }
 
-#theTable tr th + th + th + th,
-#theTable tr td + td + td + td {
+#theTable th {
+	font-weight: normal;
+	font-style: italic;
+}
+#theTable tr th + th + th + th + th + th,
+#theTable tr td + td + td + td + td + td{
     font-weight: bold;
+}
+#theTable tr th,
+#theTable tr td {
+	border: 1px solid black;
+}
+#theTable tr th + th + th + th,
+#theTable tr td + td + td + td{
+	border: 1px solid black;
+}
+#theTable tr th + th + th + th + th + th,
+#theTable tr td + td + td + td + td + td{
+	border: 1px solid black;
+}
+#theTable tr th + th + th + th + th {
+    border-bottom-width:0px;
+}
+#theTable tr th + th + th {
+    border-bottom-width:0px;
+}
+#theTable tr + tr + tr + tr + tr + tr td + td + td {
+	border-bottom-width:1px;
+}
+
+#theTable tr + tr th + th + th + th + th,
+#theTable tr td + td + td + td + td{
+    border-top-width:0px;
+    border-bottom-width:0px; 
+}
+#theTable tr + tr th + th + th,
+#theTable tr td + td + td{
+    border-top-width:0px;
+    border-bottom-width:0px; 
 }
 #chart_div {
     margin-left: 4.575%;    /* 144px / 988px = 0.14575 */
@@ -38,5 +77,6 @@ td {
 }
 h1, h2 {
     text-align:center;
-    font-family:"Tahoma";
+    font-family: Helvetica;
+    font-weight: normal;
 }

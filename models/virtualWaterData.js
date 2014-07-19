@@ -85,20 +85,21 @@ exports.getVirtualWaterData = function(req, callback) {
 
 function getDataAndCalculate(toFind) {
   	var callback = function(model) {
+  		completeArrayLength = model.length;
 		for (var i = 0; i < model.length; i++) {
 			var curr = model[i];
 			var data;
 			if (curr.country === "Israel") {
 				if (toFind.color !== "all") {
 					//data+toFind.year could be i.e. data2010
-					data = convertToMCM(curr["export"+toFind.year] * curr[toFind.color]);
-					var multiplied = addCommaSeparator(data.toString());
-					console.log("" + curr.country + ": " + addCommaSeparator(curr["export"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
-					arrayToSend.push([curr.country, curr["export"+toFind.year], convertToMCM(curr[toFind.color]), data]);
+					data = convertToMCM(curr["export"+toFind.year] * curr[toFind.color], 3);
+//					var multiplied = addCommaSeparator(data.toString());
+//					console.log("" + curr.country + ": " + addCommaSeparator(curr["export"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
+					arrayToSend.push([curr.country, curr["export"+toFind.year], convertToMCM(curr[toFind.color], 6), data]);
 				}
 				else { //toFind.color is all
 					data = convertToMCM(curr["export"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']));
-					arrayToSend.push([curr.country, curr["export"+toFind.year], convertToMCM(curr['green'] + curr['blue'] + curr['grey']), data]);
+					arrayToSend.push([curr.country, curr["export"+toFind.year], convertToMCM(curr['green'] + curr['blue'] + curr['grey'], 6), data]);
 				}
 				console.log(arrayToSend);
 			} //if country is Israel
@@ -107,14 +108,14 @@ function getDataAndCalculate(toFind) {
 			 && curr.country !== "Hong Kong, China") {
 				if (toFind.color !== "all") {
 					//data+toFind.year could be i.e. data2010
-					data = convertToMCM(curr["data"+toFind.year] * curr[toFind.color]);
-					var multiplied = addCommaSeparator(data.toString());
-					console.log("" + curr.country + ": " + addCommaSeparator(curr["data"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
-					arrayToSend.push([curr.country, curr["data"+toFind.year], convertToMCM(curr[toFind.color]), data]);
+					data = convertToMCM(curr["data"+toFind.year] * curr[toFind.color], 3);
+//					var multiplied = addCommaSeparator(data.toString());
+//					console.log("" + curr.country + ": " + addCommaSeparator(curr["data"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
+					arrayToSend.push([curr.country, curr["data"+toFind.year], convertToMCM(curr[toFind.color], 6), data]);
 				}
 				else { //toFind.color is all
-					data = convertToMCM(curr["data"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']));
-					arrayToSend.push([curr.country, curr["data"+toFind.year], convertToMCM(curr['green'] + curr['blue'] + curr['grey']), data])
+					data = convertToMCM(curr["data"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey'], 3));
+					arrayToSend.push([curr.country, curr["data"+toFind.year], convertToMCM(curr['green'] + curr['blue'] + curr['grey'], 6), data])
 				}
 				console.log(arrayToSend);
 			} //else if curr.country !== British Virgin..
@@ -132,15 +133,19 @@ function getDataAndCalculate(toFind) {
 //		if (err) doError(err);
 		var currYear = toFind.year;
 		if (currYear === '2009') {
+			dbCall.$or = [{data2009 : {$gt: 0}}, {export2009 : {$gte: 0}}];
 			var crsr = db.collection("tradeMap").find(dbCall).sort({export2009: -1, data2009: -1}).limit(6);
 		} //if
 		else if (currYear === '2010') {
+			dbCall.$or = [{data2010 : {$gt: 0}}, {export2010 : {$gte: 0}}];
 			var crsr = db.collection("tradeMap").find(dbCall).sort({export2010: -1, data2010: -1}).limit(6);
 		} //else if
 		else if (currYear === '2011') {
+			dbCall.$or = [{data2011 : {$gt: 0}}, {export2011 : {$gte: 0}}];
 			var crsr = db.collection("tradeMap").find(dbCall).sort({export2011: -1, data2011: -1}).limit(6);
 		} //else if
 		else if (currYear === '2012') {
+			dbCall.$or = [{data2012 : {$gt: 0}}, {export2012 : {$gte: 0}}];
 			var crsr = db.collection("tradeMap").find(dbCall).sort({export2012: -1, data2012: -1}).limit(6);
 		} //else if
 		else {
@@ -177,6 +182,10 @@ function aggregateDataAndCalculate(toFind) {
 					}
 				}
 			}, {
+				$match: {
+					total: {$gt: 0}
+				}
+			}, {
 				$sort: {
 					total: -1
 				}
@@ -185,7 +194,7 @@ function aggregateDataAndCalculate(toFind) {
 			}, function(err, result){
 				if (err) doError(err);
 				for (var i = 0; i < result.length; i++) {
-					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average.toFixed(1)), convertToMCM(result[i].total)]);
+					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average.toFixed(1), 6), convertToMCM(result[i].total)], 3);
 				}
 			}
 		);
@@ -217,7 +226,11 @@ function aggregateDataAndCalculate(toFind) {
 						$avg: "$mult"
 					}
 				}
-			},{ 
+			}, {
+				$match: {
+					total: {$gt: 0}
+				}
+			}, { 
 				$sort: { 
 					total: -1 
 				} 
@@ -226,7 +239,7 @@ function aggregateDataAndCalculate(toFind) {
 			}, function(err, result){
 				if (err) doError(err);
 				for (var i = 0; i < result.length; i++) {
-					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average.toFixed(1)), convertToMCM(result[i].total)]);
+					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average.toFixed(1), 6), convertToMCM(result[i].total)], 3);
 				}
 			}
 			);
@@ -266,7 +279,7 @@ function getIsraelToo(toFind){
 			}, function(err, result){
 				if (err) doError(err);
 				for (var i = 0; i < result.length; i++) {
-					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average.toFixed(1)), convertToMCM(result[i].total)]);
+					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average.toFixed(1), 6), convertToMCM(result[i].total)], 3);
 				}
 				console.log(arrayToSend);
 			});
@@ -305,7 +318,7 @@ function getIsraelToo(toFind){
 			}, function(err, result) {
 				if (err) doError(err);
 				for (var i = 0; i < result.length; i++) {
-					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average.toFixed(1)), convertToMCM(result[i].total)]);
+					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average.toFixed(1), 6), convertToMCM(result[i].total)], 3);
 					console.log(arrayToSend);
 				}
 			}
@@ -315,10 +328,9 @@ function getIsraelToo(toFind){
 }
 
 //Converts a cubic meter value into a millions cubic meter value.
-function convertToMCM(toConvert) {
+function convertToMCM(toConvert, decimalPoints) {
 	var MILLIONSCMCONVERSION = 1000000;
-	var DECIMALPOINTS = 4;
-	return parseFloat((toConvert/MILLIONSCMCONVERSION).toFixed(DECIMALPOINTS));
+	return parseFloat((toConvert/MILLIONSCMCONVERSION).toFixed(decimalPoints));
 }
 
 function addCommaSeparator(strNumber) {
