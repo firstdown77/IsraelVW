@@ -52,9 +52,11 @@ td {
 }
 #theTable tr th + th + th + th + th {
     border-bottom-width:0px;
+    font-style:normal;
 }
 #theTable tr th + th + th {
     border-bottom-width:0px;
+    font-style:normal;
 }
 #theTable tr + tr + tr + tr + tr + tr td + td + td {
 	border-bottom-width:1px;

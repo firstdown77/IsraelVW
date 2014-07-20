@@ -311,7 +311,7 @@ function drawRegionsMap(drawOnly) {
 		var valueArray = new Array();
 		var colorArray = new Array();
 		var israelValue;
-		finalArray[0] = ['Country', 'Virtual Water Trade (mcm)'];
+		finalArray[0] = ['Country', 'Virtual Water Export (mcm)'];
 		var arrLength = dataArray.length;
 		for (var j = 0; j < arrLength; j++) {
 			finalArray[j+1] = [dataArray[j][0], dataArray[j][3]];
@@ -393,20 +393,21 @@ function drawDataTable(dataArray) {
 		}
 	}
 	if (dataArray.length < 6) {
-		$("#theTable tr:eq(6)").hide();
+		$("#theTable tr:eq(6)").remove();
 	}
 	if (dataArray.length < 5) {
-		$("#theTable tr:eq(5)").hide();
+		$("#theTable tr:eq(5)").remove();
 	}
 	if (dataArray.length < 4) {
-		$("#theTable tr:eq(4)").hide();
+		$("#theTable tr:eq(4)").remove();
 	}
 	if (dataArray.length < 3) {
-		$("#theTable tr:eq(3)").hide();
+		$("#theTable tr:eq(3)").remove();
 	}
 	if (dataArray.length < 2) {
-		$("#theTable tr:eq(2)").hide();
+		$("#theTable tr:eq(2)").remove();
 	}
+	$("#theTable > tbody > tr:last-child td + td + td").css("border-bottom-width", "1px");
 	replaceWithAbbreviations();
 }
 

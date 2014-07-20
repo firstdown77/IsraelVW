@@ -98,7 +98,7 @@ function getDataAndCalculate(toFind) {
 					arrayToSend.push([curr.country, curr["export"+toFind.year], convertToMCM(curr[toFind.color], 6), data]);
 				}
 				else { //toFind.color is all
-					data = convertToMCM(curr["export"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']));
+					data = convertToMCM(curr["export"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']), 3);
 					arrayToSend.push([curr.country, curr["export"+toFind.year], convertToMCM(curr['green'] + curr['blue'] + curr['grey'], 6), data]);
 				}
 				console.log(arrayToSend);
@@ -111,11 +111,22 @@ function getDataAndCalculate(toFind) {
 					data = convertToMCM(curr["data"+toFind.year] * curr[toFind.color], 3);
 //					var multiplied = addCommaSeparator(data.toString());
 //					console.log("" + curr.country + ": " + addCommaSeparator(curr["data"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
-					arrayToSend.push([curr.country, curr["data"+toFind.year], convertToMCM(curr[toFind.color], 6), data]);
+					if (data >= 0.001) {
+						arrayToSend.push([curr.country, curr["data"+toFind.year], convertToMCM(curr[toFind.color], 6), data]);
+					}
+					else {
+						completeArrayLength--;
+					}
 				}
 				else { //toFind.color is all
-					data = convertToMCM(curr["data"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey'], 3));
-					arrayToSend.push([curr.country, curr["data"+toFind.year], convertToMCM(curr['green'] + curr['blue'] + curr['grey'], 6), data])
+					data = convertToMCM(curr["data"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']), 3);
+					console.log(data);
+					if (data >= 0.001) {
+						arrayToSend.push([curr.country, curr["data"+toFind.year], convertToMCM(curr['green'] + curr['blue'] + curr['grey'], 6), data])
+					}
+					else {
+						completeArrayLength--;
+					}
 				}
 				console.log(arrayToSend);
 			} //else if curr.country !== British Virgin..
@@ -126,26 +137,33 @@ function getDataAndCalculate(toFind) {
 		} //for
 	}; //callback
 // For terminal startup use:
+//	db.collection("tradeMap").aggregate({$project: {mult: {$multiply: ['$data' + toFind.year, '$' + toFind.color]}}}, {$match: {mult: {$gte: 500}}});
 	var dbCall = {
 		commodity: toFind.commodity
 	};
+	var colorObject = {};
+	if (toFind.color !== "all") {
+		colorObject["" + toFind.color] = {$gt: 0};
+	}
+	else {
+	}
 //  	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
 //		if (err) doError(err);
 		var currYear = toFind.year;
 		if (currYear === '2009') {
-			dbCall.$or = [{data2009 : {$gt: 0}}, {export2009 : {$gte: 0}}];
+			dbCall.$or = [{$and : [{data2009: {$gt: 0}}, colorObject]}, {country: "Israel"}]
 			var crsr = db.collection("tradeMap").find(dbCall).sort({export2009: -1, data2009: -1}).limit(6);
 		} //if
 		else if (currYear === '2010') {
-			dbCall.$or = [{data2010 : {$gt: 0}}, {export2010 : {$gte: 0}}];
+			dbCall.$or = [{$and : [{data2010: {$gt: 0}}, colorObject]}, {country: "Israel"}]
 			var crsr = db.collection("tradeMap").find(dbCall).sort({export2010: -1, data2010: -1}).limit(6);
 		} //else if
 		else if (currYear === '2011') {
-			dbCall.$or = [{data2011 : {$gt: 0}}, {export2011 : {$gte: 0}}];
+			dbCall.$or = [{$and : [{data2011: {$gt: 0}}, colorObject]}, {country: "Israel"}]
 			var crsr = db.collection("tradeMap").find(dbCall).sort({export2011: -1, data2011: -1}).limit(6);
 		} //else if
 		else if (currYear === '2012') {
-			dbCall.$or = [{data2012 : {$gt: 0}}, {export2012 : {$gte: 0}}];
+			dbCall.$or = [{$and : [{data2012: {$gt: 0}}, colorObject]}, {country: "Israel"}]
 			var crsr = db.collection("tradeMap").find(dbCall).sort({export2012: -1, data2012: -1}).limit(6);
 		} //else if
 		else {
@@ -167,7 +185,7 @@ function aggregateDataAndCalculate(toFind) {
 			projectObject["data"+toFind.year] = 1;
 			projectObject["" + toFind.color] = 1;
 			projectObject["mult"] = {
-					$multiply: ["$"+toFind.color, "$data"+toFind.year]
+				$multiply: ["$"+toFind.color, "$data"+toFind.year]
 			}
 			db.collection("tradeMap").aggregate({
 				$project: projectObject
@@ -194,7 +212,7 @@ function aggregateDataAndCalculate(toFind) {
 			}, function(err, result){
 				if (err) doError(err);
 				for (var i = 0; i < result.length; i++) {
-					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average.toFixed(1), 6), convertToMCM(result[i].total)], 3);
+					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average, 6), convertToMCM(result[i].total, 3)]);
 				}
 			}
 		);
@@ -239,7 +257,7 @@ function aggregateDataAndCalculate(toFind) {
 			}, function(err, result){
 				if (err) doError(err);
 				for (var i = 0; i < result.length; i++) {
-					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average.toFixed(1), 6), convertToMCM(result[i].total)], 3);
+					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average, 6), convertToMCM(result[i].total, 3)]);
 				}
 			}
 			);
@@ -279,7 +297,7 @@ function getIsraelToo(toFind){
 			}, function(err, result){
 				if (err) doError(err);
 				for (var i = 0; i < result.length; i++) {
-					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average.toFixed(1), 6), convertToMCM(result[i].total)], 3);
+					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average, 6), convertToMCM(result[i].total, 3)]);
 				}
 				console.log(arrayToSend);
 			});
@@ -318,7 +336,7 @@ function getIsraelToo(toFind){
 			}, function(err, result) {
 				if (err) doError(err);
 				for (var i = 0; i < result.length; i++) {
-					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average.toFixed(1), 6), convertToMCM(result[i].total)], 3);
+					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average, 6), convertToMCM(result[i].total, 3)]);
 					console.log(arrayToSend);
 				}
 			}
