@@ -1,5 +1,15 @@
-google.load('visualization', '1', {'packages': ['geochart']});
-google.setOnLoadCallback(drawRegionsMap);
+var	locationString = location.search.substring(1);
+if (locationString.length == 6) {
+	window.onload = function() {
+		var	locationString = location.search.substring(1);
+		console.log(document.getElementById("yearSelect"));
+		document.getElementById("yearSelect").style.display = "none"
+	}
+}
+else {
+	google.load('visualization', '1', {'packages': ['geochart']});
+	google.setOnLoadCallback(drawRegionsMap);
+}
 
 var commodities = ["Apples", "Barley", "Beer", "Bovine Meat", "Butter, Ghee",
  "Coconuts - Incl Copra", "Coffee", "Cream", "Eggs + (Total)",
@@ -269,7 +279,6 @@ var options;
 
 function drawRegionsMap(drawOnly) {
 	if (drawOnly !== "yes") {
-		var	locationString = location.search.substring(1);
 		if (locationString.length > 0 && locationString.length < 3) {
 			com = (commodities[locationString - 1]);
 			doSetCommodity(com);
@@ -295,16 +304,18 @@ function drawRegionsMap(drawOnly) {
 		}
 		$("#commodityCaption").text(com);
 		$("#colorButton").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + color + "</span></span>");
-		$("#homeWithMap").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + year + "</span></span>");
+		$("#yearButton").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + year + "</span></span>");
 		var has2012 = true;
-		if (year === '2012') {
 			for (var k = 0; k < no2012Values.length; k++) {
 				if (com === no2012Values[k]) {
-					year = '2011';
-					$("#homeWithMap").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + year + "</span></span>");
+					$("#yearButton").attr("href", "page7.html?no2012")
+					if (year === '2012') {
+						$("#notYetAvailable").text("Displaying 2011 data because 2012 data for " + com.toLowerCase() + " is not yet available.").fadeIn(400).delay(3000).fadeOut(400);;
+						year = '2011';
+						$("#yearButton").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + year + "</span></span>");
+					}
 				} //if
 			} //for
-		}
 		var dataArray = $.parseJSON(doGetVirtualWater(com.trim(), year.trim(), color.trim()));
 		drawDataTable(dataArray);
 		var finalArray = new Array();
