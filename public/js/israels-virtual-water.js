@@ -222,6 +222,7 @@ function drawRegionsMap(drawOnly) {
 		finalArray[0] = ['Country', 'Virtual Water Export (mcm)'];
 		var arrLength = dataArray.length;
 		for (var j = 0; j < arrLength; j++) {
+			console.log(dataArray[j][3]);
 			finalArray[j+1] = [dataArray[j][0], dataArray[j][3]];
 			valueArray[arrLength - 1 - j] = dataArray[j][3];
 			if (dataArray[j][0] === "Israel") {
@@ -243,7 +244,7 @@ function drawRegionsMap(drawOnly) {
 	        }
 	    };
 	} //if not drawOnly
-    var formatter = new google.visualization.NumberFormat({pattern:'###,###.####'} );
+    var formatter = new google.visualization.NumberFormat({pattern:' ###,###.####'} );
     formatter.format(data, 1);
     var chartDiv = document.getElementById('chart_div');
     if (chartDiv == null) {
@@ -273,7 +274,7 @@ window.onresize = function(event) {
 	var mq2 = window.matchMedia( "(min-width: 390px)" );
 	replaceWithAbbreviations();
 	if (!mq.matches) {
-		$("#theTable tr:eq(0) th:eq(3)").html("Avg. (mcm/ton)");
+		$("#theTable tr:eq(0) th:eq(3)").html("Average (mcm/ton)");
 		$("#theTable tr:eq(0) th:eq(5)").html("Total (mcm)");
 	}
 	else {
@@ -297,8 +298,12 @@ function drawDataTable(dataArray) {
 	var rowCount = table.rows.length; //should be 7 (including thead)
 	var columnCount = table.rows[0].cells.length; //should = 6
 	if (!mq.matches) {
-		$("#theTable tr:eq(0) th:eq(3)").html("Avg. (mcm/ton)");
+		$("#theTable tr:eq(0) th:eq(3)").html("Average (mcm/ton)");
 		$("#theTable tr:eq(0) th:eq(5)").html("Total (mcm)");
+	}
+	else {
+		$("#theTable tr:eq(0) th:eq(3)").html("Average Virtual Water Cost (mcm/ton)");
+		$("#theTable tr:eq(0) th:eq(5)").html("Total Virtual Water (mcm)");
 	}
 	for (var i = 0; i < dataArray.length; i++) {
 		for (var j = 0; j < columnCount; j++) {
