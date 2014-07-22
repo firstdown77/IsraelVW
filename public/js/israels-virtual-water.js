@@ -236,6 +236,7 @@ function drawRegionsMap(drawOnly) {
 	    options = {
 	        displayMode: 'markers',
 	        allowHtml: true,
+	        tooltip: {isHtml: false},
 	        colorAxis:  {
 	        	values: valueArray,
 	        	colors: colorArray
