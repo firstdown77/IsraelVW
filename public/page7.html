@@ -3,26 +3,28 @@
 <head>
   <meta charset="utf-8">
   <title>Year Selection | Israel's Virtual Water</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mobile-1.3.1.min.js"></script>
+  <script type="text/javascript" src="js/codiqa.ext.min.js"></script>
+  <script type="text/javascript" src="js/year-selection.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  <link href="css/jquery.mobile-1.3.1.min.css" rel="stylesheet">
-  <link href="css/israels-virtual-water.css" rel="stylesheet">
-
-  <script src="js/jquery-1.9.1.min.js"></script>
-  <script src="js/jquery.mobile-1.3.1.min.js"></script>
-  <script src="js/israels-virtual-water.js"></script>
+  <link href="css/jquery.mobile-1.3.1.min.css" rel="stylesheet" />
+  <link href="css/codiqa.ext.min.css" rel="stylesheet" />
+  <link href="css/israels-virtual-water.css" rel="stylesheet" />
 </head>
 <body>
   <div data-role="page" data-control-title="YearSelection" id="page7">
       <div data-theme="g" data-role="header">
+          <a data-role="button" href="page2.html" data-icon="back" data-iconpos="left" class="ui-btn-left" rel="external">
+              Back
+          </a>
           <h2>
               Israel's Virtual Water
           </h2>
-          <a data-role="button" href="page2.html" data-icon="back" data-iconpos="left" class="ui-btn-right" rel="external">
-              Back
-          </a>
       </div>
       <div data-role="content">
           <ul class="yearSelectionList" data-role="listview" data-divider-theme="b" data-inset="true">
@@ -47,6 +49,20 @@
               <li data-theme="c">
                   <a href="page2.html?2009" data-transition="slide" rel="external">
                       2009
+                  </a>
+              </li>
+          </ul>
+      </div>
+      <div data-role="tabbar" data-iconpos="top" data-theme="f">
+          <ul>
+              <li>
+                  <a href="page3.html" data-transition="fade" data-theme="" data-icon="">
+                      Explanation
+                  </a>
+              </li>
+              <li>
+                  <a href="page4.html" data-transition="fade" data-theme="" data-icon="">
+                      Sources
                   </a>
               </li>
           </ul>

@@ -12,6 +12,10 @@ body {
     margin-right: 10%;
     margin-left: 10%;
 }
+.ui-navbar ul {
+  /* Supposedly deals with stationary navbar on iOS */
+  overflow: visible !important;
+}
 #theTable {
     width:90%;
     height:100%;

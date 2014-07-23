@@ -1,22 +1,5 @@
-var	locationString = location.search.substring(1);
-if (locationString.length == 6) {
-	window.onload = function() {
-		var	locationString = location.search.substring(1);
-		document.getElementById("yearSelect").style.display = "none"
-	}
-}
-else if (locationString.length == 8) {
-	window.onload = function() {
-		var	locationString = location.search.substring(1);
-		document.getElementById("yearSelect").nextElementSibling.nextElementSibling.nextElementSibling.style.display = "none";
-		document.getElementById("yearSelect").nextElementSibling.nextElementSibling.style.display = "none";
-		document.getElementById("yearSelect").nextElementSibling.style.display = "none";
-	}
-}
-else {
-	google.load('visualization', '1', {'packages': ['geochart']});
-	google.setOnLoadCallback(drawRegionsMap);
-}
+google.load('visualization', '1', {'packages': ['geochart']});
+google.setOnLoadCallback(drawRegionsMap);
 
 var commodities = ["Apples", "Barley", "Beer", "Bovine Meat", "Butter, Ghee",
  "Coconuts - Incl Copra", "Coffee", "Cream", "Eggs + (Total)",
@@ -167,6 +150,7 @@ var options;
 
 function drawRegionsMap(drawOnly) {
 	if (drawOnly !== "yes") {
+		var	locationString = location.search.substring(1);
 		if (locationString.length > 0 && locationString.length < 3) {
 			com = (commodities[locationString - 1]);
 			doSetCommodity(com);
@@ -222,7 +206,6 @@ function drawRegionsMap(drawOnly) {
 		finalArray[0] = ['Country', 'Virtual Water Export (mcm)'];
 		var arrLength = dataArray.length;
 		for (var j = 0; j < arrLength; j++) {
-			console.log(dataArray[j][3]);
 			finalArray[j+1] = [dataArray[j][0], dataArray[j][3]];
 			valueArray[arrLength - 1 - j] = dataArray[j][3];
 			if (dataArray[j][0] === "Israel") {
@@ -232,12 +215,10 @@ function drawRegionsMap(drawOnly) {
 				colorArray[arrLength - 1 - j] = "green";
 			}
 		}
-//		console.log(finalArray);
 		data = google.visualization.arrayToDataTable(finalArray);
 	    options = {
 	        displayMode: 'markers',
 	        allowHtml: true,
-	        tooltip: {isHtml: false},
 	        colorAxis:  {
 	        	values: valueArray,
 	        	colors: colorArray
@@ -448,42 +429,3 @@ function doSetColor(currColor) {
 			color: currColor
 	    }}).responseText;
 }
-
-//function doGetXMLParsing() {
-//	$.ajax({
-//		url: "parseXMLRequest",
-//		type: "get",
-//        success: function(data) {
-//		},
-//		error: function(jqXHR, textStatus, errorThrown) {
-//			alert('error ' + textStatus + " " + errorThrown);
-//		}
-//	});
-//	return false;	
-//}
-//
-//function doGetTXTParsing() {
-//	$.ajax({
-//		url: "parseTXTRequest",
-//		type: "get",
-//        success: function(data) {
-//		},
-//		error: function(jqXHR, textStatus, errorThrown) {
-//			alert('error ' + textStatus + " " + errorThrown);
-//		}
-//	});
-//	return false;	
-//}
-//
-//function doGetExportsParsing() {
-//	$.ajax({
-//		url: "parseExportsRequest",
-//		type: "get",
-//        success: function(data) {
-//		},
-//		error: function(jqXHR, textStatus, errorThrown) {
-//			alert('error ' + textStatus + " " + errorThrown);
-//		}
-//	});
-//	return false;	
-//}
