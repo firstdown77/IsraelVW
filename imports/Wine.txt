@@ -1,55 +1,63 @@
 List of supplying markets for a product imported by Israel Product: 2204 Wine of fresh grapes
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, "	"2013-Imported quantity, "	
-World	4,821	7,431	6,759	No Quantity	No Quantity	
-Italy	945	2,006	1,750	No Quantity	No Quantity	
-Spain	1,009	1,607	1,286	No Quantity	No Quantity	
-France	726	1,263	1,045	No Quantity	No Quantity	
-Chile	402	415	680	No Quantity	No Quantity	
-Argentina	384	391	556	No Quantity	No Quantity	
-United States	321	486	315	No Quantity	No Quantity	
-Republic of Moldova	95	145	164	No Quantity	No Quantity	
-Germany	92	105	157	No Quantity	No Quantity	
-Ukraine	172	268	150	No Quantity	No Quantity	
-Romania	55	42	110	No Quantity	No Quantity	
-Georgia	59	103	109	No Quantity	No Quantity	
-Australia	244	194	107	No Quantity	No Quantity	
-United Kingdom	26	47	70	No Quantity	No Quantity	
-Bulgaria	29	47	62	No Quantity	No Quantity	
-South Africa	68	74	60	No Quantity	No Quantity	
-Belarus	40	47	44	No Quantity	No Quantity	
-Belgium	50	86	24	No Quantity	No Quantity	
-Switzerland	4	7	18	No Quantity	No Quantity	
-Austria	3	7	12	No Quantity	No Quantity	
-Latvia	18	15	10	No Quantity	No Quantity	
-Portugal	19	36	10	No Quantity	No Quantity	
-Netherlands	17	21	8	No Quantity	No Quantity	
-Canada	1	0	6	0	No Quantity	
-New Zealand	3	5	3	No Quantity	No Quantity	
-Poland	5	0	3	0	0	
-Brazil	0	0	1	0	0	
-Area Nes	2	0	0	0	No Quantity	
-Armenia	0	0	0	0	No Quantity	
-Sri Lanka	0	0	0	No Quantity	0	
-China	0	0	0	0	No Quantity	
-Croatia	0	0	0	0	No Quantity	
-Cyprus	1	0	0	0	0	
-Czech Republic	0	0	0	0	No Quantity	
-Denmark	0	0	0	No Quantity	No Quantity	
-Greece	10	2	0	0	No Quantity	
-Hong Kong, China	0	0	0	No Quantity	No Quantity	
-Hungary	7	0	0	No Quantity	No Quantity	
-Japan	0	1	0	0	No Quantity	
-Jordan	1	0	0	0	0	
-Korea, Republic of	0	0	0	0	No Quantity	
-Luxembourg	6	0	0	0	0	
-Mexico	0	0	0	0	No Quantity	
-Taipei, Chinese	0	1	0	0	No Quantity	
-Nigeria	0	0	0	0	No Quantity	
-Peru	0	0	0	0	No Quantity	
-Russian Federation	8	5	0	0	No Quantity	
-India	0	0	0	0	No Quantity	
-Singapore	0	0	0	0	No Quantity	
-Slovakia	0	0	0	0	No Quantity	
-Slovenia	1	0	0	0	No Quantity	
-Thailand	0	0	0	0	No Quantity	
-Uruguay	0	4	0	0	No Quantity	
+"Exporters"	"2001-Imported quantity"	"2001-Unit"	"2002-Imported quantity, Cubic meters"	"2003-Imported quantity, Cubic meters"	"2004-Imported quantity, Cubic meters"	"2005-Imported quantity, Cubic meters"	"2006-Imported quantity, Cubic meters"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, "	"2013-Imported quantity, "	
+World	4,662	Cubic meters	4,691	3,368	3,420	3,172	3,603	3,947	5,414	4,821	7,431	6,759	No Quantity	No Quantity	
+Italy	1,019	Cubic meters	1,161	801	690	624	853	760	874	945	2,006	1,750	No Quantity	No Quantity	
+Spain	304	Cubic meters	393	277	344	330	351	338	730	1,009	1,607	1,286	No Quantity	No Quantity	
+France	981	Cubic meters	962	844	898	869	809	659	812	726	1,263	1,045	No Quantity	No Quantity	
+Chile	843	Cubic meters	656	325	437	401	402	595	760	402	415	680	No Quantity	No Quantity	
+Argentina	29	Cubic meters	21	38	88	156	271	454	706	384	391	556	No Quantity	No Quantity	
+United States of America	342	Cubic meters	249	185	224	213	249	222	314	321	486	315	No Quantity	No Quantity	
+Republic of Moldova	91	Cubic meters	82	105	108	37	83	128	149	95	145	164	No Quantity	No Quantity	
+Germany	19	Cubic meters	32	24	15	20	34	33	65	92	105	157	No Quantity	No Quantity	
+Ukraine	26	Cubic meters	31	20	31	39	68	53	254	172	268	150	No Quantity	No Quantity	
+Romania	296	Cubic meters	274	239	104	82	69	166	133	55	42	110	No Quantity	No Quantity	
+Georgia	55	Cubic meters	43	44	76	50	39	102	114	59	103	109	No Quantity	No Quantity	
+Australia	183	Cubic meters	278	187	175	178	204	239	230	244	194	107	No Quantity	No Quantity	
+United Kingdom	75	Cubic meters	60	24	65	14	11	33	12	26	47	70	No Quantity	No Quantity	
+Bulgaria	171	Cubic meters	174	57	49	35	32	30	8	29	47	62	No Quantity	No Quantity	
+South Africa	50	Cubic meters	65	36	33	53	39	51	65	68	74	60	No Quantity	No Quantity	
+Belarus	0		0	0	0	0	0	No Quantity	40	40	47	44	No Quantity	No Quantity	
+Belgium	40	Cubic meters	43	61	29	17	36	28	27	50	86	24	No Quantity	No Quantity	
+Switzerland	6	Cubic meters	0	6	3	3	1	0	11	4	7	18	No Quantity	No Quantity	
+Austria	12	Cubic meters	16	0	2	2	1	No Quantity	5	3	7	12	No Quantity	No Quantity	
+Latvia	13	Cubic meters	10	3	9	9	10	No Quantity	19	18	15	10	No Quantity	No Quantity	
+Portugal	12	Cubic meters	13	6	14	8	9	27	24	19	36	10	No Quantity	No Quantity	
+Netherlands	2	Cubic meters	24	7	3	0	0	No Quantity	8	17	21	8	No Quantity	No Quantity	
+Canada	0		2	0	3	1	0	4	0	1	0	6	0	No Quantity	
+New Zealand	6	Cubic meters	23	1	1	0	10	5	2	3	5	3	No Quantity	No Quantity	
+Poland	0		12	0	2	0	0	0	0	5	0	3	0	0	
+Brazil	3	Cubic meters	0	0	0	0	1	1	1	0	0	1	0	0	
+Marshall Islands	0		0	0	2	0	0	0	0	0	0	0	0	0	
+Area Nes	0		0	3	0	0	0	0	0	2	0	0	0	No Quantity	
+Albania	0		0	1	0	0	0	0	0	0	0	0	0	0	
+Armenia	9	Cubic meters	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Sri Lanka	0		0	0	0	0	0	0	0	0	0	0	No Quantity	0	
+China	7	Tons	0	0	0	0	0	0	6	0	0	0	0	No Quantity	
+Croatia	0		0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Cyprus	19	Cubic meters	12	9	3	0	0	2	0	1	0	0	0	0	
+Czech Republic	0		0	0	0	0	0	0	9	0	0	0	0	No Quantity	
+Denmark	0	Cubic meters	0	0	0	0	0	0	0	0	0	0	No Quantity	No Quantity	
+Ecuador	0		0	0	0	0	0	0	0	0	0	0	0	0	
+Greece	7	Cubic meters	0	0	0	2	1	1	16	10	2	0	0	No Quantity	
+Hong Kong, China	2	Cubic meters	0	0	0	0	0	0	0	0	0	0	No Quantity	No Quantity	
+Hungary	27	Cubic meters	12	11	7	8	8	7	3	7	0	0	No Quantity	No Quantity	
+Ireland	0		8	0	0	0	0	0	0	0	0	0	0	0	
+Japan	0		0	0	0	0	0	0	0	0	1	0	0	No Quantity	
+Jordan	0		0	0	0	0	0	0	0	1	0	0	0	0	
+Korea, Republic of	0		0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Lithuania	0		8	9	0	0	0	0	0	0	0	0	0	0	
+Luxembourg	0		0	0	0	0	0	0	5	6	0	0	0	0	
+Mexico	0		0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Taipei, Chinese	0		2	0	0	0	0	0	0	0	1	0	0	No Quantity	
+Nigeria	0		0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Norway	0		2	0	0	0	0	0	0	0	0	0	0	0	
+Peru	0		0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Russian Federation	0		18	44	5	22	11	1	11	8	5	0	0	No Quantity	
+India	0		0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Singapore	4	Cubic meters	0	0	0	0	1	6	0	0	0	0	0	No Quantity	
+Slovakia	0		0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Slovenia	0		0	0	0	0	0	1	0	1	0	0	0	No Quantity	
+Sweden	9	Tons	0	0	0	0	0	0	0	0	0	0	0	0	
+Thailand	0		0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Turkey	0		4	0	0	0	0	0	0	0	0	0	0	0	
+Uruguay	0	Cubic meters	0	0	0	0	0	0	0	0	4	0	0	No Quantity	

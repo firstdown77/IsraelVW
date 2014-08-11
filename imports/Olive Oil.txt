@@ -1,21 +1,24 @@
 List of supplying markets for a product imported by Israel Product: 1509 Olive oil and its fractions
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	3,748	7,845	5,688	3,708	No Quantity	
-Spain	2,164	4,854	3,847	2,245	No Quantity	
-Jordan	862	913	915	959	No Quantity	
-Italy	221	487	294	358	No Quantity	
-United States	1	22	291	53	No Quantity	
-Switzerland	2	29	22	28	0	
-Morocco	0	0	1	27	0	
-Germany	10	65	23	21	No Quantity	
-Greece	198	441	12	8	No Quantity	
-Turkey	158	236	17	7	No Quantity	
-France	8	66	2	1	No Quantity	
-Australia	44	0	0	0	0	
-Austria	0	2	1	0	No Quantity	
-Belgium	0	0	0	0	No Quantity	
-Netherlands	0	0	4	0	0	
-Portugal	21	4	0	0	0	
-Tunisia	0	625	260	0	0	
-Egypt	59	0	0	0	No Quantity	
-United Kingdom	0	103	0	0	No Quantity	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	3,776	3,588	3,353	2,530	1,348	1,786	1,782	2,199	3,748	7,845	5,688	3,708	No Quantity	
+Spain	1,553	2,176	1,612	1,252	455	592	699	1,099	2,164	4,854	3,847	2,245	No Quantity	
+Jordan	166	368	860	874	827	1,019	882	782	862	913	915	959	No Quantity	
+Italy	202	183	77	102	30	17	12	156	221	487	294	358	No Quantity	
+United States of America	0	5	11	9	23	1	7	1	1	22	291	53	No Quantity	
+Tunisia	0	0	0	0	0	0	0	0	0	625	260	0	0	
+Germany	14	10	12	6	6	6	8	3	10	65	23	21	No Quantity	
+Switzerland	0	0	0	0	0	0	0	0	2	29	22	28	0	
+Turkey	1,424	409	33	150	0	59	69	49	158	236	17	7	No Quantity	
+Greece	297	34	31	1	7	12	16	11	198	441	12	8	No Quantity	
+Netherlands	0	0	0	0	0	0	0	0	0	0	4	0	0	
+France	0	35	26	0	0	2	0	8	8	66	2	1	No Quantity	
+Austria	0	0	0	0	0	0	0	0	0	2	1	0	No Quantity	
+Morocco	0	0	0	0	0	0	0	0	0	0	1	27	0	
+Argentina	33	0	0	0	0	48	40	0	0	0	0	0	0	
+Australia	0	0	0	0	0	0	0	45	44	0	0	0	0	
+Belgium	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Canada	14	0	0	0	0	0	0	0	0	0	0	0	0	
+Ecuador	22	0	0	0	0	0	0	0	0	0	0	0	0	
+Portugal	0	0	139	118	0	30	25	0	21	4	0	0	0	
+Egypt	50	369	552	17	0	0	24	44	59	0	0	0	No Quantity	
+United Kingdom	0	0	0	0	0	0	0	0	0	103	0	0	No Quantity	

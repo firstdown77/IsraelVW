@@ -1,10 +1,21 @@
 List of supplying markets for a product imported by Israel Product: 070310 Onions and shallots, fresh or chilled
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	7,303	3,511	3,439	6,672	No Quantity	
-Netherlands	6,540	3,303	3,083	5,432	No Quantity	
-Belgium	586	180	322	930	No Quantity	
-Jordan	19	0	0	290	No Quantity	
-Greece	0	0	0	19	No Quantity	
-China	0	0	10	0	No Quantity	
-Germany	28	28	0	0	0	
-Spain	130	0	24	0	No Quantity	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, "	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	5,261	600	3,339	0	1,406	2,266	823	7,813	7,303	3,511	3,439	6,672	No Quantity	
+Netherlands	2,710	37	1,271	0	1,090	1,376	788	6,858	6,540	3,303	3,083	5,432	No Quantity	
+Belgium	52	8	100	0	15	0	0	174	586	180	322	930	No Quantity	
+Spain	177	0	247	0	126	693	25	124	130	0	24	0	No Quantity	
+China	0	0	0	0	0	0	0	0	0	0	10	0	No Quantity	
+Europe Othr. Nes	0	25	0	0	0	0	0	0	0	0	0	0	0	
+Canada	0	0	0	0	18	0	0	0	0	0	0	0	0	
+Denmark	150	0	0	0	0	0	0	0	0	0	0	0	0	
+France	1,427	0	125	0	121	169	0	125	0	0	0	0	0	
+Germany	0	1	0	0	0	0	0	0	28	28	0	0	0	
+Greece	174	0	25	0	0	0	0	0	0	0	0	19	No Quantity	
+Hungary	20	49	0	0	0	0	0	0	0	0	0	0	0	
+Italy	0	0	0	0	0	0	0	26	0	0	0	0	0	
+Jordan	116	4	174	0	0	0	10	507	19	0	0	290	No Quantity	
+Poland	0	0	63	0	15	0	0	0	0	0	0	0	0	
+Romania	0	24	0	0	0	0	0	0	0	0	0	0	0	
+Turkey	416	453	1,333	0	0	28	0	0	0	0	0	0	0	
+Egypt	0	0	0	0	20	0	0	0	0	0	0	0	0	
+United States of America	20	0	0	0	0	0	0	0	0	0	0	0	0	

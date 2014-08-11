@@ -1,36 +1,39 @@
 List of importing markets for a product exported by Israel Product: 0701 Potatoes
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
-World	336,177	260,822	256,903	210,935	No Quantity	
-United Kingdom	118,437	87,998	59,215	56,067	No Quantity	
-Netherlands	44,405	30,353	30,141	42,819	No Quantity	
-Russian Federation	17,669	8,698	48,107	26,572	No Quantity	
-Belgium	48,804	24,044	25,082	21,626	No Quantity	
-France	29,406	25,599	22,280	19,964	No Quantity	
-Germany	16,430	20,606	22,466	10,465	No Quantity	
-Italy	21,859	25,971	10,328	7,867	No Quantity	
-Slovenia	6,828	6,401	10,367	7,759	No Quantity	
-Norway	5,390	10,036	4,102	6,753	No Quantity	
-Spain	7,442	12,560	8,839	3,459	No Quantity	
-Switzerland	5,850	4,280	8,824	3,129	No Quantity	
-Ireland	986	864	163	1,539	No Quantity	
-Sweden	788	747	975	1,235	No Quantity	
-Denmark	109	132	872	486	No Quantity	
-Ukraine	153	106	741	473	No Quantity	
-Portugal	135	108	314	162	0	
-Poland	869	271	763	135	No Quantity	
-Austria	2,518	1,450	2,368	130	No Quantity	
-Finland	236	3	0	95	0	
-Georgia	0	0	142	75	0	
-Greece	1,754	110	592	54	No Quantity	
-Jordan	2,145	0	89	30	No Quantity	
-Croatia	0	0	74	27	0	
-Cyprus	65	199	17	14	No Quantity	
-Iraq	3,444	0	0	0	0	
-Czech Republic	402	196	0	0	0	
-Hong Kong, China	0	35	0	0	No Quantity	
-Hungary	0	0	0	0	No Quantity	
-Kazakhstan	53	0	0	0	0	
-Latvia	0	0	0	0	No Quantity	
-Lithuania	0	0	42	0	0	
-Serbia	0	54	0	0	0	
-South Africa	0	0	0	0	No Quantity	
+"Importers"	"2001-Exported quantity, Tons"	"2002-Exported quantity, Tons"	"2003-Exported quantity, Tons"	"2004-Exported quantity, "	"2005-Exported quantity, Tons"	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	156,513	146,261	203,803	0	227,497	271,191	452,776	336,494	336,177	260,822	256,903	210,935	No Quantity	
+United Kingdom	82,201	92,645	94,566	0	112,140	95,616	151,766	145,609	118,437	87,998	59,215	56,067	No Quantity	
+Russian Federation	1,281	1,909	9,578	0	5,518	23,174	22,540	13,368	17,669	8,698	48,107	26,572	No Quantity	
+Netherlands	5,355	6,803	22,358	0	13,206	18,270	86,472	26,259	44,405	30,353	30,141	42,819	No Quantity	
+Belgium	552	595	1,186	0	12,656	16,398	28,062	21,480	48,804	24,044	25,082	21,626	No Quantity	
+Germany	5,115	531	3,240	0	10,435	26,146	26,074	11,770	16,430	20,606	22,466	10,465	No Quantity	
+France	31,522	29,018	29,877	0	28,661	34,873	39,598	55,964	29,406	25,599	22,280	19,964	No Quantity	
+Slovenia	0	0	0	0	0	2,194	4,894	3,833	6,828	6,401	10,367	7,759	No Quantity	
+Italy	1,123	301	50	0	697	940	5,375	7,463	21,859	25,971	10,328	7,867	No Quantity	
+Spain	13,854	4,821	24,174	0	28,743	32,331	47,951	24,853	7,442	12,560	8,839	3,459	No Quantity	
+Switzerland	7,985	2,961	2,811	0	4,702	7,760	5,973	4,336	5,850	4,280	8,824	3,129	No Quantity	
+Norway	5,926	4,829	9,352	0	4,845	8,163	8,907	13,096	5,390	10,036	4,102	6,753	No Quantity	
+Austria	1,372	124	223	0	290	2,091	2,149	1,986	2,518	1,450	2,368	130	No Quantity	
+Sweden	0	0	241	0	0	0	601	326	788	747	975	1,235	No Quantity	
+Denmark	0	0	1	0	0	0	0	175	109	132	872	486	No Quantity	
+Poland	0	133	0	0	0	1,206	2,573	270	869	271	763	135	No Quantity	
+Ukraine	0	0	0	0	0	277	52	130	153	106	741	473	No Quantity	
+Greece	158	1,452	5,685	0	5,447	311	0	67	1,754	110	592	54	No Quantity	
+Portugal	67	0	0	0	0	0	0	0	135	108	314	162	0	
+Ireland	0	0	187	0	72	1,005	2,371	3,548	986	864	163	1,539	No Quantity	
+Georgia	0	0	0	0	0	0	0	0	0	0	142	75	0	
+Jordan	0	0	0	0	0	103	15,825	1,309	2,145	0	89	30	No Quantity	
+Croatia	0	0	0	0	0	0	0	0	0	0	74	27	0	
+Lithuania	0	0	0	0	0	0	0	0	0	0	42	0	0	
+Cyprus	0	0	0	0	3	314	0	23	65	199	17	14	No Quantity	
+Iraq	0	0	0	0	0	0	0	0	3,444	0	0	0	0	
+Europe Othr. Nes	0	0	251	0	0	0	0	0	0	0	0	0	0	
+Czech Republic	0	44	14	0	31	0	956	547	402	196	0	0	0	
+Finland	0	0	0	0	0	0	0	83	236	3	0	95	0	
+Hong Kong, China	0	0	0	0	0	0	0	0	0	35	0	0	No Quantity	
+Hungary	0	0	0	0	0	21	0	0	0	0	0	0	No Quantity	
+Kazakhstan	0	0	0	0	0	0	0	0	53	0	0	0	0	
+Latvia	0	94	8	0	0	0	0	0	0	0	0	0	No Quantity	
+Netherland Antilles	0	0	0	0	0	0	637	0	0	0	0	0	0	
+Serbia	0	0	0	0	0	0	0	0	0	54	0	0	0	
+South Africa	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Thailand	0	0	0	0	50	0	0	0	0	0	0	0	0	

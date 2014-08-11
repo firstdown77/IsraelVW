@@ -1,36 +1,42 @@
 List of supplying markets for a product imported by Israel Product: 1005 Maize (corn)
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	894,893	981,100	No Quantity	1,228,528	No Quantity	
-Switzerland	388,730	539,863	No Quantity	572,178	0	
-Netherlands	183,388	160,646	No Quantity	226,233	0	
-France	18,302	18	No Quantity	166,785	No Quantity	
-Singapore	0	0	0	106,776	0	
-United Kingdom	67,032	43,716	54,025	49,602	0	
-Ukraine	40,603	40,088	25,588	43,321	No Quantity	
-British Virgin Islands	8,279	8,539	2,861	16,275	0	
-Brazil	0	6,226	No Quantity	13,071	No Quantity	
-Cyprus	7,687	0	27,752	12,249	0	
-Russian Federation	7,839	0	No Quantity	10,150	No Quantity	
-United States	48,741	96,265	No Quantity	5,929	No Quantity	
-Germany	94,091	39,472	No Quantity	3,080	0	
-Uruguay	0	0	0	1,650	0	
-Turkey	492	347	0	946	0	
-India	6	10	No Quantity	171	No Quantity	
-Spain	1,005	46	No Quantity	70	No Quantity	
-Egypt	14	20	30	20	No Quantity	
-Australia	16	0	0	16	0	
-Italy	171	0	0	7	No Quantity	
-Argentina	0	8,075	197	0	No Quantity	
-Belgium	2	1	No Quantity	0	0	
-Bermuda	0	7,642	0	0	0	
-Bulgaria	0	0	0	0	No Quantity	
-Canada	0	0	0	0	No Quantity	
-Denmark	7,005	10,873	0	0	0	
-Ethiopia	0	0	2,864	0	0	
-Hungary	4,619	0	0	0	No Quantity	
-Republic of Moldova	0	0	0	0	No Quantity	
-Panama	0	2,195	6,230	0	0	
-Poland	6	0	0	0	0	
-Portugal	589	0	0	0	0	
-Romania	16,276	16,269	No Quantity	0	No Quantity	
-Serbia	0	790	0	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	No Quantity	No Quantity	No Quantity	1,250,678	779,999	934,481	1,065,417	No Quantity	894,893	981,100	No Quantity	1,228,528	No Quantity	
+United Kingdom	96,350	No Quantity	63,251	10,897	81,182	23,321	75,374	7,108	67,032	43,716	54,025	49,602	0	
+Cyprus	0	0	0	0	0	4,876	0	3,825	7,687	0	27,752	12,249	0	
+Ukraine	0	0	11,970	1,805	6,765	10,002	0	3,732	40,603	40,088	25,588	43,321	No Quantity	
+Panama	0	0	0	4,400	0	0	9,949	10,738	0	2,195	6,230	0	0	
+Ethiopia	0	0	0	0	0	0	0	0	0	0	2,864	0	0	
+British Virgin Islands	0	0	0	0	0	0	0	0	8,279	8,539	2,861	16,275	0	
+Argentina	76,982	35,578	24,853	57,968	50,972	1,169	111,589	8,870	0	8,075	197	0	No Quantity	
+Egypt	No Quantity	No Quantity	6	0	0	0	16	0	14	20	30	20	No Quantity	
+Australia	0	No Quantity	No Quantity	0	24	1	8	No Quantity	16	0	0	16	0	
+Austria	0	2,980	6,963	0	0	0	0	0	0	0	0	0	0	
+Belgium	0	0	0	0	0	0	0	0	2	1	No Quantity	0	0	
+Bermuda	0	0	0	0	0	0	18,511	0	0	7,642	0	0	0	
+Brazil	36,812	150	9,814	0	0	0	0	0	0	6,226	No Quantity	13,071	No Quantity	
+Bulgaria	0	0	0	1,045	2,728	0	0	0	0	0	0	0	No Quantity	
+Canada	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Chile	No Quantity	0	0	0	0	0	0	0	0	0	0	0	0	
+Denmark	0	0	0	0	0	0	0	0	7,005	10,873	0	0	0	
+Eritrea	0	0	0	0	2,035	0	0	0	0	0	0	0	0	
+France	51,808	No Quantity	43,239	23,601	12,341	2,624	18,619	No Quantity	18,302	18	No Quantity	166,785	No Quantity	
+Germany	23,290	2,878	25,779	10,009	31,986	0	5,811	12,100	94,091	39,472	No Quantity	3,080	0	
+Greece	0	0	0	0	6,727	16,052	4,000	0	0	0	0	0	0	
+Hungary	0	0	0	0	0	0	0	3,018	4,619	0	0	0	No Quantity	
+Italy	18,880	No Quantity	398	22	504	1,099	530	552	171	0	0	7	No Quantity	
+Republic of Moldova	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Netherlands	No Quantity	No Quantity	No Quantity	70,069	211,616	66,284	128,097	No Quantity	183,388	160,646	No Quantity	226,233	0	
+Poland	0	0	0	0	0	0	0	97	6	0	0	0	0	
+Portugal	0	0	0	0	0	0	0	0	589	0	0	0	0	
+Romania	0	1,324	6,893	11,660	0	0	0	11,469	16,276	16,269	No Quantity	0	No Quantity	
+Russian Federation	0	2,942	1,929	0	5,455	0	0	0	7,839	0	No Quantity	10,150	No Quantity	
+Serbia	0	0	0	0	0	0	0	0	0	790	0	0	0	
+India	0	0	0	0	0	0	0	0	6	10	No Quantity	171	No Quantity	
+Singapore	0	0	0	0	0	0	0	0	0	0	0	106,776	0	
+South Africa	0	80	0	0	0	0	0	0	0	0	0	0	0	
+Spain	No Quantity	No Quantity	No Quantity	62	33	62	67	No Quantity	1,005	46	No Quantity	70	No Quantity	
+Switzerland	228,912	220,248	386,938	726,276	252,471	656,942	414,404	466,536	388,730	539,863	No Quantity	572,178	0	
+Thailand	0	0	9	0	0	0	0	0	0	0	0	0	0	
+Turkey	551	349	927	284	14,829	687	579	495	492	347	0	946	0	
+United States of America	No Quantity	No Quantity	No Quantity	332,580	100,331	151,362	277,862	No Quantity	48,741	96,265	No Quantity	5,929	No Quantity	
+Uruguay	0	0	0	0	0	0	0	0	0	0	0	1,650	0	

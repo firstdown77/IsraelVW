@@ -1,28 +1,46 @@
 List of importing markets for a product exported by Israel Product: 2203 Beer made from malt
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Cubic meters"	"2013-Exported quantity, "	
-World	159	266	466	213	No Quantity	
-Belgium	1	0	93	0	No Quantity	
-France	28	44	91	48	No Quantity	
-United States of America	73	66	64	60	No Quantity	
-Canada	4	18	42	53	No Quantity	
-United Kingdom	17	18	38	13	No Quantity	
-Russian Federation	0	0	36	0	No Quantity	
-Poland	0	0	32	0	0	
-Italy	3	8	15	3	No Quantity	
-Germany	4	14	13	8	No Quantity	
-South Africa	1	0	13	0	0	
-Japan	11	12	11	10	No Quantity	
-Hungary	0	13	8	5	No Quantity	
-Australia	8	69	7	4	No Quantity	
-Mexico	0	0	2	0	0	
-New Zealand	0	0	1	0	0	
-China	0	0	0	0	No Quantity	
-Czech Republic	0	0	0	1	0	
-Hong Kong, China	0	0	0	0	No Quantity	
-Netherlands	0	1	0	0	0	
-Romania	0	0	0	3	0	
-Singapore	0	1	0	0	0	
-Slovakia	0	1	0	0	0	
-Slovenia	7	0	0	5	0	
-Switzerland	0	0	0	0	No Quantity	
-Thailand	2	0	0	1	0	
+"Importers"	"2001-Exported quantity, Cubic meters"	"2002-Exported quantity, Tons"	"2003-Exported quantity, Tons"	"2004-Exported quantity, Tons"	"2005-Exported quantity, Cubic meters"	"2006-Exported quantity, Cubic meters"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Cubic meters"	"2013-Exported quantity, "	
+World	665	716	1,420	1,904	335	333	849	380	159	266	466	213	No Quantity	
+Belgium	49	0	51	0	0	0	0	0	1	0	93	0	No Quantity	
+France	196	182	32	19	57	157	87	47	28	44	91	48	No Quantity	
+United States of America	265	384	415	385	136	86	89	101	73	66	64	60	No Quantity	
+Canada	12	17	18	12	0	9	28	14	4	18	42	53	No Quantity	
+United Kingdom	37	31	201	326	14	1	30	19	17	18	38	13	No Quantity	
+Russian Federation	0	0	0	0	0	0	0	0	0	0	36	0	No Quantity	
+Poland	0	0	0	0	0	0	0	0	0	0	32	0	0	
+Italy	1	1	8	0	29	0	0	8	3	8	15	3	No Quantity	
+Germany	6	6	7	6	5	5	6	5	4	14	13	8	No Quantity	
+South Africa	7	12	2	0	0	0	1	4	1	0	13	0	0	
+Japan	0	0	0	9	9	10	14	6	11	12	11	10	No Quantity	
+Hungary	0	0	0	0	7	5	35	8	0	13	8	5	No Quantity	
+Australia	25	17	33	2	4	1	0	25	8	69	7	4	No Quantity	
+Mexico	0	0	0	0	0	0	0	0	0	0	2	0	0	
+New Zealand	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Area Nes	0	0	0	1	10	0	0	24	0	0	0	0	0	
+Azerbaijan	0	0	0	0	0	0	19	0	0	0	0	0	0	
+Argentina	1	0	0	0	1	0	0	8	0	0	0	0	0	
+Austria	0	0	5	5	4	2	0	3	0	0	0	0	0	
+Bosnia and Herzegovina	0	0	0	0	0	0	0	6	0	0	0	0	0	
+China	0	0	0	0	0	0	0	3	0	0	0	0	No Quantity	
+Costa Rica	0	0	0	0	0	10	0	10	0	0	0	0	0	
+Croatia	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Cyprus	0	3	105	0	0	0	1	6	0	0	0	0	0	
+Czech Republic	0	0	0	0	0	0	0	0	0	0	0	1	0	
+Greece	9	0	0	0	0	0	0	0	0	0	0	0	0	
+Honduras	0	0	0	0	60	27	19	0	0	0	0	0	0	
+Hong Kong, China	1	4	2	4	0	0	0	4	0	0	0	0	No Quantity	
+Ireland	0	0	0	171	0	0	0	0	0	0	0	0	0	
+Jordan	1	0	532	954	0	1	2	5	0	0	0	0	0	
+Kenya	0	15	0	0	0	0	0	0	0	0	0	0	0	
+Taipei, Chinese	0	15	0	0	0	0	0	0	0	0	0	0	0	
+Netherlands	46	0	0	0	0	0	1	0	0	1	0	0	0	
+Romania	0	10	2	0	0	0	494	0	0	0	0	3	0	
+Serbia	0	0	0	0	0	14	24	0	0	0	0	0	0	
+Singapore	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Slovakia	0	0	0	0	0	0	0	0	0	1	0	0	0	
+Slovenia	0	0	0	0	0	0	0	8	7	0	0	5	0	
+Switzerland	0	0	0	0	0	5	0	1	0	0	0	0	No Quantity	
+Syrian Arab Republic	0	0	0	0	0	0	0	33	0	0	0	0	0	
+Thailand	6	18	7	11	0	0	0	18	2	0	0	1	0	
+Turkey	0	0	0	0	0	0	0	5	0	0	0	0	0	
+Egypt	0	0	0	0	0	0	0	11	0	0	0	0	0	

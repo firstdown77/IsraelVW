@@ -1,29 +1,40 @@
 List of supplying markets for a product imported by Israel Product: 4001 Natural rubber,balata,gutta-percha etc
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	No Quantity	No Quantity	15,542	No Quantity	No Quantity	
-Singapore	4,509	4,818	8,578	No Quantity	No Quantity	
-Indonesia	2,948	2,318	3,766	No Quantity	No Quantity	
-India	21	242	1,353	0	No Quantity	
-Malaysia	265	345	394	No Quantity	No Quantity	
-Viet Nam	147	148	389	127	No Quantity	
-Thailand	686	857	380	No Quantity	No Quantity	
-United Kingdom	102	142	336	No Quantity	No Quantity	
-Côte d'Ivoire	0	0	144	0	0	
-Germany	101	85	72	No Quantity	No Quantity	
-Japan	127	4	62	No Quantity	No Quantity	
-Turkey	0	0	58	0	0	
-United States	3	No Quantity	9	No Quantity	No Quantity	
-Taipei, Chinese	3	0	1	0	0	
-Belgium	20	1	0	0	No Quantity	
-Sri Lanka	No Quantity	1	0	0	No Quantity	
-China	58	0	0	0	0	
-France	0	248	0	No Quantity	0	
-Hong Kong, China	14	0	0	0	0	
-Italy	2	3	0	0	No Quantity	
-Netherlands	43	63	0	No Quantity	No Quantity	
-Nigeria	791	322	0	383	No Quantity	
-Philippines	0	0	0	20	No Quantity	
-Portugal	0	0	0	0	No Quantity	
-Romania	0	1	0	0	0	
-South Africa	0	0	0	0	No Quantity	
-Spain	1	84	0	No Quantity	No Quantity	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	10,893	No Quantity	9,860	11,359	13,164	19,903	15,839	20,022	No Quantity	No Quantity	15,542	No Quantity	No Quantity	
+Singapore	5,699	4,091	3,310	5,546	4,459	10,623	12,971	16,282	4,509	4,818	8,578	No Quantity	No Quantity	
+Indonesia	1,952	1,098	1,673	3,452	7,290	7,000	1,054	822	2,948	2,318	3,766	No Quantity	No Quantity	
+India	29	0	0	0	0	0	0	0	21	242	1,353	0	No Quantity	
+Malaysia	1,340	2,067	2,485	1,387	714	599	410	1,599	265	345	394	No Quantity	No Quantity	
+Viet Nam	0	0	0	0	30	136	45	0	147	148	389	127	No Quantity	
+Thailand	82	497	881	6	111	79	0	189	686	857	380	No Quantity	No Quantity	
+United Kingdom	651	183	136	95	71	42	602	0	102	142	336	No Quantity	No Quantity	
+Côte d'Ivoire	0	0	0	0	0	0	255	0	0	0	144	0	0	
+Germany	101	185	80	81	43	80	231	220	101	85	72	No Quantity	No Quantity	
+Japan	92	74	84	0	0	0	0	87	127	4	62	No Quantity	No Quantity	
+Turkey	2	0	0	3	0	0	0	0	0	0	58	0	0	
+United States of America	114	32	3	6	38	27	13	108	3	No Quantity	9	No Quantity	No Quantity	
+Taipei, Chinese	0	0	0	43	0	5	0	0	3	0	1	0	0	
+Uzbekistan	0	0	0	0	0	148	0	0	0	0	0	0	0	
+Argentina	56	201	212	207	0	281	0	0	0	0	0	0	0	
+Austria	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Belgium	60	23	15	0	0	0	1	0	20	1	0	0	No Quantity	
+Brazil	0	0	0	20	0	207	19	0	0	0	0	0	0	
+Bulgaria	19	0	0	0	0	0	0	0	0	0	0	0	0	
+Sri Lanka	0	134	96	19	0	6	12	13	No Quantity	1	0	0	No Quantity	
+China	195	No Quantity	130	222	191	139	62	65	58	0	0	0	0	
+France	0	19	81	0	0	2	1	2	0	248	0	No Quantity	0	
+Greece	0	No Quantity	0	0	23	0	0	0	0	0	0	0	0	
+Hong Kong, China	23	10	22	21	1	0	17	1	14	0	0	0	0	
+Italy	100	119	69	4	21	62	20	0	2	3	0	0	No Quantity	
+Korea, Republic of	280	No Quantity	558	128	70	37	0	98	0	0	0	0	0	
+Luxembourg	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Mexico	0	0	0	0	0	199	0	0	0	0	0	0	0	
+Netherlands	77	212	26	81	24	157	124	0	43	63	0	No Quantity	No Quantity	
+Nigeria	0	0	0	0	0	0	0	535	791	322	0	383	No Quantity	
+Philippines	0	0	0	0	0	0	0	0	0	0	0	20	No Quantity	
+Poland	0	0	0	0	25	0	0	0	0	0	0	0	0	
+Portugal	0	0	0	35	48	0	0	0	0	0	0	0	No Quantity	
+Romania	0	0	0	0	0	0	3	0	0	1	0	0	0	
+South Africa	0	2	0	0	0	73	0	0	0	0	0	0	No Quantity	
+Spain	12	2	0	1	2	1	0	0	1	84	0	No Quantity	No Quantity	
+Sweden	7	0	0	0	0	0	0	0	0	0	0	0	0	

@@ -1,21 +1,27 @@
 List of importing markets for a product exported by Israel Product: 1511 Palm oil & its fraction
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
-World	71	42	11	19	No Quantity	
-United States of America	20	0	0	11	0	
-Spain	0	0	1	7	0	
-United Kingdom	0	11	0	1	0	
-Albania	0	13	0	0	0	
-Australia	1	3	0	0	0	
-Belgium	6	0	1	0	0	
-Canada	0	5	4	0	0	
-Cyprus	41	0	0	0	0	
-France	1	4	0	0	0	
-Georgia	0	0	0	0	0	
-Germany	1	2	0	0	No Quantity	
-Greece	0	0	3	0	0	
-Kazakhstan	0	0	0	0	0	
-Poland	0	0	0	0	0	
-Romania	0	0	0	0	0	
-Singapore	0	0	3	0	0	
-South Africa	0	2	0	0	0	
-Turkey	0	2	0	0	0	
+"Importers"	"2001-Exported quantity, Tons"	"2002-Exported quantity, Tons"	"2003-Exported quantity, "	"2004-Exported quantity, Tons"	"2005-Exported quantity, Tons"	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	4	12	0	29	9	103	56	5	71	42	11	19	No Quantity	
+Canada	0	0	0	0	0	0	0	0	0	5	4	0	0	
+Greece	0	0	0	0	0	0	0	2	0	0	3	0	0	
+Singapore	0	0	0	0	0	0	0	0	0	0	3	0	0	
+Belgium	0	0	0	11	0	0	30	0	6	0	1	0	0	
+Spain	1	0	0	0	8	2	0	0	0	0	1	7	0	
+Albania	0	0	0	0	0	0	0	0	0	13	0	0	0	
+Australia	0	0	0	0	0	0	0	0	1	3	0	0	0	
+Austria	0	0	0	0	0	0	4	0	0	0	0	0	0	
+Cyprus	0	0	0	0	0	0	0	0	41	0	0	0	0	
+France	0	0	0	5	0	0	0	0	1	4	0	0	0	
+Georgia	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Germany	0	0	0	0	0	0	0	0	1	2	0	0	No Quantity	
+Hong Kong, China	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Kazakhstan	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Jordan	4	0	0	0	0	0	0	2	0	0	0	0	0	
+Poland	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Romania	0	0	0	0	0	102	0	0	0	0	0	0	0	
+Russian Federation	0	2	0	0	0	0	0	0	0	0	0	0	0	
+South Africa	0	0	0	0	0	0	0	0	0	2	0	0	0	
+Switzerland	0	0	0	13	0	0	0	0	0	0	0	0	0	
+Turkey	0	0	0	0	0	0	7	0	0	2	0	0	0	
+Ukraine	0	10	0	0	0	0	0	0	0	0	0	0	0	
+United Kingdom	0	0	0	0	0	0	0	0	0	11	0	1	0	
+United States of America	0	0	0	0	0	0	15	0	20	0	0	11	0	

@@ -1,8 +1,18 @@
 List of importing markets for a product exported by Israel Product: 070310 Onions and shallots, fresh or chilled
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
-World	19	3	167	17	0	
-Russian Federation	0	0	105	0	0	
-United Kingdom	8	0	62	17	0	
-Italy	0	3	0	0	0	
-Netherlands	3	0	0	0	0	
-United States of America	8	0	0	0	0	
+"Importers"	"2001-Exported quantity, Tons"	"2002-Exported quantity, Tons"	"2003-Exported quantity, Tons"	"2004-Exported quantity, "	"2005-Exported quantity, Tons"	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	1,226	1,539	1,249	0	646	763	1,677	1,107	19	3	167	17	No Quantity	
+Russian Federation	0	0	0	0	7	3	87	0	0	0	105	0	0	
+United Kingdom	18	13	0	0	0	0	834	107	8	0	62	17	0	
+Ukraine	0	0	0	0	0	0	0	43	0	0	0	0	0	
+Austria	0	9	0	0	0	0	0	0	0	0	0	0	0	
+Belgium	0	0	0	0	0	0	100	63	0	0	0	0	0	
+Cyprus	0	0	0	0	3	3	0	0	0	0	0	0	0	
+Denmark	31	64	0	0	0	0	0	0	0	0	0	0	0	
+France	13	13	16	0	13	0	56	56	0	0	0	0	0	
+Germany	155	189	132	0	0	0	47	49	0	0	0	0	0	
+Italy	4	0	0	0	0	0	0	0	0	3	0	0	0	
+Jordan	0	0	0	0	30	0	78	16	0	0	0	0	0	
+Netherlands	996	1,251	1,094	0	579	740	396	747	3	0	0	0	0	
+Norway	9	0	7	0	0	0	0	0	0	0	0	0	0	
+Spain	0	0	0	0	0	0	36	0	0	0	0	0	0	
+United States of America	0	0	0	0	13	17	42	27	8	0	0	0	0	

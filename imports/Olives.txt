@@ -1,4 +1,4 @@
 List of supplying markets for a product imported by Israel Product: 070992 Fresh or chilled olives
-"Exporters"	"2009-Imported quantity, "	"2010-Imported quantity, "	"2011-Imported quantity, "	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	0	0	0	583	No Quantity	
-Jordan	0	0	0	583	No Quantity	
+"Exporters"	"2001-Imported quantity, "	"2002-Imported quantity, "	"2003-Imported quantity, "	"2004-Imported quantity, "	"2005-Imported quantity, "	"2006-Imported quantity, "	"2007-Imported quantity, "	"2008-Imported quantity, "	"2009-Imported quantity, "	"2010-Imported quantity, "	"2011-Imported quantity, "	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	0	0	0	0	0	0	0	0	0	0	0	583	No Quantity	
+Jordan	0	0	0	0	0	0	0	0	0	0	0	583	No Quantity	

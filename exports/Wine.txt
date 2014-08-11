@@ -1,86 +1,101 @@
 List of importing markets for a product exported by Israel Product: 2204 Wine of fresh grapes
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity"	"2011-Unit"	"2012-Exported quantity, "	"2013-Exported quantity, "	
-World	11,017	No Quantity	16,806	Cubic meters	No Quantity	No Quantity	
-United States of America	4,415	No Quantity	8,248	Cubic meters	No Quantity	No Quantity	
-Belgium	4,136	No Quantity	501	Cubic meters	No Quantity	No Quantity	
-Singapore	855	48	47	Cubic meters	No Quantity	No Quantity	
-France	493	No Quantity	1,580	Cubic meters	No Quantity	No Quantity	
-United Kingdom	238	No Quantity	919	Cubic meters	No Quantity	No Quantity	
-Latvia	150	33	102	Tons	No Quantity	No Quantity	
-Germany	142	No Quantity	651	Cubic meters	No Quantity	No Quantity	
-Italy	86	No Quantity	378	Cubic meters	No Quantity	No Quantity	
-Poland	69	No Quantity	695	Tons	No Quantity	No Quantity	
-Canada	61	No Quantity	798	Cubic meters	No Quantity	No Quantity	
-Netherlands	59	No Quantity	252	Cubic meters	No Quantity	No Quantity	
-Japan	50	No Quantity	425	Cubic meters	No Quantity	No Quantity	
-Australia	47	No Quantity	157	Cubic meters	No Quantity	No Quantity	
-Russian Federation	33	323	544	Cubic meters	No Quantity	No Quantity	
-Denmark	22	No Quantity	256	Tons	No Quantity	No Quantity	
-Lithuania	17	0	0		0	0	
-Brazil	15	No Quantity	21	Cubic meters	No Quantity	No Quantity	
-Mexico	15	45	134	Tons	No Quantity	No Quantity	
-Finland	13	85	116	Tons	No Quantity	0	
-Switzerland	11	No Quantity	316	Cubic meters	No Quantity	No Quantity	
-South Africa	9	No Quantity	40	Cubic meters	No Quantity	No Quantity	
-Slovakia	8	31	73	Tons	No Quantity	No Quantity	
-Ukraine	8	38	82	Tons	No Quantity	No Quantity	
-Hong Kong, China	7	No Quantity	63	Cubic meters	No Quantity	No Quantity	
-Taipei, Chinese	5	6	7	Cubic meters	No Quantity	No Quantity	
-Austria	4	No Quantity	55	Tons	No Quantity	No Quantity	
-China	4	80	147	Cubic meters	No Quantity	No Quantity	
-Panama	4	95	0		No Quantity	No Quantity	
-Bulgaria	3	5	0		0	0	
-Cuba	3	0	19	Tons	No Quantity	0	
-Kazakhstan	3	0	0		0	0	
-Peru	3	12	6	Tons	No Quantity	No Quantity	
-Philippines	3	1	8	Tons	0	0	
-Romania	3	59	42	Tons	No Quantity	No Quantity	
-Thailand	3	14	21	Tons	No Quantity	No Quantity	
-Angola	2	0	0		No Quantity	0	
-Cambodia	2	0	1	Tons	No Quantity	0	
-Ecuador	2	0	0		0	0	
-Greece	2	0	2	Tons	No Quantity	No Quantity	
-Luxembourg	2	32	0		No Quantity	0	
-Spain	2	No Quantity	2	Cubic meters	No Quantity	No Quantity	
-Colombia	1	7	7	Tons	No Quantity	No Quantity	
-Costa Rica	1	4	4	Tons	No Quantity	0	
-Cyprus	1	1	2	Cubic meters	No Quantity	0	
-Czech Republic	1	45	54	Tons	No Quantity	No Quantity	
-Korea, Republic of	1	No Quantity	11	Tons	No Quantity	No Quantity	
-Niger	1	0	0		0	0	
-Turkey	1	0	0		0	0	
-British Virgin Islands	0	2	3	Tons	0	0	
-Equatorial Guinea	0	0	1	Cubic meters	No Quantity	0	
-Gibraltar	0	7	0		0	No Quantity	
-Korea, Democratic People's Republic of	0	2	0		0	0	
-Uzbekistan	0	0	0		No Quantity	0	
-Area Nes	0	3	11	Tons	No Quantity	No Quantity	
-Azerbaijan	0	0	4	Tons	0	0	
-Argentina	0	0	16	Tons	No Quantity	0	
-Belarus	0	1	0		0	0	
-Cameroon	0	0	0		0	0	
-Sri Lanka	0	0	0		0	No Quantity	
-Chile	0	0	1	Tons	No Quantity	0	
-Estonia	0	No Quantity	0		0	No Quantity	
-Gabon	0	0	0		No Quantity	0	
-Georgia	0	0	0		No Quantity	No Quantity	
-Ghana	0	3	1	Tons	No Quantity	No Quantity	
-Hungary	0	0	7	Cubic meters	No Quantity	No Quantity	
-Ireland	0	0	3	Tons	0	0	
-Jamaica	0	2	0		No Quantity	No Quantity	
-Kenya	0	0	15	Tons	0	No Quantity	
-Maldives	0	0	0		No Quantity	0	
-Mali	0	3	0		0	0	
-Malta	0	0	3	Tons	0	No Quantity	
-Nepal	0	0	2	Tons	0	0	
-New Zealand	0	No Quantity	5	Cubic meters	No Quantity	No Quantity	
-Nigeria	0	0	0		No Quantity	No Quantity	
-Norway	0	0	4	Tons	No Quantity	No Quantity	
-Papua New Guinea	0	0	0		0	No Quantity	
-Portugal	0	0	0		0	No Quantity	
-India	0	1	5	Tons	No Quantity	No Quantity	
-Viet Nam	0	0	0		No Quantity	0	
-Slovenia	0	14	2	Tons	No Quantity	0	
-Sweden	0	58	14	Tons	0	No Quantity	
-Uganda	0	0	1	Tons	0	0	
-Uruguay	0	10	1	Tons	0	No Quantity	
+"Importers"	"2001-Exported quantity, Cubic meters"	"2002-Exported quantity"	"2002-Unit"	"2003-Exported quantity"	"2003-Unit"	"2004-Exported quantity"	"2004-Unit"	"2005-Exported quantity, Cubic meters"	"2006-Exported quantity, Cubic meters"	"2007-Exported quantity, Tons"	"2008-Exported quantity"	"2008-Unit"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity"	"2011-Unit"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	3,710	3,056	Cubic meters	4,472	Cubic meters	3,289	Cubic meters	5,803	5,966	10,023	13,774	Cubic meters	11,017	No Quantity	16,806	Cubic meters	No Quantity	No Quantity	
+Russian Federation	121	50	Tons	92	Cubic meters	98	Cubic meters	36	12	5	79	Tons	33	323	544	Cubic meters	No Quantity	No Quantity	
+Panama	8	3	Tons	2	Tons	9	Tons	4	0	23	5	Tons	4	95	0		No Quantity	No Quantity	
+Finland	30	46	Tons	28	Tons	31	Tons	6	61	147	85	Tons	13	85	116	Tons	No Quantity	0	
+China	0	0		0	Tons	0	Tons	5	7	1	11	Tons	4	80	147	Cubic meters	No Quantity	No Quantity	
+Romania	0	0		0		0		0	1	19	22	Tons	3	59	42	Tons	No Quantity	No Quantity	
+Sweden	16	8	Tons	30	Cubic meters	15	Tons	17	0	0	21	Tons	0	58	14	Tons	0	No Quantity	
+Singapore	3	12	Cubic meters	11	Tons	0	Tons	4	6	8	9	Cubic meters	855	48	47	Cubic meters	No Quantity	No Quantity	
+Czech Republic	4	3	Tons	0	Tons	2	Tons	15	1	3	6	Tons	1	45	54	Tons	No Quantity	No Quantity	
+Mexico	9	22	Cubic meters	0		0		2	15	43	47	Cubic meters	15	45	134	Tons	No Quantity	No Quantity	
+Ukraine	0	0		25	Tons	13	Tons	7	6	46	0		8	38	82	Tons	No Quantity	No Quantity	
+Latvia	9	9	Tons	9	Tons	9	Tons	16	17	105	165	Tons	150	33	102	Tons	No Quantity	No Quantity	
+Luxembourg	0	0		0		0		0	0	39	23	Tons	2	32	0		No Quantity	0	
+Slovakia	0	0		0		0		2	3	3	17	Tons	8	31	73	Tons	No Quantity	No Quantity	
+Slovenia	0	0		0		0		0	0	48	94	Tons	0	14	2	Tons	No Quantity	0	
+Thailand	15	10	Cubic meters	8	Cubic meters	34	Tons	2	13	9	18	Cubic meters	3	14	21	Tons	No Quantity	No Quantity	
+Peru	0	0		0		0		0	0	0	0		3	12	6	Tons	No Quantity	No Quantity	
+Uruguay	2	6	Tons	4	Tons	0		0	2	6	0		0	10	1	Tons	0	No Quantity	
+Gibraltar	0	3	Cubic meters	2	Cubic meters	2	Tons	0	0	2	5	Tons	0	7	0		0	No Quantity	
+Colombia	0	0		0		0		4	4	0	0		1	7	7	Tons	No Quantity	No Quantity	
+Taipei, Chinese	0	1	Tons	8	Tons	6	Tons	4	9	No Quantity	4	Tons	5	6	7	Cubic meters	No Quantity	No Quantity	
+Bulgaria	2	1	Cubic meters	0	Tons	0		1	0	0	0		3	5	0		0	0	
+Costa Rica	0	0		0		0		0	0	0	0		1	4	4	Tons	No Quantity	0	
+Area Nes	11	3	Tons	2	Tons	2	Tons	3	5	13	8	Cubic meters	0	3	11	Tons	No Quantity	No Quantity	
+Ghana	0	1	Cubic meters	0		1	Tons	28	6	8	0		0	3	1	Tons	No Quantity	No Quantity	
+Mali	0	0		0		0		0	0	0	0		0	3	0		0	0	
+British Virgin Islands	0	0		0		0		0	0	0	0		0	2	3	Tons	0	0	
+Korea, Democratic People's Republic of	0	0		0		0		0	0	0	0		0	2	0		0	0	
+Jamaica	0	0		0		0		0	0	0	0		0	2	0		No Quantity	No Quantity	
+Belarus	0	0		0		0		0	0	0	0		0	1	0		0	0	
+Cyprus	0	0	Cubic meters	7	Tons	0		3	3	1	3	Cubic meters	1	1	2	Cubic meters	No Quantity	0	
+Philippines	3	12	Tons	8	Tons	2	Tons	4	1	No Quantity	4	Tons	3	1	8	Tons	0	0	
+India	1	0		0		0		1	0	2	2	Tons	0	1	5	Tons	No Quantity	No Quantity	
+Angola	0	0		0		0		0	0	0	0		2	0	0		No Quantity	0	
+Equatorial Guinea	0	0		0		0		0	0	0	2	Tons	0	0	1	Cubic meters	No Quantity	0	
+Lao People's Democratic Republic	0	0		0	Tons	0		0	0	0	0		0	0	0		0	0	
+Africa not elsewhere specified	0	0		1	Cubic meters	0		1	0	6	1	Tons	0	0	0		0	0	
+America not elsewhere specified	0	0		0		2	Tons	4	0	0	0		0	0	0		0	0	
+Uzbekistan	0	0		0		0		0	0	1	0		0	0	0		No Quantity	0	
+Azerbaijan	0	0		0		0		0	0	0	0		0	0	4	Tons	0	0	
+Argentina	38	0		0		0		7	0	34	18	Tons	0	0	16	Tons	No Quantity	0	
+Australia	115	44	Cubic meters	67	Cubic meters	74	Tons	152	118	194	198	Cubic meters	47	No Quantity	157	Cubic meters	No Quantity	No Quantity	
+Austria	21	2	Cubic meters	26	Cubic meters	11	Tons	20	12	15	29	Tons	4	No Quantity	55	Tons	No Quantity	No Quantity	
+Belgium	209	113	Cubic meters	79	Cubic meters	38	Tons	168	112	271	434	Cubic meters	4,136	No Quantity	501	Cubic meters	No Quantity	No Quantity	
+Bosnia and Herzegovina	0	0		0		0		0	0	0	1	Cubic meters	0	0	0		0	0	
+Brazil	37	36	Cubic meters	40	Cubic meters	43	Cubic meters	41	49	62	36	Cubic meters	15	No Quantity	21	Cubic meters	No Quantity	No Quantity	
+Cambodia	0	0		0		0		0	0	0	0		2	0	1	Tons	No Quantity	0	
+Cameroon	0	0		0		0		0	0	0	0		0	0	0		0	0	
+Canada	213	162	Cubic meters	263	Cubic meters	180	Tons	197	237	425	664	Cubic meters	61	No Quantity	798	Cubic meters	No Quantity	No Quantity	
+Sri Lanka	0	0		0		0		0	0	0	0		0	0	0		0	No Quantity	
+Chile	0	0		0		0		0	0	0	2	Tons	0	0	1	Tons	No Quantity	0	
+Croatia	0	0		0		0		0	0	0	1	Cubic meters	0	0	0		0	0	
+Cuba	0	0		0		0		0	0	0	0		3	0	19	Tons	No Quantity	0	
+Denmark	41	27	Cubic meters	17	Cubic meters	50	Tons	63	130	134	113	Tons	22	No Quantity	256	Tons	No Quantity	No Quantity	
+Ecuador	0	0		0		0		0	25	12	0		2	0	0		0	0	
+Estonia	0	3	Cubic meters	1	Tons	3	Tons	20	12	53	2	Tons	0	No Quantity	0		0	No Quantity	
+France	182	164	Cubic meters	344	Cubic meters	264	Tons	497	695	1,042	2,183	Cubic meters	493	No Quantity	1,580	Cubic meters	No Quantity	No Quantity	
+Gabon	0	0		0		0		0	0	0	0		0	0	0		No Quantity	0	
+Georgia	0	0		0		0		0	0	0	0		0	0	0		No Quantity	No Quantity	
+Germany	287	246	Cubic meters	231	Cubic meters	154	Tons	245	258	270	539	Tons	142	No Quantity	651	Cubic meters	No Quantity	No Quantity	
+Greece	3	2	Tons	5	Tons	7	Tons	3	4	4	11	Tons	2	0	2	Tons	No Quantity	No Quantity	
+Guatemala	0	0		0		0		1	0	0	0		0	0	0		0	0	
+Hong Kong, China	8	2	Cubic meters	4	Cubic meters	12	Tons	2	3	9	34	Tons	7	No Quantity	63	Cubic meters	No Quantity	No Quantity	
+Hungary	3	15	Cubic meters	4	Cubic meters	1	Tons	3	13	2	11	Tons	0	0	7	Cubic meters	No Quantity	No Quantity	
+Iceland	0	0		4	Tons	0		0	0	0	0		0	0	0		0	0	
+Ireland	0	0		0		0		0	0	3	0		0	0	3	Tons	0	0	
+Italy	125	124	Cubic meters	77	Cubic meters	47	Tons	143	157	112	375	Cubic meters	86	No Quantity	378	Cubic meters	No Quantity	No Quantity	
+Côte d'Ivoire	0	0		0		1	Tons	0	0	0	8	Tons	0	0	0		0	0	
+Japan	165	120	Cubic meters	51	Cubic meters	45	Cubic meters	87	95	94	341	Cubic meters	50	No Quantity	425	Cubic meters	No Quantity	No Quantity	
+Kazakhstan	0	0		3	Cubic meters	0		0	1	0	0		3	0	0		0	0	
+Jordan	0	0		0		0		1	2	0	2	Cubic meters	0	0	0		0	0	
+Kenya	1	1	Tons	0		4	Tons	0	15	96	7	Tons	0	0	15	Tons	0	No Quantity	
+Korea, Republic of	0	5	Cubic meters	10	Cubic meters	12	Tons	78	22	12	16	Tons	1	No Quantity	11	Tons	No Quantity	No Quantity	
+Lithuania	3	0		0		0		0	0	0	0		17	0	0		0	0	
+Maldives	1	0		0		0		0	0	0	0		0	0	0		No Quantity	0	
+Malta	6	0		0		1	Tons	0	0	2	0		0	0	3	Tons	0	No Quantity	
+Republic of Moldova	0	0		0		0		0	0	3	0		0	0	0		0	0	
+Nepal	0	0		0		0		0	1	0	0		0	0	2	Tons	0	0	
+Netherlands	127	88	Cubic meters	96	Cubic meters	69	Tons	95	139	495	546	Cubic meters	59	No Quantity	252	Cubic meters	No Quantity	No Quantity	
+New Zealand	1	6	Tons	9	Cubic meters	10	Tons	8	0	1	2	Tons	0	No Quantity	5	Cubic meters	No Quantity	No Quantity	
+Niger	0	0		0		0		0	0	0	0		1	0	0		0	0	
+Nigeria	1	1	Cubic meters	0	Tons	1	Tons	4	0	1	0		0	0	0		No Quantity	No Quantity	
+Norway	20	12	Tons	3	Tons	1	Tons	0	0	0	0		0	0	4	Tons	No Quantity	No Quantity	
+Papua New Guinea	0	0		0		0		0	0	0	0		0	0	0		0	No Quantity	
+Paraguay	0	0		0		1	Tons	0	0	0	0		0	0	0		0	0	
+Poland	43	13	Cubic meters	10	Tons	43	Tons	46	77	188	357	Tons	69	No Quantity	695	Tons	No Quantity	No Quantity	
+Portugal	0	0		0		0		0	0	4	0	Tons	0	0	0		0	No Quantity	
+Senegal	0	0		0		0		1	0	0	0		0	0	0		0	0	
+Viet Nam	0	0		0		0		0	1	0	0		0	0	0		No Quantity	0	
+South Africa	83	23	Cubic meters	67	Cubic meters	45	Tons	33	55	98	60	Tons	9	No Quantity	40	Cubic meters	No Quantity	No Quantity	
+Spain	36	20	Cubic meters	31	Cubic meters	3	Tons	23	6	54	45	Tons	2	No Quantity	2	Cubic meters	No Quantity	No Quantity	
+Switzerland	75	34	Cubic meters	45	Cubic meters	57	Tons	61	132	57	172	Cubic meters	11	No Quantity	316	Cubic meters	No Quantity	No Quantity	
+Syrian Arab Republic	0	0		0		0		0	0	0	11	Cubic meters	0	0	0		0	0	
+Turkey	1	1	Tons	2	Tons	2	Tons	2	3	9	5	Cubic meters	1	0	0		0	0	
+Uganda	0	0		0		0		0	0	0	0		0	0	1	Tons	0	0	
+Egypt	0	0		0		0		0	0	0	7	Tons	0	0	0		0	0	
+United Kingdom	318	230	Cubic meters	333	Cubic meters	341	Tons	483	394	694	987	Cubic meters	238	No Quantity	919	Cubic meters	No Quantity	No Quantity	
+United States of America	1,314	1,367	Cubic meters	2,416	Cubic meters	1,545	Cubic meters	3,148	3,027	5,035	5,956	Cubic meters	4,415	No Quantity	8,248	Cubic meters	No Quantity	No Quantity	
+Venezuela	0	0		0		0		0	1	0	0		0	0	0		0	0	

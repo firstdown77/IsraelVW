@@ -1,18 +1,20 @@
 List of supplying markets for a product imported by Israel Product: 040510 Butter
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	533	1,356	1,598	1,215	No Quantity	
-United States	283	759	968	751	No Quantity	
-Netherlands	25	153	113	188	No Quantity	
-France	94	185	207	119	No Quantity	
-Ireland	71	35	126	50	No Quantity	
-Hungary	0	0	0	38	No Quantity	
-Belgium	10	35	21	24	0	
-Denmark	15	33	32	19	No Quantity	
-Poland	0	0	0	12	No Quantity	
-Bulgaria	0	0	0	11	0	
-Lithuania	15	3	27	2	No Quantity	
-Finland	20	12	12	1	No Quantity	
-Argentina	0	0	70	0	0	
-Germany	0	98	20	0	0	
-Italy	0	39	3	0	0	
-Sweden	0	5	0	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, "	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	603	501	493	0	469	668	626	507	533	1,356	1,598	1,215	No Quantity	
+United States of America	77	25	150	0	0	300	296	243	283	759	968	751	No Quantity	
+France	151	145	130	0	263	195	132	132	94	185	207	119	No Quantity	
+Ireland	80	50	65	0	67	65	118	59	71	35	126	50	No Quantity	
+Netherlands	60	19	47	0	39	30	16	0	25	153	113	188	No Quantity	
+Argentina	0	0	0	0	0	0	0	0	0	0	70	0	0	
+Denmark	37	95	58	0	51	40	20	10	15	33	32	19	No Quantity	
+Lithuania	132	70	0	0	4	10	0	5	15	3	27	2	No Quantity	
+Belgium	0	19	0	0	4	10	5	33	10	35	21	24	0	
+Germany	20	34	24	0	18	0	20	0	0	98	20	0	0	
+Finland	20	15	18	0	21	19	20	25	20	12	12	1	No Quantity	
+Italy	0	0	0	0	0	0	0	0	0	39	3	0	0	
+Bulgaria	0	0	0	0	0	0	0	0	0	0	0	11	0	
+Hungary	0	0	0	0	0	0	0	0	0	0	0	38	No Quantity	
+Panama	0	27	0	0	0	0	0	0	0	0	0	0	0	
+Poland	0	0	0	0	0	0	0	0	0	0	0	12	No Quantity	
+Russian Federation	25	4	0	0	0	0	0	0	0	0	0	0	0	
+Sweden	0	0	0	0	0	0	0	0	0	5	0	0	0	

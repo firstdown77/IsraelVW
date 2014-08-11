@@ -1,35 +1,48 @@
 List of supplying markets for a product imported by Israel Product: 1006 Rice
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	110,152	89,365	91,899	128,353	No Quantity	
-Thailand	67,810	49,562	47,210	62,396	No Quantity	
-Australia	18,301	17,707	21,589	32,092	No Quantity	
-India	2,499	4,650	5,810	11,073	No Quantity	
-Viet Nam	5,662	3,902	6,273	8,631	No Quantity	
-Uruguay	3,656	3,187	4,055	8,412	No Quantity	
-United States	2,031	3,571	2,561	2,421	No Quantity	
-Italy	5,717	601	1,296	1,533	No Quantity	
-Spain	2,156	2,879	1,315	852	No Quantity	
-Egypt	1,057	0	0	276	0	
-United Kingdom	217	69	0	253	No Quantity	
-Switzerland	0	4	56	110	0	
-Argentina	512	2,652	211	92	No Quantity	
-Hong Kong, China	0	0	0	86	No Quantity	
-Singapore	0	0	0	70	No Quantity	
-Ukraine	0	0	12	26	No Quantity	
-China	126	113	140	22	No Quantity	
-Russian Federation	1	2	3	7	No Quantity	
-Falkland Islands (Malvinas)	156	0	0	0	0	
-Lao People's Democratic Republic	0	0	0	0	No Quantity	
-United States Minor Outlying Islands	0	0	0	0	No Quantity	
-Austria	0	0	0	0	No Quantity	
-Cambodia	0	0	0	0	No Quantity	
-France	0	2	0	0	0	
-Indonesia	132	0	0	0	0	
-Japan	0	0	1	0	0	
-Korea, Republic of	0	0	0	0	No Quantity	
-Taipei, Chinese	0	171	266	0	No Quantity	
-Netherlands	0	0	1,075	0	0	
-Paraguay	50	0	0	0	No Quantity	
-Peru	0	157	27	0	0	
-Poland	0	0	0	0	No Quantity	
-Turkey	69	137	0	0	No Quantity	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	84,824	91,666	77,635	96,720	69,739	88,511	108,958	97,952	110,152	89,365	91,899	128,353	No Quantity	
+Thailand	44,458	38,066	39,282	37,098	27,730	34,453	49,949	49,729	67,810	49,562	47,210	62,396	No Quantity	
+Australia	30,298	34,013	26,057	25,526	24,723	30,528	26,822	25,673	18,301	17,707	21,589	32,092	No Quantity	
+Viet Nam	86	65	0	15,270	4,269	8,115	13,078	6,690	5,662	3,902	6,273	8,631	No Quantity	
+India	2,295	1,785	4,216	1,844	4,526	5,761	5,580	5,492	2,499	4,650	5,810	11,073	No Quantity	
+Uruguay	126	516	66	65	308	934	1,692	3,547	3,656	3,187	4,055	8,412	No Quantity	
+United States of America	543	9,444	750	432	1,641	1,286	1,054	3,569	2,031	3,571	2,561	2,421	No Quantity	
+Spain	2,819	2,415	1,603	7,007	1,630	2,081	865	1,433	2,156	2,879	1,315	852	No Quantity	
+Italy	654	518	441	73	215	359	1,750	562	5,717	601	1,296	1,533	No Quantity	
+Netherlands	44	0	0	0	0	0	115	230	0	0	1,075	0	0	
+Taipei, Chinese	0	0	0	0	0	0	0	0	0	171	266	0	No Quantity	
+Argentina	0	129	17	139	352	665	273	155	512	2,652	211	92	No Quantity	
+China	0	22	342	933	0	501	109	181	126	113	140	22	No Quantity	
+Switzerland	0	955	2,480	21	364	0	36	36	0	4	56	110	0	
+Peru	0	0	0	0	0	0	0	0	0	157	27	0	0	
+Ukraine	0	0	0	0	0	0	0	1	0	0	12	26	No Quantity	
+Russian Federation	0	0	0	0	0	0	0	2	1	2	3	7	No Quantity	
+Japan	0	1	0	0	2	0	0	0	0	0	1	0	0	
+Falkland Islands (Malvinas)	0	0	0	0	0	0	0	0	156	0	0	0	0	
+Lao People's Democratic Republic	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+United States Minor Outlying Islands	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Area Nes	125	0	0	0	0	0	0	0	0	0	0	0	0	
+Austria	0	0	0	0	0	13	10	0	0	0	0	0	No Quantity	
+Belgium	103	123	236	534	0	0	0	0	0	0	0	0	0	
+Cambodia	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Canada	83	40	27	0	0	0	0	0	0	0	0	0	0	
+Sri Lanka	0	0	0	0	0	0	1,610	0	0	0	0	0	0	
+Cyprus	0	23	0	0	0	0	0	0	0	0	0	0	0	
+Denmark	10	0	0	0	17	0	0	0	0	0	0	0	0	
+Ethiopia	0	682	0	0	0	0	0	0	0	0	0	0	0	
+France	0	2	0	0	0	0	0	0	0	2	0	0	0	
+Germany	0	0	0	0	48	0	0	0	0	0	0	0	0	
+Hong Kong, China	172	0	770	0	0	0	0	0	0	0	0	86	No Quantity	
+Indonesia	0	0	0	0	0	0	0	0	132	0	0	0	0	
+Jordan	0	148	30	0	0	0	0	0	0	0	0	0	0	
+Korea, Republic of	0	0	44	0	0	0	62	0	0	0	0	0	No Quantity	
+Norway	0	0	0	0	0	0	19	0	0	0	0	0	0	
+Panama	0	215	0	0	0	0	0	0	0	0	0	0	0	
+Paraguay	0	0	0	0	0	0	0	23	50	0	0	0	No Quantity	
+Philippines	126	0	0	7	6	0	0	0	0	0	0	0	0	
+Poland	0	2	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Singapore	56	0	22	47	0	0	0	0	0	0	0	70	No Quantity	
+South Africa	0	0	0	495	0	0	0	0	0	0	0	0	0	
+Turkey	194	0	0	0	128	0	1,326	0	69	137	0	0	No Quantity	
+Egypt	1,476	1,012	1,078	6,858	2,124	2,737	3,242	0	1,057	0	0	276	0	
+United Kingdom	1,156	1,493	175	372	1,656	1,079	1,367	629	217	69	0	253	No Quantity	

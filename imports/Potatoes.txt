@@ -1,10 +1,15 @@
 List of supplying markets for a product imported by Israel Product: 0701 Potatoes
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	22,497	35,976	15,612	22,747	No Quantity	
-Netherlands	12,823	25,562	10,109	16,331	No Quantity	
-Belgium	3,186	1,104	5,091	6,416	No Quantity	
-France	3,707	1,459	16	0	0	
-Germany	328	2,432	48	0	No Quantity	
-Italy	0	0	0	0	No Quantity	
-Switzerland	2	0	0	0	0	
-United Kingdom	2,452	5,419	348	0	No Quantity	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, "	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	40,692	25,154	29,066	0	23,736	37,555	25,207	57,596	22,497	35,976	15,612	22,747	No Quantity	
+Netherlands	27,651	17,011	16,579	0	13,977	17,586	9,699	11,796	12,823	25,562	10,109	16,331	No Quantity	
+Belgium	58	0	0	0	0	180	0	506	3,186	1,104	5,091	6,416	No Quantity	
+United Kingdom	7,604	6,351	7,894	0	4,905	6,675	11,892	11,052	2,452	5,419	348	0	No Quantity	
+Germany	421	386	1,763	0	3,093	11,658	1,715	2,400	328	2,432	48	0	No Quantity	
+France	3,449	1,294	2,699	0	1,615	1,435	1,748	28,271	3,707	1,459	16	0	0	
+Europe Othr. Nes	979	55	0	0	0	0	0	0	0	0	0	0	0	
+Cyprus	11	0	0	0	0	0	0	1,048	0	0	0	0	0	
+Denmark	42	0	0	0	58	0	0	75	0	0	0	0	0	
+Ireland	0	57	131	0	89	21	153	122	0	0	0	0	0	
+Italy	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Jordan	477	0	0	0	0	0	0	2,325	0	0	0	0	0	
+Switzerland	0	0	0	0	0	0	0	0	2	0	0	0	0	

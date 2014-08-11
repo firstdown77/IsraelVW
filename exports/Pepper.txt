@@ -1,36 +1,42 @@
 List of importing markets for a product exported by Israel Product: 0904 Pepper, peppers and capsicum
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
-World	3,361	1,569	1,270	No Quantity	No Quantity	
-United States of America	1,020	420	443	No Quantity	No Quantity	
-Germany	780	251	281	No Quantity	No Quantity	
-Italy	145	70	205	No Quantity	No Quantity	
-Sweden	520	308	100	No Quantity	No Quantity	
-Switzerland	40	33	53	0	No Quantity	
-Denmark	90	57	51	No Quantity	No Quantity	
-Australia	114	45	43	No Quantity	No Quantity	
-Norway	20	52	35	No Quantity	0	
-Czech Republic	30	55	28	No Quantity	No Quantity	
-Turkey	0	0	14	0	0	
-Austria	360	129	10	No Quantity	No Quantity	
-Canada	3	3	4	No Quantity	No Quantity	
-Angola	0	6	0	0	0	
-Equatorial Guinea	0	0	0	0	0	
-Area Nes	0	0	0	0	No Quantity	
-Belgium	80	20	0	No Quantity	No Quantity	
-Bulgaria	0	0	0	No Quantity	No Quantity	
-China	0	0	0	No Quantity	No Quantity	
-Cyprus	0	0	0	0	0	
-Ethiopia	0	0	0	0	0	
-Estonia	100	82	0	No Quantity	No Quantity	
-France	0	0	0	No Quantity	0	
-Georgia	0	0	0	No Quantity	0	
-Greece	4	0	0	No Quantity	0	
-Hong Kong, China	0	0	0	No Quantity	No Quantity	
-Latvia	0	0	0	0	0	
-Netherlands	50	31	0	0	No Quantity	
-Poland	1	0	0	0	No Quantity	
-Singapore	0	0	0	0	0	
-Viet Nam	2	4	0	0	0	
-Slovenia	0	0	0	0	No Quantity	
-Thailand	0	0	0	No Quantity	0	
-United Kingdom	1	1	0	No Quantity	No Quantity	
+"Importers"	"2001-Exported quantity, Tons"	"2002-Exported quantity, Tons"	"2003-Exported quantity, Tons"	"2004-Exported quantity, "	"2005-Exported quantity, Tons"	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	66	550	10	0	1,199	2,675	3,813	4,595	3,361	1,569	1,270	No Quantity	No Quantity	
+United States of America	44	200	9	0	207	627	1,046	1,193	1,020	420	443	No Quantity	No Quantity	
+Germany	0	0	0	0	290	469	864	1,016	780	251	281	No Quantity	No Quantity	
+Italy	0	0	0	0	15	15	49	44	145	70	205	No Quantity	No Quantity	
+Sweden	0	0	0	0	242	460	600	600	520	308	100	No Quantity	No Quantity	
+Switzerland	0	0	0	0	37	61	50	60	40	33	53	0	No Quantity	
+Denmark	0	0	0	0	40	42	139	120	90	57	51	No Quantity	No Quantity	
+Australia	16	0	0	0	41	83	85	136	114	45	43	No Quantity	No Quantity	
+Norway	0	0	0	0	31	125	80	80	20	52	35	No Quantity	0	
+Czech Republic	0	0	0	0	0	40	91	91	30	55	28	No Quantity	No Quantity	
+Turkey	0	0	0	0	0	0	0	0	0	0	14	0	0	
+Austria	0	0	0	0	213	555	440	899	360	129	10	No Quantity	No Quantity	
+Canada	0	40	0	0	0	0	18	0	3	3	4	No Quantity	No Quantity	
+Angola	0	0	0	0	0	0	0	0	0	6	0	0	0	
+Equatorial Guinea	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Area Nes	0	0	0	0	0	1	0	0	0	0	0	0	No Quantity	
+Belgium	0	0	0	0	1	31	130	142	80	20	0	No Quantity	No Quantity	
+Bulgaria	3	0	0	0	0	0	0	0	0	0	0	No Quantity	No Quantity	
+China	0	0	0	0	5	0	0	0	0	0	0	No Quantity	No Quantity	
+Cyprus	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Ethiopia	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Estonia	0	0	0	0	38	102	120	150	100	82	0	No Quantity	No Quantity	
+France	0	0	0	0	0	0	0	1	0	0	0	No Quantity	0	
+Georgia	0	0	0	0	0	0	0	0	0	0	0	No Quantity	0	
+Greece	0	0	0	0	0	0	0	0	4	0	0	No Quantity	0	
+Hong Kong, China	0	60	0	0	0	0	0	0	0	0	0	No Quantity	No Quantity	
+Hungary	0	0	0	0	0	0	5	0	0	0	0	0	0	
+Korea, Republic of	0	0	0	0	0	0	0	4	0	0	0	0	0	
+Latvia	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Lithuania	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Netherlands	0	0	0	0	40	65	38	40	50	31	0	0	No Quantity	
+Poland	0	0	0	0	0	0	0	0	1	0	0	0	No Quantity	
+India	0	45	0	0	0	0	0	0	0	0	0	0	0	
+Singapore	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Slovakia	0	0	0	0	0	0	57	20	0	0	0	0	0	
+Viet Nam	0	0	0	0	0	0	0	0	2	4	0	0	0	
+Slovenia	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+South Africa	2	45	0	0	0	0	0	0	0	0	0	0	0	
+Thailand	0	140	0	0	0	0	0	0	0	0	0	No Quantity	0	
+United Kingdom	0	20	0	0	0	0	0	0	1	1	0	No Quantity	No Quantity	

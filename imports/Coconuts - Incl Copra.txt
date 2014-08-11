@@ -1,16 +1,19 @@
 List of supplying markets for a product imported by Israel Product: 080111 Coconuts, dessicated
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	449	586	506	1,453	No Quantity	
-Philippines	398	345	368	1,018	No Quantity	
-Viet Nam	0	0	12	229	No Quantity	
-United Kingdom	0	127	77	98	No Quantity	
-Côte d'Ivoire	0	24	0	27	No Quantity	
-China	0	0	0	26	0	
-United States	0	0	1	26	No Quantity	
-India	0	0	0	18	0	
-Thailand	2	0	4	12	0	
-Sri Lanka	0	0	7	0	0	
-Indonesia	0	65	13	0	No Quantity	
-Italy	0	0	1	0	0	
-Netherlands	0	25	0	0	0	
-Singapore	49	0	25	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, "	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	230	428	597	0	437	381	263	318	449	586	506	1,453	No Quantity	
+Philippines	106	305	493	0	312	343	137	292	398	345	368	1,018	No Quantity	
+United Kingdom	38	45	49	0	40	13	25	25	0	127	77	98	No Quantity	
+Singapore	64	68	49	0	55	23	51	0	49	0	25	0	0	
+Indonesia	0	0	0	0	0	0	0	0	0	65	13	0	No Quantity	
+Viet Nam	0	0	0	0	0	0	0	0	0	0	12	229	No Quantity	
+Sri Lanka	15	0	5	0	29	0	17	0	0	0	7	0	0	
+Thailand	7	1	1	0	0	2	8	0	2	0	4	12	0	
+Italy	0	0	0	0	0	0	0	0	0	0	1	0	0	
+United States of America	0	0	0	0	1	0	0	0	0	0	1	26	No Quantity	
+China	0	0	0	0	0	0	0	0	0	0	0	26	0	
+France	0	9	0	0	0	0	0	0	0	0	0	0	0	
+Côte d'Ivoire	0	0	0	0	0	0	0	0	0	24	0	27	No Quantity	
+Kenya	0	0	0	0	0	0	25	0	0	0	0	0	0	
+Mexico	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Netherlands	0	0	0	0	0	0	0	0	0	25	0	0	0	
+India	0	0	0	0	0	0	0	0	0	0	0	18	0	

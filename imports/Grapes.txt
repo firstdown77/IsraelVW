@@ -1,15 +1,20 @@
 List of supplying markets for a product imported by Israel Product: 0806 Grapes, fresh or dried
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	2,216	2,763	2,289	2,508	No Quantity	
-United States	1,754	1,934	1,615	2,027	No Quantity	
-South Africa	430	180	502	284	No Quantity	
-Turkey	6	491	75	112	No Quantity	
-Greece	10	59	40	30	No Quantity	
-Uzbekistan	15	50	14	29	No Quantity	
-China	0	47	13	15	No Quantity	
-Hong Kong, China	0	0	7	6	0	
-Italy	0	3	3	4	No Quantity	
-Area Nes	0	0	0	0	No Quantity	
-Argentina	0	0	0	0	No Quantity	
-Australia	0	0	0	0	0	
-Canada	0	0	21	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, "	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	1,684	1,802	2,479	0	3,251	3,639	2,949	2,695	2,216	2,763	2,289	2,508	No Quantity	
+United States of America	1,312	1,266	1,901	0	2,905	2,927	2,113	2,174	1,754	1,934	1,615	2,027	No Quantity	
+South Africa	232	435	544	0	221	441	611	392	430	180	502	284	No Quantity	
+Turkey	62	72	14	0	49	50	49	71	6	491	75	112	No Quantity	
+Greece	0	0	0	0	51	68	60	20	10	59	40	30	No Quantity	
+Canada	0	0	10	0	0	0	0	0	0	0	21	0	0	
+Uzbekistan	27	0	0	0	25	2	3	18	15	50	14	29	No Quantity	
+China	0	0	0	0	0	116	8	0	0	47	13	15	No Quantity	
+Hong Kong, China	0	0	0	0	0	0	0	0	0	0	7	6	0	
+Italy	0	0	0	0	0	0	0	0	0	3	3	4	No Quantity	
+Area Nes	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Argentina	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Australia	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Chile	28	0	0	0	0	33	102	0	0	0	0	0	0	
+Jordan	17	0	0	0	0	0	0	0	0	0	0	0	0	
+Romania	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Russian Federation	5	0	0	0	0	0	4	0	0	0	0	0	0	
+United Kingdom	0	30	10	0	0	0	0	20	0	0	0	0	0	

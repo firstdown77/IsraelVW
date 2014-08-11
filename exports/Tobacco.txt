@@ -1,12 +1,23 @@
 List of importing markets for a product exported by Israel Product: 2402 Cigars, cheroots, cigarillos & cigarettes
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, "	"2012-Exported quantity, "	"2013-Exported quantity, "	
-World	No Quantity	0	0	No Quantity	No Quantity	
-Area Nes	No Quantity	0	0	No Quantity	0	
-Bosnia and Herzegovina	No Quantity	0	0	0	0	
-Canada	0	0	0	0	No Quantity	
-Latvia	0	0	0	No Quantity	0	
-Mexico	No Quantity	0	0	0	0	
-Spain	0	0	0	No Quantity	0	
-Switzerland	0	0	0	0	0	
-Turkey	0	0	0	0	0	
-United States of America	No Quantity	0	0	0	No Quantity	
+"Importers"	"2001-Exported quantity, Tons"	"2002-Exported quantity, Tons"	"2003-Exported quantity, "	"2004-Exported quantity, Tons"	"2005-Exported quantity, "	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, "	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	No Quantity	No Quantity	No Quantity	No Quantity	No Quantity	1	35	No Quantity	No Quantity	0	No Quantity	No Quantity	No Quantity	
+Area Nes	0	0	0	7	0	0	0	No Quantity	No Quantity	0	0	No Quantity	0	
+Bosnia and Herzegovina	0	0	0	0	0	0	0	2	No Quantity	0	0	0	0	
+Canada	0	0	No Quantity	No Quantity	No Quantity	No Quantity	0	0	0	0	0	0	No Quantity	
+Croatia	0	0	0	0	0	0	0	No Quantity	0	0	0	0	0	
+Cyprus	0	No Quantity	0	0	0	0	9	No Quantity	0	0	0	0	0	
+France	0	0	0	0	0	0	0	No Quantity	0	0	0	0	0	
+Greece	No Quantity	0	0	0	0	0	0	0	0	0	0	0	0	
+Italy	0	0	0	0	No Quantity	No Quantity	0	0	0	0	0	0	0	
+Jordan	0	0	0	0	0	1	1	0	0	0	0	0	0	
+Latvia	0	0	0	0	0	0	0	0	0	0	0	No Quantity	0	
+Mexico	0	0	0	0	0	0	0	0	No Quantity	0	0	0	0	
+Taipei, Chinese	0	No Quantity	No Quantity	0	0	0	0	0	0	0	0	0	0	
+Netherlands	No Quantity	0	0	0	No Quantity	0	0	No Quantity	0	0	0	0	0	
+Spain	0	0	0	0	0	0	0	0	0	0	0	No Quantity	0	
+Sweden	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Switzerland	No Quantity	No Quantity	No Quantity	No Quantity	No Quantity	0	1	No Quantity	0	0	0	0	0	
+Syrian Arab Republic	0	0	0	0	0	0	0	No Quantity	0	0	0	0	0	
+Turkey	0	0	0	0	0	No Quantity	15	No Quantity	0	0	0	0	0	
+Egypt	0	0	0	0	0	0	0	No Quantity	0	0	0	0	0	
+United States of America	No Quantity	No Quantity	No Quantity	0	No Quantity	No Quantity	8	24	No Quantity	0	0	0	No Quantity	

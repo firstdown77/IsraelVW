@@ -1,15 +1,23 @@
-United StatesList of supplying markets for a product imported by Israel Product: 1002 Rye
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	8,248	7,853	16,369	19,710	No Quantity	
-Switzerland	2,793	0	8,841	5,732	0	
-Cyprus	0	0	0	4,326	0	
-Sweden	0	0	2,951	3,300	0	
-Netherlands	0	0	0	3,283	0	
-United Kingdom	1,000	3,550	0	3,000	0	
-Germany	4,389	3,071	4,473	45	No Quantity	
-Canada	20	40	44	21	No Quantity	
-Ethiopia	2	3	0	2	No Quantity	
-Italy	0	0	60	0	0	
-Russian Federation	0	0	0	0	No Quantity	
-Singapore	0	1,189	0	0	0	
-Ukraine	44	0	0	0	No Quantity	
+List of supplying markets for a product imported by Israel Product: 1002 Rye
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	49,141	43,883	124,458	14,740	70,408	87,662	46,566	6,689	8,248	7,853	16,369	19,710	No Quantity	
+Switzerland	11,665	2,382	32,564	0	43,712	15,061	0	0	2,793	0	8,841	5,732	0	
+Germany	12,279	12,618	15,919	7,930	117	7,936	18,850	5,155	4,389	3,071	4,473	45	No Quantity	
+Sweden	0	0	0	0	0	0	0	0	0	0	2,951	3,300	0	
+Italy	0	0	0	0	0	0	31	0	0	0	60	0	0	
+Canada	0	0	0	0	0	0	21	0	20	40	44	21	No Quantity	
+Austria	0	2,788	2,447	0	1,651	0	0	0	0	0	0	0	0	
+Cyprus	0	0	0	0	0	0	0	0	0	0	0	4,326	0	
+Ethiopia	0	0	3	0	6	0	0	0	2	3	0	2	No Quantity	
+France	0	0	0	0	0	3,653	0	0	0	0	0	0	0	
+Greece	0	0	0	6,810	0	0	0	0	0	0	0	0	0	
+Hungary	451	3,299	561	0	0	0	0	0	0	0	0	0	0	
+Ireland	0	0	0	0	0	6	0	0	0	0	0	0	0	
+Netherlands	3,749	13,116	35,301	0	24,922	40,596	6,935	1,509	0	0	0	3,283	0	
+Russian Federation	0	3,200	8,523	0	0	0	0	0	0	0	0	0	No Quantity	
+Singapore	0	0	0	0	0	0	0	0	0	1,189	0	0	0	
+Spain	0	0	2,817	0	0	0	0	0	0	0	0	0	0	
+Turkey	0	0	0	0	0	0	0	25	0	0	0	0	0	
+Ukraine	1,717	0	6,175	0	0	0	0	0	44	0	0	0	No Quantity	
+United Kingdom	19,280	3,017	20,147	0	0	14,308	11,609	0	1,000	3,550	0	3,000	0	
+United States of America	0	3,463	0	0	0	6,104	9,120	0	0	0	0	0	0	

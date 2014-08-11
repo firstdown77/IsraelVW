@@ -1,25 +1,43 @@
 List of supplying markets for a product imported by Israel Product: 0402 Milk and cream, concentrated or sweetened
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	5,582	7,963	8,654	6,534	No Quantity	
-Germany	1,725	2,197	2,475	2,356	No Quantity	
-United States	1,353	3,262	4,061	1,968	No Quantity	
-Netherlands	252	171	643	390	No Quantity	
-Poland	325	365	440	386	No Quantity	
-Denmark	124	25	24	298	No Quantity	
-France	397	232	113	282	No Quantity	
-Switzerland	252	470	233	239	No Quantity	
-Ukraine	228	374	239	169	No Quantity	
-Ireland	114	88	248	140	0	
-Belgium	294	232	126	110	No Quantity	
-Lithuania	0	50	0	76	0	
-Italy	39	9	2	41	No Quantity	
-Russian Federation	0	0	0	38	No Quantity	
-United Kingdom	0	0	0	20	No Quantity	
-Belarus	0	121	42	19	No Quantity	
-Thailand	5	7	9	4	No Quantity	
-Canada	0	42	0	0	0	
-China	8	0	0	0	0	
-Portugal	0	0	0	0	No Quantity	
-India	0	0	0	0	No Quantity	
-Sweden	466	317	0	0	0	
-Turkey	0	0	0	0	No Quantity	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, "	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	No Quantity	No Quantity	No Quantity	0	8,369	7,876	8,049	8,658	5,582	7,963	8,654	6,534	No Quantity	
+United States of America	821	No Quantity	929	0	1,458	1,365	3,126	5,521	1,353	3,262	4,061	1,968	No Quantity	
+Germany	1,450	2,542	1,644	0	2,373	3,139	2,291	1,390	1,725	2,197	2,475	2,356	No Quantity	
+Netherlands	No Quantity	No Quantity	229	0	124	378	154	189	252	171	643	390	No Quantity	
+Poland	0	0	0	0	0	0	0	0	325	365	440	386	No Quantity	
+Ireland	34	92	34	0	454	88	0	0	114	88	248	140	0	
+Ukraine	118	No Quantity	206	0	No Quantity	282	512	419	228	374	239	169	No Quantity	
+Switzerland	152	122	28	0	138	318	224	380	252	470	233	239	No Quantity	
+Belgium	30	5	4	0	0	415	228	369	294	232	126	110	No Quantity	
+France	220	404	445	0	734	551	483	159	397	232	113	282	No Quantity	
+Belarus	0	0	0	0	0	0	275	0	0	121	42	19	No Quantity	
+Denmark	1,787	1,542	1,519	0	2,380	1,052	640	50	124	25	24	298	No Quantity	
+Thailand	12	No Quantity	21	0	No Quantity	No Quantity	35	17	5	7	9	4	No Quantity	
+Italy	4	7	6	0	0	0	0	50	39	9	2	41	No Quantity	
+Argentina	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Australia	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Austria	0	2	0	0	0	0	0	0	0	0	0	0	0	
+Canada	0	0	0	0	0	0	0	0	0	42	0	0	0	
+China	0	0	0	0	0	0	0	0	8	0	0	0	0	
+Czech Republic	0	0	0	0	0	87	0	0	0	0	0	0	0	
+Ghana	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Greece	0	0	No Quantity	0	0	0	0	0	0	0	0	0	0	
+Hungary	0	220	115	0	0	0	0	0	0	0	0	0	0	
+Jordan	4	7	0	0	89	0	0	0	0	0	0	0	0	
+Korea, Republic of	0	0	0	0	No Quantity	0	0	0	0	0	0	0	0	
+Latvia	21	0	45	0	0	0	0	0	0	0	0	0	0	
+Lithuania	36	No Quantity	75	0	No Quantity	0	0	0	0	50	0	76	0	
+Republic of Moldova	0	0	4	0	0	0	0	0	0	0	0	0	0	
+New Zealand	0	0	172	0	505	34	0	0	0	0	0	0	0	
+Philippines	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Portugal	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Romania	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Russian Federation	276	No Quantity	145	0	No Quantity	No Quantity	23	15	0	0	0	38	No Quantity	
+India	0	0	0	0	0	0	45	0	0	0	0	0	No Quantity	
+Spain	91	No Quantity	76	0	No Quantity	No Quantity	0	0	0	0	0	0	0	
+Sweden	0	0	0	0	58	166	0	98	466	317	0	0	0	
+Turkey	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Egypt	0	0	0	0	0	0	0	0	0	0	0	0	0	
+United Kingdom	0	80	22	0	No Quantity	No Quantity	0	0	0	0	0	20	No Quantity	
+Uruguay	0	0	0	0	55	0	0	0	0	0	0	0	0	
+Venezuela	0	0	0	0	0	0	12	0	0	0	0	0	0	

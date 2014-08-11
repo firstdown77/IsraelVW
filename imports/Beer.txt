@@ -1,49 +1,62 @@
 List of supplying markets for a product imported by Israel Product: 2203 Beer made from malt
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Cubic meters"	"2013-Imported quantity, "	
-World	27,870	30,763	31,670	33,522	No Quantity	
-Netherlands	4,489	4,683	3,977	7,183	No Quantity	
-Belgium	4,817	5,511	5,173	5,770	No Quantity	
-Germany	2,481	2,535	3,908	4,416	No Quantity	
-Greece	5,544	6,257	6,698	4,286	No Quantity	
-Russian Federation	1,841	1,903	2,002	1,723	No Quantity	
-Ukraine	1,050	1,299	1,312	1,353	No Quantity	
-United Kingdom	93	412	611	988	No Quantity	
-Italy	303	562	535	901	No Quantity	
-Ireland	1,168	1,364	1,066	848	No Quantity	
-Mexico	1,043	948	581	755	No Quantity	
-Czech Republic	658	665	1,016	724	No Quantity	
-Turkey	1,185	1,407	1,057	697	No Quantity	
-Spain	1,294	457	389	672	No Quantity	
-Romania	181	281	635	494	No Quantity	
-Cyprus	0	0	132	389	0	
-Jordan	44	167	136	312	No Quantity	
-Austria	266	293	79	274	No Quantity	
-Ethiopia	16	65	247	270	No Quantity	
-Denmark	206	132	172	265	No Quantity	
-Slovenia	676	961	759	219	No Quantity	
-Thailand	47	87	119	181	No Quantity	
-United States	89	226	158	137	No Quantity	
-Latvia	0	23	20	135	No Quantity	
-Lithuania	88	50	65	89	No Quantity	
-China	66	49	71	81	No Quantity	
-France	0	80	130	75	No Quantity	
-Eritrea	0	0	0	72	0	
-India	0	0	0	57	0	
-Slovakia	0	0	0	34	0	
-Philippines	81	89	64	34	No Quantity	
-Hong Kong, China	17	0	69	23	No Quantity	
-Georgia	0	0	8	12	No Quantity	
-Portugal	18	18	0	12	0	
-Taipei, Chinese	0	0	0	12	0	
-Argentina	14	25	33	12	No Quantity	
-Viet Nam	0	0	4	10	0	
-Australia	5	0	0	8	No Quantity	
-Belarus	0	0	0	0	0	
-Area Nes	13	0	0	0	0	
-Bulgaria	14	60	57	0	0	
-Canada	0	0	0	0	No Quantity	
-Morocco	0	72	41	0	0	
-Poland	49	73	345	0	No Quantity	
-Serbia	0	0	0	0	No Quantity	
-Sweden	0	9	0	0	0	
-United Arab Emirates	15	0	0	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity"	"2004-Unit"	"2005-Imported quantity, Cubic meters"	"2006-Imported quantity, Cubic meters"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Cubic meters"	"2013-Imported quantity, "	
+World	31,780	32,099	28,214	17,386	Cubic meters	18,512	19,170	27,006	28,511	27,870	30,763	31,670	33,522	No Quantity	
+Greece	1,152	690	402	90	Cubic meters	241	1,044	4,263	3,775	5,544	6,257	6,698	4,286	No Quantity	
+Belgium	8,220	8,523	11,618	6,848	Cubic meters	4,958	4,148	5,587	5,464	4,817	5,511	5,173	5,770	No Quantity	
+Netherlands	12,215	10,051	5,086	4,400	Cubic meters	5,866	6,082	6,947	5,549	4,489	4,683	3,977	7,183	No Quantity	
+Germany	4,153	5,871	3,471	1,622	Cubic meters	1,599	1,452	1,629	1,963	2,481	2,535	3,908	4,416	No Quantity	
+Russian Federation	1,020	1,322	1,095	904	Cubic meters	248	566	1,233	1,703	1,841	1,903	2,002	1,723	No Quantity	
+Ukraine	247	201	88	74	Cubic meters	147	249	363	1,031	1,050	1,299	1,312	1,353	No Quantity	
+Ireland	566	407	363	226	Cubic meters	797	1,082	946	1,065	1,168	1,364	1,066	848	No Quantity	
+Turkey	168	282	522	233	Cubic meters	657	540	1,598	1,732	1,185	1,407	1,057	697	No Quantity	
+Czech Republic	898	817	948	379	Cubic meters	389	481	903	692	658	665	1,016	724	No Quantity	
+Slovenia	0	0	0	0		0	21	126	420	676	961	759	219	No Quantity	
+Romania	0	0	17	1	Cubic meters	102	218	472	68	181	281	635	494	No Quantity	
+United Kingdom	212	335	422	331	Cubic meters	406	410	279	401	93	412	611	988	No Quantity	
+Mexico	1,881	1,864	1,623	579	Cubic meters	750	1,062	935	2,099	1,043	948	581	755	No Quantity	
+Italy	112	9	40	33	Cubic meters	638	684	222	766	303	562	535	901	No Quantity	
+Spain	29	103	53	39	Cubic meters	10	21	172	716	1,294	457	389	672	No Quantity	
+Poland	0	18	696	601	Cubic meters	927	357	293	74	49	73	345	0	No Quantity	
+Ethiopia	0	0	0	92	Cubic meters	10	13	16	16	16	65	247	270	No Quantity	
+Denmark	307	215	305	191	Cubic meters	188	133	366	134	206	132	172	265	No Quantity	
+United States of America	125	151	150	72	Cubic meters	122	88	83	79	89	226	158	137	No Quantity	
+Jordan	13	0	0	0		24	0	0	26	44	167	136	312	No Quantity	
+Cyprus	22	6	52	85	Cubic meters	15	0	0	0	0	0	132	389	0	
+France	10	1	169	88	Cubic meters	13	16	9	11	0	80	130	75	No Quantity	
+Thailand	0	0	13	0		12	42	65	97	47	87	119	181	No Quantity	
+Austria	118	377	284	171	Cubic meters	210	209	317	254	266	293	79	274	No Quantity	
+China	0	8	41	10	Cubic meters	28	0	0	34	66	49	71	81	No Quantity	
+Hong Kong, China	0	0	23	12	Cubic meters	1	1	0	27	17	0	69	23	No Quantity	
+Lithuania	79	32	28	78	Cubic meters	78	66	29	40	88	50	65	89	No Quantity	
+Philippines	56	68	47	15	Cubic meters	38	59	122	70	81	89	64	34	No Quantity	
+Bulgaria	0	4	0	0		8	0	0	0	14	60	57	0	0	
+Morocco	0	0	0	0		0	0	0	0	0	72	41	0	0	
+Argentina	0	0	232	30	Cubic meters	16	5	0	0	14	25	33	12	No Quantity	
+Latvia	50	42	0	18	Tons	15	6	0	0	0	23	20	135	No Quantity	
+Georgia	0	0	44	0		0	5	3	1	0	0	8	12	No Quantity	
+Viet Nam	0	0	0	0		0	0	0	0	0	0	4	10	0	
+Oceania Nes	0	0	0	0		0	6	0	0	0	0	0	0	0	
+Area Nes	0	0	0	0		0	0	0	0	13	0	0	0	0	
+Australia	13	9	22	15	Cubic meters	0	0	0	7	5	0	0	8	No Quantity	
+Brazil	0	0	0	13	Cubic meters	0	0	0	9	0	0	0	0	0	
+Belarus	0	0	0	0		0	0	0	0	0	0	0	0	0	
+Canada	0	7	7	0		0	0	0	0	0	0	0	0	No Quantity	
+Croatia	0	0	0	0		0	0	11	0	0	0	0	0	0	
+Eritrea	0	0	0	0		0	0	0	0	0	0	0	72	0	
+Estonia	0	0	0	11	Cubic meters	0	0	0	0	0	0	0	0	0	
+Hungary	10	0	0	0		0	0	0	0	0	0	0	0	0	
+Japan	36	0	0	0		0	8	0	0	0	0	0	0	0	
+Malta	0	0	34	0		0	0	0	0	0	0	0	0	0	
+Taipei, Chinese	0	0	0	0		0	0	0	0	0	0	0	12	0	
+Republic of Moldova	5	0	0	0		0	0	0	0	0	0	0	0	0	
+New Zealand	0	0	0	0		0	0	9	0	0	0	0	0	0	
+Peru	0	0	13	8	Cubic meters	0	0	0	0	0	0	0	0	0	
+Portugal	41	563	279	38	Cubic meters	0	0	0	36	18	18	0	12	0	
+Serbia	0	0	0	0		0	0	0	118	0	0	0	0	No Quantity	
+India	0	0	0	8	Cubic meters	0	0	0	16	0	0	0	57	0	
+Slovakia	22	0	0	0		0	0	0	0	0	0	0	34	0	
+South Africa	0	122	27	0		0	0	0	0	0	0	0	0	0	
+Sweden	0	0	0	0		0	0	7	0	0	9	0	0	0	
+Switzerland	0	0	0	14	Cubic meters	0	1	0	0	0	0	0	0	0	
+United Arab Emirates	0	0	0	0		0	0	0	16	15	0	0	0	0	
+Egypt	0	0	0	56	Tons	0	91	0	0	0	0	0	0	0	

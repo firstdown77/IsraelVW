@@ -1,4 +1,5 @@
 List of importing markets for a product exported by Israel Product: 1004 Oats
-"Importers"	"2009-Exported quantity, "	"2010-Exported quantity, "	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
-World	0	0	8	9	0	
-United States of America	0	0	8	9	0	
+"Importers"	"2001-Exported quantity, "	"2002-Exported quantity, "	"2003-Exported quantity, Tons"	"2004-Exported quantity, "	"2005-Exported quantity, "	"2006-Exported quantity, "	"2007-Exported quantity, "	"2008-Exported quantity, "	"2009-Exported quantity, "	"2010-Exported quantity, "	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	0	0	6	0	0	0	0	No Quantity	No Quantity	No Quantity	8	9	No Quantity	
+United States of America	0	0	0	0	0	0	0	0	0	0	8	9	0	
+Malta	0	0	6	0	0	0	0	0	0	0	0	0	0	

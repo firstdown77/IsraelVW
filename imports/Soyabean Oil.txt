@@ -1,21 +1,26 @@
 List of supplying markets for a product imported by Israel Product: 1507 Soya-bean oil&its fractions
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	4,972	3,280	3,437	8,604	No Quantity	
-Spain	1	954	0	6,175	No Quantity	
-Netherlands	106	146	377	999	No Quantity	
-Belgium	3,775	1,780	2,312	923	No Quantity	
-Canada	0	0	0	328	No Quantity	
-Ukraine	0	0	0	131	No Quantity	
-Estonia	0	0	0	28	No Quantity	
-Italy	0	4	0	19	0	
-Germany	2	0	2	1	No Quantity	
-Argentina	834	275	504	0	0	
-France	0	0	1	0	0	
-Korea, Republic of	0	0	0	0	No Quantity	
-Portugal	0	0	0	0	No Quantity	
-Russian Federation	0	0	0	0	No Quantity	
-India	3	0	0	0	0	
-Thailand	11	0	0	0	0	
-Turkey	217	85	160	0	0	
-Egypt	20	14	73	0	0	
-United States	2	22	10	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	11,011	7,587	16,439	6,126	12,229	7,104	14,514	7,821	4,972	3,280	3,437	8,604	No Quantity	
+Belgium	999	214	166	375	9	0	669	1,448	3,775	1,780	2,312	923	No Quantity	
+Argentina	1,606	888	3,383	1,729	7,131	4,484	4,823	4,130	834	275	504	0	0	
+Netherlands	283	303	905	1,880	79	70	0	63	106	146	377	999	No Quantity	
+Turkey	0	0	0	0	0	0	53	0	217	85	160	0	0	
+Egypt	0	0	0	0	0	0	0	0	20	14	73	0	0	
+United States of America	2,335	5	1,506	1,222	960	3	5	2	2	22	10	0	0	
+Germany	4	0	7	2	1,830	2	3	1	2	0	2	1	No Quantity	
+France	0	1,469	1,847	550	84	0	0	3	0	0	1	0	0	
+Brazil	0	0	0	0	1,852	1,180	2,591	2,172	0	0	0	0	0	
+Canada	0	0	0	0	0	0	0	0	0	0	0	328	No Quantity	
+Denmark	117	0	0	10	0	0	0	0	0	0	0	0	0	
+Estonia	0	0	0	0	0	0	0	0	0	0	0	28	No Quantity	
+Greece	3,979	2,704	6,411	0	0	1,362	1,826	0	0	0	0	0	0	
+Italy	140	4	0	0	4	0	14	2	0	4	0	19	0	
+Korea, Republic of	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Morocco	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Portugal	0	0	98	358	276	0	0	0	0	0	0	0	No Quantity	
+Russian Federation	0	0	0	0	4	2	0	0	0	0	0	0	No Quantity	
+India	0	0	0	0	0	0	5	0	3	0	0	0	0	
+Spain	1,003	0	0	0	0	0	0	0	1	954	0	6,175	No Quantity	
+Switzerland	544	1,999	2,116	0	0	0	4,488	0	0	0	0	0	0	
+Thailand	0	0	0	0	0	0	37	0	11	0	0	0	0	
+Ukraine	0	0	0	0	0	0	0	0	0	0	0	131	No Quantity	

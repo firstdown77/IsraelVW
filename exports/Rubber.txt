@@ -1,30 +1,49 @@
 List of importing markets for a product exported by Israel Product: 4001 Natural rubber,balata,gutta-percha etc
-"Importers"	"Exported value in 2009"	"Exported value in 2010"	"Exported value in 2011"	"Exported value in 2012"	"Exported value in 2013"	
-World	119	82	134	194	85	
-Russian Federation	0	1	0	79	0	
-Netherlands	8	1	0	25	4	
-United States of America	37	30	29	24	12	
-Bulgaria	0	12	8	19	26	
-Viet Nam	8	9	0	11	0	
-India	0	1	13	10	11	
-China	11	9	4	6	0	
-Belgium	1	0	0	5	3	
-Germany	1	8	6	3	13	
-Hong Kong, China	0	3	6	3	11	
-Turkey	3	0	0	3	0	
-Greece	0	0	4	1	0	
-Italy	0	1	0	1	0	
-Luxembourg	0	0	1	1	0	
-Slovenia	34	0	0	1	0	
-Egypt	0	0	0	1	1	
-United Kingdom	0	1	1	1	2	
-Australia	5	0	0	0	0	
-Austria	0	1	0	0	0	
-Canada	4	0	0	0	0	
-Jordan	0	2	1	0	0	
-Republic of Moldova	1	0	0	0	0	
-Nigeria	0	1	19	0	1	
-Norway	1	0	0	0	0	
-Peru	5	0	0	0	0	
-Spain	0	2	9	0	1	
-Switzerland	0	0	33	0	0	
+"Importers"	"2001-Exported quantity, Tons"	"2002-Exported quantity, Tons"	"2003-Exported quantity, Tons"	"2004-Exported quantity, Tons"	"2005-Exported quantity, Tons"	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	3	10	234	124	156	175	178	110	46	No Quantity	41	No Quantity	No Quantity	
+Switzerland	0	4	0	0	0	0	0	0	0	0	10	0	0	
+United States of America	0	1	13	46	11	9	17	5	14	15	9	No Quantity	No Quantity	
+Nigeria	0	0	0	0	0	0	0	2	0	1	6	0	No Quantity	
+India	0	0	0	0	0	0	0	9	0	1	4	No Quantity	No Quantity	
+Spain	0	0	0	0	1	0	4	6	0	1	3	0	No Quantity	
+Bulgaria	0	0	5	0	0	0	1	0	0	6	2	No Quantity	No Quantity	
+Germany	1	0	5	2	6	8	14	7	0	4	2	No Quantity	No Quantity	
+Hong Kong, China	0	0	0	0	0	0	1	0	0	2	2	No Quantity	No Quantity	
+China	0	0	0	0	0	0	1	0	4	No Quantity	1	No Quantity	0	
+Greece	0	1	0	0	59	19	1	0	0	0	1	No Quantity	0	
+Angola	0	0	0	0	0	0	0	2	0	0	0	0	0	
+Europe Othr. Nes	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Africa not elsewhere specified	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Area Nes	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Australia	0	0	0	0	2	0	4	1	2	0	0	0	0	
+Austria	0	0	0	1	1	0	1	0	0	1	0	0	0	
+Belgium	0	0	0	0	0	0	1	1	0	0	0	No Quantity	No Quantity	
+Brazil	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Canada	0	0	0	0	0	0	0	0	2	0	0	0	0	
+Cyprus	0	0	0	1	0	0	0	0	0	0	0	0	0	
+Czech Republic	0	0	0	1	52	93	80	0	0	0	0	0	0	
+Denmark	0	0	0	4	0	0	0	0	0	0	0	0	0	
+Finland	0	0	0	0	13	0	0	0	0	0	0	0	0	
+France	0	0	0	0	0	0	0	2	0	0	0	0	0	
+Hungary	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Ireland	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Italy	0	0	0	1	0	12	0	0	0	1	0	No Quantity	0	
+Jordan	0	0	0	1	0	0	0	0	0	1	0	0	0	
+Kenya	0	0	0	0	2	0	0	0	0	0	0	0	0	
+Luxembourg	0	0	0	0	0	0	0	0	0	0	0	No Quantity	0	
+Mexico	0	0	0	0	0	0	1	0	0	0	0	0	0	
+Republic of Moldova	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Netherlands	1	4	2	2	2	7	2	0	3	1	0	No Quantity	No Quantity	
+Norway	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Peru	0	0	0	0	0	0	0	0	2	0	0	0	0	
+Philippines	0	0	1	0	2	9	53	32	0	0	0	0	0	
+Poland	0	0	0	0	0	2	0	0	0	0	0	0	0	
+Romania	0	0	209	0	3	0	0	0	0	0	0	0	0	
+Russian Federation	0	0	0	0	0	0	0	0	0	1	0	No Quantity	0	
+Singapore	0	0	0	0	3	12	0	1	0	0	0	0	0	
+Viet Nam	0	0	0	0	0	0	0	16	3	5	0	No Quantity	0	
+Slovenia	0	0	0	0	0	0	0	19	13	0	0	No Quantity	0	
+Thailand	0	0	0	0	0	4	0	0	0	0	0	0	0	
+Turkey	0	0	0	0	0	0	0	1	1	0	0	No Quantity	0	
+Egypt	0	0	0	0	0	0	0	0	0	0	0	No Quantity	No Quantity	
+United Kingdom	0	0	0	65	1	0	1	1	0	1	0	No Quantity	No Quantity	

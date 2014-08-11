@@ -1,4 +1,8 @@
 List of importing markets for a product exported by Israel Product: 0206 Edible offal of red meat
-"Importers"	"2009-Exported quantity, "	"2010-Exported quantity, "	"2011-Exported quantity, "	"2012-Exported quantity, "	"2013-Exported quantity, "	
-World	0	0	0	0	No Quantity	
-Netherlands	0	0	0	0	No Quantity	
+"Importers"	"2001-Exported quantity, "	"2002-Exported quantity, "	"2003-Exported quantity, "	"2004-Exported quantity, "	"2005-Exported quantity, "	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, "	"2010-Exported quantity, "	"2011-Exported quantity, "	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	0	0	0	0	0	48	2	1	No Quantity	No Quantity	No Quantity	No Quantity	No Quantity	
+Area Nes	0	0	0	0	0	17	0	0	0	0	0	0	0	
+France	0	0	0	0	0	0	2	0	0	0	0	0	0	
+Georgia	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Jordan	0	0	0	0	0	30	0	0	0	0	0	0	0	
+Netherlands	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	

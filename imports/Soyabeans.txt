@@ -1,20 +1,33 @@
 List of supplying markets for a product imported by Israel Product: 1201 Soya beans, whether or not broken
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	351,556	484,768	423,224	363,522	No Quantity	
-United States	129,151	226,552	271,068	253,731	No Quantity	
-Uruguay	15,471	0	0	51,789	No Quantity	
-Switzerland	134,375	129,150	126,561	49,377	0	
-Canada	35,020	1,460	1,319	4,511	No Quantity	
-Singapore	1,600	0	0	2,870	0	
-China	1,038	1,175	1,220	1,197	No Quantity	
-Japan	0	0	4	27	No Quantity	
-Germany	0	0	0	20	0	
-Argentina	0	20,000	1,000	0	No Quantity	
-Brazil	8,000	0	0	0	No Quantity	
-Greece	26,878	54,236	1,407	0	0	
-Indonesia	22	0	0	0	0	
-Netherlands	0	0	20,639	0	0	
-Paraguay	0	52,124	0	0	No Quantity	
-India	0	0	3	0	0	
-Thailand	2	0	3	0	0	
-Ukraine	0	70	0	0	No Quantity	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	602,224	702,940	616,980	607,066	500,479	449,158	515,477	319,498	351,556	484,768	423,224	363,522	No Quantity	
+United States of America	426,710	617,834	317,698	217,419	176,524	131,907	191,240	124,287	129,151	226,552	271,068	253,731	No Quantity	
+Switzerland	0	12,755	31,254	108,944	169,521	131,264	98,240	121,365	134,375	129,150	126,561	49,377	0	
+Netherlands	18	27,502	4	7,085	6,974	0	5,000	0	0	0	20,639	0	0	
+Greece	0	0	8,239	0	55,519	86,142	33,257	19,051	26,878	54,236	1,407	0	0	
+Canada	15,323	695	1,148	1,067	1,555	18,752	44,831	25,450	35,020	1,460	1,319	4,511	No Quantity	
+China	0	0	0	147	322	879	739	1,643	1,038	1,175	1,220	1,197	No Quantity	
+Argentina	16,008	19,972	33,397	57,065	0	0	0	0	0	20,000	1,000	0	No Quantity	
+Japan	0	0	0	0	0	0	0	0	0	0	4	27	No Quantity	
+India	0	0	0	0	0	0	0	0	0	0	3	0	0	
+Thailand	0	0	0	0	0	0	0	0	2	0	3	0	0	
+Australia	14,500	0	0	0	0	0	0	0	0	0	0	0	0	
+Austria	0	0	0	4	0	6	0	0	0	0	0	0	0	
+Belgium	0	0	0	0	0	0	94	0	0	0	0	0	0	
+Brazil	0	0	89,021	162,647	3,590	42,061	59,992	12,861	8,000	0	0	0	No Quantity	
+Benin	0	0	0	0	0	0	0	37	0	0	0	0	0	
+Ethiopia	0	0	0	0	0	0	110	760	0	0	0	0	0	
+France	16	0	0	0	0	0	0	0	0	0	0	0	0	
+Germany	0	6,000	6,403	15,934	0	0	0	0	0	0	0	20	0	
+Hong Kong, China	0	0	0	55	0	0	0	0	0	0	0	0	0	
+Iceland	0	0	0	3,849	0	0	0	0	0	0	0	0	0	
+Indonesia	0	0	0	0	0	0	0	0	22	0	0	0	0	
+Italy	0	0	0	0	0	26	0	0	0	0	0	0	0	
+Malta	0	0	80,482	0	0	0	0	0	0	0	0	0	0	
+Norway	0	0	36,400	26,550	0	0	0	0	0	0	0	0	0	
+Panama	0	0	8,933	0	0	0	0	7,200	0	0	0	0	0	
+Paraguay	0	0	0	0	23,460	14,263	38,803	0	0	52,124	0	0	No Quantity	
+Singapore	0	0	0	0	0	0	13,200	0	1,600	0	0	2,870	0	
+Ukraine	0	0	0	0	0	0	2,970	0	0	70	0	0	No Quantity	
+United Kingdom	129,650	18,181	4,000	0	0	7,440	0	0	0	0	0	0	0	
+Uruguay	0	0	0	6,300	63,013	16,420	27,000	6,845	15,471	0	0	51,789	No Quantity	

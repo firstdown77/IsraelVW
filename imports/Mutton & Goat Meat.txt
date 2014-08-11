@@ -1,9 +1,12 @@
 List of supplying markets for a product imported by Israel Product: 0204 Meat of sheep or goats - fresh, chilled or frozen
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	1,148	1,618	1,728	1,733	No Quantity	
-France	0	0	1,144	943	0	
-Chile	0	450	355	538	No Quantity	
-Argentina	209	77	229	181	0	
-Australia	918	913	0	72	No Quantity	
-Brazil	22	0	0	0	0	
-Uruguay	0	179	0	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, "	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	792	212	603	0	216	265	413	1,036	1,148	1,618	1,728	1,733	No Quantity	
+France	0	0	0	0	0	0	0	0	0	0	1,144	943	0	
+Chile	0	0	0	0	0	135	194	289	0	450	355	538	No Quantity	
+Argentina	0	155	160	0	127	130	219	250	209	77	229	181	0	
+Australia	0	0	0	0	0	0	0	497	918	913	0	72	No Quantity	
+Brazil	0	0	0	0	0	0	0	0	22	0	0	0	0	
+Jordan	279	0	0	0	0	0	0	0	0	0	0	0	0	
+Panama	0	0	0	0	10	0	0	0	0	0	0	0	0	
+United Kingdom	149	0	399	0	50	0	0	0	0	0	0	0	0	
+Uruguay	364	57	44	0	28	0	0	0	0	179	0	0	0	

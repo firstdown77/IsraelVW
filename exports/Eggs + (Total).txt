@@ -1,11 +1,34 @@
 List of importing markets for a product exported by Israel Product: 0407 Birds' eggs in shell
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
-World	375	174	92	No Quantity	No Quantity	
-Hong Kong, China	38	0	78	No Quantity	0	
-Germany	79	155	8	No Quantity	No Quantity	
-Nigeria	29	0	3	No Quantity	0	
-Armenia	0	1	1	No Quantity	No Quantity	
-Hungary	24	0	1	No Quantity	No Quantity	
-Area Nes	0	0	0	0	No Quantity	
-Belgium	204	18	0	0	0	
-Poland	0	0	0	No Quantity	No Quantity	
+"Importers"	"2001-Exported quantity, "	"2002-Exported quantity, "	"2003-Exported quantity, Tons"	"2004-Exported quantity, "	"2005-Exported quantity, Tons"	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	No Quantity	No Quantity	No Quantity	0	106	39	358	781	375	174	92	No Quantity	No Quantity	
+Hong Kong, China	No Quantity	No Quantity	No Quantity	0	0	0	0	115	38	0	78	No Quantity	0	
+Germany	No Quantity	No Quantity	No Quantity	0	10	4	0	27	79	155	8	No Quantity	No Quantity	
+Nigeria	0	0	No Quantity	0	0	0	0	0	29	0	3	No Quantity	0	
+Armenia	0	0	0	0	0	0	0	0	0	1	1	No Quantity	No Quantity	
+Hungary	No Quantity	No Quantity	3	0	16	4	154	0	24	0	1	No Quantity	No Quantity	
+Africa not elsewhere specified	0	0	No Quantity	0	0	0	0	0	0	0	0	0	0	
+Uzbekistan	0	No Quantity	0	0	0	0	0	0	0	0	0	0	0	
+Area Nes	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Belgium	No Quantity	0	0	0	0	0	0	0	204	18	0	0	0	
+Bulgaria	No Quantity	0	0	0	0	0	0	0	0	0	0	0	0	
+China	0	0	0	0	0	0	0	19	0	0	0	0	0	
+Cyprus	0	0	No Quantity	0	0	0	26	8	0	0	0	0	0	
+Denmark	0	0	No Quantity	0	0	0	0	55	0	0	0	0	0	
+France	0	0	No Quantity	0	0	0	0	0	0	0	0	0	0	
+Gambia	0	0	No Quantity	0	0	0	0	0	0	0	0	0	0	
+Italy	0	No Quantity	0	0	0	0	0	0	0	0	0	0	0	
+Japan	0	0	0	0	0	0	0	9	0	0	0	0	0	
+Kazakhstan	No Quantity	No Quantity	0	0	20	0	39	0	0	0	0	0	0	
+Jordan	0	0	0	0	0	0	0	540	0	0	0	0	0	
+Korea, Republic of	No Quantity	No Quantity	0	0	0	0	0	0	0	0	0	0	0	
+Taipei, Chinese	No Quantity	0	0	0	0	0	0	0	0	0	0	0	0	
+Republic of Moldova	0	0	0	0	0	3	0	0	0	0	0	0	0	
+Netherlands	0	0	No Quantity	0	0	0	0	0	0	0	0	0	0	
+Poland	No Quantity	No Quantity	0	0	19	27	139	8	0	0	0	No Quantity	No Quantity	
+Russian Federation	No Quantity	0	0	0	0	0	0	0	0	0	0	0	0	
+Slovakia	No Quantity	No Quantity	0	0	0	0	0	0	0	0	0	0	0	
+Spain	0	0	0	0	39	0	0	0	0	0	0	0	0	
+Thailand	No Quantity	No Quantity	0	0	0	0	0	0	0	0	0	0	0	
+Turkey	No Quantity	No Quantity	No Quantity	0	1	0	0	0	0	0	0	0	0	
+United Kingdom	0	0	No Quantity	0	0	0	0	0	0	0	0	0	0	
+United States of America	0	0	No Quantity	0	0	0	0	0	0	0	0	0	0	

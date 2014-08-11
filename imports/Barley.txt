@@ -1,30 +1,40 @@
 List of supplying markets for a product imported by Israel Product: 1003 Barley
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	411,986	437,258	320,005	285,165	No Quantity	
-France	8,812	15,527	12,437	147,234	No Quantity	
-Switzerland	165,855	249,217	248,109	61,363	0	
-United Arab Emirates	0	0	0	32,264	0	
-Netherlands	55,553	43,309	20,194	13,106	0	
-British Virgin Islands	17,600	18,954	29,821	9,264	0	
-Singapore	0	0	0	5,003	0	
-New Zealand	0	0	0	4,155	0	
-Cyprus	0	5,140	3,056	3,791	0	
-Greece	0	0	0	3,201	0	
-United Kingdom	77,721	38,532	0	3,017	0	
-United States	5,844	4,578	0	2,764	0	
-Ethiopia	25	32	6	4	No Quantity	
-Ukraine	0	0	0	1	No Quantity	
-Argentina	0	0	0	0	No Quantity	
-Belize	0	0	4,281	0	0	
-Bulgaria	0	1,483	0	0	No Quantity	
-Canada	0	0	0	0	No Quantity	
-Denmark	0	3,150	0	0	0	
-Germany	72,588	40,349	2,100	0	0	
-Hong Kong, China	5,001	0	0	0	0	
-Hungary	0	5,093	0	0	0	
-Italy	0	10	0	0	0	
-Republic of Moldova	0	0	0	0	No Quantity	
-Panama	0	7,607	0	0	0	
-Romania	0	4,277	0	0	0	
-Russian Federation	2,987	0	0	0	No Quantity	
-India	0	0	0	0	No Quantity	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	363,665	449,601	460,040	578,142	167,647	248,630	185,389	237,109	411,986	437,258	320,005	285,165	No Quantity	
+Switzerland	51,119	71,992	82,271	163,264	52,775	121,877	68,318	125,084	165,855	249,217	248,109	61,363	0	
+British Virgin Islands	0	0	0	0	0	0	0	0	17,600	18,954	29,821	9,264	0	
+Netherlands	17,805	100,398	100,705	159,439	39,056	75,423	54,304	77,992	55,553	43,309	20,194	13,106	0	
+France	37,820	18,957	29,548	63,581	9,237	1,490	23,381	14,611	8,812	15,527	12,437	147,234	No Quantity	
+Belize	0	0	0	0	0	0	0	0	0	0	4,281	0	0	
+Cyprus	6,107	0	0	6,057	17,099	9,283	3,106	0	0	5,140	3,056	3,791	0	
+Germany	36,103	43,955	11,667	11,526	5,332	0	18,788	9,680	72,588	40,349	2,100	0	0	
+Ethiopia	0	18	30	40	46	51	81	87	25	32	6	4	No Quantity	
+Gibraltar	0	0	7,434	0	0	0	0	0	0	0	0	0	0	
+America not elsewhere specified	44	2,850	0	0	0	0	0	0	0	0	0	0	0	
+Argentina	0	0	0	0	1,673	0	0	0	0	0	0	0	No Quantity	
+Austria	8,685	20,163	23,268	3,701	0	7,953	0	0	0	0	0	0	0	
+Bahamas	0	7,566	5,706	0	0	0	0	0	0	0	0	0	0	
+Bulgaria	2,716	1,012	0	0	2,072	0	0	0	0	1,483	0	0	No Quantity	
+Canada	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Denmark	0	0	0	0	0	0	0	0	0	3,150	0	0	0	
+Greece	0	0	0	3,000	0	0	4,291	0	0	0	0	3,201	0	
+Hong Kong, China	0	0	0	0	0	0	0	0	5,001	0	0	0	0	
+Hungary	9,529	6,187	7,178	2,667	0	0	4,449	0	0	5,093	0	0	0	
+Iceland	0	0	0	0	1,347	0	0	0	0	0	0	0	0	
+Ireland	0	0	0	0	0	11	0	0	0	0	0	0	0	
+Italy	0	0	2,719	0	0	0	0	0	0	10	0	0	0	
+Lithuania	0	0	0	4	0	0	0	0	0	0	0	0	0	
+Republic of Moldova	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+New Zealand	0	0	0	0	0	0	0	0	0	0	0	4,155	0	
+Panama	0	0	0	0	0	0	0	0	0	7,607	0	0	0	
+Romania	2,219	5,410	0	0	0	0	0	0	0	4,277	0	0	0	
+Russian Federation	54,051	44,251	81,710	81,501	17,179	2,164	0	136	2,987	0	0	0	No Quantity	
+India	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Singapore	0	0	0	0	0	0	0	0	0	0	0	5,003	0	
+Spain	0	800	0	0	0	0	0	0	0	0	0	0	0	
+Sweden	1,152	0	0	0	0	0	0	0	0	0	0	0	0	
+United Arab Emirates	0	0	0	0	0	0	0	0	0	0	0	32,264	0	
+Turkey	7,755	2,104	10,500	0	0	0	0	0	0	0	0	0	0	
+Ukraine	35,970	20,049	22,858	33,669	0	20,958	3,000	0	0	0	0	1	No Quantity	
+United Kingdom	56,196	97,298	53,834	46,888	21,832	411	3,600	0	77,721	38,532	0	3,017	0	
+United States of America	36,395	6,591	20,611	2,804	0	9,009	2,072	9,519	5,844	4,578	0	2,764	0	

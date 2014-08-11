@@ -1,14 +1,20 @@
 List of supplying markets for a product imported by Israel Product: 0407 Birds' eggs in shell
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, "	"2013-Imported quantity, "	
-World	5,597	6,098	5,402	No Quantity	No Quantity	
-Turkey	3,874	4,764	3,877	No Quantity	No Quantity	
-Argentina	321	535	617	0	0	
-Spain	525	456	590	No Quantity	No Quantity	
-Netherlands	1	0	228	0	No Quantity	
-United States	863	84	77	No Quantity	No Quantity	
-Mexico	0	1	12	No Quantity	No Quantity	
-Australia	0	0	0	0	0	
-Belgium	0	143	0	0	0	
-Germany	14	116	0	No Quantity	No Quantity	
-Hungary	0	0	0	0	No Quantity	
-United Kingdom	0	0	0	0	No Quantity	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, "	"2005-Imported quantity, "	"2006-Imported quantity, "	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, "	"2013-Imported quantity, "	
+World	14,753	1,287	737	0	No Quantity	No Quantity	2,361	3,251	5,597	6,098	5,402	No Quantity	No Quantity	
+Turkey	0	0	353	0	No Quantity	No Quantity	490	226	3,874	4,764	3,877	No Quantity	No Quantity	
+Argentina	0	0	0	0	0	0	0	376	321	535	617	0	0	
+Spain	0	0	0	0	No Quantity	No Quantity	691	2,263	525	456	590	No Quantity	No Quantity	
+Netherlands	2,346	0	26	0	0	No Quantity	0	117	1	0	228	0	No Quantity	
+United States of America	4,373	418	76	0	No Quantity	No Quantity	812	62	863	84	77	No Quantity	No Quantity	
+Mexico	8	25	1	0	0	0	3	0	0	1	12	No Quantity	No Quantity	
+Australia	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Belgium	1,605	0	0	0	0	0	0	0	0	143	0	0	0	
+Brazil	0	0	0	0	0	0	0	3	0	0	0	0	0	
+Finland	0	0	0	0	No Quantity	0	0	0	0	0	0	0	0	
+France	0	0	0	0	No Quantity	0	0	0	0	0	0	0	0	
+Germany	4,694	548	278	0	No Quantity	No Quantity	167	102	14	116	0	No Quantity	No Quantity	
+Greece	0	0	0	0	No Quantity	0	0	0	0	0	0	0	0	
+Hungary	0	0	0	0	0	No Quantity	0	0	0	0	0	0	No Quantity	
+Italy	1,701	293	0	0	No Quantity	0	197	75	0	0	0	0	0	
+Korea, Republic of	0	0	0	0	0	0	0	0	0	0	0	0	0	
+United Kingdom	26	3	2	0	0	0	0	28	0	0	0	0	No Quantity	

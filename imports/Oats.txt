@@ -1,16 +1,24 @@
 List of supplying markets for a product imported by Israel Product: 1004 Oats
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	65	32	111	1,138	No Quantity	
-Cyprus	0	0	0	1,032	0	
-Ukraine	20	24	3	63	No Quantity	
-Ethiopia	2	8	28	24	No Quantity	
-Panama	0	0	0	10	No Quantity	
-Djibouti	0	0	0	7	No Quantity	
-Belgium	3	0	0	3	No Quantity	
-Brazil	0	0	54	0	0	
-Canada	0	0	0	0	No Quantity	
-China	0	0	0	0	No Quantity	
-Ireland	15	0	0	0	0	
-Italy	0	0	0	0	No Quantity	
-United Kingdom	18	0	27	0	0	
-United States	8	0	0	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	7,294	4,069	1,639	9,159	57	218	11,188	93	65	32	111	1,138	No Quantity	
+Brazil	0	0	0	0	0	0	0	0	0	0	54	0	0	
+Ethiopia	0	0	5	10	6	11	8	5	2	8	28	24	No Quantity	
+United Kingdom	6,592	1,371	783	2,320	0	0	330	0	18	0	27	0	0	
+Ukraine	634	1,343	813	0	0	23	0	0	20	24	3	63	No Quantity	
+Belgium	6	6	6	5	17	46	19	8	3	0	0	3	No Quantity	
+Bulgaria	0	0	0	0	0	17	0	0	0	0	0	0	0	
+Canada	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Chile	0	0	0	0	0	80	444	78	0	0	0	0	0	
+China	0	0	19	0	0	0	0	0	0	0	0	0	No Quantity	
+Cyprus	0	0	0	0	0	0	0	0	0	0	0	1,032	0	
+Czech Republic	37	28	13	14	11	0	0	0	0	0	0	0	0	
+France	0	387	0	2,400	0	0	0	0	0	0	0	0	0	
+Djibouti	0	0	0	0	0	0	0	0	0	0	0	7	No Quantity	
+Germany	0	6	1	1,004	6	0	0	1	0	0	0	0	0	
+Hungary	0	923	0	1,606	0	0	6,084	0	0	0	0	0	0	
+Ireland	0	0	0	0	0	40	0	0	15	0	0	0	0	
+Italy	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Netherlands	0	6	0	0	0	0	4,304	0	0	0	0	0	0	
+Panama	0	0	0	0	0	0	0	0	0	0	0	10	No Quantity	
+Russian Federation	0	0	0	1,800	0	0	0	0	0	0	0	0	0	
+United States of America	25	0	0	0	17	0	0	0	8	0	0	0	0	

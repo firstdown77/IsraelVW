@@ -1,18 +1,25 @@
 List of supplying markets for a product imported by Israel Product: 170111 Raw sugar, cane
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, "	"2013-Imported quantity, "	
-World	43,397	218,417	255,551	0	0	
-United Kingdom	750	111,525	251,934	0	0	
-Brazil	30,931	104,184	1,475	0	0	
-Thailand	4,700	150	700	0	0	
-Singapore	550	0	475	0	0	
-Mauritius	0	286	460	0	0	
-Netherlands	1,520	730	207	0	0	
-Austria	0	0	200	0	0	
-Paraguay	121	92	74	0	0	
-Germany	1,461	35	26	0	0	
-France	675	1,265	0	0	0	
-Italy	3	8	0	0	0	
-Mauritania	0	63	0	0	0	
-India	48	0	0	0	0	
-Slovenia	0	80	0	0	0	
-Switzerland	2,640	0	0	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, "	"2013-Imported quantity, "	
+World	5,635	4,459	5,041	3,631	2,114	2,531	4,813	92,836	43,397	218,417	255,551	0	0	
+United Kingdom	5,503	4,345	4,592	2,743	41	773	7	25	750	111,525	251,934	0	0	
+Brazil	0	0	0	0	170	219	951	88,630	30,931	104,184	1,475	0	0	
+Thailand	0	0	0	0	0	0	120	299	4,700	150	700	0	0	
+Singapore	0	0	0	0	0	0	0	0	550	0	475	0	0	
+Mauritius	92	76	63	647	947	1,043	1,528	0	0	286	460	0	0	
+Netherlands	0	0	323	22	68	0	0	0	1,520	730	207	0	0	
+Austria	0	0	0	0	0	0	0	0	0	0	200	0	0	
+Paraguay	0	22	21	21	51	49	0	125	121	92	74	0	0	
+Germany	0	0	1	0	2	2	0	93	1,461	35	26	0	0	
+Argentina	20	0	0	0	0	0	0	0	0	0	0	0	0	
+Belgium	0	0	0	0	0	0	0	345	0	0	0	0	0	
+Ecuador	0	0	0	0	0	0	0	30	0	0	0	0	0	
+France	0	0	0	0	0	0	460	986	675	1,265	0	0	0	
+Italy	0	0	0	0	0	0	0	9	3	8	0	0	0	
+Malawi	0	0	0	0	0	0	536	796	0	0	0	0	0	
+Mauritania	0	0	42	63	0	0	31	0	0	63	0	0	0	
+Poland	0	0	0	0	0	0	0	816	0	0	0	0	0	
+India	0	0	0	0	2	0	588	489	48	0	0	0	0	
+Slovenia	0	0	0	0	0	0	0	0	0	80	0	0	0	
+South Africa	0	0	0	86	358	428	323	194	0	0	0	0	0	
+Switzerland	0	0	0	0	0	0	270	0	2,640	0	0	0	0	
+United States of America	21	16	0	51	475	18	0	0	0	0	0	0	0	

@@ -1,23 +1,23 @@
 List of supplying markets for a product imported by Israel Product: 0202 Meat of bovine animals, frozen
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	62,833	71,217	73,971	64,400	No Quantity	
-Uruguay	5,953	7,092	14,021	22,000	No Quantity	
-Argentina	25,201	21,516	27,105	19,445	No Quantity	
-Brazil	16,927	18,992	11,562	10,107	No Quantity	
-Panama	1,786	2,034	3,110	4,161	0	
-Paraguay	3,831	5,277	7,465	3,181	No Quantity	
-Poland	905	2,106	4,081	3,125	No Quantity	
-China	416	1,465	1,877	1,066	0	
-United Kingdom	6,760	9,081	1,551	758	0	
-France	429	1,684	505	362	No Quantity	
-United States	82	105	607	108	No Quantity	
-Hungary	0	0	0	45	0	
-Chile	0	192	523	23	0	
-Uganda	0	0	0	18	0	
-Australia	0	322	946	0	0	
-Belgium	0	0	0	0	0	
-Germany	0	0	0	0	0	
-Iceland	372	807	0	0	0	
-Ireland	0	438	569	0	0	
-Italy	0	0	50	0	0	
-Netherlands	170	106	0	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, "	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	54,654	61,008	58,390	0	53,465	80,440	66,494	93,738	62,833	71,217	73,971	64,400	No Quantity	
+Argentina	8,559	7,989	15,228	0	21,351	21,823	19,973	23,704	25,201	21,516	27,105	19,445	No Quantity	
+Uruguay	17,856	27,751	20,266	0	6,636	15,952	9,704	14,610	5,953	7,092	14,021	22,000	No Quantity	
+Brazil	26,863	20,273	13,487	0	14,382	21,098	25,442	31,879	16,927	18,992	11,562	10,107	No Quantity	
+Paraguay	264	581	427	0	3,118	4,951	2,619	5,711	3,831	5,277	7,465	3,181	No Quantity	
+Poland	0	0	0	0	0	0	0	654	905	2,106	4,081	3,125	No Quantity	
+Panama	0	1,031	1,995	0	2,113	5,093	1,558	4,788	1,786	2,034	3,110	4,161	0	
+China	0	0	0	0	0	0	0	274	416	1,465	1,877	1,066	0	
+United Kingdom	421	1,379	2,833	0	5,008	11,055	6,719	10,702	6,760	9,081	1,551	758	0	
+Australia	37	28	0	0	0	0	0	0	0	322	946	0	0	
+United States of America	92	0	172	0	0	0	0	0	82	105	607	108	No Quantity	
+Ireland	0	0	0	0	0	0	0	0	0	438	569	0	0	
+Chile	0	580	3,431	0	0	0	0	0	0	192	523	23	0	
+France	210	1,037	354	0	671	225	276	866	429	1,684	505	362	No Quantity	
+Italy	0	0	0	0	0	0	0	0	0	0	50	0	0	
+Belgium	0	0	0	0	0	12	6	6	0	0	0	0	0	
+Germany	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Hungary	0	0	0	0	0	0	0	0	0	0	0	45	0	
+Iceland	0	0	0	0	0	0	0	0	372	807	0	0	0	
+Netherlands	352	360	196	0	185	230	197	542	170	106	0	0	0	
+Uganda	0	0	0	0	0	0	0	0	0	0	0	18	0	

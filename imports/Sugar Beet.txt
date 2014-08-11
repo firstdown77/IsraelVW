@@ -1,13 +1,24 @@
 List of supplying markets for a product imported by Israel Product: 170112 Raw sugar, beet
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	7,116	6,028	9,362	19,551	No Quantity	
-Austria	2,804	5,170	7,822	16,589	No Quantity	
-Netherlands	92	130	0	1,091	0	
-Denmark	0	0	0	625	0	
-Belgium	3,725	0	115	440	0	
-Czech Republic	0	0	0	400	0	
-Belarus	0	0	0	306	0	
-Germany	11	8	5	100	No Quantity	
-Slovenia	0	720	120	0	0	
-Thailand	0	0	0	0	No Quantity	
-United Kingdom	484	0	1,300	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	12,403	52,536	95,426	147,775	47,330	46,634	12,200	12,695	7,116	6,028	9,362	19,551	No Quantity	
+Austria	0	0	0	0	0	0	0	0	2,804	5,170	7,822	16,589	No Quantity	
+United Kingdom	9,133	45,303	94,143	145,446	45,660	43,982	4,243	0	484	0	1,300	0	0	
+Slovenia	0	0	0	0	0	0	0	0	0	720	120	0	0	
+Belgium	0	1,290	509	0	178	210	3,287	5,294	3,725	0	115	440	0	
+Germany	3,207	5,872	225	980	972	1,259	1,038	1,340	11	8	5	100	No Quantity	
+United Arab Emirates	0	0	0	0	0	0	540	0	0	0	0	0	0	
+Brazil	0	0	0	0	0	797	405	1,296	0	0	0	0	0	
+Belarus	0	0	0	0	0	0	0	0	0	0	0	306	0	
+Czech Republic	0	0	0	0	0	0	0	0	0	0	0	400	0	
+Denmark	0	0	0	0	0	0	0	0	0	0	0	625	0	
+France	0	0	19	675	0	0	0	782	0	0	0	0	0	
+Hungary	0	0	0	0	0	0	0	368	0	0	0	0	0	
+Mauritania	64	42	0	0	80	17	21	0	0	0	0	0	0	
+Mauritius	0	21	531	631	440	369	0	0	0	0	0	0	0	
+Netherlands	0	0	0	0	0	0	0	0	92	130	0	1,091	0	
+Russian Federation	0	0	0	0	0	0	0	14	0	0	0	0	0	
+Sao Tome and Principe	0	0	0	42	0	0	0	0	0	0	0	0	0	
+India	0	0	0	0	0	0	921	1,392	0	0	0	0	0	
+Switzerland	0	0	0	0	0	0	1,745	0	0	0	0	0	0	
+Thailand	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+United States of America	0	8	0	0	0	0	0	2,208	0	0	0	0	0	

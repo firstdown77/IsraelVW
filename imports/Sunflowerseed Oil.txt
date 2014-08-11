@@ -1,25 +1,30 @@
 List of supplying markets for a product imported by Israel Product: 151219 Sunflower-sed/safflower oil&their fractions refind but nt chem modifid
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	5,240	5,198	6,606	61,707	No Quantity	
-Ukraine	1,911	3,075	3,303	56,943	No Quantity	
-Spain	0	251	1,191	2,610	No Quantity	
-Russian Federation	123	76	74	645	No Quantity	
-Switzerland	519	0	0	390	0	
-Netherlands	352	63	89	338	No Quantity	
-Turkey	820	461	357	334	No Quantity	
-Belgium	1,072	877	512	265	No Quantity	
-China	0	0	240	66	0	
-Germany	69	27	579	44	No Quantity	
-British Virgin Islands	0	0	28	26	0	
-Italy	0	42	9	20	No Quantity	
-Morocco	0	0	0	18	0	
-France	0	1	4	7	0	
-Belarus	0	0	3	1	0	
-Area Nes	0	0	0	0	No Quantity	
-Argentina	95	84	155	0	0	
-Czech Republic	0	0	0	0	No Quantity	
-Estonia	0	0	17	0	0	
-Romania	272	236	18	0	No Quantity	
-Egypt	0	0	27	0	0	
-United Kingdom	3	5	1	0	No Quantity	
-United States	3	0	0	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	2,298	2,153	3,495	969	2,994	1,949	2,987	736	5,240	5,198	6,606	61,707	No Quantity	
+Ukraine	13	22	0	3	73	50	641	219	1,911	3,075	3,303	56,943	No Quantity	
+Spain	216	0	0	0	2	0	68	39	0	251	1,191	2,610	No Quantity	
+Germany	0	0	6	11	7	7	19	1	69	27	579	44	No Quantity	
+Belgium	60	120	140	21	44	8	2	117	1,072	877	512	265	No Quantity	
+Turkey	507	0	14	0	0	0	167	0	820	461	357	334	No Quantity	
+China	0	0	0	0	2	1	0	0	0	0	240	66	0	
+Argentina	1,296	1,482	3,257	793	2,737	1,731	1,260	256	95	84	155	0	0	
+Netherlands	16	5	12	26	54	44	527	19	352	63	89	338	No Quantity	
+Russian Federation	12	2	3	40	68	71	91	69	123	76	74	645	No Quantity	
+British Virgin Islands	0	0	0	0	0	0	0	0	0	0	28	26	0	
+Egypt	0	0	0	0	0	0	0	0	0	0	27	0	0	
+Romania	0	196	0	0	0	0	0	0	272	236	18	0	No Quantity	
+Estonia	0	0	0	0	0	0	0	0	0	0	17	0	0	
+Italy	37	5	2	0	5	4	14	5	0	42	9	20	No Quantity	
+France	38	274	57	19	0	4	152	0	0	1	4	7	0	
+Belarus	0	0	0	0	0	0	0	0	0	0	3	1	0	
+United Kingdom	0	0	3	0	1	0	45	0	3	5	1	0	No Quantity	
+Area Nes	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Bulgaria	0	15	0	56	0	0	0	0	0	0	0	0	0	
+Canada	49	32	0	0	0	0	0	0	0	0	0	0	0	
+Czech Republic	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Denmark	54	0	0	0	0	0	0	0	0	0	0	0	0	
+Luxembourg	0	0	0	0	0	0	0	9	0	0	0	0	0	
+Morocco	0	0	0	0	0	0	0	0	0	0	0	18	0	
+Sweden	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Switzerland	0	0	0	0	0	0	0	2	519	0	0	390	0	
+United States of America	0	0	0	0	0	27	0	0	3	0	0	0	0	

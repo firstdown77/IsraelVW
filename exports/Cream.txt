@@ -1,16 +1,27 @@
 List of importing markets for a product exported by Israel Product: 0402 Milk and cream, concentrated or sweetened
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
-World	3,301	133	84	No Quantity	No Quantity	
-United Kingdom	4	0	59	No Quantity	0	
-United States of America	691	133	24	1,225	0	
-Austria	0	0	0	0	0	
-Belgium	200	0	0	0	0	
-Canada	1	0	0	0	0	
-Cyprus	1	0	0	0	0	
-France	0	0	0	0	0	
-Italy	0	0	0	0	0	
-Netherlands	1,812	0	0	0	0	
-Singapore	25	0	0	0	0	
-South Africa	200	0	0	0	No Quantity	
-Switzerland	0	1	0	0	0	
-Turkey	367	0	0	0	0	
+"Importers"	"2001-Exported quantity, Tons"	"2002-Exported quantity, Tons"	"2003-Exported quantity, Tons"	"2004-Exported quantity, "	"2005-Exported quantity, Tons"	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	No Quantity	No Quantity	No Quantity	0	3,166	3,171	272	712	3,301	133	84	No Quantity	No Quantity	
+United Kingdom	0	0	0	0	0	37	67	78	4	0	59	No Quantity	0	
+United States of America	No Quantity	No Quantity	11	0	1,173	109	96	46	691	133	24	1,225	0	
+Area Nes	0	0	0	0	0	1	3	0	0	0	0	0	0	
+Argentina	0	0	0	0	0	0	4	0	0	0	0	0	0	
+Australia	0	0	0	0	0	21	24	0	0	0	0	0	0	
+Austria	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Belgium	0	0	0	0	0	11	26	9	200	0	0	0	0	
+Canada	No Quantity	No Quantity	0	0	0	16	49	21	1	0	0	0	0	
+Cyprus	0	0	0	0	0	0	0	0	1	0	0	0	0	
+France	4	0	No Quantity	0	0	5	0	0	0	0	0	0	0	
+Georgia	0	0	No Quantity	0	0	0	0	0	0	0	0	0	0	
+Germany	0	0	0	0	0	0	0	1	0	0	0	0	0	
+Italy	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Jordan	1	0	0	0	1	0	0	0	0	0	0	0	0	
+Netherlands	0	No Quantity	No Quantity	0	987	1,337	0	506	1,812	0	0	0	0	
+Poland	0	No Quantity	No Quantity	0	1	0	0	0	0	0	0	0	0	
+Romania	0	3	0	0	0	0	0	0	0	0	0	0	0	
+Singapore	0	0	0	0	0	0	0	0	25	0	0	0	0	
+South Africa	0	0	0	0	0	0	0	0	200	0	0	0	No Quantity	
+Spain	0	No Quantity	0	0	0	0	0	0	0	0	0	0	0	
+Switzerland	51	39	0	0	0	0	1	0	0	1	0	0	0	
+Thailand	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Turkey	0	0	0	0	1,004	1,632	0	50	367	0	0	0	0	
+Ukraine	0	0	0	0	0	1	1	0	0	0	0	0	0	

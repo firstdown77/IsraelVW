@@ -1,35 +1,50 @@
 List of importing markets for a product exported by Israel Product: 0806 Grapes, fresh or dried
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
-World	7,946	8,925	3,752	5,597	No Quantity	
-Netherlands	777	1,542	414	1,286	No Quantity	
-Russian Federation	1,151	719	431	1,247	No Quantity	
-United Kingdom	2,443	2,258	781	1,091	No Quantity	
-Slovenia	754	1,989	608	516	No Quantity	
-Sri Lanka	190	73	149	464	No Quantity	
-France	133	515	75	353	No Quantity	
-South Africa	331	328	372	139	No Quantity	
-Poland	0	0	0	95	0	
-Ghana	0	27	0	87	No Quantity	
-Angola	0	29	53	63	0	
-Singapore	56	220	0	51	0	
-Hong Kong, China	0	0	0	49	No Quantity	
-Jordan	34	55	20	32	0	
-Madagascar	0	11	22	32	0	
-Germany	360	404	80	27	No Quantity	
-Ukraine	0	0	0	16	No Quantity	
-Belgium	542	11	395	15	No Quantity	
-Nigeria	0	0	0	15	No Quantity	
-Cyprus	132	18	19	12	No Quantity	
-Italy	104	181	196	8	0	
-Democratic Republic of the Congo	49	249	0	0	0	
-Area Nes	0	0	0	0	No Quantity	
-Austria	142	48	29	0	0	
-Belarus	0	0	0	0	No Quantity	
-Croatia	280	0	0	0	0	
-Benin	0	41	100	0	0	
-Finland	250	142	0	0	0	
-Greece	11	6	0	0	0	
-Ireland	114	0	0	0	0	
-Norway	5	4	0	0	0	
-Switzerland	87	56	9	0	0	
-United Republic of Tanzania	0	0	0	0	No Quantity	
+"Importers"	"2001-Exported quantity, Tons"	"2002-Exported quantity, Tons"	"2003-Exported quantity, Tons"	"2004-Exported quantity, "	"2005-Exported quantity, Tons"	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	11,688	8,834	3,463	0	12,538	11,969	8,493	7,084	7,946	8,925	3,752	5,597	No Quantity	
+United Kingdom	8,539	6,338	2,355	0	7,765	7,712	3,328	1,694	2,443	2,258	781	1,091	No Quantity	
+Slovenia	0	0	0	0	0	0	0	455	754	1,989	608	516	No Quantity	
+Russian Federation	99	141	95	0	572	352	498	821	1,151	719	431	1,247	No Quantity	
+Netherlands	1,062	935	343	0	1,524	1,556	831	490	777	1,542	414	1,286	No Quantity	
+Belgium	74	33	43	0	79	141	520	291	542	11	395	15	No Quantity	
+South Africa	0	13	0	0	79	134	382	285	331	328	372	139	No Quantity	
+Italy	0	0	0	0	26	31	93	63	104	181	196	8	0	
+Sri Lanka	0	0	7	0	42	59	176	109	190	73	149	464	No Quantity	
+Benin	0	0	0	0	0	0	0	0	0	41	100	0	0	
+Germany	1,418	1,219	254	0	1,097	230	38	238	360	404	80	27	No Quantity	
+France	0	0	9	0	108	125	308	1,703	133	515	75	353	No Quantity	
+Angola	0	0	0	0	0	0	0	64	0	29	53	63	0	
+Austria	8	29	2	0	96	195	51	44	142	48	29	0	0	
+Madagascar	0	0	0	0	0	0	0	0	0	11	22	32	0	
+Jordan	0	0	0	0	57	56	120	59	34	55	20	32	0	
+Cyprus	0	0	0	0	33	43	35	71	132	18	19	12	No Quantity	
+Switzerland	37	39	43	0	135	141	16	53	87	56	9	0	0	
+Democratic Republic of the Congo	0	0	0	0	0	0	33	78	49	249	0	0	0	
+Europe Othr. Nes	0	0	0	0	62	43	14	46	0	0	0	0	0	
+Area Nes	0	0	0	0	0	1	0	0	0	0	0	0	No Quantity	
+Belarus	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Croatia	0	0	0	0	0	0	0	0	280	0	0	0	0	
+Denmark	98	11	12	0	9	0	0	0	0	0	0	0	0	
+Finland	20	0	34	0	233	36	1,510	73	250	142	0	0	0	
+Ghana	0	0	0	0	0	0	0	0	0	27	0	87	No Quantity	
+Greece	0	7	13	0	36	7	7	103	11	6	0	0	0	
+Hong Kong, China	21	0	175	0	4	67	0	0	0	0	0	49	No Quantity	
+Indonesia	0	0	0	0	5	0	0	0	0	0	0	0	0	
+Ireland	0	0	0	0	119	307	247	125	114	0	0	0	0	
+Kenya	0	11	3	0	27	40	4	39	0	0	0	0	0	
+Kuwait	0	0	0	0	0	18	0	0	0	0	0	0	0	
+Latvia	5	0	0	0	0	0	0	0	0	0	0	0	0	
+Luxembourg	0	0	0	0	0	0	13	0	0	0	0	0	0	
+Malaysia	0	0	0	0	57	69	0	0	0	0	0	0	0	
+Mauritius	0	0	0	0	0	26	0	44	0	0	0	0	0	
+Nigeria	0	0	0	0	0	0	0	0	0	0	0	15	No Quantity	
+Norway	133	26	26	0	68	34	7	37	5	4	0	0	0	
+Poland	0	0	0	0	0	0	0	0	0	0	0	95	0	
+Romania	0	0	0	0	0	2	4	0	0	0	0	0	0	
+Seychelles	0	0	0	0	0	0	21	0	0	0	0	0	0	
+Singapore	0	0	13	0	245	262	216	64	56	220	0	51	0	
+Spain	0	0	0	0	16	0	0	0	0	0	0	0	0	
+Sweden	173	31	33	0	43	15	21	4	0	0	0	0	0	
+Thailand	0	0	0	0	0	9	0	0	0	0	0	0	0	
+United Arab Emirates	0	0	0	0	0	17	0	0	0	0	0	0	0	
+Ukraine	0	0	0	0	0	242	0	32	0	0	0	16	No Quantity	
+Tanzania, United Republic of	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	

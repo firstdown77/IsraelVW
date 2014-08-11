@@ -1,16 +1,19 @@
 List of supplying markets for a product imported by Israel Product: 080810 Apples, fresh
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	8,894	9,668	11,266	15,156	No Quantity	
-Italy	2,055	3,044	3,261	7,177	No Quantity	
-United States	5,659	5,351	6,237	6,505	No Quantity	
-France	466	935	1,132	937	No Quantity	
-Greece	269	44	332	236	No Quantity	
-United Kingdom	187	187	148	135	No Quantity	
-Spain	189	0	138	128	No Quantity	
-Argentina	0	0	0	21	No Quantity	
-China	0	0	19	19	0	
-Austria	0	16	0	0	0	
-Belgium	36	72	0	0	0	
-Cyprus	0	0	0	0	No Quantity	
-Germany	20	20	0	0	0	
-Hungary	14	0	0	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, "	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	4,476	4,083	3,114	0	4,937	4,678	3,830	7,732	8,894	9,668	11,266	15,156	No Quantity	
+Italy	226	859	1,336	0	941	1,089	603	2,352	2,055	3,044	3,261	7,177	No Quantity	
+United States of America	2,637	2,404	1,524	0	3,879	3,468	2,703	4,801	5,659	5,351	6,237	6,505	No Quantity	
+France	953	239	18	0	45	0	20	19	466	935	1,132	937	No Quantity	
+Greece	340	81	59	0	55	55	357	267	269	44	332	236	No Quantity	
+United Kingdom	0	66	0	0	0	0	0	16	187	187	148	135	No Quantity	
+Spain	20	92	0	0	17	54	76	100	189	0	138	128	No Quantity	
+Argentina	0	0	20	0	0	0	0	0	0	0	0	21	No Quantity	
+China	0	0	0	0	0	0	20	0	0	0	19	19	0	
+Europe Othr. Nes	0	18	0	0	0	0	0	0	0	0	0	0	0	
+Angola	0	0	20	0	0	0	0	0	0	0	0	0	0	
+Austria	15	0	101	0	0	0	0	0	0	16	0	0	0	
+Belgium	14	0	0	0	0	11	18	144	36	72	0	0	0	
+Canada	223	284	0	0	0	0	0	0	0	0	0	0	0	
+Cyprus	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Germany	18	39	0	0	0	0	0	0	20	20	0	0	0	
+Hungary	31	0	34	0	0	0	34	34	14	0	0	0	0	

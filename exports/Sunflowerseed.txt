@@ -1,31 +1,35 @@
 List of importing markets for a product exported by Israel Product: 1206 Sunflower seeds, whether or not broken
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
-World	7,040	15,082	13,859	5,312	No Quantity	
-Spain	6,191	12,728	11,946	4,547	No Quantity	
-United States of America	256	1,073	633	331	No Quantity	
-Italy	17	387	828	261	No Quantity	
-Romania	302	601	302	108	No Quantity	
-Canada	11	106	19	25	0	
-France	10	29	46	13	No Quantity	
-United Kingdom	2	37	3	9	No Quantity	
-Australia	0	8	0	6	0	
-Brazil	0	0	0	4	0	
-Ukraine	0	0	4	4	0	
-British Virgin Islands	0	0	0	1	0	
-Belgium	0	0	2	1	0	
-South Africa	0	2	0	1	0	
-Switzerland	0	0	0	1	0	
-Austria	0	0	0	0	0	
-Bulgaria	0	0	3	0	0	
-China	0	44	0	0	0	
-Colombia	0	33	47	0	0	
-Ecuador	0	0	3	0	0	
-Germany	10	0	0	0	0	
-Mexico	0	0	2	0	0	
-Netherlands	31	2	1	0	0	
-New Zealand	0	0	1	0	No Quantity	
-Poland	102	0	0	0	0	
-Russian Federation	0	0	13	0	0	
-Turkey	82	28	0	0	No Quantity	
-Egypt	25	0	0	0	0	
-Uruguay	0	3	4	0	0	
+"Importers"	"2001-Exported quantity, Tons"	"2002-Exported quantity, Tons"	"2003-Exported quantity, Tons"	"2004-Exported quantity, Tons"	"2005-Exported quantity, Tons"	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, Tons"	"2013-Exported quantity, "	
+World	7,641	9,404	19,018	7,374	18,449	19,324	19,362	6,531	7,040	15,082	13,859	5,312	No Quantity	
+Spain	6,885	8,608	18,463	6,926	16,464	17,300	17,589	5,671	6,191	12,728	11,946	4,547	No Quantity	
+Italy	0	0	0	0	0	0	9	2	17	387	828	261	No Quantity	
+United States of America	269	255	507	285	1,413	1,367	1,307	430	256	1,073	633	331	No Quantity	
+Romania	0	38	24	24	253	407	375	324	302	601	302	108	No Quantity	
+Colombia	0	0	0	0	0	0	0	0	0	33	47	0	0	
+France	0	0	0	0	0	0	0	2	10	29	46	13	No Quantity	
+Canada	29	8	24	17	102	30	26	28	11	106	19	25	0	
+Russian Federation	28	0	0	0	0	0	3	0	0	0	13	0	0	
+Ukraine	0	0	0	0	0	0	0	20	0	0	4	4	0	
+Uruguay	0	0	0	0	0	0	0	0	0	3	4	0	0	
+Bulgaria	0	0	0	0	0	0	0	0	0	0	3	0	0	
+Ecuador	0	0	0	0	0	0	9	11	0	0	3	0	0	
+United Kingdom	0	0	0	0	0	0	9	1	2	37	3	9	No Quantity	
+Belgium	0	0	0	0	0	0	0	0	0	0	2	1	0	
+Mexico	0	0	0	0	0	0	0	0	0	0	2	0	0	
+Netherlands	0	0	0	0	0	11	0	0	31	2	1	0	0	
+New Zealand	0	0	0	0	0	0	0	0	0	0	1	0	No Quantity	
+British Virgin Islands	0	0	0	0	0	0	0	0	0	0	0	1	0	
+Argentina	0	0	0	0	2	90	0	0	0	0	0	0	0	
+Australia	0	0	0	0	0	0	0	0	0	8	0	6	0	
+Austria	0	0	0	0	2	3	6	0	0	0	0	0	0	
+Brazil	0	0	0	0	0	0	0	0	0	0	0	4	0	
+China	0	0	0	0	0	52	0	0	0	44	0	0	0	
+Dominican Republic	0	0	0	2	0	0	0	0	0	0	0	0	0	
+Eritrea	6	0	0	0	0	0	0	0	0	0	0	0	0	
+Germany	0	0	0	0	0	33	0	0	10	0	0	0	0	
+Ireland	0	0	0	0	17	0	0	0	0	0	0	0	0	
+Poland	0	0	0	0	0	0	0	0	102	0	0	0	0	
+South Africa	0	0	0	2	0	0	0	1	0	2	0	1	0	
+Switzerland	0	0	0	0	0	0	0	0	0	0	0	1	0	
+Turkey	423	496	0	119	197	31	31	42	82	28	0	0	No Quantity	
+Egypt	0	0	0	0	0	0	0	0	25	0	0	0	0	

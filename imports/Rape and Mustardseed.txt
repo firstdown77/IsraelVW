@@ -1,18 +1,24 @@
 List of supplying markets for a product imported by Israel Product: 1205 Rape or colza seeds, whether or not broken
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	38,285	71,115	No Quantity	61,463	No Quantity	
-Netherlands	6,866	23,605	No Quantity	31,189	0	
-Germany	2,390	5,404	0	21,723	0	
-Romania	22,699	36,756	No Quantity	8,528	No Quantity	
-Panama	0	0	0	20	0	
-Ethiopia	0	3	No Quantity	3	No Quantity	
-Belgium	0	1	1	0	0	
-Bulgaria	20	0	2,915	0	No Quantity	
-Canada	10	0	No Quantity	0	0	
-Denmark	4,156	0	0	0	0	
-Republic of Moldova	0	0	0	0	No Quantity	
-Sweden	0	0	0	0	No Quantity	
-Switzerland	2,100	5,330	No Quantity	0	0	
-Ukraine	45	0	0	0	No Quantity	
-United Kingdom	0	15	0	0	0	
-United States	0	0	No Quantity	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	31,324	22,035	17,371	19,104	21,807	38,824	38,131	37,676	38,285	71,115	No Quantity	61,463	No Quantity	
+Netherlands	19	4,854	29	6,347	6	3	22,334	14,659	6,866	23,605	No Quantity	31,189	0	
+Germany	5,438	5,500	48	45	0	0	0	0	2,390	5,404	0	21,723	0	
+Romania	3,013	0	0	3,485	0	4,125	0	0	22,699	36,756	No Quantity	8,528	No Quantity	
+Panama	0	0	0	0	0	0	0	0	0	0	0	20	0	
+Ethiopia	0	0	2	0	0	0	0	5	0	3	No Quantity	3	No Quantity	
+Austria	5,286	0	0	0	0	0	0	0	0	0	0	0	0	
+Belgium	6	6	0	0	0	6	0	0	0	1	1	0	0	
+Bulgaria	0	0	0	24	0	39	48	32	20	0	2,915	0	No Quantity	
+Canada	0	0	0	22	44	8,178	12	0	10	0	No Quantity	0	0	
+Czech Republic	14	15	7	10	9	0	0	0	0	0	0	0	0	
+Denmark	0	0	0	0	0	0	0	0	4,156	0	0	0	0	
+France	0	0	4,503	5,361	6,765	11,189	3,990	3,841	0	0	0	0	0	
+Hungary	0	0	0	0	7,272	7,689	9,918	10,462	0	0	0	0	0	
+Republic of Moldova	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Poland	0	0	0	0	0	3	0	0	0	0	0	0	0	
+India	0	0	0	0	0	0	29	0	0	0	0	0	0	
+Sweden	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Switzerland	3,809	9,947	5,169	3,810	4,999	7,592	0	8,677	2,100	5,330	No Quantity	0	0	
+Ukraine	0	0	0	0	15	0	1,800	0	45	0	0	0	No Quantity	
+United Kingdom	13,738	1,713	0	0	2,696	0	0	0	0	15	0	0	0	
+United States of America	0	0	7,613	0	0	0	0	0	0	0	No Quantity	0	0	

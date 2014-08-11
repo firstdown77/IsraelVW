@@ -1,15 +1,17 @@
 List of importing markets for a product exported by Israel Product: 080810 Apples, fresh
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
-World	8,974	8,123	11,999	No Quantity	No Quantity	
-Syrian Arab Republic	8,974	8,103	11,999	0	0	
-Area Nes	0	0	0	0	No Quantity	
-Sri Lanka	0	0	0	0	No Quantity	
-Cyprus	0	0	0	No Quantity	No Quantity	
-Benin	0	20	0	0	0	
-Ethiopia	0	0	0	No Quantity	No Quantity	
-Ghana	0	0	0	0	No Quantity	
-Greece	0	0	0	0	No Quantity	
-Jordan	0	0	0	0	No Quantity	
-Malaysia	0	0	0	No Quantity	No Quantity	
-Russian Federation	0	0	0	0	No Quantity	
-Singapore	0	0	0	0	No Quantity	
+"Importers"	"2001-Exported quantity, Tons"	"2002-Exported quantity, "	"2003-Exported quantity, "	"2004-Exported quantity, "	"2005-Exported quantity, Tons"	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, "	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	4	0	0	0	3,712	4,390	3,603	No Quantity	8,974	8,123	11,999	No Quantity	No Quantity	
+Syrian Arab Republic	0	0	0	0	0	0	0	0	8,974	8,103	11,999	0	0	
+Area Nes	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Sri Lanka	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Cyprus	0	0	0	0	0	1	0	0	0	0	0	No Quantity	No Quantity	
+Benin	0	0	0	0	0	0	0	0	0	20	0	0	0	
+Ethiopia	0	0	0	0	0	0	0	0	0	0	0	No Quantity	No Quantity	
+Ghana	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Greece	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Jordan	0	0	0	0	97	0	0	0	0	0	0	0	No Quantity	
+Malaysia	0	0	0	0	0	0	0	0	0	0	0	No Quantity	No Quantity	
+Taipei, Chinese	0	0	0	0	3,594	4,388	3,603	0	0	0	0	0	0	
+Netherlands	4	0	0	0	0	0	0	0	0	0	0	0	0	
+Russian Federation	0	0	0	0	21	0	0	0	0	0	0	0	No Quantity	
+Singapore	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	

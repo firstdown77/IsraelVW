@@ -1,16 +1,20 @@
 List of supplying markets for a product imported by Israel Product: 1007 Grain sorghum
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	61,941	63,391	60,345	No Quantity	No Quantity	
-Switzerland	10,873	50,061	56,943	20,955	0	
-Austria	0	0	0	3,046	0	
-United Kingdom	21,516	6,756	0	2,997	0	
-Italy	0	18	0	19	0	
-Australia	0	0	25	No Quantity	0	
-Cyprus	1,757	0	0	0	0	
-Germany	0	871	0	0	0	
-Hungary	26,994	1,806	0	0	0	
-Taipei, Chinese	0	0	0	0	No Quantity	
-Panama	632	0	3,189	0	0	
-India	23	24	24	0	No Quantity	
-Ukraine	44	44	0	No Quantity	No Quantity	
-United States	102	3,810	164	0	0	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, Tons"	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	59,831	28,291	126,324	46,821	25,610	28,053	88,371	72,472	61,941	63,391	60,345	No Quantity	No Quantity	
+Switzerland	7,328	16,161	28,089	27,043	9,202	21,141	69,599	46,832	10,873	50,061	56,943	20,955	0	
+Panama	0	0	0	0	0	0	0	6,998	632	0	3,189	0	0	
+United States of America	42,547	8,840	92,853	18,769	4,766	0	9,614	16,910	102	3,810	164	0	0	
+Australia	0	0	0	0	0	0	0	0	0	0	25	No Quantity	0	
+India	23	10	0	0	0	22	0	69	23	24	24	0	No Quantity	
+Austria	0	0	0	0	0	0	0	0	0	0	0	3,046	0	
+Cyprus	0	0	0	0	0	0	0	0	1,757	0	0	0	0	
+Ethiopia	0	4	11	9	4	0	25	0	0	0	0	0	0	
+France	0	3,244	0	1,000	0	0	0	0	0	0	0	0	0	
+Germany	5,143	0	0	0	0	0	0	0	0	871	0	0	0	
+Hungary	689	0	0	0	6,973	6,100	2,547	0	26,994	1,806	0	0	0	
+Italy	0	0	0	0	54	0	0	0	0	18	0	19	0	
+Taipei, Chinese	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Netherlands	0	2	1,871	0	0	0	3,367	0	0	0	0	0	0	
+Turkey	0	30	0	0	0	0	0	0	0	0	0	0	0	
+Ukraine	1,089	0	0	0	0	0	0	0	44	44	0	No Quantity	No Quantity	
+United Kingdom	3,011	0	3,500	0	4,610	790	3,219	1,663	21,516	6,756	0	2,997	0	

@@ -1,21 +1,23 @@
 List of importing markets for a product exported by Israel Product: 1006 Rice
-"Importers"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
-World	351	234	91	No Quantity	No Quantity	
-United States of America	74	228	65	No Quantity	No Quantity	
-United Kingdom	4	3	14	No Quantity	No Quantity	
-Equatorial Guinea	0	3	4	No Quantity	0	
-Austria	0	0	2	0	0	
-France	0	0	2	No Quantity	No Quantity	
-Canada	2	0	1	No Quantity	No Quantity	
-Romania	0	0	1	No Quantity	No Quantity	
-Angola	7	0	0	No Quantity	0	
-Area Nes	0	0	0	0	No Quantity	
-Belgium	2	0	0	0	0	
-Cyprus	0	0	0	0	0	
-Hungary	0	0	0	No Quantity	0	
-Italy	0	0	0	No Quantity	0	
-Jordan	0	0	0	No Quantity	0	
-Netherlands	0	0	0	0	No Quantity	
-South Africa	0	0	0	0	No Quantity	
-Turkey	258	0	0	0	0	
-Ukraine	2	0	0	0	0	
+"Importers"	"2001-Exported quantity, Tons"	"2002-Exported quantity, "	"2003-Exported quantity, Tons"	"2004-Exported quantity, Tons"	"2005-Exported quantity, Tons"	"2006-Exported quantity, Tons"	"2007-Exported quantity, Tons"	"2008-Exported quantity, Tons"	"2009-Exported quantity, Tons"	"2010-Exported quantity, Tons"	"2011-Exported quantity, Tons"	"2012-Exported quantity, "	"2013-Exported quantity, "	
+World	8	0	28	32	154	99	687	908	351	234	91	No Quantity	No Quantity	
+United States of America	0	0	28	0	145	30	18	26	74	228	65	No Quantity	No Quantity	
+United Kingdom	0	0	0	0	0	0	3	0	4	3	14	No Quantity	No Quantity	
+Equatorial Guinea	0	0	0	0	0	0	0	0	0	3	4	No Quantity	0	
+Austria	0	0	0	0	0	0	0	0	0	0	2	0	0	
+France	0	0	0	0	2	0	0	1	0	0	2	No Quantity	No Quantity	
+Canada	0	0	0	0	0	0	0	0	2	0	1	No Quantity	No Quantity	
+Romania	0	0	0	0	0	0	0	0	0	0	1	No Quantity	No Quantity	
+Angola	0	0	0	0	0	0	0	0	7	0	0	No Quantity	0	
+Area Nes	0	0	0	0	0	23	0	0	0	0	0	0	No Quantity	
+Australia	8	0	0	0	0	0	0	0	0	0	0	0	0	
+Belgium	0	0	0	32	2	0	0	0	2	0	0	0	0	
+Cyprus	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Hungary	0	0	0	0	0	0	0	0	0	0	0	No Quantity	0	
+Italy	0	0	0	0	0	0	0	0	0	0	0	No Quantity	0	
+Jordan	0	0	0	0	0	0	0	0	0	0	0	No Quantity	0	
+Taipei, Chinese	0	0	0	0	4	47	32	0	0	0	0	0	0	
+Netherlands	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+South Africa	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Turkey	0	0	0	0	0	0	0	712	258	0	0	0	0	
+Ukraine	0	0	0	0	0	0	635	168	2	0	0	0	0	

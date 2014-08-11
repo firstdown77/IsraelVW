@@ -1,41 +1,52 @@
 List of supplying markets for a product imported by Israel Product: 0904 Pepper, peppers and capsicum
-"Exporters"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
-World	1,642	2,274	3,853	No Quantity	No Quantity	
-Viet Nam	251	607	695	513	No Quantity	
-Peru	42	32	55	205	No Quantity	
-Mexico	46	46	34	57	No Quantity	
-Singapore	183	79	95	43	No Quantity	
-Indonesia	0	0	0	39	No Quantity	
-Hong Kong, China	33	3	72	29	No Quantity	
-Iceland	0	0	0	16	0	
-Uganda	0	5	7	16	No Quantity	
-Turkey	0	4	0	9	0	
-Switzerland	6	4	7	5	No Quantity	
-Austria	0	1	5	No Quantity	No Quantity	
-Belgium	1	0	0	0	No Quantity	
-Brazil	43	70	55	0	No Quantity	
-Sri Lanka	2	15	0	0	0	
-China	797	819	2,071	No Quantity	No Quantity	
-Cyprus	0	0	0	0	No Quantity	
-Ethiopia	2	19	8	No Quantity	No Quantity	
-France	1	11	8	No Quantity	No Quantity	
-Germany	22	28	7	No Quantity	No Quantity	
-Guatemala	7	0	0	0	0	
-Hungary	0	0	6	0	0	
-Italy	11	30	10	No Quantity	No Quantity	
-Japan	2	8	7	0	0	
-Kenya	0	0	1	0	0	
-Korea, Republic of	0	0	0	0	No Quantity	
-Latvia	0	0	0	0	0	
-Lithuania	0	0	0	0	No Quantity	
-Malawi	0	0	11	0	No Quantity	
-Taipei, Chinese	4	0	0	0	0	
-Netherlands	21	12	5	0	0	
-Poland	0	0	0	0	No Quantity	
-Russian Federation	0	2	1	0	0	
-India	109	362	444	No Quantity	No Quantity	
-South Africa	0	0	77	No Quantity	No Quantity	
-Spain	0	51	1	No Quantity	No Quantity	
-Thailand	27	10	0	0	No Quantity	
-Ukraine	3	1	2	No Quantity	No Quantity	
-United States	28	54	169	No Quantity	No Quantity	
+"Exporters"	"2001-Imported quantity, Tons"	"2002-Imported quantity, Tons"	"2003-Imported quantity, Tons"	"2004-Imported quantity, "	"2005-Imported quantity, Tons"	"2006-Imported quantity, Tons"	"2007-Imported quantity, Tons"	"2008-Imported quantity, Tons"	"2009-Imported quantity, Tons"	"2010-Imported quantity, Tons"	"2011-Imported quantity, Tons"	"2012-Imported quantity, Tons"	"2013-Imported quantity, "	
+World	1,589	1,799	1,211	0	1,796	1,456	1,697	2,093	1,642	2,274	3,853	No Quantity	No Quantity	
+China	2	16	45	0	122	115	41	654	797	819	2,071	No Quantity	No Quantity	
+Viet Nam	629	147	89	0	417	423	337	493	251	607	695	513	No Quantity	
+India	233	512	168	0	117	162	550	264	109	362	444	No Quantity	No Quantity	
+United States of America	163	102	159	0	103	36	72	62	28	54	169	No Quantity	No Quantity	
+Singapore	227	437	327	0	231	243	159	154	183	79	95	43	No Quantity	
+South Africa	74	118	92	0	25	67	58	2	0	0	77	No Quantity	No Quantity	
+Hong Kong, China	2	12	2	0	0	0	41	36	33	3	72	29	No Quantity	
+Brazil	0	0	0	0	22	0	125	94	43	70	55	0	No Quantity	
+Peru	0	45	53	0	323	60	0	133	42	32	55	205	No Quantity	
+Mexico	43	20	11	0	149	64	60	66	46	46	34	57	No Quantity	
+Malawi	0	0	0	0	0	0	0	0	0	0	11	0	No Quantity	
+Italy	11	22	25	0	33	19	11	13	11	30	10	No Quantity	No Quantity	
+Ethiopia	0	3	0	0	2	1	1	2	2	19	8	No Quantity	No Quantity	
+France	16	5	4	0	2	1	2	10	1	11	8	No Quantity	No Quantity	
+Germany	18	32	57	0	41	51	106	38	22	28	7	No Quantity	No Quantity	
+Japan	0	0	0	0	1	0	0	0	2	8	7	0	0	
+Switzerland	0	0	0	0	0	0	0	0	6	4	7	5	No Quantity	
+Uganda	0	0	0	0	0	0	0	5	0	5	7	16	No Quantity	
+Hungary	17	32	0	0	0	0	0	0	0	0	6	0	0	
+Austria	0	31	0	0	0	0	0	0	0	1	5	No Quantity	No Quantity	
+Netherlands	23	58	84	0	139	141	33	8	21	12	5	0	0	
+Ukraine	0	0	0	0	0	0	0	1	3	1	2	No Quantity	No Quantity	
+Kenya	0	0	0	0	0	0	0	0	0	0	1	0	0	
+Russian Federation	0	0	0	0	0	0	0	1	0	2	1	0	0	
+Spain	46	154	40	0	50	50	11	1	0	51	1	No Quantity	No Quantity	
+Gibraltar	3	0	0	0	0	0	0	0	0	0	0	0	0	
+Argentina	0	0	1	0	0	0	1	0	0	0	0	0	0	
+Belgium	0	7	0	0	0	0	24	2	1	0	0	0	No Quantity	
+Bulgaria	0	0	0	0	1	0	0	0	0	0	0	0	0	
+Sri Lanka	6	0	7	0	3	0	42	1	2	15	0	0	0	
+Cyprus	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Ecuador	0	0	13	0	0	0	0	0	0	0	0	0	0	
+Greece	0	0	0	0	0	0	1	4	0	0	0	0	0	
+Guatemala	0	0	8	0	0	0	0	0	7	0	0	0	0	
+Iceland	0	0	0	0	0	0	0	0	0	0	0	16	0	
+Indonesia	52	0	4	0	0	0	0	0	0	0	0	39	No Quantity	
+Jordan	7	0	0	0	0	14	0	0	0	0	0	0	0	
+Korea, Republic of	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Latvia	0	0	0	0	0	0	0	0	0	0	0	0	0	
+Lithuania	0	0	0	0	0	0	0	0	0	0	0	0	No Quantity	
+Luxembourg	0	0	12	0	0	0	0	0	0	0	0	0	0	
+Taipei, Chinese	0	0	0	0	0	2	0	3	4	0	0	0	0	
+Nigeria	10	0	0	0	0	0	0	0	0	0	0	0	0	
+Pakistan	0	0	0	0	0	4	0	0	0	0	0	0	0	
+Poland	0	0	2	0	0	0	0	1	0	0	0	0	No Quantity	
+Slovenia	0	0	0	0	0	1	0	0	0	0	0	0	0	
+Thailand	0	29	10	0	14	3	16	46	27	10	0	0	No Quantity	
+Turkey	6	0	0	0	0	0	0	0	0	4	0	9	0	
+United Kingdom	0	17	0	0	0	0	6	0	0	0	0	0	0	
