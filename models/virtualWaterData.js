@@ -137,7 +137,7 @@ function getDataAndCalculate(toFind) {
 		} //for
 	}; //callback
 // For terminal startup use:
-//	db.collection("tradeMap").aggregate({$project: {mult: {$multiply: ['$data' + toFind.year, '$' + toFind.color]}}}, {$match: {mult: {$gte: 500}}});
+//	db.collection("tradeMap2").aggregate({$project: {mult: {$multiply: ['$data' + toFind.year, '$' + toFind.color]}}}, {$match: {mult: {$gte: 500}}});
 	var dbCall = {
 		commodity: toFind.commodity
 	};
@@ -150,24 +150,56 @@ function getDataAndCalculate(toFind) {
 //  	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
 //		if (err) doError(err);
 		var currYear = toFind.year;
-		if (currYear === '2009') {
+		if (currYear === '2001') {
+			dbCall.$or = [{$and : [{data2001: {$gt: 0}}, colorObject]}, {country: "Israel"}]
+			var crsr = db.collection("tradeMap2").find(dbCall).sort({export2001: -1, data2001: -1}).limit(6);
+		} //if
+		else if (currYear === '2002') {
+			dbCall.$or = [{$and : [{data2002: {$gt: 0}}, colorObject]}, {country: "Israel"}]
+			var crsr = db.collection("tradeMap2").find(dbCall).sort({export2002: -1, data2002: -1}).limit(6);
+		} //else if
+		else if (currYear === '2003') {
+			dbCall.$or = [{$and : [{data2003: {$gt: 0}}, colorObject]}, {country: "Israel"}]
+			var crsr = db.collection("tradeMap2").find(dbCall).sort({export2003: -1, data2003: -1}).limit(6);
+		} //else if
+		else if (currYear === '2004') {
+			dbCall.$or = [{$and : [{data2004: {$gt: 0}}, colorObject]}, {country: "Israel"}]
+			var crsr = db.collection("tradeMap2").find(dbCall).sort({export2004: -1, data2004: -1}).limit(6);
+		} //else if
+		else if (currYear === '2005') {
+			dbCall.$or = [{$and : [{data2005: {$gt: 0}}, colorObject]}, {country: "Israel"}]
+			var crsr = db.collection("tradeMap2").find(dbCall).sort({export2005: -1, data2005: -1}).limit(6);
+		} //if
+		else if (currYear === '2006') {
+			dbCall.$or = [{$and : [{data2006: {$gt: 0}}, colorObject]}, {country: "Israel"}]
+			var crsr = db.collection("tradeMap2").find(dbCall).sort({export2006: -1, data2006: -1}).limit(6);
+		} //else if
+		else if (currYear === '2007') {
+			dbCall.$or = [{$and : [{data2007: {$gt: 0}}, colorObject]}, {country: "Israel"}]
+			var crsr = db.collection("tradeMap2").find(dbCall).sort({export2007: -1, data2007: -1}).limit(6);
+		} //else if
+		else if (currYear === '2008') {
+			dbCall.$or = [{$and : [{data2008: {$gt: 0}}, colorObject]}, {country: "Israel"}]
+			var crsr = db.collection("tradeMap2").find(dbCall).sort({export2008: -1, data2008: -1}).limit(6);
+		} //else if
+		else if (currYear === '2009') {
 			dbCall.$or = [{$and : [{data2009: {$gt: 0}}, colorObject]}, {country: "Israel"}]
-			var crsr = db.collection("tradeMap").find(dbCall).sort({export2009: -1, data2009: -1}).limit(6);
+			var crsr = db.collection("tradeMap2").find(dbCall).sort({export2009: -1, data2009: -1}).limit(6);
 		} //if
 		else if (currYear === '2010') {
 			dbCall.$or = [{$and : [{data2010: {$gt: 0}}, colorObject]}, {country: "Israel"}]
-			var crsr = db.collection("tradeMap").find(dbCall).sort({export2010: -1, data2010: -1}).limit(6);
+			var crsr = db.collection("tradeMap2").find(dbCall).sort({export2010: -1, data2010: -1}).limit(6);
 		} //else if
 		else if (currYear === '2011') {
 			dbCall.$or = [{$and : [{data2011: {$gt: 0}}, colorObject]}, {country: "Israel"}]
-			var crsr = db.collection("tradeMap").find(dbCall).sort({export2011: -1, data2011: -1}).limit(6);
+			var crsr = db.collection("tradeMap2").find(dbCall).sort({export2011: -1, data2011: -1}).limit(6);
 		} //else if
 		else if (currYear === '2012') {
 			dbCall.$or = [{$and : [{data2012: {$gt: 0}}, colorObject]}, {country: "Israel"}]
-			var crsr = db.collection("tradeMap").find(dbCall).sort({export2012: -1, data2012: -1}).limit(6);
+			var crsr = db.collection("tradeMap2").find(dbCall).sort({export2012: -1, data2012: -1}).limit(6);
 		} //else if
 		else {
-			doError("Query tradeMap failed.");
+			doError("Query tradeMap2 failed.");
 		} //else
 		crsr.toArray(function(err, docs) {
 		    if (err) doError(err);
@@ -187,7 +219,7 @@ function aggregateDataAndCalculate(toFind) {
 			projectObject["mult"] = {
 				$multiply: ["$"+toFind.color, "$data"+toFind.year]
 			}
-			db.collection("tradeMap").aggregate({
+			db.collection("tradeMap2").aggregate({
 				$project: projectObject
 			}, {
 				$group: {
@@ -230,7 +262,7 @@ function aggregateDataAndCalculate(toFind) {
 			projectObject1b["mult"] = {
 				$multiply: ["$theSum", "$data"+toFind.year]
 			}
-			db.collection("tradeMap").aggregate({
+			db.collection("tradeMap2").aggregate({
 				$project: projectObject1a
 			}, {
 				$project: projectObject1b
@@ -278,7 +310,7 @@ function getIsraelToo(toFind){
 			projectObject2["mult"] = {
 					$multiply: ["$"+toFind.color, "$export"+toFind.year]
 			}
-			db.collection("tradeMap").aggregate({
+			db.collection("tradeMap2").aggregate({
 				$project: projectObject2
 			}, {
 				$group: {
@@ -315,7 +347,7 @@ function getIsraelToo(toFind){
 			projectObject2b["mult"] = {
 				$multiply: ["$theSum", "$export"+toFind.year]
 			}
-			db.collection("tradeMap").aggregate({
+			db.collection("tradeMap2").aggregate({
 				$project: projectObject2a
 			}, {
 				$project: projectObject2b

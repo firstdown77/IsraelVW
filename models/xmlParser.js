@@ -81,7 +81,7 @@ exports.doParse = function(req, res) {
 									elementsAdded++;
 									if (elementsAdded % 3 == 0) {
 								 	 	objectToMatch.commodity = buildArray[(elementsAdded / 3) - 1];
-									    db.collection("tradeMap").update(objectToMatch, 
+									    db.collection("tradeMap2").update(objectToMatch, 
 											{$set: objectToSave },
 											{ multi: true }, function(err, crsr) {
 										    if (err) doError(err);	

@@ -23,7 +23,7 @@ var doError = function (e) {
 }
 
 //Parses all the TradeMap.org text files and inserts all entries into 
-//a MongoDB database.  DB name: virtualwaterDB, collection: tradeMap.
+//a MongoDB database.  DB name: virtualwaterDB, collection: tradeMap2.
 exports.doParse = function(req, res) {
   	var callback = function(model) {
 	  	console.log("Result: " + model + " added");
@@ -31,9 +31,9 @@ exports.doParse = function(req, res) {
 	var no2012Values = ["Tobacco", "Wine", "Rubber", "Eggs + (Total)", "Tea", "Beer", "Sugar Cane"];
 //    mongoClient.connect(server+"virtualwaterDB", function(err, db) {
 //    	if (err) doError(err);
-		db.dropCollection("tradeMap", function(err, db) {
-			if (err) console.log("The tradeMap table probably did not previously exist.");
-			console.log("tradeMap cleared");
+		db.dropCollection("tradeMap2", function(err, db) {
+			if (err) console.log("The tradeMap2 table probably did not previously exist.");
+			console.log("tradeMap2 cleared");
 		});
 		fs.readdir('./imports', function(err, files) {
 			if (err) throw err;
@@ -65,7 +65,7 @@ exports.doParse = function(req, res) {
 							objectToInsert.data2012 = parseInt(currTotals[3].replace("No Quantity", 0).replace(/\,/g,''));
 							objectToInsert.commodity = currCommodity;
 							objectToInsert.country = currCountry;
-						    db.collection("tradeMap").save(objectToInsert, 
+						    db.collection("tradeMap2").save(objectToInsert, 
 								{safe:true}, function(err, crsr) {
 							    if (err) doError(err);	
 						        callback(crsr);
@@ -79,7 +79,7 @@ exports.doParse = function(req, res) {
 } //doParse
 
 //Parses all the TradeMap.org text files and inserts all entries into 
-//a MongoDB database.  DB name: virtualwaterDB, collection: tradeMap.
+//a MongoDB database.  DB name: virtualwaterDB, collection: tradeMap2.
 exports.doParseExports = function(req, res) {
   	var callback = function(model) {
 	  	console.log("Result: " + model + " added");
@@ -112,7 +112,7 @@ exports.doParseExports = function(req, res) {
 						objectToInsert.commodity = currCommodity;
 						objectToInsert.country = currCountry;
 						console.log(objectToInsert.country);
-					    db.collection("tradeMap").save(objectToInsert, 
+					    db.collection("tradeMap2").save(objectToInsert, 
 							{safe:true}, function(err, crsr) {
 						    if (err) doError(err);	
 					        callback(crsr);
