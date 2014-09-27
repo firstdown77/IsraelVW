@@ -14,22 +14,17 @@ app.configure(function(){
   app.use(express.bodyParser());	// Parse the request body into req.body object
   app.use(express.methodOverride()); // Allows you to override HTTP methods on old browsers
   app.use(app.router);
+  app.use(express.cookieParser());
+  app.use(express.session({secret: '1234567890QWERTY'}));
   app.use(express.static(path.join(__dirname, 'public')));
   app.use(express.errorHandler());
 });
 
 app.get('/parseXMLRequest', xmlParser.doParsing);
 app.get('/parseTXTRequest', txtParser.doParsing);
-app.get('/virtualWaterRequest', virtualWaterData.getData);
-app.get('/commodityRequest', virtualWaterData.getCurrentCommodity);
-app.post('/commoditySetRequest', virtualWaterData.setCurrentCommodity);
-app.get('/yearRequest', virtualWaterData.getCurrentYear);
-app.post('/yearSetRequest', virtualWaterData.setCurrentYear);
-app.get('/colorRequest', virtualWaterData.getCurrentColor);
-app.post('/colorSetRequest', virtualWaterData.setCurrentColor);
 app.get('/parseExportsRequest', txtParser.doParsingExports);
-
-
+app.get('/virtualWaterRequest', virtualWaterData.getData);
+app.get('/chartDataRequest', virtualWaterData.getChartData);
 
 var server = http.createServer(app);
 server.listen(4000, function(){

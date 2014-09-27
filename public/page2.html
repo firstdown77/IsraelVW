@@ -19,35 +19,26 @@
 <body>
   <div class="Main" data-role="page" data-control-title="Home" id="page1">
       <div data-theme="f" data-role="header">
-          <a data-role="button" href="index.html" data-icon="home" data-iconpos="left" class="ui-btn-left" rel="external">
-              Home
+          <a data-role="button" href="index.html" data-icon="back" data-iconpos="left" class="ui-btn-left" rel="external">
+              Start Over
           </a>
           <h2>
               Israel's Virtual Water
           </h2>
       </div>
       <div data-role="content">
-          <div data-role="navbar" data-iconpos="right">
-              <ul>
-                  <li>
-                      <a href="page5.html" data-transition="slide" data-theme="" data-icon="arrow-r">
-                          Select Commodity
-                      </a>
-                  </li>
-              </ul>
-          </div>
           <div data-theme="f" data-role="header">
               <h3 id="commodityCaption">
-                  Loading...
+              	<a href="page5.html" data-role="button" class="ui-btn-inline" data-transition="slide">Loading...</a>  
               </h3>
               <a id="colorButton" data-role="button" href="page9.html" class="ui-btn-left">
                   Green
               </a>
               <a id="yearButton" data-role="button" href="page7.html" class="ui-btn-right" rel="external">
                   2012
-              </a><br />
+              </a>
           </div>
-          <div data-controltype="textblock">
+			<div data-controltype="textblock">
             <p id="notYetAvailable" style="text-align:center; color: #A0A0A0"></p>
           	<p id="colorIndications" style="text-align:center;">
           		The <font color="#0038b8">blue</font> dot indicates Israel's virtual water export to all other countries.<br />
@@ -203,6 +194,7 @@
             </tr>
           </tbody>
       </table>
+      <div id="chart_div2" style="width: 900px; height: 500px; margin-left: auto; margin-right: auto;"></div>
       <div data-role="tabbar" data-iconpos="top" data-theme="f">
           <ul>
               <li>

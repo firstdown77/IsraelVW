@@ -32,6 +32,8 @@ td {
 }
 #commodityCaption {
     text-align:center;
+    font-family: Helvetica;
+    font-weight: normal;
 }
 
 #theTable th {
@@ -88,7 +90,7 @@ td {
     margin-right: 4.575%;    /* 144px / 988px = 0.14575 */
 	max-width: 50em;
 }
-h1, h2 {
+h1, h2, h3 {
     text-align:center;
     font-family: Helvetica;
     font-weight: normal;

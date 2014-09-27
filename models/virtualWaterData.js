@@ -27,30 +27,6 @@ var currentCommodity = "Rice (Milled Equivalent)";
 var currentYear = "2012";
 var currentColor = "Green";
 
-exports.getCurrentCommodity = function() {
-	return currentCommodity;
-}
-
-exports.setCommodity = function(comToSet) {
-	currentCommodity = comToSet;
-}
-
-exports.getCurrentYear = function() {
-	return currentYear;
-}
-
-exports.setYear = function(yearToSet) {
-	currentYear = yearToSet;
-}
-
-exports.getCurrentColor = function() {
-	return currentColor;
-}
-
-exports.setColor = function(colorToSet) {
-	currentColor = colorToSet;
-}
-
 exports.getVirtualWaterData = function(req, callback) {
 	arrayToSend = [];
 	completeArrayLength = 6;
@@ -375,6 +351,69 @@ function getIsraelToo(toFind){
 		);
 		} //else
 //  	}); //mongoClient.connect
+}
+
+exports.allDataCountryCommodity = function(req, callback) {
+	arrayToSend = [];
+	var color = req.color.toLowerCase();
+	var countries = decodeURI(req.countries);
+	var commodity = decodeURI(req.commodity);
+	var de = (country === "Israel" ? "export" : "data");
+	var crsr = db.collection("tradeMap2").aggregate(
+		[
+		 { $match: {
+			 country: { $in: countries },
+			 commodity: commodity }
+		 }, { $project: {
+			total2001: { 
+				 $multiply: ["$"+de+"2001", "$"+color, .000001]
+			},
+		 	total2002: { 
+		 		$multiply: ["$"+de+"2002", "$"+color, .000001]
+		 	},
+		 	total2003: { 
+		 		$multiply: ["$"+de+"2003", "$"+color, .000001]
+		 	},
+		 	total2004: { 
+		 		$multiply: ["$"+de+"2004", "$"+color, .000001]
+		 	},
+		 	total2005: { 
+		 		$multiply: ["$"+de+"2005", "$"+color, .000001]
+		 	},
+			total2006: { 
+				 $multiply: ["$"+de+"2006", "$"+color, .000001]
+			},
+			total2007: { 
+				 $multiply: ["$"+de+"2007", "$"+color, .000001]
+			},
+			total2008: { 
+				 $multiply: ["$"+de+"2008", "$"+color, .000001]
+			},
+			total2009: { 
+				 $multiply: ["$"+de+"2009", "$"+color, .000001]
+			},
+			total2010: { 
+				 $multiply: ["$"+de+"2010", "$"+color, .000001]
+			},
+			total2011: { 
+				 $multiply: ["$"+de+"2011", "$"+color, .000001]
+			},
+			total2012: { 
+				 $multiply: ["$"+de+"2012", "$"+color, .000001]
+			}
+		 }}
+		], function(err, result) {
+				if (err) doError(err);
+				console.log(result);
+				arrayToSend.push(result);
+			}
+	);
+	var _flagCheck = setInterval(function() {
+	    if (arrayToSend.length == 1) {
+	        clearInterval(_flagCheck);
+	        callback(arrayToSend[0][0]); // the function to run once all flags are true
+	    }
+	}, 100); // interval set at 100 milliseconds
 }
 
 //Converts a cubic meter value into a millions cubic meter value.

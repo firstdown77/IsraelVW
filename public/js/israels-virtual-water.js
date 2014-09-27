@@ -1,5 +1,6 @@
-google.load('visualization', '1', {'packages': ['geochart']});
+google.load('visualization', '1', {'packages': ['geochart', 'corechart']});
 google.setOnLoadCallback(drawRegionsMap);
+google.setOnLoadCallback(drawChart);
 
 var commodities = ["Apples", "Barley", "Beer", "Bovine Meat", "Butter, Ghee",
  "Coconuts - Incl Copra", "Coffee", "Cream", "Eggs + (Total)",
@@ -149,6 +150,7 @@ var data;
 var options;
 
 function drawRegionsMap(drawOnly) {
+	initCookiesIfNecessary();
 	if (drawOnly !== "yes") {
 		var	locationString = location.search.substring(1);
 		if (locationString.length > 0 && locationString.length < 3) {
@@ -174,7 +176,7 @@ function drawRegionsMap(drawOnly) {
 			year = doGetYear();
 			color = doGetColor();
 		}
-		$("#commodityCaption").text(com);
+		$("#commodityCaption a").text(com);
 		$("#colorButton").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + color + "</span></span>");
 		$("#yearButton").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + year + "</span></span>");
 		var has2012 = true;
@@ -235,6 +237,13 @@ function drawRegionsMap(drawOnly) {
     chart.draw(data, options);
     
     google.visualization.events.addListener(chart, 'select', function() {
+        var countries = ""
+            for (var z = 0; z < dataArray.length; z ++) {
+            	countries+=dataArray[z][0] + "&";
+            }
+        var leng = countries.length;
+        countries = countries.substring(0, leng-1);
+        console.log(countries);
         var selection = chart.getSelection();
 
         // if same city is clicked twice in a row
@@ -246,8 +255,11 @@ function drawRegionsMap(drawOnly) {
           var value = data.getValue(selection[0].row, 0);
           $("#theTable > tbody tr").removeAttr('style');
           $("#theTable > tbody tr:eq(" + selection[0].row + ")").css("background-color","#00CCFF");
+          location.href="page10.html?"+getCookie("commodity")+"&"+getCookie("color")+"&"+countries;
         }
     });
+
+    
 };
 
 window.onresize = function(event) {
@@ -373,59 +385,169 @@ function doGetVirtualWater(currCommodity, currYear, currColor) {
 	    }}).responseText;
 }
 
-function doGetCommodity() {
+function doGetChartData(currCommodity, currCountry, currColor) {
 	return $.ajax({
-		url: "commodityRequest",
+		url: "virtualWaterRequest",
 		type: "get",
 		async: false,
         data: {
-	    }}).responseText;
-}
-
-function doSetCommodity(currCommodity) {
-	return $.ajax({
-		url: "commoditySetRequest",
-		type: "post",
-		async: false,
-        data: {
-			commodity: currCommodity
-	    }}).responseText;
-}
-
-function doGetYear() {
-	return $.ajax({
-		url: "yearRequest",
-		type: "get",
-		async: false,
-        data: {
-	    }}).responseText;
-}
-
-function doSetYear(currYear) {
-	return $.ajax({
-		url: "yearSetRequest",
-		type: "post",
-		async: false,
-        data: {
-			year: currYear
-	    }}).responseText;
-}
-
-function doGetColor() {
-	return $.ajax({
-		url: "colorRequest",
-		type: "get",
-		async: false,
-        data: {
-	    }}).responseText;
-}
-
-function doSetColor(currColor) {
-	return $.ajax({
-		url: "colorSetRequest",
-		type: "post",
-		async: false,
-        data: {
+            commodity: currCommodity,
+			country: currCountry,
 			color: currColor
 	    }}).responseText;
 }
+
+function doGetCommodity() {
+	return getCookie("commodity");
+//	return $.ajax({
+//		url: "commodityRequest",
+//		type: "get",
+//		async: false,
+//        data: {
+//	    }}).responseText;
+}
+
+function doSetCommodity(currCommodity) {
+	document.cookie = "commodity="+currCommodity;
+//	return $.ajax({
+//		url: "commoditySetRequest",
+//		type: "post",
+//		async: false,
+//        data: {
+//			commodity: currCommodity
+//	    }}).responseText;
+}
+
+function doGetYear() {
+	return getCookie("year");
+//	return $.ajax({
+//		url: "yearRequest",
+//		type: "get",
+//		async: false,
+//        data: {
+//	    }}).responseText;
+}
+
+function doSetYear(currYear) {
+	document.cookie = "year="+currYear;
+	console.log(getCookie("year"));
+//	return $.ajax({
+//		url: "yearSetRequest",
+//		type: "post",
+//		async: false,
+//        data: {
+//			year: currYear
+//	    }}).responseText;
+}
+
+function doGetColor() {
+	return getCookie("color");
+//	return $.ajax({
+//		url: "colorRequest",
+//		type: "get",
+//		async: false,
+//        data: {
+//	    }}).responseText;
+}
+
+function doSetColor(currColor) {
+	document.cookie="color="+currColor;
+
+//	return $.ajax({
+//		url: "colorSetRequest",
+//		type: "post",
+//		async: false,
+//        data: {
+//			color: currColor
+//	    }}).responseText;
+}
+
+function doGetChartData(currCommodity, currCountries, currColor) {
+	return $.ajax({
+		url: "chartDataRequest",
+		type: "get",
+		async: false,
+        data: {
+            commodity: currCommodity,
+			country: currCountries,
+			color: currColor
+	    }}).responseText;
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) != -1) return c.substring(name.length,c.length);
+    }
+    return null;
+}
+
+function initCookiesIfNecessary() {
+	if (getCookie("color") == null || getCookie("year") == null || getCookie("commodity") == null) {
+		document.cookie="color=Green";
+		document.cookie="year=2012";
+		document.cookie="commodity=Apples";
+	}
+}
+
+function drawChart() {
+		$("#countryCaption").text(decodeURI(location.search.substring(1).split("&")[1]));
+		var	locationString = location.search.substring(1);
+		var input = locationString.split("&");
+		commodity = input[0];
+		color = input[1];
+		var dataArr = new Array();
+		var countries = new Array();
+		dataArr.push("Year");
+		for (var i = 2; i < input.length; i++) {
+			countries.push(decodeURI(input[i]));
+			dataArr.push(decodeURI(input[i]));
+		}
+		console.log(dataArr);
+		var dataJson = JSON.parse(doGetChartData(commodity, countries, color));
+//		var dataArray = []
+//		var data = google.visualization.arrayToDataTable([
+//		                                                  ['Year', country1, country2],
+//		                                                  ['2001',  1000,      400],
+//		                                                  ['2002',  1000,      400],
+//		                                                  ['2003',  1000,      400],
+//		                                                  ['2004',  1000,      400],
+//		                                                  ['2005',  1000,      400],
+//		                                                  ['2006',  1000,      400],
+//		                                                  ['2007',  1000,      400],
+//		                                                  ['2008',  1170,      460],
+//		                                                  ['2009',  660,       1120],
+//		                                                  ['2010',  1030,      540],
+//		                                                  ['2011',  1000,      400],
+//		                                                  ['2012',  1000,      400]
+//		                                                  ]);
+//
+//		var options = {
+//				title: 'Company Performance'
+//		};
+//
+//		var chart = new google.visualization.LineChart(document.getElementById('chart_div2'));
+//
+//		chart.draw(data, options);
+}
+//	var chartData = {
+//		    labels: ["2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012"],
+//		    datasets: [
+//		        {
+//		            label: country,
+//		            fillColor: "rgba(220,220,220,0.2)",
+//		            strokeColor: "rgba(220,220,220,1)",
+//		            pointColor: "rgba(220,220,220,1)",
+//		            pointStrokeColor: "#fff",
+//		            pointHighlightFill: "#fff",
+//		            pointHighlightStroke: "rgba(220,220,220,1)",
+//		            data: [dataJson.total2001.toFixed(2), dataJson.total2002.toFixed(2),
+//		                   dataJson.total2003.toFixed(2), dataJson.total2004.toFixed(2),
+//		                   dataJson.total2005.toFixed(2), dataJson.total2006.toFixed(2),
+//		                   dataJson.total2007.toFixed(2), dataJson.total2008.toFixed(2), 
+//		                   dataJson.total2009.toFixed(2), dataJson.total2010.toFixed(2),
+//		                   dataJson.total2011.toFixed(2), dataJson.total2012.toFixed(2)]
+//		        }
