@@ -19,3 +19,11 @@ exports.getChartData = function(req, res) {
     	res.send(200, model);
     });
 }
+
+exports.getCommodityInfo = function(req, res) {
+	model.getCommodityInfo({
+		commodity: req.query.commodity
+	}, function(model) {
+    	res.send(200, model);
+    });
+}

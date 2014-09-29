@@ -25,6 +25,7 @@ app.get('/parseTXTRequest', txtParser.doParsing);
 app.get('/parseExportsRequest', txtParser.doParsingExports);
 app.get('/virtualWaterRequest', virtualWaterData.getData);
 app.get('/chartDataRequest', virtualWaterData.getChartData);
+app.get('/averageCostRequest', virtualWaterData.getCommodityInfo);
 
 var server = http.createServer(app);
 server.listen(4000, function(){

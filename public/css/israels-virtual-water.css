@@ -34,6 +34,7 @@ td {
     text-align:center;
     font-family: Helvetica;
     font-weight: normal;
+    font-size: 22px;
 }
 
 #theTable th {
@@ -85,10 +86,14 @@ td {
     border-top-width:0px;
     border-bottom-width:0px; 
 }
-#chart_div {
+#chart_div, #chart_div2 {
     margin-left: 4.575%;    /* 144px / 988px = 0.14575 */
     margin-right: 4.575%;    /* 144px / 988px = 0.14575 */
 	max-width: 50em;
+}
+#commodityInfo {
+	text-align:center;
+	font-size:20px;
 }
 h1, h2, h3 {
     text-align:center;

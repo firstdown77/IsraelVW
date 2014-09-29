@@ -13,6 +13,7 @@ var commodities = ["Apples", "Barley", "Beer", "Bovine Meat", "Butter, Ghee",
 	    "Tea", "Tobacco", "Wheat", "Wine", "All"];
 var colors = ["All", "Green", "Blue", "Grey"];
 var no2012Values = ["Tobacco", "Wine", "Rubber", "Eggs + (Total)", "Tea", "Beer", "Sugar Cane"];
+var countries = new Array();
 
 var abbreviations = [['AFG', 'Afghanistan'], 
 ['ALB', 'Albania'], 
@@ -176,6 +177,7 @@ function drawRegionsMap(drawOnly) {
 			year = doGetYear();
 			color = doGetColor();
 		}
+		doGetAverageCost(com);
 		$("#commodityCaption a").text(com);
 		$("#colorButton").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + color + "</span></span>");
 		$("#yearButton").html("<span class='ui-btn-inner'><span class='ui-btn-text'>" + year + "</span></span>");
@@ -209,6 +211,7 @@ function drawRegionsMap(drawOnly) {
 		var arrLength = dataArray.length;
 		for (var j = 0; j < arrLength; j++) {
 			finalArray[j+1] = [dataArray[j][0], dataArray[j][3]];
+			countries.push(dataArray[j][0]);
 			valueArray[arrLength - 1 - j] = dataArray[j][3];
 			if (dataArray[j][0] === "Israel") {
 				colorArray[arrLength - 1 - j] = "#0038b8";
@@ -237,13 +240,13 @@ function drawRegionsMap(drawOnly) {
     chart.draw(data, options);
     
     google.visualization.events.addListener(chart, 'select', function() {
-        var countries = ""
-            for (var z = 0; z < dataArray.length; z ++) {
-            	countries+=dataArray[z][0] + "&";
-            }
-        var leng = countries.length;
-        countries = countries.substring(0, leng-1);
-        console.log(countries);
+//        var countries = ""
+//            for (var z = 0; z < dataArray.length; z ++) {
+//            	countries+=dataArray[z][0] + "&";
+//            }
+//        var leng = countries.length;
+//        countries = countries.substring(0, leng-1);
+//        console.log(countries);
         var selection = chart.getSelection();
 
         // if same city is clicked twice in a row
@@ -255,7 +258,7 @@ function drawRegionsMap(drawOnly) {
           var value = data.getValue(selection[0].row, 0);
           $("#theTable > tbody tr").removeAttr('style');
           $("#theTable > tbody tr:eq(" + selection[0].row + ")").css("background-color","#00CCFF");
-          location.href="page10.html?"+getCookie("commodity")+"&"+getCookie("color")+"&"+countries;
+//          location.href="page10.html?"+getCookie("commodity")+"&"+getCookie("color")+"&"+countries;
         }
     });
 
@@ -278,6 +281,7 @@ window.onresize = function(event) {
 		unReplaceAbbreviations();
 	}
 	drawRegionsMap("yes");
+	drawChart("yes");
 };
 
 
@@ -430,7 +434,7 @@ function doGetYear() {
 
 function doSetYear(currYear) {
 	document.cookie = "year="+currYear;
-	console.log(getCookie("year"));
+//	console.log(getCookie("year"));
 //	return $.ajax({
 //		url: "yearSetRequest",
 //		type: "post",
@@ -469,9 +473,23 @@ function doGetChartData(currCommodity, currCountries, currColor) {
 		async: false,
         data: {
             commodity: currCommodity,
-			country: currCountries,
+			countries: currCountries,
 			color: currColor
 	    }}).responseText;
+}
+
+function doGetAverageCost(commodity) {
+	$.ajax({
+		url: "averageCostRequest",
+		type: "get",
+		data: {
+		    commodity: commodity
+	    },
+		success: function(data) {
+			$("#commodityInfo").text(data);
+		}
+	});
+	return false;	
 }
 
 function getCookie(cname) {
@@ -493,61 +511,44 @@ function initCookiesIfNecessary() {
 	}
 }
 
-function drawChart() {
+var totalArr = new Array();
+function drawChart(drawOnly) {
+	if (drawOnly !== "yes") {
 		$("#countryCaption").text(decodeURI(location.search.substring(1).split("&")[1]));
 		var	locationString = location.search.substring(1);
 		var input = locationString.split("&");
-		commodity = input[0];
-		color = input[1];
-		var dataArr = new Array();
-		var countries = new Array();
-		dataArr.push("Year");
-		for (var i = 2; i < input.length; i++) {
-			countries.push(decodeURI(input[i]));
-			dataArr.push(decodeURI(input[i]));
+		commodity = getCookie("commodity");
+		color = getCookie("color")
+		var captionArr = new Array();
+		captionArr.push("Year");
+		countries.sort();
+		for (var i = 0; i < countries.length; i++) {
+			captionArr.push(countries[i]);
 		}
-		console.log(dataArr);
+		totalArr.push(captionArr);
 		var dataJson = JSON.parse(doGetChartData(commodity, countries, color));
-//		var dataArray = []
-//		var data = google.visualization.arrayToDataTable([
-//		                                                  ['Year', country1, country2],
-//		                                                  ['2001',  1000,      400],
-//		                                                  ['2002',  1000,      400],
-//		                                                  ['2003',  1000,      400],
-//		                                                  ['2004',  1000,      400],
-//		                                                  ['2005',  1000,      400],
-//		                                                  ['2006',  1000,      400],
-//		                                                  ['2007',  1000,      400],
-//		                                                  ['2008',  1170,      460],
-//		                                                  ['2009',  660,       1120],
-//		                                                  ['2010',  1030,      540],
-//		                                                  ['2011',  1000,      400],
-//		                                                  ['2012',  1000,      400]
-//		                                                  ]);
-//
-//		var options = {
-//				title: 'Company Performance'
-//		};
-//
-//		var chart = new google.visualization.LineChart(document.getElementById('chart_div2'));
-//
-//		chart.draw(data, options);
+		for (var i = 1; i < captionArr.length; i++) {
+			for (var j = 0; j < abbreviations.length; j++) {
+				if (captionArr[i] === abbreviations[j][1]) {
+					captionArr[i] = abbreviations[j][0];
+				}
+			}
+				
+		}
+		var dataArr;
+		for (var i = 2001; i <= 2012; i++) {
+			dataArr = new Array();
+			dataArr.push(''+i);
+			for (var j = 0; j < countries.length; j++) {
+				dataArr.push(parseFloat(dataJson[j]['total'+i].toFixed(2)));
+			}
+			totalArr.push(dataArr);
+		}
+	}
+	var data = google.visualization.arrayToDataTable(totalArr);
+	var options = {
+			title: 'Time-series'
+	};
+	var chart = new google.visualization.LineChart(document.getElementById('chart_div2'));
+	chart.draw(data, options);
 }
-//	var chartData = {
-//		    labels: ["2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012"],
-//		    datasets: [
-//		        {
-//		            label: country,
-//		            fillColor: "rgba(220,220,220,0.2)",
-//		            strokeColor: "rgba(220,220,220,1)",
-//		            pointColor: "rgba(220,220,220,1)",
-//		            pointStrokeColor: "#fff",
-//		            pointHighlightFill: "#fff",
-//		            pointHighlightStroke: "rgba(220,220,220,1)",
-//		            data: [dataJson.total2001.toFixed(2), dataJson.total2002.toFixed(2),
-//		                   dataJson.total2003.toFixed(2), dataJson.total2004.toFixed(2),
-//		                   dataJson.total2005.toFixed(2), dataJson.total2006.toFixed(2),
-//		                   dataJson.total2007.toFixed(2), dataJson.total2008.toFixed(2), 
-//		                   dataJson.total2009.toFixed(2), dataJson.total2010.toFixed(2),
-//		                   dataJson.total2011.toFixed(2), dataJson.total2012.toFixed(2)]
-//		        }

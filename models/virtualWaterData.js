@@ -21,7 +21,32 @@ var doError = function (e) {
     throw new Error(e);
 }
 
-var arrayToSend = [];
+var averageCosts = [["Coffee", "There are 140 litres of virtual water per cup of coffee."],
+                    ["Beef", "There are 15,500 litres of virtual water per kilogram of beef."],
+                    ["Cheese", "There are 5,000 litres of virtual water per kilogram of cheese."],
+                    ["Millet", "There are 5,000 litres of virtual water per kilogram of millet."],
+                    ["Mutton & Goat Meat", "There are 10,412 litres of virtual water per kilogram of sheep meat."],
+                    ["Rice (Milled Equivalent)", "There are 3,400 litres of virtual water per kilogram of rice."],
+                    ["Soyabeans", "There are 1,800 litres of virtual water per kilogram of soyabeans."],
+                    ["Sugar Beet", "There are 920 litres of virtual water per kilogram of sugar beet."],
+                    ["Sugar Cane", "There are 1,782 litres of virtual water per kilogram of sugar cane."],
+                    ["Wheat", "There are 1,300 litres of virtual water per kilogram of wheat."],
+                    ["Barley", "There are 1,300 litres of virtual water per kilogram of barley."],
+                    ["Maize", "There are 900 litres of virtual water per kilogram of maize."],
+                    ["Apples", "There are 70 litres of virtual water per apple."],
+                    ["Butter, Ghee", "There are 5,553 litres of virtual water per kilogram of butter."],
+                    ["Eggs + (Total)", "There are 200 litres of virtual water per egg."],
+                    ["Groundnuts", "There are 2782 litres of virtual water per kilogram of groundnuts."],
+                    ["Cream", "There are 255 litres of virtual water per 250 ml glass of milk."],
+                    ["Olives", "There are 3,015 litres of virtual water per kilogram of olives."],
+                    ["Potatoes", "There are 287 litre per kilogram of potatoes."],
+                    ["Tea", "There are 30 litres of virtual water per cup of tea."],
+                    ["Coconuts - Incl Copra", "There are 1,215 litres of virtual water per coconut."],
+                    ["Grapes", "There are 115 litres of virtual water per pound of grapes."],
+                    ["Rye", "There are 150 litres of virtual water per pound of rye."],
+                    ["Oats", "There are 78 litres of virtual water per cup of ats."],
+                    ["Pepper", "There are 2,230 litres of virtual water per pound of black pepper."]];
+
 var completeArrayLength = 6;
 var currentCommodity = "Rice (Milled Equivalent)";
 var currentYear = "2012";
@@ -77,7 +102,7 @@ function getDataAndCalculate(toFind) {
 					data = convertToMCM(curr["export"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']), 3);
 					arrayToSend.push([curr.country, curr["export"+toFind.year], convertToMCM(curr['green'] + curr['blue'] + curr['grey'], 6), data]);
 				}
-				console.log(arrayToSend);
+//				console.log(arrayToSend);
 			} //if country is Israel
 			else if (curr.country !== "British Virgin Islands" &&
 			 curr.country !== "Singapore" && curr.country !== "CC4te d\'Ivoire"
@@ -96,7 +121,7 @@ function getDataAndCalculate(toFind) {
 				}
 				else { //toFind.color is all
 					data = convertToMCM(curr["data"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']), 3);
-					console.log(data);
+//					console.log(data);
 					if (data >= 0.001) {
 						arrayToSend.push([curr.country, curr["data"+toFind.year], convertToMCM(curr['green'] + curr['blue'] + curr['grey'], 6), data])
 					}
@@ -104,11 +129,11 @@ function getDataAndCalculate(toFind) {
 						completeArrayLength--;
 					}
 				}
-				console.log(arrayToSend);
+//				console.log(arrayToSend);
 			} //else if curr.country !== British Virgin..
 			else { //curr.country is something not in the db.
 				completeArrayLength--;
-				console.log("XML does not contain " + curr.country + " - " + curr["data"+toFind.year] + " tons.");
+//				console.log("XML does not contain " + curr.country + " - " + curr["data"+toFind.year] + " tons.");
 			}
 		} //for
 	}; //callback
@@ -307,7 +332,7 @@ function getIsraelToo(toFind){
 				for (var i = 0; i < result.length; i++) {
 					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average, 6), convertToMCM(result[i].total, 3)]);
 				}
-				console.log(arrayToSend);
+//				console.log(arrayToSend);
 			});
 		}
 		else {
@@ -345,7 +370,7 @@ function getIsraelToo(toFind){
 				if (err) doError(err);
 				for (var i = 0; i < result.length; i++) {
 					arrayToSend.push([result[i]._id, result[i].tons, convertToMCM(result[i].average, 6), convertToMCM(result[i].total, 3)]);
-					console.log(arrayToSend);
+//					console.log(arrayToSend);
 				}
 			}
 		);
@@ -356,64 +381,103 @@ function getIsraelToo(toFind){
 exports.allDataCountryCommodity = function(req, callback) {
 	arrayToSend = [];
 	var color = req.color.toLowerCase();
-	var countries = decodeURI(req.countries);
+	var countries = req.countries;
+//	console.log(countries);
 	var commodity = decodeURI(req.commodity);
-	var de = (country === "Israel" ? "export" : "data");
 	var crsr = db.collection("tradeMap2").aggregate(
 		[
 		 { $match: {
 			 country: { $in: countries },
 			 commodity: commodity }
 		 }, { $project: {
+			country: 1,
 			total2001: { 
-				 $multiply: ["$"+de+"2001", "$"+color, .000001]
-			},
+				$cond: [{ $eq: ["$country", 'Israel']}, {
+					$multiply: ["$export2001", "$"+color, .000001]
+				}, { $multiply: ["$data2001", "$"+color, .000001]}]
+		 },
 		 	total2002: { 
-		 		$multiply: ["$"+de+"2002", "$"+color, .000001]
-		 	},
+				$cond: [{ $eq: ["$country", 'Israel']}, {
+					$multiply: ["$export2002", "$"+color, .000001]
+				}, { $multiply: ["$data2002", "$"+color, .000001]}]
+		 },
 		 	total2003: { 
-		 		$multiply: ["$"+de+"2003", "$"+color, .000001]
-		 	},
+				$cond: [{ $eq: ["$country", 'Israel']}, {
+					$multiply: ["$export2003", "$"+color, .000001]
+				}, { $multiply: ["$data2003", "$"+color, .000001]}]
+		 },
 		 	total2004: { 
-		 		$multiply: ["$"+de+"2004", "$"+color, .000001]
-		 	},
+				$cond: [{ $eq: ["$country", 'Israel']}, {
+					$multiply: ["$export2004", "$"+color, .000001]
+				}, { $multiply: ["$data2004", "$"+color, .000001]}]
+		 },
 		 	total2005: { 
-		 		$multiply: ["$"+de+"2005", "$"+color, .000001]
-		 	},
+				$cond: [{ $eq: ["$country", 'Israel']}, {
+					$multiply: ["$export2005", "$"+color, .000001]
+				}, { $multiply: ["$data2005", "$"+color, .000001]}]
+		 },
 			total2006: { 
-				 $multiply: ["$"+de+"2006", "$"+color, .000001]
-			},
+				$cond: [{ $eq: ["$country", 'Israel']}, {
+					$multiply: ["$export2006", "$"+color, .000001]
+				}, { $multiply: ["$data2006", "$"+color, .000001]}]
+		 },
 			total2007: { 
-				 $multiply: ["$"+de+"2007", "$"+color, .000001]
-			},
+				$cond: [{ $eq: ["$country", 'Israel']}, {
+					$multiply: ["$export2007", "$"+color, .000001]
+				}, { $multiply: ["$data2007", "$"+color, .000001]}]
+		 },
 			total2008: { 
-				 $multiply: ["$"+de+"2008", "$"+color, .000001]
+				$cond: [{ $eq: ["$country", 'Israel']}, {
+					$multiply: ["$export2008", "$"+color, .000001]
+				}, { $multiply: ["$data2008", "$"+color, .000001]}]
 			},
 			total2009: { 
-				 $multiply: ["$"+de+"2009", "$"+color, .000001]
+				$cond: [{ $eq: ["$country", 'Israel']}, {
+					$multiply: ["$export2009", "$"+color, .000001]
+				}, { $multiply: ["$data2009", "$"+color, .000001]}]
 			},
 			total2010: { 
-				 $multiply: ["$"+de+"2010", "$"+color, .000001]
+				$cond: [{ $eq: ["$country", 'Israel']}, {
+					$multiply: ["$export2010", "$"+color, .000001]
+				}, { $multiply: ["$data2010", "$"+color, .000001]}]
 			},
 			total2011: { 
-				 $multiply: ["$"+de+"2011", "$"+color, .000001]
+				$cond: [{ $eq: ["$country", 'Israel']}, {
+					$multiply: ["$export2011", "$"+color, .000001]
+				}, { $multiply: ["$data2011", "$"+color, .000001]}]
 			},
 			total2012: { 
-				 $multiply: ["$"+de+"2012", "$"+color, .000001]
+				$cond: [{ $eq: ["$country", 'Israel']}, {
+					$multiply: ["$export2012", "$"+color, .000001]
+				}, { $multiply: ["$data2012", "$"+color, .000001]}]
 			}
-		 }}
+		 }},
+		 { $sort : { country : 1}
+		 }
 		], function(err, result) {
 				if (err) doError(err);
-				console.log(result);
 				arrayToSend.push(result);
 			}
 	);
 	var _flagCheck = setInterval(function() {
 	    if (arrayToSend.length == 1) {
 	        clearInterval(_flagCheck);
-	        callback(arrayToSend[0][0]); // the function to run once all flags are true
+	        callback(arrayToSend[0]); // the function to run once all flags are true
 	    }
 	}, 100); // interval set at 100 milliseconds
+}
+
+exports.getCommodityInfo = function(req, callback) {
+	var commodity = decodeURI(req.commodity);
+	console.log(averageCosts.length);
+	for (var i = 0; i < averageCosts.length; i++) {
+		console.log(averageCosts[i][0]);
+		if (averageCosts[i][0] === commodity) {
+			console.log("Whoopee");
+			callback(averageCosts[i][1]);
+		}
+	}
+	return null;
 }
 
 //Converts a cubic meter value into a millions cubic meter value.
