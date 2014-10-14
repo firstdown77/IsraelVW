@@ -403,67 +403,26 @@ function doGetChartData(currCommodity, currCountry, currColor) {
 
 function doGetCommodity() {
 	return getCookie("commodity");
-//	return $.ajax({
-//		url: "commodityRequest",
-//		type: "get",
-//		async: false,
-//        data: {
-//	    }}).responseText;
 }
 
 function doSetCommodity(currCommodity) {
 	document.cookie = "commodity="+currCommodity;
-//	return $.ajax({
-//		url: "commoditySetRequest",
-//		type: "post",
-//		async: false,
-//        data: {
-//			commodity: currCommodity
-//	    }}).responseText;
 }
 
 function doGetYear() {
 	return getCookie("year");
-//	return $.ajax({
-//		url: "yearRequest",
-//		type: "get",
-//		async: false,
-//        data: {
-//	    }}).responseText;
 }
 
 function doSetYear(currYear) {
 	document.cookie = "year="+currYear;
-//	console.log(getCookie("year"));
-//	return $.ajax({
-//		url: "yearSetRequest",
-//		type: "post",
-//		async: false,
-//        data: {
-//			year: currYear
-//	    }}).responseText;
 }
 
 function doGetColor() {
 	return getCookie("color");
-//	return $.ajax({
-//		url: "colorRequest",
-//		type: "get",
-//		async: false,
-//        data: {
-//	    }}).responseText;
 }
 
 function doSetColor(currColor) {
 	document.cookie="color="+currColor;
-
-//	return $.ajax({
-//		url: "colorSetRequest",
-//		type: "post",
-//		async: false,
-//        data: {
-//			color: currColor
-//	    }}).responseText;
 }
 
 function doGetChartData(currCommodity, currCountries, currColor) {
@@ -525,6 +484,13 @@ function drawChart(drawOnly) {
 		for (var i = 0; i < countries.length; i++) {
 			captionArr.push(countries[i]);
 		}
+		for (var i = 1; i < captionArr.length; i++) {
+			if (captionArr[i] === 'Israel') {
+				var temp = captionArr[i]; //must === 'Israel'
+				captionArr[i] = captionArr[1];
+				captionArr[1] = temp;
+			}
+		}
 		totalArr.push(captionArr);
 		var dataJson = JSON.parse(doGetChartData(commodity, countries, color));
 		for (var i = 1; i < captionArr.length; i++) {
@@ -533,7 +499,6 @@ function drawChart(drawOnly) {
 					captionArr[i] = abbreviations[j][0];
 				}
 			}
-				
 		}
 		var dataArr;
 		for (var i = 2001; i <= 2012; i++) {
@@ -547,7 +512,13 @@ function drawChart(drawOnly) {
 	}
 	var data = google.visualization.arrayToDataTable(totalArr);
 	var options = {
-			title: 'Time-series'
+			title: 'Time-series',
+			series: { 0:
+				{ color: "#0038b8" }
+			},
+			vAxis: {
+				title: 'mcm'
+			}
 	};
 	var chart = new google.visualization.LineChart(document.getElementById('chart_div2'));
 	chart.draw(data, options);

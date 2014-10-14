@@ -21,31 +21,48 @@ var doError = function (e) {
     throw new Error(e);
 }
 
-var averageCosts = [["Coffee", "There are 140 litres of virtual water per cup of coffee."],
-                    ["Beef", "There are 15,500 litres of virtual water per kilogram of beef."],
-                    ["Cheese", "There are 5,000 litres of virtual water per kilogram of cheese."],
-                    ["Millet", "There are 5,000 litres of virtual water per kilogram of millet."],
-                    ["Mutton & Goat Meat", "There are 10,412 litres of virtual water per kilogram of sheep meat."],
-                    ["Rice (Milled Equivalent)", "There are 3,400 litres of virtual water per kilogram of rice."],
-                    ["Soyabeans", "There are 1,800 litres of virtual water per kilogram of soyabeans."],
-                    ["Sugar Beet", "There are 920 litres of virtual water per kilogram of sugar beet."],
-                    ["Sugar Cane", "There are 1,782 litres of virtual water per kilogram of sugar cane."],
-                    ["Wheat", "There are 1,300 litres of virtual water per kilogram of wheat."],
-                    ["Barley", "There are 1,300 litres of virtual water per kilogram of barley."],
-                    ["Maize", "There are 900 litres of virtual water per kilogram of maize."],
-                    ["Apples", "There are 70 litres of virtual water per apple."],
-                    ["Butter, Ghee", "There are 5,553 litres of virtual water per kilogram of butter."],
-                    ["Eggs + (Total)", "There are 200 litres of virtual water per egg."],
-                    ["Groundnuts", "There are 2782 litres of virtual water per kilogram of groundnuts."],
-                    ["Cream", "There are 255 litres of virtual water per 250 ml glass of milk."],
-                    ["Olives", "There are 3,015 litres of virtual water per kilogram of olives."],
+var averageCosts = [["Coffee", "There are 140 liters of virtual water per cup of coffee."],
+                    ["Bovine Meat", "There are 15,500 liters of virtual water per kilogram of beef."],
+                    ["Cheese", "There are 5,000 liters of virtual water per kilogram of cheese."],
+                    ["Millet", "There are 5,000 liters of virtual water per kilogram of millet."],
+                    ["Mutton & Goat Meat", "There are 10,412 liters of virtual water per kilogram of sheep meat."],
+                    ["Rice (Milled Equivalent)", "There are 3,400 liters of virtual water per kilogram of rice."],
+                    ["Soyabeans", "There are 1,800 liters of virtual water per kilogram of soyabeans."],
+                    ["Sugar Beet", "There are 920 liters of virtual water per kilogram of sugar beet."],
+                    ["Sugar Cane", "There are 1,782 liters of virtual water per kilogram of sugar cane."],
+                    ["Sorghum", "There are 1,400 liters of virtual water per pound of sorghum."],
+                    ["Wheat", "There are 1,300 liters of virtual water per kilogram of wheat."],
+                    ["Barley", "There are 1,300 liters of virtual water per kilogram of barley."],
+                    ["Maize", "There are 900 liters of virtual water per kilogram of maize."],
+                    ["Apples", "There are 70 liters of virtual water per apple."],
+                    ["Butter, Ghee", "There are 5,553 liters of virtual water per kilogram of butter."],
+                    ["Eggs + (Total)", "There are 200 liters of virtual water per egg."],
+                    ["Sweeteners, Other", "There are 28 liters of virtual water per pound of candy."],
+                    ["Groundnuts (Shelled Eq)", "There are 2,782 liters of virtual water per kilogram of groundnuts."],
+                    ["Nuts", "There are 981 liters of virtual water per cup of almonds."],
+                    ["Cream", "There are 255 liters of virtual water per 250 ml glass of milk."],
+                    ["Olives", "There are 3,015 liters of virtual water per kilogram of olives."],
+                    ["Onions", "There are 97 liters of virtual water per pound of onions."],
                     ["Potatoes", "There are 287 litre per kilogram of potatoes."],
-                    ["Tea", "There are 30 litres of virtual water per cup of tea."],
-                    ["Coconuts - Incl Copra", "There are 1,215 litres of virtual water per coconut."],
-                    ["Grapes", "There are 115 litres of virtual water per pound of grapes."],
-                    ["Rye", "There are 150 litres of virtual water per pound of rye."],
-                    ["Oats", "There are 78 litres of virtual water per cup of ats."],
-                    ["Pepper", "There are 2,230 litres of virtual water per pound of black pepper."]];
+                    ["Tea", "There are 30 liters of virtual water per cup of tea."],
+                    ["Coconuts - Incl Copra", "There are 1,215 liters of virtual water per coconut."],
+                    ["Grapes", "There are 115 liters of virtual water per pound of grapes."],
+                    ["Rye", "There are 150 liters of virtual water per pound of rye."],
+                    ["Oats", "There are 78 liters of virtual water per cup of ats."],
+                    ["Pepper", "There are 2,230 liters of virtual water per pound of black pepper."]];
+
+var population = [["2012", "7910500"],
+                  ["2011", "7765800"],
+                  ["2010", "7623600"],
+                  ["2009", "7485600"],
+                  ["2008", "7308800"],
+                  ["2007", "7180100"],
+                  ["2006", "7053700"],
+                  ["2005", "6930100"],
+                  ["2004", "6809000"],
+                  ["2003", "6689700"],
+                  ["2002", "6570000"],
+                  ["2001", "6439000"]];
 
 var completeArrayLength = 6;
 var currentCommodity = "Rice (Milled Equivalent)";
@@ -138,7 +155,6 @@ function getDataAndCalculate(toFind) {
 		} //for
 	}; //callback
 // For terminal startup use:
-//	db.collection("tradeMap2").aggregate({$project: {mult: {$multiply: ['$data' + toFind.year, '$' + toFind.color]}}}, {$match: {mult: {$gte: 500}}});
 	var dbCall = {
 		commodity: toFind.commodity
 	};
@@ -456,6 +472,13 @@ exports.allDataCountryCommodity = function(req, callback) {
 		 }
 		], function(err, result) {
 				if (err) doError(err);
+				for (var i = 0; i < result.length; i++) {
+					if (result[i].country === 'Israel') {
+						var temp = result[i]; //must === 'Israel'
+						result[i] = result[0];
+						result[0] = temp;
+					}
+				}
 				arrayToSend.push(result);
 			}
 	);
@@ -469,11 +492,8 @@ exports.allDataCountryCommodity = function(req, callback) {
 
 exports.getCommodityInfo = function(req, callback) {
 	var commodity = decodeURI(req.commodity);
-	console.log(averageCosts.length);
 	for (var i = 0; i < averageCosts.length; i++) {
-		console.log(averageCosts[i][0]);
 		if (averageCosts[i][0] === commodity) {
-			console.log("Whoopee");
 			callback(averageCosts[i][1]);
 		}
 	}
