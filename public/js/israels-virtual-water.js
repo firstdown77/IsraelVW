@@ -214,10 +214,10 @@ function drawRegionsMap(drawOnly) {
 			countries.push(dataArray[j][0]);
 			valueArray[arrLength - 1 - j] = dataArray[j][3];
 			if (dataArray[j][0] === "Israel") {
-				colorArray[arrLength - 1 - j] = "#0038b8";
+				colorArray[arrLength - 1 - j] = "purple";
 			}
 			else {
-				colorArray[arrLength - 1 - j] = "green";
+				colorArray[arrLength - 1 - j] = "orange";
 			}
 		}
 		data = google.visualization.arrayToDataTable(finalArray);
@@ -240,13 +240,6 @@ function drawRegionsMap(drawOnly) {
     chart.draw(data, options);
     
     google.visualization.events.addListener(chart, 'select', function() {
-//        var countries = ""
-//            for (var z = 0; z < dataArray.length; z ++) {
-//            	countries+=dataArray[z][0] + "&";
-//            }
-//        var leng = countries.length;
-//        countries = countries.substring(0, leng-1);
-//        console.log(countries);
         var selection = chart.getSelection();
 
         // if same city is clicked twice in a row
@@ -258,7 +251,6 @@ function drawRegionsMap(drawOnly) {
           var value = data.getValue(selection[0].row, 0);
           $("#theTable > tbody tr").removeAttr('style');
           $("#theTable > tbody tr:eq(" + selection[0].row + ")").css("background-color","#00CCFF");
-//          location.href="page10.html?"+getCookie("commodity")+"&"+getCookie("color")+"&"+countries;
         }
     });
 
@@ -471,6 +463,7 @@ function initCookiesIfNecessary() {
 }
 
 var totalArr = new Array();
+
 function drawChart(drawOnly) {
 	if (drawOnly !== "yes") {
 		$("#countryCaption").text(decodeURI(location.search.substring(1).split("&")[1]));
@@ -502,12 +495,14 @@ function drawChart(drawOnly) {
 		}
 		var dataArr;
 		for (var i = 2001; i <= 2012; i++) {
-			dataArr = new Array();
-			dataArr.push(''+i);
-			for (var j = 0; j < countries.length; j++) {
-				dataArr.push(parseFloat(dataJson[j]['total'+i].toFixed(2)));
+			if (i != 2004) {
+				dataArr = new Array();
+				dataArr.push(''+i);
+				for (var j = 0; j < countries.length; j++) {
+					dataArr.push(parseFloat(dataJson[j]['total'+i].toFixed(2)));
+				}
+				totalArr.push(dataArr);
 			}
-			totalArr.push(dataArr);
 		}
 	}
 	var data = google.visualization.arrayToDataTable(totalArr);
