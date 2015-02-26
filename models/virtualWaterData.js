@@ -1,6 +1,4 @@
 var util = require('util');
-//var mongoClient = require("mongodb").MongoClient;
-//var server = "mongodb://localhost:27017/";
 
 var mongodb = require('mongodb');
 var db = new mongodb.Db('nodejitsudb123536169',
@@ -109,64 +107,32 @@ function getDataAndCalculate(toFind) {
 			var curr = model[i];
 			var data;
 			if (curr.country === "Israel") {
-				if (toFind.color !== "all") {
-					//data+toFind.year could be i.e. data2010
-					data = convertToMCM(curr["export"+toFind.year] * curr[toFind.color], 3);
-//					var multiplied = addCommaSeparator(data.toString());
-//					console.log("" + curr.country + ": " + addCommaSeparator(curr["export"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
-					arrayToSend.push([curr.country, curr["export"+toFind.year], convertToMCM(curr[toFind.color], 6), data]);
-				}
-				else { //toFind.color is all
-					data = convertToMCM(curr["export"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']), 3);
-					arrayToSend.push([curr.country, curr["export"+toFind.year], convertToMCM(curr['green'] + curr['blue'] + curr['grey'], 6), data]);
-				}
-//				console.log(arrayToSend);
+				//data+toFind.year could be i.e. data2010
+				data = convertToMCM(curr["export"+toFind.year] * curr[toFind.color], 3);
+				arrayToSend.push([curr.country, curr["export"+toFind.year], convertToMCM(curr[toFind.color], 6), data]);
 			} //if country is Israel
 			else if (curr.country !== "British Virgin Islands" &&
 					curr.country !== "Singapore" && curr.country !== "CC4te d\'Ivoire"
 						&& curr.country !== "Hong Kong, China") {
-				if (toFind.color !== "all") {
-					//data+toFind.year could be i.e. data2010
-					data = convertToMCM(curr["data"+toFind.year] * curr[toFind.color], 3);
-//					var multiplied = addCommaSeparator(data.toString());
-//					console.log("" + curr.country + ": " + addCommaSeparator(curr["data"+toFind.year].toString()) + " tons * " + addCommaSeparator(curr[toFind.color].toString()) + " m^3/tons = " + multiplied);
-					if (data >= 0.001) {
-						arrayToSend.push([curr.country, curr["data"+toFind.year], convertToMCM(curr[toFind.color], 6), data]);
-					}
-					else {
-						completeArrayLength--;
-					}
+				//data+toFind.year could be i.e. data2010
+				data = convertToMCM(curr["data"+toFind.year] * curr[toFind.color], 3);
+				if (data >= 0.001) {
+					arrayToSend.push([curr.country, curr["data"+toFind.year], convertToMCM(curr[toFind.color], 6), data]);
 				}
-				else { //toFind.color is all
-					data = convertToMCM(curr["data"+toFind.year] * (curr['green'] + curr['blue'] + curr['grey']), 3);
-//					console.log(data);
-					if (data >= 0.001) {
-						arrayToSend.push([curr.country, curr["data"+toFind.year], convertToMCM(curr['green'] + curr['blue'] + curr['grey'], 6), data])
-					}
-					else {
-						completeArrayLength--;
-					}
+				else {
+					completeArrayLength--;
 				}
-//				console.log(arrayToSend);
 			} //else if curr.country !== British Virgin..
 			else { //curr.country is something not in the db.
 				completeArrayLength--;
-//				console.log("XML does not contain " + curr.country + " - " + curr["data"+toFind.year] + " tons.");
 			}
 		} //for
 	}; //callback
-//	For terminal startup use:
 	var dbCall = {
 			commodity: toFind.commodity
 	};
 	var colorObject = {};
-	if (toFind.color !== "all") {
-		colorObject["" + toFind.color] = {$gt: 0};
-	}
-	else {
-	}
-//	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
-//	if (err) doError(err);
+	colorObject["" + toFind.color] = {$gt: 0};
 	var currYear = toFind.year;
 	if (currYear === '2001') {
 		dbCall.$or = [{$and : [{data2001: {$gt: 0}}, colorObject]}, {country: "Israel"}]
@@ -223,184 +189,86 @@ function getDataAndCalculate(toFind) {
 		if (err) doError(err);
 		callback(docs);
 	});
-//	}); //mongoClient
 }
 
 function aggregateDataAndCalculate(toFind) {
-//	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
-//	if (err) doError(err);
-	if (toFind.color !== "all") {
-		var projectObject = {};
-		projectObject["country"] = 1;
-		projectObject["data"+toFind.year] = 1;
-		projectObject["" + toFind.color] = 1;
-		projectObject["mult"] = {
-				$multiply: ["$"+toFind.color, "$data"+toFind.year]
-		}
-		db.collection("tradeMap3").aggregate({
-			$project: projectObject
-		}, {
-			$group: {
-				_id: "$country",
-				total: {
-					$sum : "$mult"
-				}, tons: {
-					$sum: "$data"+toFind.year
-				}, average: {
-					$avg: "$"+toFind.color
-				}
-			}
-		}, {
-			$match: {
-				total: {$gt: 0}
-			}
-		}, {
-			$sort: {
-				total: -1
-			}
-		}, {
-			$limit: 5
-		}, function(err, result){
-			if (err) doError(err);
-			for (var i = 0; i < result.length; i++) {
-				arrayToSend.push([result[i]._id, result[i].tons, /*convertToMCM(result[i].average, 6)*/ (convertToMCM(result[i].total, 3)/result[i].tons).toFixed(6), convertToMCM(result[i].total, 3)]);
+	var projectObject = {};
+	projectObject["country"] = 1;
+	projectObject["data"+toFind.year] = 1;
+	projectObject["" + toFind.color] = 1;
+	projectObject["mult"] = {
+			$multiply: ["$"+toFind.color, "$data"+toFind.year]
+	}
+	db.collection("tradeMap3").aggregate({
+		$project: projectObject
+	}, {
+		$group: {
+			_id: "$country",
+			total: {
+				$sum : "$mult"
+			}, tons: {
+				$sum: "$data"+toFind.year
+			}, average: {
+				$avg: "$"+toFind.color
 			}
 		}
-		);
-	} //if toFind.color !== all
-	else {
-		var projectObject1a = {};
-		projectObject1a["country"] = 1;
-		projectObject1a["data"+toFind.year] = 1;
-		projectObject1a["theSum"] = {
-				$add: ["$green", "$blue", "$grey"]
+	}, {
+		$match: {
+			total: {$gt: 0}
 		}
-		var projectObject1b = {};
-		projectObject1b["country"] = 1;
-		projectObject1b["data"+toFind.year] = 1;
-		projectObject1b["mult"] = {
-				$multiply: ["$theSum", "$data"+toFind.year]
+	}, {
+		$sort: {
+			total: -1
 		}
-		db.collection("tradeMap3").aggregate({
-			$project: projectObject1a
-		}, {
-			$project: projectObject1b
-		}, {
-			$group: {
-				_id: "$country", total: {
-					$sum : "$mult"
-				}, tons: {
-					$sum: "$data"+toFind.year
-				}, average: {
-					$avg: "$mult"
-				}
-			}
-		}, {
-			$match: {
-				total: {$gt: 0}
-			}
-		}, { 
-			$sort: { 
-				total: -1 
-			} 
-		}, { 
-			$limit: 5 
-		}, function(err, result){
-			if (err) doError(err);
-			for (var i = 0; i < result.length; i++) {
-				arrayToSend.push([result[i]._id, result[i].tons, /*convertToMCM(result[i].average, 6)*/ (convertToMCM(result[i].total, 3)/result[i].tons).toFixed(6), convertToMCM(result[i].total, 3)]);
-			}
+	}, {
+		$limit: 5
+	}, function(err, result){
+		if (err) doError(err);
+		for (var i = 0; i < result.length; i++) {
+			arrayToSend.push([result[i]._id, result[i].tons, /*convertToMCM(result[i].average, 6)*/ (convertToMCM(result[i].total, 3)/result[i].tons).toFixed(6), convertToMCM(result[i].total, 3)]);
 		}
-		);
-	} //else
+	}
+	);
 	getIsraelToo(toFind);
-//	}); //mongoClient.connect
 }
 
 
 function getIsraelToo(toFind){
-//	mongoClient.connect(server+"virtualwaterDB", function(err, db) {
-//	if (err) doError(err);
-	if (toFind.color !== "all") {
-		var projectObject2 = {};
-		projectObject2["country"] = 1;
-		projectObject2["export"+toFind.year] = 1;
-		projectObject2["" + toFind.color] = 1;
-		projectObject2["mult"] = {
-				$multiply: ["$"+toFind.color, "$export"+toFind.year]
-		}
-		db.collection("tradeMap3").aggregate({
-			$project: projectObject2
-		}, {
-			$group: {
-				_id: "$country", total: {
-					$sum : "$mult"
-				}, tons: {
-					$sum: "$export"+toFind.year
-				}, average: {
-					$avg: "$"+toFind.color
-				}
-			}
-		}, { 
-			$match : { 
-				_id : "Israel" 
-			} 
-		}, function(err, result){
-			if (err) doError(err);
-			for (var i = 0; i < result.length; i++) {
-				arrayToSend.push([result[i]._id, result[i].tons, /*convertToMCM(result[i].average, 6)*/ (convertToMCM(result[i].total, 3)/result[i].tons).toFixed(6), convertToMCM(result[i].total, 3)]);
-			}
-//			console.log(arrayToSend);
-		});
+	var projectObject2 = {};
+	projectObject2["country"] = 1;
+	projectObject2["export"+toFind.year] = 1;
+	projectObject2["" + toFind.color] = 1;
+	projectObject2["mult"] = {
+			$multiply: ["$"+toFind.color, "$export"+toFind.year]
 	}
-	else {
-		var projectObject2a = {};
-		projectObject2a["country"] = 1;
-		projectObject2a["export"+toFind.year] = 1;
-		projectObject2a["theSum"] = {
-				$add: ["$green", "$blue", "$grey"]
-		}
-		var projectObject2b = {};
-		projectObject2b["country"] = 1;
-		projectObject2b["export"+toFind.year] = 1;
-		projectObject2b["mult"] = {
-				$multiply: ["$theSum", "$export"+toFind.year]
-		}
-		db.collection("tradeMap3").aggregate({
-			$project: projectObject2a
-		}, {
-			$project: projectObject2b
-		}, {
-			$group: {
-				_id: "$country", total: {
-					$sum : "$mult"
-				}, tons: {
-					$sum: "$export" + toFind.year
-				}, average: {
-					$avg: "$mult"
-				}
-			}
-		}, {
-			$match : {
-				_id : "Israel"
-			} 
-		}, function(err, result) {
-			if (err) doError(err);
-			for (var i = 0; i < result.length; i++) {
-				arrayToSend.push([result[i]._id, result[i].tons, /*convertToMCM(result[i].average, 6)*/ (convertToMCM(result[i].total, 3)/result[i].tons).toFixed(6), convertToMCM(result[i].total, 3)]);
-//				console.log(arrayToSend);
+	db.collection("tradeMap3").aggregate({
+		$project: projectObject2
+	}, {
+		$group: {
+			_id: "$country", total: {
+				$sum : "$mult"
+			}, tons: {
+				$sum: "$export"+toFind.year
+			}, average: {
+				$avg: "$"+toFind.color
 			}
 		}
-		);
-	} //else
-//	}); //mongoClient.connect
+	}, { 
+		$match : { 
+			_id : "Israel" 
+		} 
+	}, function(err, result){
+		if (err) doError(err);
+		for (var i = 0; i < result.length; i++) {
+			arrayToSend.push([result[i]._id, result[i].tons, /*convertToMCM(result[i].average, 6)*/ (convertToMCM(result[i].total, 3)/result[i].tons).toFixed(6), convertToMCM(result[i].total, 3)]);
+		}
+	});
 }
 
 exports.allDataCountryCommodity = function(req, callback) {
 	arrayToSend = [];
 	var color = req.color.toLowerCase();
 	var countries = req.countries;
-//	console.log(countries);
 	var commodity = decodeURI(req.commodity);
 	var matchObject;
 	var projectOrGroupObject;
@@ -408,9 +276,9 @@ exports.allDataCountryCommodity = function(req, callback) {
 		var crsr = db.collection("tradeMap3").aggregate(
 				[
 				 { $match: {
-						country: { $in: countries },
-						commodity: commodity
-				}
+					 country: { $in: countries },
+					 commodity: commodity
+				 }
 				 },
 				 { $project: {
 					 country: 1,
@@ -494,83 +362,83 @@ exports.allDataCountryCommodity = function(req, callback) {
 		var crsr = db.collection("tradeMap3").aggregate(
 				[
 				 { $match: {
-						country: { $in: countries }
-				}
+					 country: { $in: countries }
+				 }
 				 },
 				 { $group: {
 					 _id: '$country', 
 					 total2001: {$sum: 
-					 	{$cond: [{ $eq: ['$country', "Israel"]}, {
-							 $multiply: ["$export2001", "$"+color, .000001]
-						 }, {
-							 $multiply: ["$data2001", "$"+color, .000001]
-						 }]}},
+					 {$cond: [{ $eq: ['$country', "Israel"]}, {
+						 $multiply: ["$export2001", "$"+color, .000001]
+					 }, {
+						 $multiply: ["$data2001", "$"+color, .000001]
+					 }]}},
 					 total2002: {$sum: 
-					 	{$cond: [{ $eq: ['$country', "Israel"]}, {
-							 $multiply: ["$export2002", "$"+color, .000001]
-						 }, {
-							 $multiply: ["$data2002", "$"+color, .000001]
-						 }]}},
+					 {$cond: [{ $eq: ['$country', "Israel"]}, {
+						 $multiply: ["$export2002", "$"+color, .000001]
+					 }, {
+						 $multiply: ["$data2002", "$"+color, .000001]
+					 }]}},
 					 total2003: {$sum: 
-					 	{$cond: [{ $eq: ['$country', "Israel"]}, {
-							 $multiply: ["$export2003", "$"+color, .000001]
-						 }, {
-							 $multiply: ["$data2003", "$"+color, .000001]
-						 }]}},
+					 {$cond: [{ $eq: ['$country', "Israel"]}, {
+						 $multiply: ["$export2003", "$"+color, .000001]
+					 }, {
+						 $multiply: ["$data2003", "$"+color, .000001]
+					 }]}},
 					 total2004: {$sum: 
-					 	{$cond: [{ $eq: ['$country', "Israel"]}, {
-							 $multiply: ["$export2004", "$"+color, .000001]
-						 }, {
-							 $multiply: ["$data2004", "$"+color, .000001]
-						 }]}},
+					 {$cond: [{ $eq: ['$country', "Israel"]}, {
+						 $multiply: ["$export2004", "$"+color, .000001]
+					 }, {
+						 $multiply: ["$data2004", "$"+color, .000001]
+					 }]}},
 					 total2005: {$sum: 
-					 	{$cond: [{ $eq: ['$country', "Israel"]}, {
-							 $multiply: ["$export2005", "$"+color, .000001]
-						 }, {
-							 $multiply: ["$data2005", "$"+color, .000001]
-						 }]}},
+					 {$cond: [{ $eq: ['$country', "Israel"]}, {
+						 $multiply: ["$export2005", "$"+color, .000001]
+					 }, {
+						 $multiply: ["$data2005", "$"+color, .000001]
+					 }]}},
 					 total2006: {$sum: 
-					 	{$cond: [{ $eq: ['$country', "Israel"]}, {
-							 $multiply: ["$export2006", "$"+color, .000001]
-						 }, {
-							 $multiply: ["$data2006", "$"+color, .000001]
-						 }]}},
+					 {$cond: [{ $eq: ['$country', "Israel"]}, {
+						 $multiply: ["$export2006", "$"+color, .000001]
+					 }, {
+						 $multiply: ["$data2006", "$"+color, .000001]
+					 }]}},
 					 total2007: {$sum: 
-					 	{$cond: [{ $eq: ['$country', "Israel"]}, {
-							 $multiply: ["$export2007", "$"+color, .000001]
-						 }, {
-							 $multiply: ["$data2007", "$"+color, .000001]
-						 }]}},
+					 {$cond: [{ $eq: ['$country', "Israel"]}, {
+						 $multiply: ["$export2007", "$"+color, .000001]
+					 }, {
+						 $multiply: ["$data2007", "$"+color, .000001]
+					 }]}},
 					 total2008: {$sum: 
-					 	{$cond: [{ $eq: ['$country', "Israel"]}, {
-							 $multiply: ["$export2008", "$"+color, .000001]
-						 }, {
-							 $multiply: ["$data2008", "$"+color, .000001]
-						 }]}},
+					 {$cond: [{ $eq: ['$country', "Israel"]}, {
+						 $multiply: ["$export2008", "$"+color, .000001]
+					 }, {
+						 $multiply: ["$data2008", "$"+color, .000001]
+					 }]}},
 					 total2009: {$sum: 
-					 	{$cond: [{ $eq: ['$country', "Israel"]}, {
-							 $multiply: ["$export2009", "$"+color, .000001]
-						 }, {
-							 $multiply: ["$data2009", "$"+color, .000001]
-						 }]}},
+					 {$cond: [{ $eq: ['$country', "Israel"]}, {
+						 $multiply: ["$export2009", "$"+color, .000001]
+					 }, {
+						 $multiply: ["$data2009", "$"+color, .000001]
+					 }]}},
 					 total2010: {$sum: 
-					 	{$cond: [{ $eq: ['$country', "Israel"]}, {
-							 $multiply: ["$export2010", "$"+color, .000001]
-						 }, {
-							 $multiply: ["$data2010", "$"+color, .000001]
-						 }]}},
+					 {$cond: [{ $eq: ['$country', "Israel"]}, {
+						 $multiply: ["$export2010", "$"+color, .000001]
+					 }, {
+						 $multiply: ["$data2010", "$"+color, .000001]
+					 }]}},
 					 total2011: {$sum: 
-					 	{$cond: [{ $eq: ['$country', "Israel"]}, {
-							 $multiply: ["$export2011", "$"+color, .000001]
-						 }, {
-							 $multiply: ["$data2011", "$"+color, .000001]
-						 }]}},
+					 {$cond: [{ $eq: ['$country', "Israel"]}, {
+						 $multiply: ["$export2011", "$"+color, .000001]
+					 }, {
+						 $multiply: ["$data2011", "$"+color, .000001]
+					 }]}},
 					 total2012: {$sum:
-					 	{$cond: [{ $eq: ['$country', "Israel"]}, {
-							 $multiply: ["$export2012", "$"+color, .000001]
-						 }, {
-							 $multiply: ["$data2012", "$"+color, .000001]
-						 }]}}
+					 {$cond: [{ $eq: ['$country', "Israel"]}, {
+						 $multiply: ["$export2012", "$"+color, .000001]
+					 }, {
+						 $multiply: ["$data2012", "$"+color, .000001]
+					 }]}}
 				 }},
 				 { $sort : { _id : 1}
 				 }
@@ -612,10 +480,4 @@ exports.getCommodityInfo = function(req, callback) {
 function convertToMCM(toConvert, decimalPoints) {
 	var MILLIONSCMCONVERSION = 1000000;
 	return parseFloat((toConvert/MILLIONSCMCONVERSION).toFixed(decimalPoints));
-}
-
-function addCommaSeparator(strNumber) {
-	var parts = strNumber.split(".");
-	parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-	return parts.join(".");
 }
